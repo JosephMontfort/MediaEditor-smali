@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_edit_dialog_tab_style_bsb_empty_width">176.72998dip</dimen>
+    <dimen name="text_edit_dialog_tab_style_bsb_empty_width_v2">176.72998dip</dimen>
+    <dimen name="text_edit_dialog_tab_style_bsb_visibility_width">185.44998dip</dimen>
+    <dimen name="text_edit_dialog_tab_style_bsb_visibility_width_v2">185.44998dip</dimen>
+</resources>

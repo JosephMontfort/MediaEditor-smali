@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/vlog_template_list_download_view_icon_width" android:width="@dimen/vlog_template_list_download_view_icon_width" android:viewportWidth="18.0" android:viewportHeight="18.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M13.664,9.938C13.852,9.938 13.994,10.108 13.947,10.29C13.375,12.489 11.377,14.112 8.999,14.112C6.622,14.112 4.625,12.488 4.053,10.29C4.006,10.108 4.148,9.938 4.336,9.938H5.678C5.811,9.938 5.926,10.025 5.973,10.148C6.436,11.37 7.616,12.238 8.999,12.239C10.383,12.239 11.564,11.37 12.027,10.148C12.074,10.025 12.189,9.938 12.322,9.938H13.664Z" android:fillAlpha="0.9" />
+    <path android:fillColor="#ffffffff" android:pathData="M8.999,3.888C11.377,3.888 13.375,5.511 13.947,7.71C13.994,7.892 13.852,8.063 13.664,8.063H12.322C12.189,8.063 12.074,7.975 12.027,7.852C11.564,6.63 10.383,5.761 8.999,5.761C7.616,5.762 6.436,6.63 5.973,7.852C5.926,7.975 5.811,8.063 5.678,8.063H4.336C4.148,8.063 4.006,7.892 4.053,7.71C4.625,5.512 6.622,3.888 8.999,3.888Z" android:fillAlpha="0.9" />
+</vector>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.mediaeditor.photo.certificates.view.IDPhotoTypeView android:id="@id/id_photo_type" android:layout_width="wrap_content" android:layout_height="@dimen/pc_id_photo_type_view_height" style="@style/id_photo_type_view_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

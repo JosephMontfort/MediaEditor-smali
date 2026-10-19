@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/apply_line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/vlog_menu_common_confirm_height" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/frame_panel" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_audio_frame_panel_height" android:layout_marginBottom="@dimen/vlog_audio_frame_panel_margin_bottom" android:layoutDirection="ltr" app:layout_constraintBottom_toBottomOf="@id/apply_line" app:layout_constraintStart_toStartOf="parent">
+        <View android:id="@id/audio_frame_background" android:background="@drawable/vlog_audio_frame_background" android:layout_width="@dimen/vlog_audio_frame_background_width" android:layout_height="@dimen/vlog_audio_frame_panel_height" android:layout_centerInParent="true" />
+        <miuix.recyclerview.widget.RecyclerView android:id="@id/frame_recycler_view" android:paddingTop="@dimen/vlog_audio_frame_panel_recycler_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+        <View android:id="@id/left_frame_mask" android:background="@drawable/vlog_audio_frame_mask_rotate" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/audio_frame_background" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/right_frame_mask" android:background="@drawable/vlog_audio_frame_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toEndOf="@id/audio_frame_background" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <include android:id="@id/audio_apply_layout_include" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="@id/apply_line" layout="@layout/vlog_audio_apply_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

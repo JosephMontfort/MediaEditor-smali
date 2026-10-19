@@ -1,0 +1,829 @@
+{
+  "name": "zhiyu",
+  "cover": "cover.png",
+  "music": "zhiyu.mp3",
+  "clipList": [
+   {
+      "index": 0,
+      "duration": 1633,
+      "oriDuration": 1633,
+      "4koriDuration": 1633,
+     "tag": "40001;68;71;72;79-80;83-87;89;91-92;132;152-159;180;207;421;423;435;451;437;455;500;506-507;1992-2000",
+     "transition": {
+       "duration": 1000,
+       "filterIsFile": false,
+       "filterParam": "movit.transition.alpha",
+       "filterName": "movit.transition"
+     },
+     "filterList": [
+       {
+         "filterIsFile": true,
+         "filterParam": "filter.png",
+         "filterName": "movit.filter.sdk.lut"
+       }
+     ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 1633,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 1633,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "duration": 1433,
+      "oriDuration": 1433,
+      "4koriDuration": 1433,
+      "tag": "0",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 1433,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 1433,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+     {
+      "index": 2,
+      "duration": 2300,
+      "oriDuration": 2300,
+      "4koriDuration": 2300,
+       "tag": "40001;68;71;72;79-80;83-87;89;91-92;132;152-159;180;207;421;423;435;451;437;455;500;506-507;1992-2000",
+       "transition": {
+         "duration": 1000,
+         "filterIsFile": false,
+         "filterParam": "movit.transition.alpha",
+         "filterName": "movit.transition"
+       },
+       "filterList": [
+         {
+           "filterIsFile": true,
+           "filterParam": "filter.png",
+           "filterName": "movit.filter.sdk.lut"
+         }
+       ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 2300,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 2300,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "duration": 1567,
+      "oriDuration": 1567,
+      "4koriDuration": 1567,
+      "tag": "0",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 1567,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 1567,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+     {
+      "index": 4,
+      "duration": 2200,
+      "oriDuration": 2200,
+      "4koriDuration": 2200,
+       "tag": "40001;68;71;72;79-80;83-87;89;91-92;132;152-159;180;207;421;423;435;451;437;455;500;506-507;1992-2000",
+       "transition": {
+         "duration": 1000,
+         "filterIsFile": false,
+         "filterParam": "movit.transition.alpha",
+         "filterName": "movit.transition"
+       },
+       "filterList": [
+         {
+           "filterIsFile": true,
+           "filterParam": "filter.png",
+           "filterName": "movit.filter.sdk.lut"
+         }
+       ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 2200,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 2200,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "duration": 2833,
+      "oriDuration": 2833,
+      "4koriDuration": 2833,
+      "tag": "0",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 2833,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 2833,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "duration": 2000,
+      "oriDuration": 2000,
+      "4koriDuration": 2000,
+      "tag": "40001;68;71;72;79-80;83-87;89;91-92;132;152-159;180;207;421;423;435;451;437;455;500;506-507;1992-2000",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 2000,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 2000,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "duration": 2700,
+      "oriDuration": 2700,
+      "4koriDuration": 2700,
+      "tag": "0",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 2700,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 2700,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "duration": 1433,
+      "oriDuration": 1433,
+      "4koriDuration": 1433,
+      "tag": "40001;68;71;72;79-80;83-87;89;91-92;132;152-159;180;207;421;423;435;451;437;455;500;506-507;1992-2000",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 1433,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 1433,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "duration": 2333,
+      "oriDuration": 2333,
+      "4koriDuration": 2333,
+      "tag": "0",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 2333,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 2333,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "duration": 1467,
+      "oriDuration": 1467,
+      "4koriDuration": 1467,
+      "tag": "40001;68;71;72;79-80;83-87;89;91-92;132;152-159;180;207;421;423;435;451;437;455;500;506-507;1992-2000",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 1467,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 1467,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "duration": 1767,
+      "oriDuration": 1767,
+      "4koriDuration": 1767,
+      "tag": "0",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 1767,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 1767,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "duration": 2000,
+      "oriDuration": 2000,
+      "4koriDuration": 2000,
+      "tag": "40001;68;71;72;79-80;83-87;89;91-92;132;152-159;180;207;421;423;435;451;437;455;500;506-507;1992-2000",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 2000,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 2000,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "duration": 1767,
+      "oriDuration": 1767,
+      "4koriDuration": 1767,
+      "tag": "0",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 1767,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 1767,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "duration": 1900,
+      "oriDuration": 1900,
+      "4koriDuration": 1900,
+      "tag": "40001;68;71;72;79-80;83-87;89;91-92;132;152-159;180;207;421;423;435;451;437;455;500;506-507;1992-2000",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 1900,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 1900,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "duration": 2300,
+      "oriDuration": 2300,
+      "4koriDuration": 2300,
+      "tag": "0",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 2300,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 2300,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "duration": 3733,
+      "oriDuration": 3733,
+      "4koriDuration": 3733,
+      "tag": "40001;68;71;72;79-80;83-87;89;91-92;132;152-159;180;207;421;423;435;451;437;455;500;506-507;1992-2000",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 3733,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 3733,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "duration": 1467,
+      "oriDuration": 1467,
+      "4koriDuration": 1467,
+      "tag": "0",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 1467,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 1467,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "duration": 2300,
+      "oriDuration": 2300,
+      "4koriDuration": 2300,
+      "tag": "40001;68;71;72;79-80;83-87;89;91-92;132;152-159;180;207;421;423;435;451;437;455;500;506-507;1992-2000",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 2300,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 2300,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "duration": 1467,
+      "oriDuration": 1467,
+      "4koriDuration": 1467,
+      "tag": "0",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 1467,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 1467,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "duration": 2267,
+      "oriDuration": 2267,
+      "4koriDuration": 2267,
+      "tag": "40001;68;71;72;79-80;83-87;89;91-92;132;152-159;180;207;421;423;435;451;437;455;500;506-507;1992-2000",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 2267,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 2267,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "duration": 3767,
+      "oriDuration": 3767,
+      "4koriDuration": 3767,
+      "tag": "0",
+      "transition": {
+        "duration": 1000,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.alpha",
+        "filterName": "movit.transition"
+      },
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 3767,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 3767,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "duration": 2800,
+      "oriDuration": 2800,
+      "4koriDuration": 2800,
+      "tag": "40001;68;71;72;79-80;83-87;89;91-92;132;152-159;180;207;421;423;435;451;437;455;500;506-507;1992-2000",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ],
+      "speed": [
+        {
+          "start": 0,
+          "end": 2800,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ],
+      "4kspeed": [
+        {
+          "start": 0,
+          "end": 2800,
+          "speed0": 1,
+          "speed1": 1
+        }
+      ]
+    }
+  ]
+}

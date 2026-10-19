@@ -1,0 +1,21 @@
+{
+  "name": "juhui",
+  "cover": "cover.png",
+  "music": "juhui.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 7500,
+      "oriDuration": 7500,
+      "4koriDuration": 7500,
+      "tag": "30004;74;101;114",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ]
+    }
+  ]
+}

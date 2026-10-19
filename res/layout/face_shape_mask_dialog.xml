@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/menu_render_line" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/photo_editor_menu_zone_height" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guide_line_render_top" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/photo_editor_confirm_menu_height" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guide_line_menu_top" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/editor_face_shape_mask_dialog_menu_top_guide_end" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guide_line_menu_content" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/editor_face_shape_mask_dialog_menu_bottom_guide_end" />
+    <com.miui.mediaeditor.beauty.module.faceshape.view.FaceMaskView android:id="@id/face_mask_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="@id/menu_render_line" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/vlog_filter2_menu_pop_item_width" android:width="@dimen/vlog_filter2_menu_pop_item_width" android:viewportWidth="100.0" android:viewportHeight="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h100v100h-100z" />
+        <path android:fillColor="#ff323232" android:pathData="M50,50m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M46,32C45.45,32 45,32.45 45,33V36H35C34.45,36 34,36.45 34,37V39C34,39.55 34.45,40 35,40H65C65.55,40 66,39.55 66,39V37C66,36.45 65.55,36 65,36H55V33C55,32.45 54.55,32 54,32H46ZM37,43H63V67C63,67.55 62.55,68 62,68H38C37.45,68 37,67.55 37,67V43Z" android:fillType="evenOdd" />
+    </group>
+</vector>

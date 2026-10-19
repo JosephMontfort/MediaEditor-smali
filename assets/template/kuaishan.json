@@ -1,0 +1,152 @@
+{
+  "name": "kuaishan",
+  "cover": "cover.png",
+  "music": "卡点2.MP3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 500,
+      "oriDuration": 500,
+      "4koriDuration": 500,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975"
+    },
+    {
+      "index": 1,
+      "duration": 466,
+      "oriDuration": 466,
+      "4koriDuration": 466,
+      "isNeedAnim": false,
+      "tag": "0"
+    },
+    {
+      "index": 2,
+      "duration": 500,
+      "oriDuration": 500,
+      "4koriDuration": 500,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975"
+    },
+    {
+      "index": 3,
+      "duration": 466,
+      "oriDuration": 466,
+      "4koriDuration": 466,
+      "isNeedAnim": false,
+      "tag": "0"
+    },
+    {
+      "index": 4,
+      "duration": 2200,
+      "oriDuration": 2200,
+      "4koriDuration": 2200,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975",
+      "transition": {
+        "duration": 467,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.fade.black",
+        "filterName": "movit.transition"
+      }
+    },
+    {
+      "index": 5,
+      "duration": 2366,
+      "oriDuration": 2366,
+      "4koriDuration": 2366,
+      "isNeedAnim": false,
+      "tag": "0",
+      "transition": {
+        "duration": 467,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.fade.black",
+        "filterName": "movit.transition"
+      }
+    },
+    {
+      "index": 6,
+      "duration": 2400,
+      "oriDuration": 2400,
+      "4koriDuration": 2400,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975",
+      "transition": {
+        "duration": 467,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.fade.black",
+        "filterName": "movit.transition"
+      }
+    },
+    {
+      "index": 7,
+      "duration": 2366,
+      "oriDuration": 2366,
+      "4koriDuration": 2366,
+      "isNeedAnim": false,
+      "tag": "0",
+      "transition": {
+        "duration": 467,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.fade.black",
+        "filterName": "movit.transition"
+      }
+    },
+    {
+      "index": 8,
+      "duration": 2400,
+      "oriDuration": 2400,
+      "4koriDuration": 2400,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975",
+      "transition": {
+        "duration": 467,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.fade.black",
+        "filterName": "movit.transition"
+      }
+    },
+    {
+      "index": 9,
+      "duration": 2400,
+      "oriDuration": 2400,
+      "4koriDuration": 2400,
+      "isNeedAnim": false,
+      "tag": "0",
+      "transition": {
+        "duration": 467,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.fade.black",
+        "filterName": "movit.transition"
+      }
+    },
+    {
+      "index": 10,
+      "duration": 2366,
+      "oriDuration": 2366,
+      "4koriDuration": 2366,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975",
+      "transition": {
+        "duration": 467,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.fade.black",
+        "filterName": "movit.transition"
+      }
+    },
+    {
+      "index": 11,
+      "duration": 2000,
+      "oriDuration": 2000,
+      "4koriDuration": 2000,
+      "isNeedAnim": false,
+      "tag": "0",
+      "filterList": [
+        {
+          "filterIsFile": false,
+          "filterParam": "{\"fade_length\": 4}",
+          "filterName": "movit.filter.end.fade"
+        }
+      ]
+    }
+  ]
+}

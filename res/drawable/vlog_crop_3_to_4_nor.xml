@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/vlog_crop_menu_icon_size" android:width="@dimen/vlog_crop_menu_icon_size" android:viewportWidth="60.0" android:viewportHeight="60.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M17,49L43,49L43,11L17,11L17,49ZM11,54C11,54.552 11.448,55 12,55L48,55C48.552,55 49,54.552 49,54L49,6C49,5.448 48.552,5 48,5L12,5C11.448,5 11,5.448 11,6L11,54Z" android:fillType="evenOdd" />
+</vector>

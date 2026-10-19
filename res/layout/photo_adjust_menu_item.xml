@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/adjust_container" android:layout_width="@dimen/adjust_port_menu_item_width" android:layout_height="@dimen/adjust_port_menu_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <micamx.compat.ui.widget.button.SquareButton android:id="@id/btn" android:layout_width="@dimen/adjust_port_menu_item_width" android:layout_height="@dimen/adjust_port_menu_item_height" style="@style/photo_menu_square_button_style" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/img_subIcon" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="8.0dip" android:layout_marginTop="8.0dip" android:contentDescription="@string/photo_editor_crop_outpaint_process_begin" android:layout_marginStart="8.0dip" />
+</FrameLayout>

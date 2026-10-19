@@ -1,0 +1,21 @@
+{
+  "name": "xiachan",
+  "cover": "cover.png",
+  "music": "xiachan.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 7066,
+      "oriDuration": 7066,
+      "4koriDuration": 7066,
+      "tag": "581-621;630-695",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>أبيض</item>
+        <item>أزرق غامق</item>
+        <item>ازرق خفيف</item>
+        <item>أحمر</item>
+        <item>أخضر</item>
+        <item>وردي</item>
+        <item>بني</item>
+        <item>رمادي</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>استيراد الصورة</item>
+        <item>خلفية شفافة</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="alphabet_table">
+        <item>ا</item>
+        <item>ب</item>
+        <item>ت</item>
+        <item>ث</item>
+        <item>ج</item>
+        <item>ح</item>
+        <item>خ</item>
+        <item>د</item>
+        <item>ذ</item>
+        <item>ر</item>
+        <item>ز</item>
+        <item>س</item>
+        <item>ش</item>
+        <item>ص</item>
+        <item>ض</item>
+        <item>ط</item>
+        <item>ظ</item>
+        <item>ع</item>
+        <item>غ</item>
+        <item>ف</item>
+        <item>ق</item>
+        <item>ك</item>
+        <item>ل</item>
+        <item>م</item>
+        <item>ن</item>
+        <item>ه</item>
+        <item>و</item>
+        <item>ي</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>ترفيه</item>
+        <item>نسيم</item>
+        <item>أحلام</item>
+        <item>سحاب</item>
+        <item>أفكار</item>
+        <item>براعم</item>
+        <item>تحول</item>
+        <item>عمق</item>
+        <item>انعكاسات</item>
+        <item>بساطة</item>
+        <item>غموض</item>
+        <item>ضباب</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>خلفية هندسية مستقبلية</item>
+        <item>جو من النقوشات القديمة</item>
+        <item>تحول الخلفيات إلى رسومات</item>
+        <item>خلفيات بنمط الألوان المائية</item>
+        <item>Cyberpunk خلفي</item>
+        <item>شرائح عمودية عشوائية</item>
+        <item>طمس الضباب</item>
+        <item>شعور مستقبلي</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>لو بولي</item>
+        <item>نقش</item>
+        <item>رسم</item>
+        <item>لون مائي</item>
+        <item>RGB</item>
+        <item>ستائر</item>
+        <item>نافذة ضبابية</item>
+        <item>تكنولوجيا</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>تخطيط ملون</item>
+        <item>تخطيط منقط</item>
+        <item>تخطيط فلوري</item>
+        <item>ظل ملون</item>
+        <item>موجة كهربائية</item>
+        <item>تدفق</item>
+        <item>أمواج</item>
+        <item>جسيم</item>
+        <item>نص</item>
+        <item>أجنحة</item>
+        <item>ملاك</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>عامة</item>
+        <item>السفر</item>
+        <item>عمل</item>
+        <item>المستندات</item>
+        <item>تعليم</item>
+        <item>اختبارات</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>الضمان الاجتماعي</item>
+        <item>بيان الصحة</item>
+        <item>التأمين الطبي</item>
+        <item>هوية</item>
+        <item>تصريح الإقامة</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>بوصة</item>
+        <item>بوصتان</item>
+        <item>بوصة صغيرة</item>
+        <item>بوصتان أصغر</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>طلب القبول</item>
+        <item>شبكة الطلاب</item>
+        <item>شبكة الطلاب للمدارس الابتدائية</item>
+        <item>ملف تعريف شبكة الطلاب</item>
+        <item>القبول الجامعي</item>
+        <item>NCEE</item>
+        <item>إستئناف</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>اختبار اللغة الإنجليزية الجامعية 1</item>
+        <item>اختبار اللغة الإنجليزية الجامعية 2</item>
+        <item>اختبار اللغة الإنجليزية الجامعية 3</item>
+        <item>اختبار كفاءة بوتونغهوا 1</item>
+        <item>اختبار كفاءة بوتونغهوا 2</item>
+        <item>اختبار اللغة الإنجليزية للدرجة العلمية</item>
+        <item>PET للكليات</item>
+        <item>PETS المستوى 3</item>
+        <item>امتحان تصنيف الحاسوب الوطني 1</item>
+        <item>امتحان تصنيف الحاسوب الوطني 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>شهادة معلم المرحلة الابتدائية والثانوية</item>
+        <item>شهادة المعلم</item>
+        <item>رخصة السائق</item>
+        <item>تصريح دليل</item>
+        <item>تصريح الدليل الإلكتروني</item>
+        <item>الامتحان القضائي الوطني</item>
+        <item>شهادة البناء الإلكترونية من الدرجة الأولى</item>
+        <item>شهادة بناء من الدرجة الثانية</item>
+        <item>امتحان لقب المحاسبة للناشئين</item>
+        <item>محاسب قانوني معتمد</item>
+        <item>تصريح دليل بكين</item>
+        <item>امتحان لقب المحاسبة المتوسط</item>
+        <item>امتحان لقب كبير المحاسبين</item>
+        <item>شهادة مؤهل المحاسبة</item>
+        <item>امتحان المحاسب العام المعتمد</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>الولايات المتحدة</item>
+        <item>فيتنام</item>
+        <item>اليابان</item>
+        <item>هونغ كونغ وماكاو</item>
+        <item>كوريا الجنوبية</item>
+        <item>تايلاند (سياحية)</item>
+        <item>تايلاند (عند الوصول)</item>
+        <item>الهند</item>
+        <item>إسرائيل</item>
+        <item>تايوان</item>
+        <item>ماليزيا</item>
+        <item>نيوزيلندا</item>
+        <item>إيطاليا</item>
+        <item>الأرجنتين</item>
+        <item>البرازيل</item>
+        <item>أيسلندا</item>
+        <item>كينيا</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

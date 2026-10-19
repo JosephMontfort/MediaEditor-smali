@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/surface_container" />
+    <padding android:left="@dimen/re_pick_btn_padding" android:right="@dimen/re_pick_btn_padding" />
+    <corners android:radius="@dimen/corners_small" />
+</shape>

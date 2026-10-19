@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/beauty_land_aibeauty_recycler_width" android:layout_height="@dimen/beauty_item_text_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/aibeauty_filter_item_iv_icon" android:layout_width="@dimen/px_55" android:layout_height="@dimen/px_55" android:scaleType="fitCenter" />
+    <com.miui.mediaeditor.baseui.widgets.StateTextView android:textColor="@color/aibeauty_radio_text_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/aibeauty_filter_item_tv_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_11" android:maxWidth="@dimen/common_beauty_menu_item_text_max_width_size" android:maxLines="2" android:importantForAccessibility="no" android:fallbackLineSpacing="false" app:autoSizeMaxTextSize="14.0dip" app:autoSizeMinTextSize="8.0dip" app:autoSizeTextType="uniform" />
+</LinearLayout>

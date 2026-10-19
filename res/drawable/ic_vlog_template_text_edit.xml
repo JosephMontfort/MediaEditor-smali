@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/editor_menu_common_item_icon_size" android:width="@dimen/editor_menu_common_item_icon_size" android:viewportWidth="28.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/on_surface" android:pathData="M4.2,4.2H14.858V5.8L5.8,5.8L5.8,22.2H22.2V13H23.8V23.8H4.2L4.2,4.2ZM14.566,14.565L22.566,6.566L21.434,5.434L13.435,13.434L14.566,14.565Z" android:fillType="evenOdd" />
+</vector>

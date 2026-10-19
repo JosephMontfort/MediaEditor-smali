@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="14.0sp" android:textColor="@color/on_surface" android:gravity="center" android:background="@drawable/bg_matting_ai_create_option_item" android:layout_width="@dimen/matting_op_item_height" android:layout_height="@dimen/matting_navi_button_origin_w_h" android:layout_marginEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

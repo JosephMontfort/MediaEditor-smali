@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="28.0dip" android:width="28.0dip" android:viewportWidth="28.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/description_filter_lut_download_color" android:pathData="M19,20C19.387,20 19.7,20.314 19.7,20.7C19.7,21.087 19.387,21.4 19,21.4H9C8.613,21.4 8.3,21.087 8.3,20.7C8.3,20.314 8.613,20 9,20H19Z" />
+    <path android:fillColor="@color/description_filter_lut_download_color" android:pathData="M14,6C14.387,6 14.7,6.314 14.7,6.7V15.697L17.747,12.65C18.02,12.377 18.464,12.377 18.737,12.65C19.011,12.924 19.011,13.367 18.737,13.641L15.202,17.176C14.538,17.84 13.462,17.84 12.798,17.176L9.262,13.641C8.989,13.367 8.989,12.924 9.262,12.65C9.535,12.377 9.979,12.377 10.252,12.65L13.3,15.697V6.7C13.3,6.314 13.613,6 14,6Z" />
+</vector>

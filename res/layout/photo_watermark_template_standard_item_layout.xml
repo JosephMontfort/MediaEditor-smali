@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="@dimen/photo_watermark_menu_item_padding" android:layout_width="@dimen/photo_watermark_menu_item_width" android:layout_height="@dimen/photo_watermark_menu_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:background="@drawable/photo_watermark_menu_standard_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:paddingHorizontal="@dimen/photo_watermark_menu_item_standard_padding" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

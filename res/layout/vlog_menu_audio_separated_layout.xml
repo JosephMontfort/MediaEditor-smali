@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/vlog_menu_common_operation_height" android:paddingStart="@dimen/vlog_menu_common_operation_btn_hot_area_padding_start" android:paddingEnd="@dimen/vlog_menu_common_operation_btn_hot_area_padding_start"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="@dimen/vlog_menu_common_operation_btn_bg_size" android:layout_height="@dimen/vlog_menu_common_operation_height" android:layout_marginEnd="@dimen/vlog_common_play_layout_margin_end" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/single_vlog_play_layout" />
+    <include android:layout_width="wrap_content" android:layout_height="@dimen/vlog_undo_redo_icon_size" android:layout_marginTop="@dimen/vlog_undo_redo_icon_margin_top" android:layout_marginStart="@dimen/vlog_undo_redo_icon_margin_end" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/vlog_undo_redo_layout" />
+    <FrameLayout android:gravity="center" android:id="@id/voice_layout" android:layout_width="@dimen/vlog_menu_common_operation_btn_hot_area_width" android:layout_height="@dimen/vlog_menu_common_operation_height" app:layout_constraintEnd_toStartOf="@id/play_layout" app:layout_constraintTop_toTopOf="parent">
+        <View android:layout_gravity="center" android:background="@drawable/vlog_common_operation_btn_bg" android:layout_width="@dimen/vlog_menu_common_operation_btn_bg_size" android:layout_height="@dimen/vlog_menu_common_operation_btn_bg_size" />
+        <ImageView android:layout_gravity="center" android:id="@id/voice_view" android:layout_width="@dimen/vlog_menu_common_operation_btn_size" android:layout_height="@dimen/vlog_menu_common_operation_btn_size" android:src="@drawable/vlog_common_voice_disable_enable_selector" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

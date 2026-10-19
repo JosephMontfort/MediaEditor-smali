@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/assistant_icon_size" android:width="@dimen/assistant_icon_size" android:viewportWidth="133.0" android:viewportHeight="133.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff7f7dfc" android:pathData="M66.66,66.59m-66,0a66,66 0,1 1,132 0a66,66 0,1 1,-132 0" />
+    <path android:fillColor="#ffffffff" android:pathData="M49.16,39.09C45.85,39.09 43.16,41.78 43.16,45.09V88.09C43.16,91.41 45.85,94.09 49.16,94.09H84.16C87.47,94.09 90.16,91.41 90.16,88.09V45.09C90.16,41.78 87.47,39.09 84.16,39.09H49.16ZM63.92,54.25L55.84,68.61C55.09,69.95 56.05,71.59 57.58,71.59H65.66V77.96C65.66,80.02 68.39,80.73 69.4,78.94L77.48,64.57C78.23,63.24 77.27,61.59 75.74,61.59H67.66V55.23C67.66,53.17 64.93,52.45 63.92,54.25Z" android:fillType="evenOdd" />
+</vector>

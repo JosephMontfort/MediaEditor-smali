@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/adjust_color_hsl_selector_mark_view_height" android:width="@dimen/adjust_color_hsl_selector_mark_view_width" />
+    <corners android:radius="@dimen/adjust_color_hsl_selector_mark_view_width" />
+    <solid android:color="#ccffffff" />
+</shape>

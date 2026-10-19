@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/menu_render_line" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/photo_editor_menu_zone_height" />
+    <include android:id="@id/btn_change" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/px_33" android:layout_marginEnd="@dimen/px_33" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" layout="@layout/include_face_shape_change_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

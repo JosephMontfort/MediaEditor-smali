@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="filter_menu_item_margin_interval">12.0dip</dimen>
+    <item type="dimen" name="remover2_menu_top_checkbox_width">@dimen/px_210</item>
+</resources>

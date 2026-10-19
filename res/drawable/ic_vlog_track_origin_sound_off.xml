@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/vlog_track_sound_icon_image_width" android:width="@dimen/vlog_track_sound_icon_image_width" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M10.662,9.737C10.492,9.86 10.287,9.926 10.077,9.926H3C2.448,9.926 2,10.374 2,10.926V29.074C2,29.626 2.448,30.074 3,30.074H10.077C10.287,30.074 10.492,30.14 10.662,30.263L18.415,35.856C19.076,36.334 20,35.861 20,35.046V4.955C20,4.139 19.076,3.666 18.415,4.144L10.662,9.737Z" android:fillAlpha="0.5" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M30.778,22.607L35.021,26.849C35.411,27.24 36.044,27.24 36.435,26.849L37.849,25.435C38.24,25.045 38.24,24.411 37.849,24.021L33.607,19.778L37.849,15.536C38.24,15.146 38.24,14.512 37.849,14.122L36.435,12.708C36.044,12.317 35.411,12.317 35.021,12.708L30.778,16.95L26.535,12.707C26.145,12.317 25.512,12.317 25.121,12.707L23.707,14.121C23.317,14.512 23.317,15.145 23.707,15.535L27.95,19.778L23.707,24.021C23.317,24.412 23.317,25.045 23.707,25.436L25.121,26.85C25.512,27.24 26.145,27.24 26.535,26.85L30.778,22.607Z" android:fillAlpha="0.5" android:fillType="evenOdd" />
+</vector>

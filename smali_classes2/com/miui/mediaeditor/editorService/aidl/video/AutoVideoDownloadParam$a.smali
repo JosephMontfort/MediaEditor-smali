@@ -1,0 +1,184 @@
+.class public final Lcom/miui/mediaeditor/editorService/aidl/video/AutoVideoDownloadParam$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/os/Parcelable$Creator;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/miui/mediaeditor/editorService/aidl/video/AutoVideoDownloadParam;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Landroid/os/Parcelable$Creator<",
+        "Lcom/miui/mediaeditor/editorService/aidl/video/AutoVideoDownloadParam;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    .locals 7
+
+    new-instance p0, Lcom/miui/mediaeditor/editorService/aidl/video/AutoVideoDownloadParam;
+
+    invoke-direct {p0}, Lcom/miui/mediaeditor/editorService/aidl/video/AutoVideoDownloadParam;-><init>()V
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->dataPosition()I
+
+    move-result v0
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+
+    move-result v1
+
+    const/4 v2, 0x4
+
+    const-string v3, "Overflow in the size of parcelable"
+
+    const v4, 0x7fffffff
+
+    if-lt v1, v2, :cond_5
+
+    :try_start_0
+    invoke-virtual {p1}, Landroid/os/Parcel;->dataPosition()I
+
+    move-result v2
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    sub-int/2addr v2, v0
+
+    if-lt v2, v1, :cond_1
+
+    sub-int/2addr v4, v1
+
+    if-gt v0, v4, :cond_0
+
+    :goto_0
+    add-int/2addr v0, v1
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->setDataPosition(I)V
+
+    return-object p0
+
+    :cond_0
+    new-instance p0, Landroid/os/BadParcelableException;
+
+    invoke-direct {p0, v3}, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_1
+    :try_start_1
+    invoke-virtual {p1}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v2
+
+    sget v5, Lcom/miui/mediaeditor/editorService/aidl/video/b$a;->a:I
+
+    if-nez v2, :cond_2
+
+    const/4 v2, 0x0
+
+    goto :goto_1
+
+    :cond_2
+    const-string v5, "com.miui.mediaeditor.editorService.aidl.video.AutoVideoDownloadCallback"
+
+    invoke-interface {v2, v5}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
+
+    move-result-object v5
+
+    if-eqz v5, :cond_3
+
+    instance-of v6, v5, Lcom/miui/mediaeditor/editorService/aidl/video/b;
+
+    if-eqz v6, :cond_3
+
+    move-object v2, v5
+
+    check-cast v2, Lcom/miui/mediaeditor/editorService/aidl/video/b;
+
+    goto :goto_1
+
+    :cond_3
+    new-instance v5, Lcom/miui/mediaeditor/editorService/aidl/video/b$a$a;
+
+    invoke-direct {v5}, Ljava/lang/Object;-><init>()V
+
+    iput-object v2, v5, Lcom/miui/mediaeditor/editorService/aidl/video/b$a$a;->a:Landroid/os/IBinder;
+
+    move-object v2, v5
+
+    :goto_1
+    iput-object v2, p0, Lcom/miui/mediaeditor/editorService/aidl/video/AutoVideoDownloadParam;->a:Lcom/miui/mediaeditor/editorService/aidl/video/b;
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    sub-int/2addr v4, v1
+
+    if-gt v0, v4, :cond_4
+
+    goto :goto_0
+
+    :cond_4
+    new-instance p0, Landroid/os/BadParcelableException;
+
+    invoke-direct {p0, v3}, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :catchall_0
+    move-exception p0
+
+    goto :goto_2
+
+    :cond_5
+    :try_start_2
+    new-instance p0, Landroid/os/BadParcelableException;
+
+    const-string v2, "Parcelable too small"
+
+    invoke-direct {p0, v2}, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    :goto_2
+    sub-int/2addr v4, v1
+
+    if-le v0, v4, :cond_6
+
+    new-instance p0, Landroid/os/BadParcelableException;
+
+    invoke-direct {p0, v3}, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_6
+    add-int/2addr v0, v1
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->setDataPosition(I)V
+
+    throw p0
+.end method
+
+.method public final newArray(I)[Ljava/lang/Object;
+    .locals 0
+
+    new-array p0, p1, [Lcom/miui/mediaeditor/editorService/aidl/video/AutoVideoDownloadParam;
+
+    return-object p0
+.end method

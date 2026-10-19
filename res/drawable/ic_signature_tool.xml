@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="72.0dip" android:width="48.0dip" android:viewportWidth="48.0" android:viewportHeight="72.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,4C0,1.791 1.791,0 4,0H44C46.209,0 48,1.791 48,4V68C48,70.209 46.209,72 44,72H4C1.791,72 0,70.209 0,68V4Z" />
+        <group>
+            <clip-path android:pathData="M10,14h28v61h-28z" />
+            <path android:fillColor="@drawable/$ic_signature_tool__0" android:pathData="M10,16C10,14.895 10.895,14 12,14H36C37.105,14 38,14.895 38,16V73C38,74.105 37.105,75 36,75H12C10.895,75 10,74.105 10,73V16Z" />
+            <path android:fillColor="@drawable/$ic_signature_tool__1" android:pathData="M11,16C11,15.448 11.448,15 12,15H36C36.552,15 37,15.448 37,16V71.84C37,72.945 36.105,73.84 35,73.84H13C11.895,73.84 11,72.945 11,71.84V16Z" />
+            <path android:fillColor="#ffffffff" android:pathData="M25,15H36C36.552,15 37,15.448 37,16V72.401C37,73.506 36.105,74.401 35,74.401H27C25.895,74.401 25,73.506 25,72.401V15Z" android:strokeAlpha="0.35" android:fillAlpha="0.35" />
+            <path android:fillColor="@drawable/$ic_signature_tool__2" android:pathData="M11.037,15.817C11.037,15.366 11.403,15 11.854,15H36.146C36.597,15 36.963,15.366 36.963,15.817C36.963,16.72 36.231,17.451 35.329,17.451H12.671C11.769,17.451 11.037,16.72 11.037,15.817Z" />
+            <path android:fillColor="@drawable/$ic_signature_tool__3" android:pathData="M12.452,75.573C11.65,75.573 11,74.923 11,74.121L11,16C11,15.448 11.448,15 12,15L14.849,15L14.849,73.573C14.849,74.677 13.954,75.573 12.849,75.573L12.452,75.573Z" android:fillAlpha="0.6" />
+        </group>
+        <path android:fillColor="#00000000" android:pathData="M15.79,37.603C16.674,36.987 20.497,33.788 21.06,31.506C21.765,28.653 20.421,28.191 19.985,28.225C19.548,28.258 17.939,29.223 18.375,31.506C18.812,33.788 21.128,36.205 21.631,36.205C22.135,36.205 23.343,33.721 23.846,33.654C24.35,33.587 23.712,35.903 25.659,36.205C26.34,35.865 27.712,34.569 28.51,33.886L33.012,36.887" android:strokeColor="#ff737373" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    </group>
+</vector>

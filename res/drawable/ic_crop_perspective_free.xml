@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="60.0dip" android:width="60.0dip" android:viewportWidth="60.0" android:viewportHeight="60.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/photo_editor_menu_item_color_selector" android:pathData="M44,15H13V46H44V15ZM8,10V51H49V10H8Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/photo_editor_menu_item_color_selector" android:pathData="M46,13m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <path android:fillColor="@color/photo_editor_menu_item_color_selector" android:pathData="M11,13m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <path android:fillColor="@color/photo_editor_menu_item_color_selector" android:pathData="M47,48m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <path android:fillColor="@color/photo_editor_menu_item_color_selector" android:pathData="M11,48m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+</vector>

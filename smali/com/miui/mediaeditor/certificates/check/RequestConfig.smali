@@ -1,0 +1,358 @@
+.class public final Lcom/miui/mediaeditor/certificates/check/RequestConfig;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation build Landroidx/annotation/Keep;
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000&\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\t\n\u0002\u0008\r\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u000e\n\u0000\u0008\u0087\u0008\u0018\u00002\u00020\u0001B%\u0012\u0008\u0008\u0002\u0010\u0002\u001a\u00020\u0003\u0012\u0008\u0008\u0002\u0010\u0004\u001a\u00020\u0003\u0012\u0008\u0008\u0002\u0010\u0005\u001a\u00020\u0003\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\t\u0010\u000c\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\r\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u000e\u001a\u00020\u0003H\u00c6\u0003J\'\u0010\u000f\u001a\u00020\u00002\u0008\u0008\u0002\u0010\u0002\u001a\u00020\u00032\u0008\u0008\u0002\u0010\u0004\u001a\u00020\u00032\u0008\u0008\u0002\u0010\u0005\u001a\u00020\u0003H\u00c6\u0001J\u0013\u0010\u0010\u001a\u00020\u00112\u0008\u0010\u0012\u001a\u0004\u0018\u00010\u0001H\u00d6\u0003J\t\u0010\u0013\u001a\u00020\u0014H\u00d6\u0001J\t\u0010\u0015\u001a\u00020\u0016H\u00d6\u0001R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0008\u0010\tR\u0011\u0010\u0004\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\n\u0010\tR\u0011\u0010\u0005\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000b\u0010\t\u00a8\u0006\u0017"
+    }
+    d2 = {
+        "Lcom/miui/mediaeditor/certificates/check/RequestConfig;",
+        "",
+        "timeOut",
+        "",
+        "minInterval",
+        "maxInterval",
+        "<init>",
+        "(JJJ)V",
+        "getTimeOut",
+        "()J",
+        "getMinInterval",
+        "getMaxInterval",
+        "component1",
+        "component2",
+        "component3",
+        "copy",
+        "equals",
+        "",
+        "other",
+        "hashCode",
+        "",
+        "toString",
+        "",
+        "certificates_release"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field private final maxInterval:J
+
+.field private final minInterval:J
+
+.field private final timeOut:J
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 9
+
+    .line 1
+    const/4 v7, 0x7
+
+    const/4 v8, 0x0
+
+    const-wide/16 v1, 0x0
+
+    const-wide/16 v3, 0x0
+
+    const-wide/16 v5, 0x0
+
+    move-object v0, p0
+
+    invoke-direct/range {v0 .. v8}, Lcom/miui/mediaeditor/certificates/check/RequestConfig;-><init>(JJJILkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(JJJ)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 3
+    iput-wide p1, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->timeOut:J
+
+    .line 4
+    iput-wide p3, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->minInterval:J
+
+    .line 5
+    iput-wide p5, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->maxInterval:J
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(JJJILkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 7
+
+    and-int/lit8 p8, p7, 0x1
+
+    if-eqz p8, :cond_0
+
+    const-wide/16 p1, 0x1f4
+
+    :cond_0
+    move-wide v1, p1
+
+    and-int/lit8 p1, p7, 0x2
+
+    const-wide/16 v3, 0x1
+
+    if-eqz p1, :cond_1
+
+    move-wide p3, v3
+
+    :cond_1
+    and-int/lit8 p1, p7, 0x4
+
+    if-eqz p1, :cond_2
+
+    move-wide v5, v3
+
+    :goto_0
+    move-object v0, p0
+
+    move-wide v3, p3
+
+    goto :goto_1
+
+    :cond_2
+    move-wide v5, p5
+
+    goto :goto_0
+
+    .line 6
+    :goto_1
+    invoke-direct/range {v0 .. v6}, Lcom/miui/mediaeditor/certificates/check/RequestConfig;-><init>(JJJ)V
+
+    return-void
+.end method
+
+.method public static synthetic copy$default(Lcom/miui/mediaeditor/certificates/check/RequestConfig;JJJILjava/lang/Object;)Lcom/miui/mediaeditor/certificates/check/RequestConfig;
+    .locals 7
+
+    and-int/lit8 p8, p7, 0x1
+
+    if-eqz p8, :cond_0
+
+    iget-wide p1, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->timeOut:J
+
+    :cond_0
+    move-wide v1, p1
+
+    and-int/lit8 p1, p7, 0x2
+
+    if-eqz p1, :cond_1
+
+    iget-wide p3, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->minInterval:J
+
+    :cond_1
+    move-wide v3, p3
+
+    and-int/lit8 p1, p7, 0x4
+
+    if-eqz p1, :cond_2
+
+    iget-wide p5, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->maxInterval:J
+
+    :cond_2
+    move-object v0, p0
+
+    move-wide v5, p5
+
+    invoke-virtual/range {v0 .. v6}, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->copy(JJJ)Lcom/miui/mediaeditor/certificates/check/RequestConfig;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final component1()J
+    .locals 2
+
+    iget-wide v0, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->timeOut:J
+
+    return-wide v0
+.end method
+
+.method public final component2()J
+    .locals 2
+
+    iget-wide v0, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->minInterval:J
+
+    return-wide v0
+.end method
+
+.method public final component3()J
+    .locals 2
+
+    iget-wide v0, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->maxInterval:J
+
+    return-wide v0
+.end method
+
+.method public final copy(JJJ)Lcom/miui/mediaeditor/certificates/check/RequestConfig;
+    .locals 0
+
+    new-instance p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;
+
+    invoke-direct/range {p0 .. p6}, Lcom/miui/mediaeditor/certificates/check/RequestConfig;-><init>(JJJ)V
+
+    return-object p0
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 7
+
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    :cond_0
+    instance-of v1, p1, Lcom/miui/mediaeditor/certificates/check/RequestConfig;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lcom/miui/mediaeditor/certificates/check/RequestConfig;
+
+    iget-wide v3, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->timeOut:J
+
+    iget-wide v5, p1, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->timeOut:J
+
+    cmp-long v1, v3, v5
+
+    if-eqz v1, :cond_2
+
+    return v2
+
+    :cond_2
+    iget-wide v3, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->minInterval:J
+
+    iget-wide v5, p1, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->minInterval:J
+
+    cmp-long v1, v3, v5
+
+    if-eqz v1, :cond_3
+
+    return v2
+
+    :cond_3
+    iget-wide v3, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->maxInterval:J
+
+    iget-wide p0, p1, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->maxInterval:J
+
+    cmp-long p0, v3, p0
+
+    if-eqz p0, :cond_4
+
+    return v2
+
+    :cond_4
+    return v0
+.end method
+
+.method public final getMaxInterval()J
+    .locals 2
+
+    iget-wide v0, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->maxInterval:J
+
+    return-wide v0
+.end method
+
+.method public final getMinInterval()J
+    .locals 2
+
+    iget-wide v0, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->minInterval:J
+
+    return-wide v0
+.end method
+
+.method public final getTimeOut()J
+    .locals 2
+
+    iget-wide v0, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->timeOut:J
+
+    return-wide v0
+.end method
+
+.method public hashCode()I
+    .locals 4
+
+    iget-wide v0, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->timeOut:J
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->hashCode(J)I
+
+    move-result v0
+
+    const/16 v1, 0x1f
+
+    mul-int/2addr v0, v1
+
+    iget-wide v2, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->minInterval:J
+
+    invoke-static {v2, v3, v0, v1}, Lq/s;->a(JII)I
+
+    move-result v0
+
+    iget-wide v1, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->maxInterval:J
+
+    invoke-static {v1, v2}, Ljava/lang/Long;->hashCode(J)I
+
+    move-result p0
+
+    add-int/2addr p0, v0
+
+    return p0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 7
+
+    iget-wide v0, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->timeOut:J
+
+    iget-wide v2, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->minInterval:J
+
+    iget-wide v4, p0, Lcom/miui/mediaeditor/certificates/check/RequestConfig;->maxInterval:J
+
+    const-string p0, "RequestConfig(timeOut="
+
+    const-string v6, ", minInterval="
+
+    invoke-static {v0, v1, p0, v6}, Landroidx/fragment/app/o;->b(JLjava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object p0
+
+    invoke-virtual {p0, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    const-string v0, ", maxInterval="
+
+    const-string v1, ")"
+
+    invoke-static {p0, v0, v4, v5, v1}, Lf3/f;->a(Ljava/lang/StringBuilder;Ljava/lang/String;JLjava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

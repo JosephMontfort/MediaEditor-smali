@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="28.0dip" android:width="28.0dip" android:viewportWidth="28.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/photo_bokeh_menu_region_text_color" android:pathData="M17.995,14.208C17.888,16.322 16.14,18.002 14,18.002C11.791,18.002 10,16.211 10,14.002L10.005,13.796C10.112,11.683 11.86,10.002 14,10.002L14.206,10.007C16.319,10.114 18,11.862 18,14.002L17.995,14.208ZM16.2,14.002C16.2,12.787 15.215,11.802 14,11.802C12.785,11.802 11.8,12.787 11.8,14.002C11.8,15.217 12.785,16.202 14,16.202C15.215,16.202 16.2,15.217 16.2,14.002Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/photo_bokeh_menu_region_text_color" android:pathData="M24.75,14.002C24.75,19.939 19.937,24.752 14,24.752C8.063,24.752 3.25,19.939 3.25,14.002C3.25,8.065 8.063,3.252 14,3.252C19.937,3.252 24.75,8.065 24.75,14.002ZM22.991,14.002C22.991,9.037 18.965,5.011 14,5.011C9.034,5.011 5.009,9.037 5.009,14.002C5.009,18.968 9.034,22.993 14,22.993C18.965,22.993 22.991,18.968 22.991,14.002Z" android:fillType="evenOdd" />
+</vector>

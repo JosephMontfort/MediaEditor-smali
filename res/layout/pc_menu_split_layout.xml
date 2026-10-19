@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/anchor_ai_loading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/id_bottom_control" android:background="@color/surface_subtle" android:paddingTop="@dimen/pc_menu_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/pc_menu_padding_h" android:paddingEnd="@dimen/pc_menu_padding_h">
+        <miuix.miuixbasewidget.widget.FilterSortView android:layout_gravity="center_horizontal" android:id="@id/magic_tabs" android:layout_width="wrap_content" android:layout_height="@dimen/pc_menu_split_tabs_height" android:minWidth="@dimen/pc_menu_split_tabs_min_width" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <include android:id="@id/pc_idp_category" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_marginStart="@dimen/pc_menu_split_idp_category_margin_start" layout="@layout/pc_bottom_category_split" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/pc_color_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/pc_menu_split_color_container_margin_v" android:layout_marginBottom="@dimen/pc_menu_split_color_container_margin_v" android:layout_centerInParent="true">
+                <com.miui.mediaeditor.photo.certificates.view.SimpleRecyclerViewMiuix android:id="@id/pc_idp_color_recyclerview" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <include android:id="@id/pc_cloth_category" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/pc_certificates_bottom_cloth_split" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

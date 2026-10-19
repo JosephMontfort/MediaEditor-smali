@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.gallery.vlog.base.widget.VlogRecyclerView android:layout_gravity="center_vertical" android:id="@id/video_recyclerview" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_template_edit_clip_video_height" />
+    <com.miui.gallery.vlog.template2.view.TemplateEditClipVideoView android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_template_edit_clip_video_height" />
+    <View android:id="@id/white_line" android:background="@drawable/vlog_clip_frame_white_line" android:layout_width="@dimen/vlog_clip_frame_line_width" android:layout_height="fill_parent" />
+</FrameLayout>

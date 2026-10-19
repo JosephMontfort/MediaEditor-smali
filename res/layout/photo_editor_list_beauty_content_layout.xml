@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.gallery.widget.recyclerview.SimpleLinearRecyclerView android:layout_gravity="center" android:id="@id/recycler_view" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:orientation_provider="com.miui.gallery.editor.ui.view.PhotoEditorOrientationProvider" />
+    <FrameLayout android:id="@id/fl_dialog_bottom" android:background="@color/surface_subtle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/editor_face_shape_mask_dialog_tips_size" android:textColor="@color/on_surface" android:layout_gravity="center" android:id="@id/tv_mask_dialog_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/beauty_face_reshaping_tip_more_than_one_face" />
+        <ImageButton android:layout_gravity="center" android:id="@id/face_mask_dialog_cancel" android:background="@drawable/face_shape_face_mask_cancel_btn_bg" android:layout_width="@dimen/editor_face_shape_mask_dialog_cancel_button_width" android:layout_height="@dimen/editor_face_shape_mask_dialog_cancel_button_height" android:layout_marginTop="40.0dip" android:src="@drawable/face_shape_mask_dialog_btn_cancel" android:scaleType="center" android:contentDescription="@string/main_save_cancel" android:translationY="0.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

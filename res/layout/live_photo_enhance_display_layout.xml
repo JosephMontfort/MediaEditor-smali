@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/display_root" android:background="@color/surface" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.mediaeditor.video.base.component.ZoomableTextureView android:id="@id/texture_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <com.miui.mediaeditor.photo.livephoto_enhance.component.view.LivePhotoEnhanceBitmapGestureView android:id="@id/display_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

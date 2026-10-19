@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/magic_video_recycler_item" android:layout_width="@dimen/matting_op_item_width" android:layout_height="@dimen/matting_op_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <micamx.compat.ui.widget.button.SquareButton android:id="@id/square_btn" android:layout_width="@dimen/matting_op_item_width" android:layout_height="@dimen/matting_op_item_height" style="@style/photo_menu_square_button_style" />
+    <com.miui.gallery.editor.ui.view.RoundImageView android:id="@id/magic_image" android:layout_width="@dimen/matting_op_item_width" android:layout_height="@dimen/matting_op_item_height" android:scaleType="fitXY" app:borderRadius="@dimen/corners_small" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <com.miui.gallery.editor.ui.view.DownloadView android:id="@id/magic_downloading_video" android:visibility="gone" android:layout_width="@dimen/editor_download_view_item_width" android:layout_height="@dimen/editor_download_view_item_width" app:downloadingDrawable="@drawable/filter_menu_item_downloading" app:loadingThreshold="250" app:toDownloadDrawable="@color/transparent" />
+    </RelativeLayout>
+</RelativeLayout>

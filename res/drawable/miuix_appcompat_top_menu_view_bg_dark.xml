@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable app:roundStateColor="@android:color/transparent" app:roundStateDarkMode="true" class="miuix.appcompat.internal.graphics.drawable.RoundStateDrawable" xmlns:app="http://schemas.android.com/apk/res-auto" />

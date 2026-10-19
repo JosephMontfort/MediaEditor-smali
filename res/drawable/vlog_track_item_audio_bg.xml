@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/vlog_track_item_audio_color" />
+            <corners android:radius="@dimen/vlog_track_base_background_radius" />
+        </shape>
+    </item>
+</selector>

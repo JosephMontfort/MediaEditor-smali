@@ -1,0 +1,162 @@
+.class public final Ljs0/z;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lfs0/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lfs0/a<",
+        "Ljs0/y;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:Ljs0/z;
+
+.field public static final b:Lgs0/g;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 7
+
+    new-instance v0, Ljs0/z;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, Ljs0/z;->a:Ljs0/z;
+
+    sget-object v3, Lgs0/e$i;->a:Lgs0/e$i;
+
+    const/4 v0, 0x0
+
+    new-array v0, v0, [Lgs0/f;
+
+    const-string v1, "kind"
+
+    invoke-static {v3, v1}, Lap0/m;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v2, "kotlinx.serialization.json.JsonPrimitive"
+
+    invoke-static {v2}, Lsr0/q;->I(Ljava/lang/CharSequence;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
+    sget-object v1, Lgs0/k$a;->a:Lgs0/k$a;
+
+    invoke-virtual {v3, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    new-instance v6, Lgs0/a;
+
+    invoke-direct {v6, v2}, Lgs0/a;-><init>(Ljava/lang/String;)V
+
+    sget-object v1, Lko0/e0;->a:Lko0/e0;
+
+    new-instance v1, Lgs0/g;
+
+    iget-object v4, v6, Lgs0/a;->b:Ljava/util/ArrayList;
+
+    invoke-virtual {v4}, Ljava/util/ArrayList;->size()I
+
+    move-result v4
+
+    invoke-static {v0}, Llo0/o;->F([Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object v5
+
+    invoke-direct/range {v1 .. v6}, Lgs0/g;-><init>(Ljava/lang/String;Lgs0/j;ILjava/util/List;Lgs0/a;)V
+
+    sput-object v1, Ljs0/z;->b:Lgs0/g;
+
+    return-void
+
+    :cond_0
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    const-string v1, "For StructureKind.CLASS please use \'buildClassSerialDescriptor\' instead"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_1
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    const-string v1, "Blank serial names are prohibited"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+
+# virtual methods
+.method public final a()Lgs0/f;
+    .locals 0
+
+    sget-object p0, Ljs0/z;->b:Lgs0/g;
+
+    return-object p0
+.end method
+
+.method public final b(Lhs0/c;)Ljava/lang/Object;
+    .locals 2
+
+    invoke-static {p1}, Ljs0/p;->a(Lhs0/c;)Ljs0/f;
+
+    move-result-object p0
+
+    invoke-interface {p0}, Ljs0/f;->a()Ljs0/g;
+
+    move-result-object p0
+
+    instance-of p1, p0, Ljs0/y;
+
+    if-eqz p1, :cond_0
+
+    check-cast p0, Ljs0/y;
+
+    return-object p0
+
+    :cond_0
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    const-string v0, "Unexpected JSON element, expected JsonPrimitive, had "
+
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    sget-object v1, Lap0/c0;->a:Lap0/d0;
+
+    invoke-static {v1, v0, p1}, Lg2/a;->a(Lap0/d0;Ljava/lang/Class;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    const/4 v0, -0x1
+
+    invoke-static {v0, p0, p1}, Lks0/j;->c(ILjava/lang/CharSequence;Ljava/lang/String;)Lks0/f;
+
+    move-result-object p0
+
+    throw p0
+.end method

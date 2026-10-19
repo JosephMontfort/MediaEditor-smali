@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/video_track_video_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.mediaeditor.video.track.ui.widget.track.video.OriginSoundView android:id="@id/origin_sound" android:layout_width="@dimen/video_track_origin_sound_width" android:layout_height="fill_parent" android:text="@string/video_close_origin_sound" android:layout_marginEnd="@dimen/video_track_origin_sound_margin_start" style="@style/video_origin_sound_square_button_style" />
+</LinearLayout>

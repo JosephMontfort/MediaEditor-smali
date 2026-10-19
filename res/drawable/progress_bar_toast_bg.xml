@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/progress_toast_bg_height" android:width="@dimen/progress_toast_bg_width" />
+    <corners android:radius="@dimen/corners_tiny" />
+    <solid android:color="@color/surface_toast" />
+</shape>

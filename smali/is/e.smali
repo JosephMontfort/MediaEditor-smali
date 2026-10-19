@@ -1,0 +1,104 @@
+.class public final Lis/e;
+.super Lmy/b;
+.source "SourceFile"
+
+
+# virtual methods
+.method public final a(Landroid/graphics/Bitmap;Lcom/miui/mediaeditor/photo/core/render/RenderData;Z)Landroid/graphics/Bitmap;
+    .locals 3
+
+    const-string p0, "bitmap"
+
+    invoke-static {p1, p0}, Lap0/m;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string p0, "data"
+
+    invoke-static {p2, p0}, Lap0/m;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    instance-of p0, p2, Lcom/miui/mediaeditor/beauty/module/facebeauty/data/FaceBeautyRenderData;
+
+    if-nez p0, :cond_0
+
+    return-object p1
+
+    :cond_0
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    invoke-virtual {p2}, Lcom/miui/mediaeditor/photo/core/render/RenderData;->getPreviewCacheBitmap()Landroid/graphics/Bitmap;
+
+    move-result-object p0
+
+    if-eqz p0, :cond_1
+
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;->isRecycled()Z
+
+    move-result v2
+
+    if-nez v2, :cond_1
+
+    if-nez p3, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    invoke-static {p1}, Lvl/x;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+
+    move-result-object p0
+
+    new-instance p1, Lcom/miui/mediaeditor/algo/base/AlgorithmBuilder;
+
+    invoke-direct {p1}, Lcom/miui/mediaeditor/algo/base/AlgorithmBuilder;-><init>()V
+
+    new-instance p3, Lcom/miui/mediaeditor/algo/beauty/face/FaceBeautyAlgorithm;
+
+    invoke-direct {p3}, Lcom/miui/mediaeditor/algo/beauty/face/FaceBeautyAlgorithm;-><init>()V
+
+    invoke-virtual {p1, p3}, Lcom/miui/mediaeditor/algo/base/AlgorithmBuilder;->setAlgorithm(Lgp/b;)Lcom/miui/mediaeditor/algo/base/AlgorithmBuilder;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lcom/miui/mediaeditor/algo/base/AlgorithmBuilder;->addDefaultMonitor()Lcom/miui/mediaeditor/algo/base/AlgorithmBuilder;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lcom/miui/mediaeditor/algo/base/AlgorithmBuilder;->build()Lgp/b;
+
+    move-result-object p1
+
+    new-instance p3, Lcom/miui/mediaeditor/algo/beauty/common/processer/BeautyProcessOriginParam;
+
+    check-cast p2, Lcom/miui/mediaeditor/beauty/module/facebeauty/data/FaceBeautyRenderData;
+
+    iget-object p2, p2, Lcom/miui/mediaeditor/beauty/module/facebeauty/data/FaceBeautyRenderData;->d:Lnp/f;
+
+    const-string v2, "face_beauty_"
+
+    invoke-direct {p3, p0, p2, v2}, Lcom/miui/mediaeditor/algo/beauty/common/processer/BeautyProcessOriginParam;-><init>(Landroid/graphics/Bitmap;Lnp/f;Ljava/lang/String;)V
+
+    invoke-interface {p1, p3}, Lgp/b;->c(Lcom/miui/mediaeditor/algo/base/BaseParam;)Lcom/miui/mediaeditor/algo/base/BaseResult;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/miui/mediaeditor/algo/beauty/common/processer/BeautyProcessOriginResult;
+
+    iget-object p0, p0, Lcom/miui/mediaeditor/algo/beauty/common/processer/BeautyProcessOriginResult;->c:Landroid/graphics/Bitmap;
+
+    invoke-static {p0}, Lap0/m;->d(Ljava/lang/Object;)V
+
+    :goto_0
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide p1
+
+    sub-long/2addr p1, v0
+
+    const-string p3, "FaceBeautyRenderEngine"
+
+    const-string v0, "render consumingTime="
+
+    invoke-static {p1, p2, v0, p3}, Lre/l;->a(JLjava/lang/String;Ljava/lang/String;)V
+
+    return-object p0
+.end method

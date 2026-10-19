@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent" />
+    <corners android:radius="@dimen/corners_tiny" />
+    <stroke android:width="@dimen/video_menu_reset_image_border_size" android:color="@color/border_button" />
+</shape>

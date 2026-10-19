@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/function_container" android:background="@color/photo_editor_window_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/menu_render_line" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/photo_editor_menu_zone_height" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/loading_anchor_line" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/photo_editor_loading_height" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/confirm_line" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/photo_editor_confirm_menu_height" />
+    <com.miui.mediaeditor.photo.hdr.view.HdrDisplayView android:id="@id/display_hdr_panel" android:background="@color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/menu_render_line" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/display_panel" android:background="@color/photo_editor_window_bg" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/menu_render_line" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/menu_panel" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="@id/menu_render_line" />
+    <FrameLayout android:id="@id/title_panel" android:layout_width="fill_parent" android:layout_height="@dimen/photo_editor_confirm_menu_height" app:layout_constraintTop_toTopOf="parent">
+        <include android:layout_gravity="center" android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="@dimen/photo_editor_confirm_menu_height" layout="@layout/photo_editor_title_layout" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/bottom_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_menu_margin_bottom" app:layout_constraintBottom_toBottomOf="parent">
+        <include android:id="@id/confirm_apply_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/common_editor_menu_apply_layout" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/extra_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" />
+    <View android:id="@id/ai_loading_anchor" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="@id/loading_anchor_line" />
+</androidx.constraintlayout.widget.ConstraintLayout>

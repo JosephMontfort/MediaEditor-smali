@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="26.0dip" android:width="26.0dip" android:viewportWidth="26.0" android:viewportHeight="26.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/photo_editor_menu_item_text_color_selector" android:pathData="M22,7H4V5H22V7ZM22,21H4V19H22V21ZM4,14H22V12H4V14Z" android:fillType="evenOdd" />
+</vector>

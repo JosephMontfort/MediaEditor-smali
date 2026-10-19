@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="photo_editor_menu_zone_height">417.0dip</dimen>
+    <item type="dimen" name="photo_editor_nav_title_width">@dimen/px_628</item>
+    <item type="dimen" name="vlog_adjust_bsb_empty_progress_width">@dimen/px_529</item>
+    <item type="dimen" name="vlog_adjust_bsb_visibility_width">@dimen/px_537</item>
+    <item type="dimen" name="vlog_adjust_highlight_progress_margin">@dimen/px_70</item>
+    <item type="dimen" name="vlog_adjust_text_margin">@dimen/px_82</item>
+    <dimen name="vlog_adjust_width">242.0dip</dimen>
+    <item type="dimen" name="vlog_filter2_bubble_seekbar_height">@dimen/px_640</item>
+    <item type="dimen" name="vlog_filter2_land_empty_progress_width">@dimen/px_620</item>
+    <dimen name="vlog_filter2_land_tag_diy_start">6.0dip</dimen>
+    <item type="dimen" name="vlog_filter2_land_visible_progress_width">@dimen/px_640</item>
+    <item type="dimen" name="vlog_land_audio_bsb_empty_progress_width">@dimen/px_640</item>
+    <item type="dimen" name="vlog_land_audio_bsb_visibility_width">@dimen/px_660</item>
+    <dimen name="vlog_land_menu_line_end">426.0dip</dimen>
+    <dimen name="vlog_menu_land_padding_double">34.0dip</dimen>
+    <dimen name="vlog_single_clip_bar_margin_start">194.0dip</dimen>
+</resources>

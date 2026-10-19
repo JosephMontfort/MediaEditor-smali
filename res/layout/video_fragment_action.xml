@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/video_action_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/top_line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/video_action_area_top_line" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/back_start_line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/video_action_back_start_line_margin_start" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/back_end_line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/video_action_back_end_line_margin_start" />
+    <FrameLayout android:id="@id/back_iv" android:background="@drawable/video_action_back_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/video_action_back_margin_top" android:contentDescription="@string/back" app:layout_constraintEnd_toEndOf="@id/back_end_line" app:layout_constraintStart_toStartOf="@id/back_start_line" app:layout_constraintTop_toTopOf="@id/top_line">
+        <ImageView android:layout_gravity="center" android:id="@id/back_icon" android:layout_width="@dimen/video_common_sub_svg_icon_size" android:layout_height="@dimen/video_common_sub_svg_icon_size" />
+    </FrameLayout>
+    <com.miui.gallery.widget.recyclerview.SimpleRecyclerView android:id="@id/action_recycler" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/back_end_line" app:layout_constraintTop_toTopOf="@id/top_line" />
+    <View android:background="@drawable/video_action_back_mask" android:layout_width="@dimen/video_action_back_mask_width" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/back_end_line" app:layout_constraintTop_toTopOf="@id/top_line" />
+</androidx.constraintlayout.widget.ConstraintLayout>

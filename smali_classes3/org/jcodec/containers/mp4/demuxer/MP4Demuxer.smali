@@ -1,0 +1,165 @@
+.class public Lorg/jcodec/containers/mp4/demuxer/MP4Demuxer;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static probe(Ljava/nio/ByteBuffer;)I
+    .locals 9
+    .annotation build Landroidx/annotation/Keep;
+    .end annotation
+
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
+
+    move-result-object p0
+
+    const/4 v0, 0x0
+
+    move v1, v0
+
+    move v2, v1
+
+    :goto_0
+    invoke-virtual {p0}, Ljava/nio/Buffer;->remaining()I
+
+    move-result v3
+
+    const/16 v4, 0x8
+
+    if-lt v3, v4, :cond_7
+
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->getInt()I
+
+    move-result v3
+
+    sget-object v5, Lxx0/a;->a:Ljava/util/HashMap;
+
+    int-to-long v5, v3
+
+    const-wide v7, 0xffffffffL
+
+    and-long/2addr v5, v7
+
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->getInt()I
+
+    move-result v3
+
+    const-wide/16 v7, 0x1
+
+    cmp-long v7, v5, v7
+
+    if-nez v7, :cond_0
+
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->getLong()J
+
+    move-result-wide v5
+
+    const/16 v4, 0x10
+
+    goto :goto_1
+
+    :cond_0
+    const-wide/16 v7, 0x8
+
+    cmp-long v7, v5, v7
+
+    if-gez v7, :cond_1
+
+    goto :goto_2
+
+    :cond_1
+    :goto_1
+    sget v7, Ltx0/a;->a:I
+
+    if-ne v3, v7, :cond_2
+
+    const-wide/16 v7, 0x40
+
+    cmp-long v7, v5, v7
+
+    if-ltz v7, :cond_4
+
+    :cond_2
+    sget v7, Ltx0/a;->c:I
+
+    if-ne v3, v7, :cond_3
+
+    const-wide/32 v7, 0x6400000
+
+    cmp-long v7, v5, v7
+
+    if-ltz v7, :cond_4
+
+    :cond_3
+    sget v7, Ltx0/a;->b:I
+
+    if-eq v3, v7, :cond_4
+
+    sget v7, Ltx0/a;->d:I
+
+    if-eq v3, v7, :cond_4
+
+    sget v7, Ltx0/a;->e:I
+
+    if-ne v3, v7, :cond_5
+
+    :cond_4
+    add-int/lit8 v1, v1, 0x1
+
+    :cond_5
+    add-int/lit8 v2, v2, 0x1
+
+    const-wide/32 v7, 0x7fffffff
+
+    cmp-long v3, v5, v7
+
+    if-ltz v3, :cond_6
+
+    goto :goto_2
+
+    :cond_6
+    int-to-long v3, v4
+
+    sub-long/2addr v5, v3
+
+    long-to-int v3, v5
+
+    invoke-virtual {p0}, Ljava/nio/Buffer;->remaining()I
+
+    move-result v4
+
+    invoke-static {v4, v3}, Ljava/lang/Math;->min(II)I
+
+    move-result v3
+
+    invoke-virtual {p0}, Ljava/nio/Buffer;->position()I
+
+    move-result v4
+
+    add-int/2addr v4, v3
+
+    invoke-virtual {p0, v4}, Ljava/nio/Buffer;->position(I)Ljava/nio/Buffer;
+
+    goto :goto_0
+
+    :cond_7
+    :goto_2
+    if-nez v2, :cond_8
+
+    return v0
+
+    :cond_8
+    mul-int/lit8 v1, v1, 0x64
+
+    div-int/2addr v1, v2
+
+    return v1
+.end method

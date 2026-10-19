@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/miui/mediaeditor/photo/watermark/widgets/WatermarkImageView$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/miui/mediaeditor/photo/watermark/widgets/WatermarkImageView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "b"
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Ly70/d$a;Ly70/d$a;)V
+.end method

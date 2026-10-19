@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/message_bottom_line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="100.0dip" />
+    <TextView android:textSize="@dimen/video_toast_text_size" android:textColor="@color/video_common_text_color_normal" android:gravity="center" android:id="@id/message" android:background="@drawable/video_toast_bg" android:paddingTop="@dimen/video_toast_padding_top" android:paddingBottom="@dimen/video_toast_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" android:paddingStart="@dimen/video_toast_padding_start" android:paddingEnd="@dimen/video_toast_padding_start" android:fallbackLineSpacing="false" app:layout_constraintBottom_toTopOf="@id/message_bottom_line" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

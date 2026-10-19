@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.mediaeditor.baseui.widgets.StateTextView android:textSize="@dimen/matting_category_item_text_size" android:textColor="@color/editor_common_bottom_category_title_text" android:ellipsize="end" android:gravity="center" android:id="@id/tv_filter_sky_categoty_item" android:layout_width="wrap_content" android:layout_height="@dimen/filter_category_navi_item_text_h" android:singleLine="true" android:paddingStart="@dimen/filter_category_text_padding" android:paddingEnd="@dimen/filter_category_text_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

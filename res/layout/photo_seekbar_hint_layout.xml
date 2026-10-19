@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/photo_seekbar_hint_display_parent_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/photo_seekbar_hint_text_size" android:textColor="@color/on_surface" android:gravity="center" android:layout_gravity="center" android:id="@id/seekbar_hint_display_view" android:background="@drawable/photo_seekbar_hint_bg" android:layout_width="wrap_content" android:layout_height="@dimen/photo_seekbar_hint_display_height" android:text="曝光：100" android:fontFamily="sans-serif" android:paddingHorizontal="@dimen/photo_seekbar_hint_display_padding_h" android:paddingVertical="@dimen/photo_seekbar_hint_display_padding_v" />
+</FrameLayout>

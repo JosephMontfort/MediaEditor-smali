@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/vlog_template_slide_dialog_text_size" android:textColor="@color/white" android:id="@id/slide_text" android:layout_width="wrap_content" android:layout_height="@dimen/vlog_template_slide_dialog_text_height" android:text="@string/vlog_template_scroll_desc" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/slide_lottie" android:layout_width="@dimen/vlog_template_slide_dialog_lottie_width" android:layout_height="@dimen/vlog_template_slide_dialog_lottie_width" android:layout_marginTop="@dimen/vlog_template_slide_dialog_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/slide_text" app:lottie_loop="true" app:lottie_rawRes="@raw/vlog_template_slide" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

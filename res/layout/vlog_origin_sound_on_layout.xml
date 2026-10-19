@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/sound_on_layout" android:clickable="true" android:layout_width="@dimen/vlog_track_sound_icon_width" android:layout_height="@dimen/vlog_track_sound_icon_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/vlog_track_sound_icon_image_width" android:layout_height="@dimen/vlog_track_sound_icon_image_width" android:src="@drawable/ic_vlog_track_origin_sound_on" />
+    <com.miui.gallery.editor.ui.view.MarqueeTextView android:textSize="@dimen/vlog_track_sound_icon_text_size" android:textColor="@color/vlog_track_sound_on_color" android:gravity="center" android:layout_gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_track_sound_icon_text_height" android:text="@string/vlog_track_origin_sound_on" android:singleLine="true" android:fontFamily="mipro-medium" android:fallbackLineSpacing="false" />
+</FrameLayout>

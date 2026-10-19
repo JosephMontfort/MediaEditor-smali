@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clip_bar_padding_horizontal">132.0dip</dimen>
+    <dimen name="motion_photo_effect_layout_padding_horizontal">80.0dip</dimen>
+</resources>

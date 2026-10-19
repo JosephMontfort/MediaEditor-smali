@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:focusable="true" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:clipToOutline="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/apply_top_line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/video_base_menu_guide_apply_top_line" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/bottom_line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/video_base_menu_guide_bottom_line" />
+    <FrameLayout android:id="@id/video_layout" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_template_edit_clip_video_layout_height" android:layout_marginBottom="@dimen/vlog_template_edit_clip_video_margin_bottom" app:layout_constraintBottom_toTopOf="@id/apply_top_line">
+        <com.miui.gallery.vlog.template2.view.ClipFrameView android:id="@id/clip_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/vlog_template_edit_sort_title_text_size" android:textColor="@color/vlog_template_edit_sort_text_color" android:id="@id/clip_time" android:layout_width="wrap_content" android:layout_height="@dimen/vlog_template_edit_sort_title_height" android:layout_marginBottom="@dimen/vlog_template_edit_clip_title_margin_bottom" android:fontFamily="mipro-medium" app:layout_constraintBottom_toTopOf="@id/video_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <include android:id="@id/bottom_apply_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/vlog_template_common_apply_margin_bottom" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" layout="@layout/video_comm_editor_apply_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

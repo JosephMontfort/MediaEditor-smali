@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ai_beauty_seekbar_land_margin_end">186.0dip</dimen>
+    <dimen name="editor_seekbar_progress_land_margin_end">188.0dip</dimen>
+    <dimen name="miuix_appcompat_action_bar_subtitle_bg_end_margin">5.899994dip</dimen>
+    <dimen name="miuix_appcompat_action_bar_subtitle_bg_start_margin">0.0dip</dimen>
+    <dimen name="photo_watermark_land_seekbar_margin_end">-80.0dip</dimen>
+</resources>

@@ -1,0 +1,86 @@
+.class public final synthetic Leu/g;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lqn0/a;
+
+
+# instance fields
+.field public final synthetic a:Lap0/a0;
+
+.field public final synthetic b:Leu/o;
+
+.field public final synthetic c:Lap0/a0;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lap0/a0;Leu/o;Lap0/a0;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Leu/g;->a:Lap0/a0;
+
+    iput-object p2, p0, Leu/g;->b:Leu/o;
+
+    iput-object p3, p0, Leu/g;->c:Lap0/a0;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 8
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    iget-object v2, p0, Leu/g;->a:Lap0/a0;
+
+    iget-wide v2, v2, Lap0/a0;->a:J
+
+    sub-long/2addr v0, v2
+
+    iget-object v2, p0, Leu/g;->b:Leu/o;
+
+    iget-object v3, v2, Leu/o;->b:Lcu/a;
+
+    iget-object v2, v2, Leu/o;->a:Leu/a;
+
+    iget-object v2, v2, Leu/a;->c:Ljava/lang/String;
+
+    iget-object p0, p0, Leu/g;->c:Lap0/a0;
+
+    iget-wide v4, p0, Lap0/a0;->a:J
+
+    invoke-static {v4, v5}, Lfu/c;->d(J)Ljava/lang/String;
+
+    move-result-object v4
+
+    iget-wide v5, p0, Lap0/a0;->a:J
+
+    div-long/2addr v5, v0
+
+    const-string p0, "\n----------\n    download success!\n    [total length]: "
+
+    const-string v7, " \n    [total time]: "
+
+    invoke-static {p0, v4, v7, v0, v1}, Lf3/i;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)Ljava/lang/StringBuilder;
+
+    move-result-object p0
+
+    const-string v0, " ms \n    [average speed]:"
+
+    const-string v1, " kps\n----------\n"
+
+    invoke-static {p0, v0, v5, v6, v1}, Lf3/f;->a(Ljava/lang/StringBuilder;Ljava/lang/String;JLjava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v3, v2, p0}, Lcu/a;->a(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method

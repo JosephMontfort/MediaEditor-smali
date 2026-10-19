@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/video_common_svg_icon_size" android:width="@dimen/video_common_svg_icon_size" android:autoMirrored="true" android:viewportWidth="28.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M10.134,10C10.191,10 10.247,9.987 10.297,9.961L15.67,7.263C15.911,7.142 16.195,7.317 16.196,7.587L16.219,20.411C16.22,20.681 15.936,20.858 15.694,20.737L10.297,18.038C10.247,18.013 10.191,18 10.135,18H7.583C7.383,18 7.22,17.837 7.22,17.637V10.363C7.22,10.162 7.383,10 7.583,10H10.134ZM18,19H18V17.4H18C19.878,17.4 21.4,15.878 21.4,14C21.4,12.122 19.878,10.6 18,10.6H18V9H18C20.761,9 23,11.239 23,14C23,16.761 20.761,19 18,19Z" android:fillAlpha="0.9" android:fillType="evenOdd" />
+</vector>

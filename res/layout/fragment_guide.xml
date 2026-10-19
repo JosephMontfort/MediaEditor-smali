@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <micamx.compat.ui.widget.guide.GuideStage android:layout_gravity="center" android:id="@id/guide_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:gsExitDrawable="@drawable/common_close_button" app:gsIndicatorMarginBottom="@dimen/feature_guide_indicator_margin_bottom" app:gsShowExitButton="true" />
+</FrameLayout>

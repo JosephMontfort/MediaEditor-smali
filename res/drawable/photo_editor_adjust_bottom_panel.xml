@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/photo_editor_adjust_bottom_panel_start" android:endColor="@color/photo_editor_adjust_bottom_panel_end" android:angle="270.0" android:type="linear" android:centerY="0.8" />
+        </shape>
+    </item>
+</layer-list>

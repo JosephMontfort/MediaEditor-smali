@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/screen_editor_view_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/scrollview_size_category" android:layout_width="wrap_content" android:layout_height="@dimen/pc_category_layout_height" android:layout_centerHorizontal="true" layout="@layout/pc_editor_text_top_layout" />
+    <RelativeLayout android:id="@id/pc_idp_list_table" android:layout_width="fill_parent" android:layout_height="@dimen/pc_size_list_height" android:layout_below="@id/scrollview_size_category">
+        <com.miui.mediaeditor.photo.certificates.view.SimpleRecyclerViewMiuix android:id="@id/pc_idp_recyclerview" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="@dimen/pc_size_item_height" android:layout_marginTop="@dimen/pc_bottom_category_recyclerview_margin_top" android:layout_alignParentTop="true" android:paddingStart="@dimen/pc_bottom_category_recyclerview_padding_start" android:paddingEnd="@dimen/pc_bottom_category_recyclerview_padding_end" />
+        <RelativeLayout android:id="@id/pc_custom_size_layout" android:background="@drawable/bg_custom_size_button" android:paddingTop="@dimen/pc_size_create_margin_top" android:paddingBottom="@dimen/pc_size_create_margin_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:paddingStart="@dimen/pc_size_create_margin_left" android:paddingEnd="@dimen/pc_size_create_margin_left">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/pc_layout_custom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/pc_image_custom" android:layout_width="@dimen/pc_icon_size_edite" android:layout_height="@dimen/pc_icon_size_edite" android:src="@drawable/pc_src_edite" />
+                <TextView android:textSize="@dimen/pc_idp_make_recycler_title_size" android:textColor="@color/on_surface" android:id="@id/pc_custom_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_custom_size_create" android:layout_marginStart="@dimen/pc_bottom_category_custom_title_margin_start" style="@style/pc_text_style" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/pc_custom_text_size" android:textColor="@color/on_surface_pressed" android:id="@id/pc_custom_text_size" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pc_bottom_category_custom_text_margin_top" android:layout_below="@id/pc_layout_custom" android:layout_marginStart="@dimen/pc_bottom_category_custom_text_margin_start" style="@style/pc_text_style" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

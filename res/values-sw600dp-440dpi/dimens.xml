@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="adjust_color_separation_selector_item_height">23.699982dip</dimen>
+    <dimen name="adjust_color_separation_selector_item_margin_horizontal">8.0dip</dimen>
+    <dimen name="adjust_color_separation_selector_item_width">23.699982dip</dimen>
+    <dimen name="crop_menu_top_panel_margin_start_or_end">56.359985dip</dimen>
+    <dimen name="editor_menu_doodle_paint_view_margin_start">150.0dip</dimen>
+    <dimen name="editor_menu_doodle_top_view_color_selector_margin_bottom">132.0dip</dimen>
+    <item type="dimen" name="editor_menu_guideline_begin">@dimen/px_200</item>
+    <dimen name="editor_revert_revoke_icon_margin">7.2729797dip</dimen>
+    <dimen name="photo_editor_frame_item_top_selector_color_view_margin_end">132.0dip</dimen>
+    <dimen name="photo_editor_navigator_content_guideline_end">0.0dip</dimen>
+    <dimen name="photo_editor_navigator_top_guideline_begin">0.0dip</dimen>
+    <item type="dimen" name="photo_editor_undo_redo_compare_panel_height">@dimen/editor_render_bottom_guide_line_end</item>
+    <dimen name="remover2_menu_top_checkbox_width">68.0dip</dimen>
+    <item type="dimen" name="text_edit_dialog_options_style_item_width">@dimen/px_210</item>
+    <dimen name="text_edit_dialog_options_style_panel_rl_seek_bar_margin_right">12.363983dip</dimen>
+    <dimen name="text_edit_dialog_tab_style_transparent_title_margin_right">9.819977dip</dimen>
+</resources>

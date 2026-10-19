@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/vlog_button_bg_filter2_add" android:layout_width="@dimen/vlog_filter2_item_height" android:layout_height="@dimen/vlog_filter2_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/add_icon_image" android:layout_width="@dimen/vlog_filter2_add_icon_image_width" android:layout_height="@dimen/vlog_filter2_add_icon_image_width" android:layout_marginBottom="@dimen/vlog_filter2_add_icon_image_margin_bottom" android:src="@drawable/ic_vlog_filter_diy_add" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <com.miui.gallery.editor.ui.view.MarqueeTextView android:textSize="@dimen/vlog_filter2_add_icon_text_size" android:textColor="@color/white_80_transparent" android:ellipsize="marquee" android:gravity="center" android:id="@id/add_icon_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/vlog_filter2_add_icon_text_margin_bottom" android:text="@string/vlog_filter_diy_lut_import" android:singleLine="true" android:layout_alignParentBottom="true" android:fallbackLineSpacing="false" />
+</RelativeLayout>

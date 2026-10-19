@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/enhancer_ai_loading_anchor" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.miui.mediaeditor.photo.livephoto_enhance.component.view.VideoPlaySeekBar android:id="@id/video_play_seek_bar" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginBottom="8.0dip" android:layout_marginHorizontal="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:vpsb_container_bg_color="@color/surface_container" app:vpsb_container_corner_radius="@dimen/corners_tiny" app:vpsb_progress_line="@drawable/video_play_seek_bar_progress_line" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="@dimen/vlog_inspire_dialog_recycler_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/vlog_inspire_dialog_example_text_size" android:textColor="@color/on_surface_subtle" android:gravity="center" android:id="@id/example_text" android:background="@drawable/vlog_inspire_example_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:fontFamily="MiSans" android:paddingHorizontal="@dimen/vlog_inspire_dialog_example_padding" />
+</FrameLayout>

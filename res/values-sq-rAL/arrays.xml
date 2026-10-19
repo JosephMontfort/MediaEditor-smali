@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>E bardhë</item>
+        <item>BLU e erret</item>
+        <item>Blu e lehtë</item>
+        <item>E kuqe</item>
+        <item>Jeshile</item>
+        <item>Rozë</item>
+        <item>Bojë kafe</item>
+        <item>Gri</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Importo imazh</item>
+        <item>Sfond transparent</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Argëtim</item>
+        <item>Fllad</item>
+        <item>Endërra</item>
+        <item>Retë</item>
+        <item>Mendime</item>
+        <item>Buds</item>
+        <item>Metamorfozë</item>
+        <item>Thellësi</item>
+        <item>Pasqyrime</item>
+        <item>Minimalist</item>
+        <item>Mister</item>
+        <item>Mjegull</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Sfondi gjeometrik futuristik</item>
+        <item>Atmosfera e printimeve të vjetra master</item>
+        <item>Ktheni sfondet në skica</item>
+        <item>Sfondet e stilit të akuarelit</item>
+        <item>Retro Cyberpunk</item>
+        <item>Segmente vertikale të gabuara</item>
+        <item>Turbullira e mjegullt</item>
+        <item>Ndjenjë futuristike</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Poli i ulët</item>
+        <item>Gdhendje</item>
+        <item>Skicë</item>
+        <item>Akuarel</item>
+        <item>RGB</item>
+        <item>Grila</item>
+        <item>Dritare e mjegullt</item>
+        <item>Teknologji</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Skicë me ngjyra</item>
+        <item>Skicë e ndërprerë</item>
+        <item>Skicë fluoreshente</item>
+        <item>Hije me ngjyra</item>
+        <item>Valë elektrike</item>
+        <item>Aktual</item>
+        <item>Valë</item>
+        <item>Grimcat</item>
+        <item>Tekst</item>
+        <item>Krahët</item>
+        <item>Engjëll</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>Të përgjithshme</item>
+        <item>Udhëtim</item>
+        <item>Puna</item>
+        <item>Dokumente</item>
+        <item>Arsimi</item>
+        <item>Provimet</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Sigurimi social</item>
+        <item>Sigurimi social</item>
+        <item>Sigurimi mjeksor</item>
+        <item>ID</item>
+        <item>Sigurimi social</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>Nje cun</item>
+        <item>Dy cun</item>
+        <item>Më e vogël një cun</item>
+        <item>Më e vogël dy cun</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Aplikimi për pranim</item>
+        <item>Rrjeti i studentëve</item>
+        <item>Rrjeti i nxënësve për shkollat ​​fillore</item>
+        <item>Rrjeti i nxënësve për shkollat ​​fillore</item>
+        <item>Pranimi në universitet</item>
+        <item>NCEE</item>
+        <item>Përmbledhje</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>Testi i Anglishtes Kolegji 1</item>
+        <item>Testi i Anglishtes Kolegji 2</item>
+        <item>Testi i Anglishtes Kolegji 3</item>
+        <item>Testi i aftësisë Putonghua 1</item>
+        <item>Testi i aftësisë Putonghua 2</item>
+        <item>Testi i anglishtes për diplomë</item>
+        <item>PET për kolegjet</item>
+        <item>Kafshët shtëpiake Niveli 3</item>
+        <item>Provimi kombëtar për gradën kompjuterike 1</item>
+        <item>Provimi kombëtar për gradën kompjuterike 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>Certifikimi i mësuesve të shkollave fillore dhe të mesme</item>
+        <item>Certifikimin e mësuesit</item>
+        <item>Patentë shoferi</item>
+        <item>Leje udhëzuese</item>
+        <item>Leje udhërrëfyese elektronike</item>
+        <item>Provimi gjyqësor kombëtar</item>
+        <item>Certifikatë elektronike e konstruktorit të klasit të parë</item>
+        <item>Certifikatë elektronike e konstruktorit të klasit të dytë</item>
+        <item>Provimi i titullit të kontabilitetit të ri</item>
+        <item>Kontabilist publik i certifikuar</item>
+        <item>Leje udhërrëfyese në Pekin</item>
+        <item>Leje udhërrëfyese në Pekin</item>
+        <item>Provimi i titullit të lartë të kontabilitetit</item>
+        <item>Certifikata e kualifikimit të kontabilitetit</item>
+        <item>Ekzaminimi i kontabilistit publik i certifikuar</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>Shtetet e Bashkuara të Amerikës</item>
+        <item>Vietnam</item>
+        <item>Japonia</item>
+        <item>Hong Kong and Macau</item>
+        <item>Korea e Jugut</item>
+        <item>Tajlandë (turiste)</item>
+        <item>Tajlandë (në mbërritjes)</item>
+        <item>India</item>
+        <item>Izrael</item>
+        <item>Tajvan</item>
+        <item>Malajzia</item>
+        <item>Zelanda e re</item>
+        <item>Italia</item>
+        <item>Argjentina</item>
+        <item>Brazil</item>
+        <item>Islanda</item>
+        <item>Kenia</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <miuix.nestedheader.widget.NestedHeaderLayout android:id="@id/nested_header_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:headerView="@id/search_input_view" app:scrollableView="@id/size_list_view_pager" app:stickyView="@id/template_type_tabs">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/size_list_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:id="@id/search_input_view" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/miuix_appcompat_search_stub" />
+        <miuix.tab.TabLayout android:id="@id/template_type_tabs" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" app:tabIndicatorHeight="0.0dip" app:tabMode="scrollable" />
+    </miuix.nestedheader.widget.NestedHeaderLayout>
+    <androidx.fragment.app.FragmentContainerView android:id="@id/search_result_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

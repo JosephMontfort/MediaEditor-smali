@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/constraintLayout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alignmentMode="alignMargins" android:importantForAccessibility="no" android:layout_marginHorizontal="@dimen/watermark_preference_type_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start|center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="@dimen/watermark_preference_style_title_bar_height" android:importantForAccessibility="no" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="@dimen/watermark_preference_style_title_text_size" android:textStyle="bold" android:textColor="@color/watermark_text_color" android:id="@id/wm_background_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pref_wm_frame_background_title" android:fontFamily="misans-normal" />
+    </LinearLayout>
+    <HorizontalScrollView android:gravity="start|center" android:orientation="horizontal" android:id="@id/scrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title">
+        <miuix.visual.check.VisualCheckGroup android:id="@id/wm_background_group" android:layout_width="wrap_content" android:layout_height="wrap_content" app:itemSpacing="@dimen/watermark_preference_style_wm_background_item_space" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" />
+    </HorizontalScrollView>
+    <View android:id="@id/divider" android:background="@color/preference_watermark_edit_layout_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/watermark_preference_style_divider_height" android:layout_marginTop="@dimen/watermark_preference_style_divider_margin_top" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/scrollView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

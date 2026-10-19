@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/photo_agent_input_bar_bg" />
+    <stroke android:width="@dimen/photo_agent_input_bar_stroke" android:color="@color/photo_agent_input_bar_stroke" />
+    <corners android:radius="@dimen/photo_agent_input_bar_radius" />
+</shape>

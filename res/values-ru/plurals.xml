@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="filter_images_ratio_unsupport_v2">
+        <item quantity="other">Отфильтрованы %d неподдерживаемых объектов</item>
+        <item quantity="one">Отфильтрован %d неподдерживаемый объект</item>
+        <item quantity="few">Отфильтрованы %d неподдерживаемых объекта</item>
+        <item quantity="many">Отфильтрованы %d неподдерживаемых объектов</item>
+    </plurals>
+    <plurals name="filter_images_unsupport_v2">
+        <item quantity="other">Отфильтрованы %d неподдерживаемых объектов</item>
+        <item quantity="one">Отфильтрован %d неподдерживаемый объект</item>
+        <item quantity="few">Отфильтрованы %d неподдерживаемых объекта</item>
+        <item quantity="many">Отфильтрованы %d неподдерживаемых объектов</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_2">
+        <item quantity="other">Вы можете обрабатывать до %d задач одновременно. Дождитесь завершения, прежде чем добавлять больше.</item>
+        <item quantity="one">Вы можете обрабатывать до %d задачи одновременно. Дождитесь завершения, прежде чем добавлять больше.</item>
+        <item quantity="few">Вы можете обрабатывать до %d задач одновременно. Дождитесь завершения, прежде чем добавлять больше.</item>
+        <item quantity="many">Вы можете обрабатывать до %d задач одновременно. Дождитесь завершения, прежде чем добавлять больше.</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_3">
+        <item quantity="other">Поддерживаются только живые моменты в пределах %d сек. Выберите другое фото и повторите попытку.</item>
+        <item quantity="one">Поддерживаются только живые моменты в пределах %d сек. Выберите другое фото и повторите попытку.</item>
+        <item quantity="few">Поддерживаются только живые моменты в пределах %d сек. Выберите другое фото и повторите попытку.</item>
+        <item quantity="many">Поддерживаются только живые моменты в пределах %d сек. Выберите другое фото и повторите попытку.</item>
+    </plurals>
+    <plurals name="mark_doodle_max_node">
+        <item quantity="other">Вы можете добавить до %d стикеров</item>
+        <item quantity="one">Вы можете добавить до %d стикера</item>
+        <item quantity="few">Вы можете добавить до %d стикеров</item>
+        <item quantity="many">Вы можете добавить до %d стикеров</item>
+    </plurals>
+    <plurals name="mark_shape_max_node">
+        <item quantity="other">Добавить до %d фигур</item>
+        <item quantity="one">Добавить до %d фигуры</item>
+        <item quantity="few">Добавить %d фигур</item>
+        <item quantity="many">Добавить до %d фигур</item>
+    </plurals>
+    <plurals name="mark_signature_max_node">
+        <item quantity="other">Вы можете добавить до %d подписей</item>
+        <item quantity="one">Вы можете добавить до %d подписи</item>
+        <item quantity="few">Вы можете добавить до %d подписей</item>
+        <item quantity="many">Вы можете добавить до %d подписей</item>
+    </plurals>
+    <plurals name="mark_text_max_node">
+        <item quantity="other">Вы можете добавить до %d текстовых полей</item>
+        <item quantity="one">Вы можете добавить до %d текстового поля</item>
+        <item quantity="few">Вы можете добавить до %d текстовых полей</item>
+        <item quantity="many">Вы можете добавить до %d текстовых полей</item>
+    </plurals>
+    <plurals name="photo_crop_talkback_px">
+        <item quantity="other">%d пикселей</item>
+        <item quantity="one">%d пиксель</item>
+        <item quantity="few">%d пикселя</item>
+        <item quantity="many">%d пикселей</item>
+    </plurals>
+    <plurals name="photo_editor_livephoto_enhance_notification_complete_msg">
+        <item quantity="other">Выполнено %d задач. Нажмите для просмотра.</item>
+        <item quantity="one">Выполнена %d задача. Нажмите для просмотра.</item>
+        <item quantity="few">Выполнены %d задачи. Нажмите для просмотра.</item>
+        <item quantity="many">Выполнены %d задач. Нажмите для просмотра.</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_distortion_value">
+        <item quantity="other">Размытие: %d</item>
+        <item quantity="one">Размытие: %d</item>
+        <item quantity="few">Размытие: %d</item>
+        <item quantity="many">Размытие: %d</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_horizontal_value">
+        <item quantity="other">По горизонтали: %d градусов</item>
+        <item quantity="one">По горизонтали: %d градус</item>
+        <item quantity="few">По горизонтали: %d градуса</item>
+        <item quantity="many">По горизонтали: %d градусов</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_scale_value">
+        <item quantity="other">Поворот: %d градусов</item>
+        <item quantity="one">Поворот: %d градус</item>
+        <item quantity="few">Поворот: %d градуса</item>
+        <item quantity="many">Поворот: %d градусов</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_vertical_value">
+        <item quantity="other">По вертикали: %d градусов</item>
+        <item quantity="one">По вертикали: %d градус</item>
+        <item quantity="few">По вертикали: %d градуса</item>
+        <item quantity="many">По вертикали: %d градусов</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg">
+        <item quantity="other">Создание эффекта может занять %d секунд. Выход из приложения не повлияет на ход процесса. Вы получите уведомление, когда всё будет готово.</item>
+        <item quantity="one">Создание эффекта может занять %d секунду. Выход из приложения не повлияет на ход процесса. Вы получите уведомление, когда всё будет готово.</item>
+        <item quantity="few">Создание эффекта может занять %d секунды. Выход из приложения не повлияет на ход процесса. Вы получите уведомление, когда всё будет готово.</item>
+        <item quantity="many">Создание эффекта может занять %d секунд. Выход из приложения не повлияет на ход процесса. Вы получите уведомление, когда всё будет готово.</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit1">
+        <item quantity="other">Невозможно обработать более %d клипов за раз</item>
+        <item quantity="one">Невозможно обработать более %d клипа за раз</item>
+        <item quantity="few">Невозможно обработать более %d клипов за раз</item>
+        <item quantity="many">Невозможно обработать более %d клипов за раз</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit2">
+        <item quantity="other">Невозможно обработать клипы длиннее %d минут</item>
+        <item quantity="one">Невозможно обработать клипы длиннее %d минуты</item>
+        <item quantity="few">Невозможно обработать клипы длиннее %d минут</item>
+        <item quantity="many">Невозможно обработать клипы длиннее %d минут</item>
+    </plurals>
+    <plurals name="video_editor_tip_track_limit">
+        <item quantity="other">Вы можете добавить до %d треков</item>
+        <item quantity="one">Вы можете добавить до %d трека</item>
+        <item quantity="few">Вы можете добавить до %d треков</item>
+        <item quantity="many">Вы можете добавить до %d треков</item>
+    </plurals>
+    <plurals name="video_tuning_audio_limit">
+        <item quantity="other">Вы можете обработать до %1$d мин. за раз или обрезать видео и попробовать снова</item>
+        <item quantity="one">Вы можете обработать до %1$d мин. за раз или обрезать видео и попробовать снова</item>
+        <item quantity="few">Вы можете обработать до %1$d мин. за раз или обрезать видео и попробовать снова</item>
+        <item quantity="many">Вы можете обработать до %1$d мин. за раз или обрезать видео и попробовать снова</item>
+    </plurals>
+    <plurals name="vlog_audio_origin_sound">
+        <item quantity="other">Исходный звук %1$d</item>
+        <item quantity="one">Исходный звук %1$d</item>
+        <item quantity="few">Исходный звук %1$d</item>
+        <item quantity="many">Исходный звук %1$d</item>
+    </plurals>
+    <plurals name="vlog_clip_cut_fail_min_time">
+        <item quantity="other">Длительность клипов должна быть не менее %1$s секунд</item>
+        <item quantity="one">Длительность клипов должна быть не менее %1$s секунды</item>
+        <item quantity="few">Длительность клипов должна быть не менее %1$s секунд</item>
+        <item quantity="many">Длительность клипов должна быть не менее %1$s секунд</item>
+    </plurals>
+    <plurals name="vlog_filter_audio_unsupport_audio_file">
+        <item quantity="other">Отфильтрованы %d неподдерживаемых аудиофайлов</item>
+        <item quantity="one">Отфильтрован %d неподдерживаемый аудиофайл</item>
+        <item quantity="few">Отфильтрованы %d неподдерживаемых аудиофайла</item>
+        <item quantity="many">Отфильтрованы %d неподдерживаемых аудиофайлов</item>
+    </plurals>
+    <plurals name="vlog_filter_diy_lut_import_success_toast">
+        <item quantity="other">Импортировано %1$d фильтров</item>
+        <item quantity="one">Импортирован %1$d фильтр</item>
+        <item quantity="few">Импортировано %1$d фильтра</item>
+        <item quantity="many">Импортировано %1$d фильтров</item>
+    </plurals>
+    <plurals name="vlog_filter_no_support_nums">
+        <item quantity="other">Отфильтрованы %d неподдерживаемых объектов</item>
+        <item quantity="one">Отфильтрован %d неподдерживаемый объект</item>
+        <item quantity="few">Отфильтрованы %d неподдерживаемых объекта</item>
+        <item quantity="many">Отфильтрованы %d неподдерживаемых объектов</item>
+    </plurals>
+    <plurals name="vlog_generate_loading_notice2">
+        <item quantity="other">Остается около %s мин. В это время вы можете продолжать пользоваться другими функциями.</item>
+        <item quantity="one">Остается около %s мин. В это время вы можете продолжать пользоваться другими функциями.</item>
+        <item quantity="few">Остается около %s мин. В это время вы можете продолжать пользоваться другими функциями.</item>
+        <item quantity="many">Остается около %s мин. В это время вы можете продолжать пользоваться другими функциями.</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_limit">
+        <item quantity="other">"Продолжительность превышает %d мин. "</item>
+        <item quantity="one">"Продолжительность превышает %d мин. "</item>
+        <item quantity="few">"Продолжительность превышает %d мин. "</item>
+        <item quantity="many">"Продолжительность превышает %d мин. "</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_no_support_nums">
+        <item quantity="other">Отфильтрованы %d неподдерживаемых объектов</item>
+        <item quantity="one">Отфильтрован %d неподдерживаемый объект</item>
+        <item quantity="few">Отфильтрованы %d неподдерживаемых объекта</item>
+        <item quantity="many">Отфильтрованы %d неподдерживаемых объектов</item>
+    </plurals>
+    <plurals name="vlog_no_support_duration">
+        <item quantity="other">Не удалось импортировать. Продолжительность превышает %d мин.</item>
+        <item quantity="one">Не удалось импортировать. Продолжительность превышает %d мин.</item>
+        <item quantity="few">Не удалось импортировать. Продолжительность превышает %d мин.</item>
+        <item quantity="many">Не удалось импортировать. Продолжительность превышает %d мин.</item>
+    </plurals>
+    <plurals name="vlog_talkback_crop_scale_value">
+        <item quantity="other">Поворот на %d градусов</item>
+        <item quantity="one">Поворот на %d градус</item>
+        <item quantity="few">Поворот на %d градуса</item>
+        <item quantity="many">Поворот на %d градусов</item>
+    </plurals>
+    <plurals name="vlog_template_support_count_desc">
+        <item quantity="other">%d клипов</item>
+        <item quantity="one">%d клип</item>
+        <item quantity="few">%d клипа</item>
+        <item quantity="many">%d клипов</item>
+    </plurals>
+    <plurals name="legendary_render_notice_v2">
+        <item quantity="other">"Обработка займет около %1$d сек. Ожидание в фоновом режиме не повлияет на обработку.
+Проверяйте статус в разделе «Последние задачи»."</item>
+        <item quantity="one">"Обработка займет около %1$d сек. Ожидание в фоновом режиме не повлияет на обработку.
+Проверяйте статус в разделе «Последние задачи»."</item>
+        <item quantity="few">"Обработка займет около %1$d сек. Ожидание в фоновом режиме не повлияет на обработку.
+Проверяйте статус в разделе «Последние задачи»."</item>
+        <item quantity="many">"Обработка займет около %1$d сек. Ожидание в фоновом режиме не повлияет на обработку.
+Проверяйте статус в разделе «Последние задачи»."</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_cancel_dialog_notice">
+        <item quantity="other">Вы использовали %d раз бесплатно. Все равно остановить?</item>
+        <item quantity="one">Вы использовали %d раз бесплатно. Все равно остановить?</item>
+        <item quantity="few">Вы использовали %d раза бесплатно. Все равно остановить?</item>
+        <item quantity="many">Вы использовали %d раз бесплатно. Все равно остановить?</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_cancel_dialog_notice_2">
+        <item quantity="other">Вы использовали %d баллов. Все равно остановить?</item>
+        <item quantity="one">Вы использовали %d балл. Все равно остановить?</item>
+        <item quantity="few">Вы использовали %d балла. Все равно остановить?</item>
+        <item quantity="many">Вы использовали %d баллов. Все равно остановить?</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_point_cost_hint">
+        <item quantity="other">Это будет стоить %d баллов</item>
+        <item quantity="one">Это будет стоить %d балл</item>
+        <item quantity="few">Это будет стоить %d балла</item>
+        <item quantity="many">Это будет стоить %d баллов</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_remaining_count">
+        <item quantity="other">%d раз</item>
+        <item quantity="one">%d раз</item>
+        <item quantity="few">%d раза</item>
+        <item quantity="many">%d раз</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_total_count">
+        <item quantity="other">%d раз</item>
+        <item quantity="one">%d раз</item>
+        <item quantity="few">%d раза</item>
+        <item quantity="many">%d раз</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg_v2">
+        <item quantity="other">Это занимает около %d секунд. Нажмите «Подождать», чтобы продолжить в фоновом режиме. Вы получите уведомление, когда эта задача будет завершена.</item>
+        <item quantity="one">Это занимает около %d секунды. Нажмите «Подождать», чтобы продолжить в фоновом режиме. Вы получите уведомление, когда эта задача будет завершена.</item>
+        <item quantity="few">Это занимает около %d секунд. Нажмите «Подождать», чтобы продолжить в фоновом режиме. Вы получите уведомление, когда эта задача будет завершена.</item>
+        <item quantity="many">Это занимает около %d секунд. Нажмите «Подождать», чтобы продолжить в фоновом режиме. Вы получите уведомление, когда эта задача будет завершена.</item>
+    </plurals>
+</resources>

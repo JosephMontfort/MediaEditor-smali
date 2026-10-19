@@ -1,0 +1,21 @@
+{
+  "name": "fenwei",
+  "cover": "cover.png",
+  "music": "fenwei.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 10766,
+      "oriDuration": 10766,
+      "4koriDuration": 10766,
+      "tag": "40001;68-70;72-73;76-77;79-81;83-87;91-93;102;132;134;150;152-160;180;419-425;430;477;495;506-507;1992-2000",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ]
+    }
+  ]
+}

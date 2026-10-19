@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/video_audio_local_import_btn_height" android:width="@dimen/video_audio_local_import_btn_width" />
+    <solid android:color="@color/surface_container" />
+    <corners android:radius="@dimen/corners_big" />
+</shape>

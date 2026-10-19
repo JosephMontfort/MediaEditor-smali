@@ -1,0 +1,54 @@
+.class public final Ldg0/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ldg0/c;
+
+
+# instance fields
+.field public final a:Lxr0/x0;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Ldg0/a;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    invoke-static {v0}, Lko0/k;->b(Lzo0/a;)Lko0/s;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lko0/s;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/util/List;
+
+    invoke-static {v0}, Lxr0/l1;->a(Ljava/lang/Object;)Lxr0/k1;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lxr0/i;->a(Lxr0/v0;)Lxr0/x0;
+
+    move-result-object v0
+
+    iput-object v0, p0, Ldg0/b;->a:Lxr0/x0;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lxr0/x0;
+    .locals 0
+
+    iget-object p0, p0, Ldg0/b;->a:Lxr0/x0;
+
+    return-object p0
+.end method

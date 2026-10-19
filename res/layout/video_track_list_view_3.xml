@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/tracks_layout" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/fold_tracks" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.miui.mediaeditor.video.track.ui.widget.track.text.fold.TextFoldTrackView android:id="@id/text_fold_track" android:layout_width="0.0dip" android:layout_height="@dimen/video_track_normal_item_height" android:layout_marginTop="@dimen/video_track_track_interval" />
+        <com.miui.mediaeditor.video.track.ui.widget.track.audio.fold.AudioFoldTrackView android:id="@id/audio_fold_track" android:layout_width="0.0dip" android:layout_height="@dimen/video_track_normal_item_height" android:layout_marginTop="@dimen/video_track_track_interval" />
+    </LinearLayout>
+    <com.miui.mediaeditor.video.track.ui.widget.track.effect.EffectScrollView android:id="@id/text_track_scroll_view" android:paddingTop="@dimen/video_track_track_interval" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <com.miui.mediaeditor.video.track.ui.widget.track.text.TextTrackView android:id="@id/text_track_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.miui.mediaeditor.video.track.ui.widget.track.effect.EffectScrollView>
+    <com.miui.mediaeditor.video.track.ui.widget.track.effect.EffectScrollView android:id="@id/audio_track_scroll_view" android:paddingTop="@dimen/video_track_track_interval" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <com.miui.mediaeditor.video.track.ui.widget.track.audio.AudioTrackView android:id="@id/audio_track_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.miui.mediaeditor.video.track.ui.widget.track.effect.EffectScrollView>
+    <com.miui.mediaeditor.video.track.ui.widget.track.effect.EffectScrollView android:id="@id/adjust_track_scroll_view" android:paddingTop="@dimen/video_track_track_interval" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <com.miui.mediaeditor.video.track.ui.widget.track.adjust.AdjustTrackView android:id="@id/adjust_track_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.miui.mediaeditor.video.track.ui.widget.track.effect.EffectScrollView>
+    <com.miui.mediaeditor.video.track.ui.widget.track.effect.EffectScrollView android:id="@id/filter_track_scroll_view" android:paddingTop="@dimen/video_track_track_interval" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <com.miui.mediaeditor.video.track.ui.widget.track.filter.FilterTrackView android:id="@id/filter_track_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.miui.mediaeditor.video.track.ui.widget.track.effect.EffectScrollView>
+    <com.miui.mediaeditor.video.track.ui.widget.track.beauty.BeautyTrackView android:id="@id/beauty_track_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/video_track_track_interval" />
+</FrameLayout>

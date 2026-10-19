@@ -1,0 +1,21 @@
+.class public final Lm4/f;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public a:I
+
+.field public b:I
+
+
+# direct methods
+.method public constructor <init>(I)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput p1, p0, Lm4/f;->a:I
+
+    return-void
+.end method

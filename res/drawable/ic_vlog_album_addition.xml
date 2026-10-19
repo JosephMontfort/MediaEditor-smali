@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/vlog_album_menu_btn_bg_color" android:pathData="M19.999,15.68C20.993,15.68 21.799,14.874 21.799,13.88C21.799,12.886 20.993,12.08 19.999,12.08C19.005,12.08 18.199,12.886 18.199,13.88C18.199,14.874 19.005,15.68 19.999,15.68ZM19.999,21.8C20.993,21.8 21.799,20.994 21.799,20C21.799,19.006 20.993,18.2 19.999,18.2C19.005,18.2 18.199,19.006 18.199,20C18.199,20.994 19.005,21.8 19.999,21.8ZM21.799,26.12C21.799,27.114 20.993,27.92 19.999,27.92C19.005,27.92 18.199,27.114 18.199,26.12C18.199,25.126 19.005,24.32 19.999,24.32C20.993,24.32 21.799,25.126 21.799,26.12Z" android:fillType="evenOdd" />
+</vector>

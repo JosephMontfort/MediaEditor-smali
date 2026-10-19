@@ -1,0 +1,94 @@
+.class public final Lna/p;
+.super Lna/d;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/io/Serializable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lna/d<",
+        "TK;TV;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final serialVersionUID:J
+
+
+# instance fields
+.field public final a:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TK;"
+        }
+    .end annotation
+.end field
+
+.field public final b:Lna/c$e;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Object;Lna/c$e;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lna/p;->a:Ljava/lang/Object;
+
+    iput-object p2, p0, Lna/p;->b:Lna/c$e;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getKey()Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TK;"
+        }
+    .end annotation
+
+    iget-object p0, p0, Lna/p;->a:Ljava/lang/Object;
+
+    return-object p0
+.end method
+
+.method public final getValue()Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TV;"
+        }
+    .end annotation
+
+    iget-object p0, p0, Lna/p;->b:Lna/c$e;
+
+    return-object p0
+.end method
+
+.method public final setValue(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TV;)TV;"
+        }
+    .end annotation
+
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    invoke-direct {p0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+
+    throw p0
+.end method

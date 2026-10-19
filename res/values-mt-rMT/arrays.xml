@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>Abjad</item>
+        <item>Blu skur</item>
+        <item>Blu ċar</item>
+        <item>Aħmar</item>
+        <item>Aħdar</item>
+        <item>Roża</item>
+        <item>Kannella</item>
+        <item>Griż</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Daħħal immaġini</item>
+        <item>Sfond trasparenti</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Divertiment</item>
+        <item>Żiffa</item>
+        <item>Ħolm</item>
+        <item>Sħab</item>
+        <item>Ħsibijiet</item>
+        <item>Blanzuni</item>
+        <item>Metamorfosi</item>
+        <item>Fond</item>
+        <item>Riflessjonijiet</item>
+        <item>Minimaliżmu</item>
+        <item>Misteru</item>
+        <item>Ċpar</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Sfond ġeometriku futurista</item>
+        <item>"Atmosfera ta' master prints qodma"</item>
+        <item>"Ibdel l-isfond f'tħażżiż"</item>
+        <item>"Sfondi fuq stil ta' akwarell"</item>
+        <item>Retro cyberpunk</item>
+        <item>Segmenti vertikali barra minn posthom</item>
+        <item>Tiżliġa sfukata</item>
+        <item>Sensazzjoni futuristika</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Low poly</item>
+        <item>Grif</item>
+        <item>Skeċċ</item>
+        <item>Akkwarell</item>
+        <item>Aħmar-Aħdar-Blu (RGB)</item>
+        <item>Blinds</item>
+        <item>Tieqa mċajpra</item>
+        <item>Teknoloġija</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Xifer ikkulurit</item>
+        <item>"Xifer b'linji miksurin"</item>
+        <item>Xifer florexxenti</item>
+        <item>Dell ikkulurit</item>
+        <item>Mewġa elettrika</item>
+        <item>Kurrent</item>
+        <item>Mewġ</item>
+        <item>Partiċelli</item>
+        <item>Test</item>
+        <item>Ġwienaħ</item>
+        <item>Anġlu</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>Ġenerali</item>
+        <item>Vjaġġi</item>
+        <item>Xogħol</item>
+        <item>Dokumenti</item>
+        <item>Tagħlim</item>
+        <item>Eżamijiet</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Sigurtà soċjali</item>
+        <item>Stqarrija tas-saħħa</item>
+        <item>Assigurazzjoni tas-saħħa</item>
+        <item>Dokument tal-identità</item>
+        <item>Permess tar-residenza</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>Ċan</item>
+        <item>Żewġ ċanijiet</item>
+        <item>Ċan iżgħar</item>
+        <item>Żewġ ċanijiet iżgħar</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Applikazzjoni</item>
+        <item>Xirka tal-istudenti</item>
+        <item>Xirka tal-istudenti għall-iskejjel primarji</item>
+        <item>Profil tax-xirka tal-istudenti</item>
+        <item>Daħla fl-università</item>
+        <item>NCEE</item>
+        <item>CV</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>Test tal-Ingliż tal-Università tal-Ewwel Livell</item>
+        <item>Test tal-Ingliż tal-Università tat-Tieni Livell</item>
+        <item>Test tal-Ingliż tal-Università tat-Tielet Livell</item>
+        <item>Ċertifikat tal-Putonghua tal-Ewwel Livell</item>
+        <item>Ċertifikat tal-Putonghua tat-Tieni Livell</item>
+        <item>Test tal-Lawrja tal-Ingliż</item>
+        <item>PET għall-universitajiet</item>
+        <item>PETS tat-Tielet Livell</item>
+        <item>Eżami Nazzjonali tal-Kompjuter tal-Ewwel Livell</item>
+        <item>Eżami Nazzjonali tal-Kompjuter tat-Tieni Livell</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>"Ċertifikat ta' għalliem tal-iskola primarja u sekondarja"</item>
+        <item>"Ċertifikat ta' għalliem"</item>
+        <item>Liċenzja tas-sewqan</item>
+        <item>"Permess ta' gwida"</item>
+        <item>Permess elettroniku tal-gwidi</item>
+        <item>Eżami ġudizzjarju nazzjonali</item>
+        <item>"Ċertifikat elettroniku ta' bennej tal-ewwel klassi"</item>
+        <item>"Ċertifikat ta' bennej tat-tieni klassi"</item>
+        <item>"Eżami ta' kontabbilista tal-ewwel livell"</item>
+        <item>Kontabbilistà bil-warrant</item>
+        <item>"Permess tal-gwida ta' Beijing"</item>
+        <item>Intermediate accounting title examination</item>
+        <item>"Eżami ta' kontabbilista anzjan"</item>
+        <item>Ċertifikat tal-kontabbiltà</item>
+        <item>"Eżami ta' kontabbilistà bil-warrant"</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>l-Istati Uniti tal-Amerika</item>
+        <item>il-Vjetnam</item>
+        <item>il-Ġappun</item>
+        <item>Hong Kong u l-Makaw</item>
+        <item>"il-Korea t'Isfel"</item>
+        <item>it-Tajlandja (turist)</item>
+        <item>it-Tajlandja (mal-wasla)</item>
+        <item>l-Indja</item>
+        <item>Iżrael</item>
+        <item>it-Tajwan</item>
+        <item>il-Malasja</item>
+        <item>in-Nova Żelanda</item>
+        <item>l-Italja</item>
+        <item>l-Arġentina</item>
+        <item>il-Brażil</item>
+        <item>l-Iżlanda</item>
+        <item>il-Kenja</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

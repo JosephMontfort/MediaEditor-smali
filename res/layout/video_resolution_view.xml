@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="@dimen/video_resolution_view_width" android:layout_height="@dimen/video_resolution_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_horizontal" android:layout_gravity="start|center" android:id="@id/text" android:layout_width="@dimen/video_resolution_text_width" android:layout_height="@dimen/video_resolution_text_height" android:text="@string/vlog_quality_resolution_1080p" android:layout_marginStart="@dimen/video_resolution_text_margin_start" style="@style/video_common_floating_button_text_style" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/arrow" android:layout_width="@dimen/video_resolution_arrow_size" android:layout_height="@dimen/video_resolution_arrow_size" android:src="@drawable/editor_ic_arrow_down" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/video_resolution_arrow_margin_end" />
+</merge>

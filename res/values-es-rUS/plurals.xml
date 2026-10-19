@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="filter_images_ratio_unsupport_v2">
+        <item quantity="other">Se filtraron %d elementos no compatibles</item>
+        <item quantity="one">Se filtró %d elemento no compatible</item>
+    </plurals>
+    <plurals name="filter_images_unsupport_v2">
+        <item quantity="other">Se filtraron %d elementos no compatibles</item>
+        <item quantity="one">Se filtró %d elemento no compatible</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_2">
+        <item quantity="other">Puede procesar hasta %d tareas al mismo tiempo. Espere a que se complete antes de añadir más.</item>
+        <item quantity="one">Puede procesar hasta %d tarea al mismo tiempo. Espere a que se complete antes de añadir más.</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_3">
+        <item quantity="other">Solo se admiten momentos en directo con una duración inferior a %d segundos. Seleccione otra foto e inténtelo de nuevo.</item>
+        <item quantity="one">Solo se admiten momentos en directo con una duración inferior a %d segundo. Seleccione otra foto e inténtelo de nuevo.</item>
+    </plurals>
+    <plurals name="mark_doodle_max_node">
+        <item quantity="other">Puede agregar hasta %d stickers</item>
+        <item quantity="one">Puede agregar hasta %d sticker</item>
+    </plurals>
+    <plurals name="mark_shape_max_node">
+        <item quantity="other">Agregue hasta %d formas</item>
+        <item quantity="one">Agregue hasta %d forma</item>
+    </plurals>
+    <plurals name="mark_signature_max_node">
+        <item quantity="other">Puede agregar hasta %d firmas</item>
+        <item quantity="one">Puede agregar hasta %d firma</item>
+    </plurals>
+    <plurals name="mark_text_max_node">
+        <item quantity="other">Puede agregar hasta %d cuadros de texto</item>
+        <item quantity="one">Puede agregar hasta %d cuadro de texto</item>
+    </plurals>
+    <plurals name="photo_crop_talkback_px">
+        <item quantity="other">%d píxeles</item>
+        <item quantity="one">%d píxel</item>
+    </plurals>
+    <plurals name="photo_editor_livephoto_enhance_notification_complete_msg">
+        <item quantity="other">Completado: %d tareas. Toque para ver.</item>
+        <item quantity="one">Completado: %d tarea. Toque para ver.</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_distortion_value">
+        <item quantity="other">Distorsión: %d</item>
+        <item quantity="one">Distorsión: %d</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_horizontal_value">
+        <item quantity="other">Horizontal: %d grados</item>
+        <item quantity="one">Horizontal: %d grado</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_scale_value">
+        <item quantity="other">Rotación: %d grados</item>
+        <item quantity="one">Rotación: %d grado</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_vertical_value">
+        <item quantity="other">Vertical: %d grados</item>
+        <item quantity="one">Vertical: %d grado</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg">
+        <item quantity="other">Generar el efecto puede tardar %d segundos. Salir de la aplicación no afectará al progreso. Recibirá una notificación cuando esté listo</item>
+        <item quantity="one">Generar el efecto puede tardar %d segundo. Salir de la aplicación no afectará al progreso. Recibirá una notificación cuando esté listo.</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit1">
+        <item quantity="other">No se puede procesar más de %d clips a la vez</item>
+        <item quantity="one">No se puede procesar más de %d clip a la vez</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit2">
+        <item quantity="other">No se puede procesar clips de más de %d minutos</item>
+        <item quantity="one">No se puede procesar clips de más de %d minuto</item>
+    </plurals>
+    <plurals name="video_editor_tip_track_limit">
+        <item quantity="other">Puede agregar hasta %d canciones</item>
+        <item quantity="one">Puede agregar hasta %d canción</item>
+    </plurals>
+    <plurals name="video_talkback_minutes">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="video_talkback_seconds">
+        <item quantity="other">%d segundos</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="video_tuning_audio_limit">
+        <item quantity="other">Puede procesar hasta %1$d minutos a la vez, o recortar el vídeo e intentarlo nuevamente</item>
+        <item quantity="one">Puede procesar hasta %1$d minuto a la vez, o recortar el vídeo e intentarlo nuevamente</item>
+    </plurals>
+    <plurals name="vlog_audio_origin_sound">
+        <item quantity="other">Audio original %1$d</item>
+        <item quantity="one">Audio original %1$d</item>
+    </plurals>
+    <plurals name="vlog_clip_cut_fail_min_time">
+        <item quantity="other">Los clips deben de ser de al menos %1$s segundos</item>
+        <item quantity="one">Los clips deben de ser de al menos %1$s segundo</item>
+    </plurals>
+    <plurals name="vlog_filter_audio_unsupport_audio_file">
+        <item quantity="other">Se filtraron %d archivos de audio no compatibles</item>
+        <item quantity="one">Se filtró %d archivo de audio no compatible</item>
+    </plurals>
+    <plurals name="vlog_filter_diy_lut_import_success_toast">
+        <item quantity="other">%1$d filtros importados con éxito</item>
+        <item quantity="one">%1$d filtro importado con éxito</item>
+    </plurals>
+    <plurals name="vlog_filter_no_support_nums">
+        <item quantity="other">Se filtraron %d elementos no compatibles</item>
+        <item quantity="one">Se filtró %d elemento no compatible</item>
+    </plurals>
+    <plurals name="vlog_generate_loading_notice2">
+        <item quantity="other">Quedan aproximadamente %s min. Puede seguir usando otras funciones mientras tanto.</item>
+        <item quantity="one">Queda aproximadamente %s min. Puede seguir usando otras funciones mientras tanto.</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_limit">
+        <item quantity="other">"La duración excede %d min. "</item>
+        <item quantity="one">"La duración excede %d min. "</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_no_support_nums">
+        <item quantity="other">Se filtraron %d elementos no compatibles</item>
+        <item quantity="one">Se filtró %d elemento no compatible</item>
+    </plurals>
+    <plurals name="vlog_no_support_duration">
+        <item quantity="other">No se pudo importar. La duración supera %d min.</item>
+        <item quantity="one">No se pudo importar. La duración supera %d min.</item>
+    </plurals>
+    <plurals name="vlog_talkback_crop_scale_value">
+        <item quantity="other">Girar %d grados</item>
+        <item quantity="one">Girar %d grado</item>
+    </plurals>
+    <plurals name="vlog_template_support_count_desc">
+        <item quantity="other">%d clips</item>
+        <item quantity="one">%d clip</item>
+    </plurals>
+</resources>

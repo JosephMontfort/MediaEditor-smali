@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_horizontal" android:id="@id/content_layout" android:layout_width="@dimen/beauty_recycler_view_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/px_31">
+        <ImageView android:id="@id/iv_manual_leg_slim" android:background="@drawable/sl_common_beauty_item_background" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_action_manual_leg_slim" android:scaleType="center" android:contentDescription="@string/beauty_body_beauty_category_heighten" android:layout_marginEnd="@dimen/common_recycler_view_padding" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <micamx.compat.ui.miuix.widget.HyperProgressSeekBar android:id="@id/seek_bar" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_33" android:layout_marginStart="@dimen/px_44" android:layout_marginEnd="@dimen/px_44" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/editor_hyper_label_seek_bar" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:padding="@dimen/photo_crop_menu_icon_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/photo_crop_menu_button_text_size" android:textColor="@drawable/photo_crop_aspect_radio_text_color_selector" android:id="@id/tv_aspect_ratio" android:background="@drawable/photo_crop_aspect_radio_background_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/photo_crop_menu_button_max_width" android:fontFamily="MiSans" android:paddingHorizontal="@dimen/photo_crop_menu_icon_margin_right" android:paddingVertical="@dimen/photo_crop_menu_reset_button_margin_top" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

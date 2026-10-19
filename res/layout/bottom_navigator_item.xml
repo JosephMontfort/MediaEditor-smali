@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/navigation_icon" android:duplicateParentState="true" android:layout_width="28.0dip" android:layout_height="28.0dip" android:contentDescription="@null" />
+    <TextView android:textSize="@dimen/miuix_font_size_footnote3" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/navigation_title" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="@string/miuix_font_weight_footnote3" android:textDirection="locale" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" android:hyphenationFrequency="fullFast" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="28.0dip" android:width="28.0dip" android:viewportWidth="28.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$adjust_vibrance__0" android:pathData="M4,17.944C3.518,16.723 3.25,15.394 3.25,14.001C3.25,12.608 3.518,11.278 4,10.057L4,17.944Z" />
+    <path android:fillColor="@drawable/$adjust_vibrance__1" android:pathData="M7,22.156C6.231,21.495 5.557,20.728 5,19.877L5,8.125C5.557,7.273 6.231,6.506 7,5.845L7,22.156Z" />
+    <path android:fillColor="@drawable/$adjust_vibrance__2" android:pathData="M11,24.322C10.301,24.12 9.632,23.849 9,23.516L9,4.485C9.632,4.153 10.301,3.882 11,3.679L11,24.322Z" />
+    <path android:fillColor="@drawable/$adjust_vibrance__3" android:pathData="M14,3.251C14.337,3.251 14.671,3.269 15,3.299L15,24.702C14.671,24.733 14.337,24.751 14,24.751C13.663,24.751 13.329,24.733 13,24.702L13,3.299C13.329,3.269 13.663,3.251 14,3.251Z" />
+    <path android:fillColor="@drawable/$adjust_vibrance__4" android:pathData="M17,3.679C17.699,3.882 18.368,4.153 19,4.485L19,23.516C18.368,23.849 17.699,24.12 17,24.322L17,3.679Z" />
+    <path android:fillColor="@drawable/$adjust_vibrance__5" android:pathData="M21,5.845C21.769,6.506 22.443,7.273 23,8.125L23,19.877C22.443,20.728 21.769,21.495 21,22.156L21,5.845Z" />
+    <path android:fillColor="@drawable/$adjust_vibrance__6" android:pathData="M24,10.057C24.482,11.278 24.75,12.608 24.75,14.001C24.75,15.394 24.482,16.723 24,17.944V10.057Z" />
+</vector>

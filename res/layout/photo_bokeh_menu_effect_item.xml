@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bokeh_effect_item" android:background="@drawable/photo_bokeh_round_background2" android:layout_width="@dimen/photo_bokeh_menu_effect_item_width" android:layout_height="@dimen/photo_bokeh_menu_effect_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.gallery.editor.ui.view.RoundImageView android:id="@id/preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_alignParentBottom="true" app:borderRadius="@dimen/corners_small" />
+    <TextView android:textSize="@dimen/photo_bokeh_menu_effect_item_text_size" android:textColor="@color/white_95_transparent" android:gravity="start" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/photo_bokeh_menu_effect_item_text_margin_bottom" android:fontFamily="MiSans" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

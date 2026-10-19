@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/motion_photo_clip_axis_icon_height" android:width="@dimen/motion_photo_clip_axis_icon_width" android:viewportWidth="20.0" android:viewportHeight="56.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffce16" android:pathData="M20,9.6C20,6.24 20,4.56 19.346,3.276C18.771,2.147 17.853,1.229 16.724,0.654C15.441,0 13.76,0 10.4,0H0V56H10.4C13.76,56 15.441,56 16.724,55.346C17.853,54.771 18.771,53.853 19.346,52.724C20,51.44 20,49.76 20,46.4V9.6Z" />
+    <path android:fillColor="#ff000000" android:pathData="M10,28m3,-0a3,3 0,1 1,-6 -0a3,3 0,1 1,6 -0" />
+</vector>

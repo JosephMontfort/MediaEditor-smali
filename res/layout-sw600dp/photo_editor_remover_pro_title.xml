@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:gravity="center" android:id="@id/btn_remover_pro" android:layout_width="@dimen/px_121" android:layout_height="@dimen/px_72" android:contentDescription="@string/photo_editor_remover_pro_type" android:layout_marginEnd="@dimen/px_193" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.miui.gallery.editor.ui.view.DownloadView android:id="@id/item_download" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/px_19" app:downloadingDrawable="@drawable/ic_pro_loading" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/btn_remover_pro" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

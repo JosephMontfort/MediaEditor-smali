@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>Ақ</item>
+        <item>Қара көк</item>
+        <item>Ашық көк</item>
+        <item>Қызыл</item>
+        <item>Жасыл</item>
+        <item>Қызғылт</item>
+        <item>Қоңыр</item>
+        <item>Сұр</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Суретті импорттау</item>
+        <item>Мөлдір фон</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Бос уақыт</item>
+        <item>Желеуік</item>
+        <item>Қиялдар</item>
+        <item>Бұлттар</item>
+        <item>Ойлар</item>
+        <item>Бүршіктер</item>
+        <item>Метаморфоз</item>
+        <item>Тереңдік</item>
+        <item>Шағылулар</item>
+        <item>Минималист</item>
+        <item>Жұмбақ</item>
+        <item>Тұман</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Футуристік геометриалық фон</item>
+        <item>Ескі гравюралардың рухы</item>
+        <item>Фондарды нобайға айналдырыңыз</item>
+        <item>Акварель стилінің фондары</item>
+        <item>Киберпанк ретро</item>
+        <item>Қате орналастырылған тік сегменттер</item>
+        <item>Бұлыңғыр</item>
+        <item>Футуристік сезім</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Ірі полигоналды</item>
+        <item>Офорт</item>
+        <item>Сурет</item>
+        <item>Акварель</item>
+        <item>RGB</item>
+        <item>Перделер</item>
+        <item>Тұманды терезе</item>
+        <item>Технологиялар</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Түсті контур</item>
+        <item>Үзік сызық контуры</item>
+        <item>Флуоресцентті контур</item>
+        <item>Түсті көлеңке</item>
+        <item>Электрлік толқын</item>
+        <item>Ағым</item>
+        <item>Толқындар</item>
+        <item>Бөлшектер</item>
+        <item>Мәтін</item>
+        <item>Қанаттар</item>
+        <item>Періште</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>Жалпы</item>
+        <item>Саяхат</item>
+        <item>Жұмыс</item>
+        <item>Құжаттар</item>
+        <item>Білім</item>
+        <item>Емтихандар</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Әлеуметтік қамтамасыз ету</item>
+        <item>Денсаулық мәлімдемесі</item>
+        <item>Медициналық сақтандыру</item>
+        <item>ID</item>
+        <item>Тұруға ықтиярхат</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>Бір цун</item>
+        <item>Екі цун</item>
+        <item>Кішірек бір цун</item>
+        <item>Кішірек екі цун</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Қабылдау туралы өтініш</item>
+        <item>Студенттік желі</item>
+        <item>Бастауыш мектептерге арналған оқушылар желісі</item>
+        <item>Студенттік желі профилі</item>
+        <item>Университетке қабылдау</item>
+        <item>NCEE</item>
+        <item>Резюме</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>Университет ағылшын тілінен тест 1</item>
+        <item>Университет ағылшын тілінен тест 2</item>
+        <item>Университет ағылшын тілінен тест 3</item>
+        <item>Путунхуа біліктілік сынағы 1</item>
+        <item>Путунхуа біліктілік сынағы 2</item>
+        <item>Ағылшын тілі дәрежесі бойынша тест</item>
+        <item>Колледждерге арналған PET</item>
+        <item>PETS 3-деңгей</item>
+        <item>Ұлттық компьютерлік дәреже емтиханы 1</item>
+        <item>Ұлттық компьютерлік дәреже емтиханы 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>Бастауыш және орта мектеп мұғалімдерін аттестаттау</item>
+        <item>Мұғалімдерді аттестаттау</item>
+        <item>Жүргізуші куәлігі</item>
+        <item>Гид рұқсаты</item>
+        <item>Электронды гид рұқсаты</item>
+        <item>Ұлттық сот сараптамасы</item>
+        <item>Бірінші дәрежелі электронды конструктор сертификаты</item>
+        <item>Екінші дәрежелі құрылысшы сертификаты</item>
+        <item>Кіші бухгалтерлік аттестатқа емтихан</item>
+        <item>Сертификатталған бухгалтер</item>
+        <item>Бейжің гид рұқсаты</item>
+        <item>Орта буын бухгалтерлік аттестатқа емтихан</item>
+        <item>Бас бухгалтерлік аттестатқа емтихан</item>
+        <item>Бухгалтерлік есеп біліктілігі туралы сертификат</item>
+        <item>Сертификатталған бухгалтерлік емтихан</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>Америка Құрама Штаттары</item>
+        <item>Вьетнам</item>
+        <item>Жапония</item>
+        <item>Гонконг және Макао</item>
+        <item>Оңтүстік Корея</item>
+        <item>Тайланд (турист)</item>
+        <item>Таиланд (келу кезінде)</item>
+        <item>Үндістан</item>
+        <item>Израиль</item>
+        <item>Тайвань</item>
+        <item>Малайзия</item>
+        <item>Жаңа Зеландия</item>
+        <item>Италия</item>
+        <item>Аргентина</item>
+        <item>Бразилия</item>
+        <item>Исландия</item>
+        <item>Кения</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/display_guide_line_top" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/photo_editor_default_title_line_height" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/display_guide_line_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/photo_editor_default_menu_line_size" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/bottom_guideline" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/photo_editor_default_menu_navigation_line_size" />
+    <FrameLayout android:id="@id/document_title_area" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/display_guide_line_top" app:layout_constraintTop_toTopOf="parent" />
+    <com.miui.mediaeditor.docphoto.view.ProtectiveFrameLayout android:id="@id/render_zone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/display_guide_line_bottom" app:layout_constraintTop_toBottomOf="@id/display_guide_line_top" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/document_anim_bottom_area" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="@id/display_guide_line_bottom">
+        <FrameLayout android:id="@id/document_menu_area" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/document_navi_area" app:layout_constraintTop_toTopOf="parent" />
+        <FrameLayout android:id="@id/document_navi_area" android:layout_width="fill_parent" android:layout_height="@dimen/photo_editor_default_menu_navigation_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.miui.mediaeditor.docphoto.view.DocCorrectionView android:id="@id/document_raw_anim_area" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

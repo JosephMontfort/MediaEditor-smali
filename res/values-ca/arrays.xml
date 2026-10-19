@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>Blanc</item>
+        <item>Blau fosc</item>
+        <item>Blau clar</item>
+        <item>Vermell</item>
+        <item>Verd</item>
+        <item>Rosa</item>
+        <item>Marró</item>
+        <item>Gris</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Importa imatge</item>
+        <item>Fons transparent</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Oci</item>
+        <item>Brisa</item>
+        <item>Somnis</item>
+        <item>Núvols</item>
+        <item>Pensaments</item>
+        <item>Brots</item>
+        <item>Metamorfosi</item>
+        <item>Profunditat</item>
+        <item>Reflexos</item>
+        <item>Minimalista</item>
+        <item>Misteri</item>
+        <item>Boira</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Fons geomètrics futuristes</item>
+        <item>"Ambient d'estampats antics mestres"</item>
+        <item>Converteix els fons en esbossos</item>
+        <item>Fons estil aquarel·la</item>
+        <item>Cyberpunk retro</item>
+        <item>Segments verticals fora de lloc</item>
+        <item>Bruma borrosa</item>
+        <item>Tacte futurista</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Polígons</item>
+        <item>Gravat</item>
+        <item>Esbós</item>
+        <item>Aquarel·la</item>
+        <item>RGB</item>
+        <item>Persianes</item>
+        <item>Finestra boira</item>
+        <item>Tecnologia</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Esquema de colors</item>
+        <item>Esbós discontinu</item>
+        <item>Esquema fluorescent</item>
+        <item>Ombra de colors</item>
+        <item>Onada elèctrica</item>
+        <item>Actual</item>
+        <item>Onades</item>
+        <item>Partícules</item>
+        <item>Text</item>
+        <item>Ales</item>
+        <item>Àngel</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>General</item>
+        <item>Viatges</item>
+        <item>Feina</item>
+        <item>Documents</item>
+        <item>Educació</item>
+        <item>Exàmens</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Seguretat social</item>
+        <item>Declaració de salut</item>
+        <item>Assegurança mèdica</item>
+        <item>ID</item>
+        <item>Permís de residència</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>Un cun</item>
+        <item>Dos cuns</item>
+        <item>Més petit que un cun</item>
+        <item>Més petit que dos cuns</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Admission application</item>
+        <item>"Xarxa d'estudiants"</item>
+        <item>"Xarxa d'estudiants per a escoles de primària"</item>
+        <item>"Perfil de la xarxa d'estudiants"</item>
+        <item>Admissió a la universitat</item>
+        <item>NCEE</item>
+        <item>CV</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>"Prova d'anglès universitari 1"</item>
+        <item>"Prova d'anglès universitari 2"</item>
+        <item>"Prova d'anglès universitari 3"</item>
+        <item>Prova de competència en mandarí 1</item>
+        <item>Prova de competència en mandarí 2</item>
+        <item>"Prova d'anglès de grau"</item>
+        <item>PET per a universitats</item>
+        <item>PETS nivell 3</item>
+        <item>Examen Nacional de Classificació Informàtica 1</item>
+        <item>Examen Nacional de Classificació Informàtica 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>Certificació de professorat de primària i secundària</item>
+        <item>Certificació de professorat</item>
+        <item>Carnet de conduir</item>
+        <item>Permís de guia</item>
+        <item>Permís de guia electrònic</item>
+        <item>Examen judicial nacional</item>
+        <item>Certificat electrònic de constructor de primera classe</item>
+        <item>Certificat de constructor de segona classe</item>
+        <item>Examen de títol de comptabilitat júnior</item>
+        <item>Comptable públic certificat</item>
+        <item>Permís de guia de Pequín</item>
+        <item>Examen de títol de comptabilitat intermedi</item>
+        <item>Examen de títol superior de comptabilitat</item>
+        <item>Certificat de qualificació comptable</item>
+        <item>Examen de comptador públic certificat</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>Estats Units</item>
+        <item>Vietnam</item>
+        <item>Japó</item>
+        <item>Hong Kong i Macau</item>
+        <item>Corea del Sud</item>
+        <item>Tailàndia (turista)</item>
+        <item>Tailàndia (arribada)</item>
+        <item>Índia</item>
+        <item>Israel</item>
+        <item>Taiwan</item>
+        <item>Malàisia</item>
+        <item>Nova Zelanda</item>
+        <item>Itàlia</item>
+        <item>Argentina</item>
+        <item>Brasil</item>
+        <item>Islàndia</item>
+        <item>Kènia</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/vlog_template_list_download_bg_color" />
+            <size android:height="@dimen/vlog_template_list_content_holder_radius" android:width="@dimen/vlog_template_list_content_holder_radius" />
+        </shape>
+    </item>
+</selector>

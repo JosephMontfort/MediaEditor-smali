@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vlog_menu_nav_item_text_size">15.110992dip</dimen>
+    <dimen name="vlog_menu_nav_pro_icon_height">24.888977dip</dimen>
+    <dimen name="vlog_menu_nav_pro_icon_width">42.666992dip</dimen>
+    <dimen name="vlog_resolution_item_divider_height">14.221985dip</dimen>
+    <dimen name="vlog_resolution_item_divider_margin">6.666992dip</dimen>
+    <dimen name="vlog_resolution_item_divider_width">1.3329773dip</dimen>
+    <dimen name="vlog_resolution_item_estimate_size_tv_height">22.221985dip</dimen>
+    <dimen name="vlog_resolution_item_estimate_size_tv_margin_start">35.556dip</dimen>
+    <dimen name="vlog_resolution_item_estimate_size_tv_margin_top">41.777985dip</dimen>
+    <dimen name="vlog_resolution_item_estimate_size_tv_max_width">191.111dip</dimen>
+    <dimen name="vlog_resolution_item_estimate_size_tv_text_size">14.221985dip</dimen>
+    <dimen name="vlog_resolution_item_first_line_height">22.221985dip</dimen>
+    <dimen name="vlog_resolution_item_first_line_margin_start">35.556dip</dimen>
+    <dimen name="vlog_resolution_item_first_line_margin_top">17.777985dip</dimen>
+    <dimen name="vlog_resolution_item_first_line_text_size">16.0dip</dimen>
+    <dimen name="vlog_resolution_item_height">81.777985dip</dimen>
+    <dimen name="vlog_resolution_item_selected_icon_height">24.888dip</dimen>
+    <dimen name="vlog_resolution_item_selected_icon_margin_end">35.556dip</dimen>
+    <dimen name="vlog_resolution_item_selected_icon_width">24.888dip</dimen>
+    <dimen name="vlog_resolution_item_tv_resolution_max_width">68.88898dip</dimen>
+</resources>

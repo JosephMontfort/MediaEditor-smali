@@ -1,0 +1,21 @@
+{
+  "name": "salad",
+  "cover": "cover.png",
+  "music": "salad.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 8866,
+      "oriDuration": 8866,
+      "4koriDuration": 8866,
+      "tag": "1621-1796",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ]
+    }
+  ]
+}

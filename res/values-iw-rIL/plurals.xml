@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="filter_images_ratio_unsupport_v2">
+        <item quantity="other">סוננו %d פריטים שאינם נתמכים</item>
+        <item quantity="one">סונן פריט %d שאינו נתמך</item>
+        <item quantity="two">סוננו %d פריטים שאינם נתמכים</item>
+    </plurals>
+    <plurals name="filter_images_unsupport_v2">
+        <item quantity="other">סוננו %d פריטים שאינם נתמכים</item>
+        <item quantity="one">סונן פריט %d שאינו נתמך</item>
+        <item quantity="two">סוננו %d פריטים שאינם נתמכים</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_2">
+        <item quantity="other">ניתן לעבד עד %d משימות בו-זמנית. יש להמתין להשלמת המשימות לפני הוספת משימות נוספות.</item>
+        <item quantity="one">ניתן לעבד עד משימה %d בו-זמנית. יש להמתין להשלמת המשימה לפני הוספת משימות נוספות.</item>
+        <item quantity="two">ניתן לעבד עד %d משימות בו-זמנית. יש להמתין להשלמת המשימות לפני הוספת משימות נוספות.</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_3">
+        <item quantity="other">נתמכים רגעים חיים של עד %d שניות בלבד. יש לבחור תמונה אחרת ולנסות שוב.</item>
+        <item quantity="one">נתמכים רגעים חיים של עד שנייה %d בלבד. יש לבחור תמונה אחרת ולנסות שוב.</item>
+        <item quantity="two">נתמכים רגעים חיים של עד %d שניות בלבד. יש לבחור תמונה אחרת ולנסות שוב.</item>
+    </plurals>
+    <plurals name="mark_doodle_max_node">
+        <item quantity="other">ניתן להוסיף עד %d מדבקות</item>
+        <item quantity="one">ניתן להוסיף עד מדבקה %d</item>
+        <item quantity="two">ניתן להוסיף עד %d מדבקות</item>
+    </plurals>
+    <plurals name="mark_shape_max_node">
+        <item quantity="other">להוסיף עד %d צורות</item>
+        <item quantity="one">להוסיף עד צורה %d</item>
+        <item quantity="two">להוסיף עד %d צורות</item>
+    </plurals>
+    <plurals name="mark_signature_max_node">
+        <item quantity="other">ניתן להוסיף עד %d חתימות</item>
+        <item quantity="one">ניתן להוסיף עד חתימה %d</item>
+        <item quantity="two">ניתן להוסיף עד %d חתימות</item>
+    </plurals>
+    <plurals name="mark_text_max_node">
+        <item quantity="other">ניתן להוסיף עד %d תיבות טקסט</item>
+        <item quantity="one">ניתן להוסיף עד תיבת טקסט %d</item>
+        <item quantity="two">ניתן להוסיף עד %d תיבות טקסט</item>
+    </plurals>
+    <plurals name="photo_crop_talkback_px">
+        <item quantity="other">%d פיקסלים</item>
+        <item quantity="one">פיקסל %d</item>
+        <item quantity="two">%d פיקסלים</item>
+    </plurals>
+    <plurals name="photo_editor_livephoto_enhance_notification_complete_msg">
+        <item quantity="other">הושלמו %d משימות. יש להקיש לצפייה.</item>
+        <item quantity="one">הושלמה משימה %d. יש להקיש לצפייה.</item>
+        <item quantity="two">הושלמו %d משימות. יש להקיש לצפייה.</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_distortion_value">
+        <item quantity="other">עיוות: %d</item>
+        <item quantity="one">עיוות: %d</item>
+        <item quantity="two">עיוות: %d</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_horizontal_value">
+        <item quantity="other">אופקי: %d מעלות</item>
+        <item quantity="one">אופקי: מעלה %d</item>
+        <item quantity="two">אופקי: %d מעלות</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_scale_value">
+        <item quantity="other">סיבוב: %d מעלות</item>
+        <item quantity="one">סיבוב: מעלה %d</item>
+        <item quantity="two">סיבוב: %d מעלות</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_vertical_value">
+        <item quantity="other">אנכי: %d מעלות</item>
+        <item quantity="one">אנכי: מעלה %d</item>
+        <item quantity="two">אנכי: %d מעלות</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg">
+        <item quantity="other">יצירת האפקט עשויה לקחת %d שניות. יציאה מהיישום לא תשפיע על ההתקדמות. תישלח התראה כשהאפקט יהיה מוכן.</item>
+        <item quantity="one">יצירת האפקט עשויה לקחת שנייה %d. יציאה מהיישום לא תשפיע על ההתקדמות. תישלח התראה כשהאפקט יהיה מוכן.</item>
+        <item quantity="two">יצירת האפקט עשויה לקחת %d שניות. יציאה מהיישום לא תשפיע על ההתקדמות. תישלח התראה כשהאפקט יהיה מוכן.</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit1">
+        <item quantity="other">לא ניתן לעבד יותר מ-%d קליפים בכל פעם</item>
+        <item quantity="one">לא ניתן לעבד יותר מקליפ %d בכל פעם</item>
+        <item quantity="two">לא ניתן לעבד יותר מ-%d קליפים בכל פעם</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit2">
+        <item quantity="other">לא ניתן לעבד קליפים באורך שעולה על %d דקות</item>
+        <item quantity="one">לא ניתן לעבד קליפים באורך שעולה על דקה %d</item>
+        <item quantity="two">לא ניתן לעבד קליפים באורך שעולה על %d דקות</item>
+    </plurals>
+    <plurals name="video_editor_tip_track_limit">
+        <item quantity="other">ניתן להוסיף עד %d רצועות</item>
+        <item quantity="one">ניתן להוסיף עד רצועה %d</item>
+        <item quantity="two">ניתן להוסיף עד %d רצועות</item>
+    </plurals>
+    <plurals name="video_tuning_audio_limit">
+        <item quantity="other">ניתן לעבד עד %1$d דקות בכל פעם, או לבצע חיתוך של הסרטון ולנסות שוב</item>
+        <item quantity="one">ניתן לעבד עד דקה %1$d בכל פעם, או לבצע חיתוך של הסרטון ולנסות שוב</item>
+        <item quantity="two">ניתן לעבד עד %1$d דקות בכל פעם, או לבצע חיתוך של הסרטון ולנסות שוב</item>
+    </plurals>
+    <plurals name="vlog_audio_origin_sound">
+        <item quantity="other">השמע המקורי %1$d</item>
+        <item quantity="one">השמע המקורי %1$d</item>
+        <item quantity="two">השמע המקורי %1$d</item>
+    </plurals>
+    <plurals name="vlog_clip_cut_fail_min_time">
+        <item quantity="other">קליפים חייבים להיות באורך של %1$s שניות לפחות</item>
+        <item quantity="one">קליפים חייבים להיות באורך של שנייה %1$s לפחות</item>
+        <item quantity="two">קליפים חייבים להיות באורך של %1$s שניות לפחות</item>
+    </plurals>
+    <plurals name="vlog_filter_audio_unsupport_audio_file">
+        <item quantity="other">סוננו %d קובצי שמע שלא נתמכים</item>
+        <item quantity="one">סונן קובץ שמע %d שלא נתמך</item>
+        <item quantity="two">סוננו %d קובצי שמע שלא נתמכים</item>
+    </plurals>
+    <plurals name="vlog_filter_diy_lut_import_success_toast">
+        <item quantity="other">%1$d מסננים יובאו בהצלחה</item>
+        <item quantity="one">מסנן %1$d יובא בהצלחה</item>
+        <item quantity="two">%1$d מסננים יובאו בהצלחה</item>
+    </plurals>
+    <plurals name="vlog_filter_no_support_nums">
+        <item quantity="other">סוננו %d פריטים שאינם נתמכים</item>
+        <item quantity="one">סונן פריט %d שאינו נתמך</item>
+        <item quantity="two">סוננו %d פריטים שאינם נתמכים</item>
+    </plurals>
+    <plurals name="vlog_generate_loading_notice2">
+        <item quantity="other">נשארו כ-%s דקות. בינתיים ניתן להמשיך ולהשתמש במאפיינים האחרים.</item>
+        <item quantity="one">נשארה כדקה %s. בינתיים ניתן להמשיך ולהשתמש במאפיינים האחרים.</item>
+        <item quantity="two">נשארו כ-%s דקות. בינתיים ניתן להמשיך ולהשתמש במאפיינים האחרים.</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_limit">
+        <item quantity="other">"כעת משך הזמן עולה על %d דקות. "</item>
+        <item quantity="one">"כעת משך הזמן עולה על דקה %d. "</item>
+        <item quantity="two">"כעת משך הזמן עולה על %d דקות. "</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_no_support_nums">
+        <item quantity="other">סוננו %d פריטים שאינם נתמכים</item>
+        <item quantity="one">סונן פריט %d שאינו נתמך</item>
+        <item quantity="two">סוננו %d פריטים שאינם נתמכים</item>
+    </plurals>
+    <plurals name="vlog_no_support_duration">
+        <item quantity="other">לא ניתן לייבא. משך הזמן עולה על %d דקות.</item>
+        <item quantity="one">לא ניתן לייבא. משך הזמן עולה על דקה %d.</item>
+        <item quantity="two">לא ניתן לייבא. משך הזמן עולה על %d דקות.</item>
+    </plurals>
+    <plurals name="vlog_talkback_crop_scale_value">
+        <item quantity="other">סיבוב ב-%d מעלות</item>
+        <item quantity="one">סיבוב במעלה %d</item>
+        <item quantity="two">סיבוב ב-%d מעלות</item>
+    </plurals>
+    <plurals name="vlog_template_support_count_desc">
+        <item quantity="other">%d סרטונים</item>
+        <item quantity="one">סרטון %d</item>
+        <item quantity="two">%d סרטונים</item>
+    </plurals>
+    <plurals name="legendary_render_notice_v2">
+        <item quantity="other">"העיבוד ייקח כ-%1$d שניות. התהליך יכול להימשך ברקע ללא השפעה על העיבוד.
+ניתן לבדוק את הסטטוס תחת \"משימות אחרונות\"."</item>
+        <item quantity="one">"העיבוד ייקח כשנייה %1$d. התהליך יכול להימשך ברקע ללא השפעה על העיבוד.
+ניתן לבדוק את הסטטוס תחת \"משימות אחרונות\"."</item>
+        <item quantity="two">"העיבוד ייקח כ-%1$d שניות. התהליך יכול להימשך ברקע ללא השפעה על העיבוד.
+ניתן לבדוק את הסטטוס תחת \"משימות אחרונות\"."</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_cancel_dialog_notice">
+        <item quantity="other">השתמשת %d פעמים בחינם. האם להפסיק בכל זאת?</item>
+        <item quantity="one">השתמשת פעם %d בחינם. האם להפסיק בכל זאת?</item>
+        <item quantity="two">השתמשת %d פעמים בחינם. האם להפסיק בכל זאת?</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_cancel_dialog_notice_2">
+        <item quantity="other">ניצלת %d נקודות. האם להפסיק בכל זאת?</item>
+        <item quantity="one">ניצלת נקודה %d. האם להפסיק בכל זאת?</item>
+        <item quantity="two">ניצלת %d נקודות. האם להפסיק בכל זאת?</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_point_cost_hint">
+        <item quantity="other">העלות תהיה %d נקודות</item>
+        <item quantity="one">העלות תהיה נקודה %d</item>
+        <item quantity="two">העלות תהיה %d נקודות</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_remaining_count">
+        <item quantity="other">%d פעמים</item>
+        <item quantity="one">פעם %d</item>
+        <item quantity="two">%d פעמים</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_total_count">
+        <item quantity="other">%d פעמים</item>
+        <item quantity="one">פעם %d</item>
+        <item quantity="two">%d פעמים</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg_v2">
+        <item quantity="other">זה לוקח בערך %d שניות. יש להקיש על \"להמתין\" כדי להמשיך ברקע. תקבלו התראה כאשר המשימה תושלם.</item>
+        <item quantity="one">זה לוקח בערך שנייה %d. יש להקיש על \"להמתין\" כדי להמשיך ברקע. תקבלו התראה כאשר המשימה תושלם.</item>
+        <item quantity="two">זה לוקח בערך %d שניות. יש להקיש על \"להמתין\" כדי להמשיך ברקע. תקבלו התראה כאשר המשימה תושלם.</item>
+    </plurals>
+</resources>

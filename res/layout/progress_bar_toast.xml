@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/progress_toast_text_size" android:textColor="@color/on_surface" android:gravity="center" android:id="@id/progress_bar_toast" android:background="@drawable/progress_bar_toast_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/progress_toast_bg_width" android:fontFamily="MiSans" android:paddingStart="@dimen/progress_toast_horizontal_padding" android:paddingEnd="@dimen/progress_toast_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

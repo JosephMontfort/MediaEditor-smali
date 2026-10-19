@@ -1,0 +1,81 @@
+.class public final Lja0/a;
+.super Lqo0/d;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lqo0/f;
+    c = "com.miui.mediaeditor.video.audio.usecase.DefaultAudioUseCase"
+    f = "DefaultAudioUseCase.kt"
+    l = {
+        0x29c,
+        0x2ae
+    }
+    m = "addAudioClipInternal"
+.end annotation
+
+
+# instance fields
+.field public d:Lja0/b;
+
+.field public e:Lza0/a;
+
+.field public f:Lvb0/d;
+
+.field public g:Lti0/a;
+
+.field public h:Z
+
+.field public i:Z
+
+.field public synthetic j:Ljava/lang/Object;
+
+.field public final synthetic k:Lja0/b;
+
+.field public l:I
+
+
+# direct methods
+.method public constructor <init>(Lja0/b;Lqo0/d;)V
+    .locals 0
+
+    iput-object p1, p0, Lja0/a;->k:Lja0/b;
+
+    invoke-direct {p0, p2}, Lqo0/d;-><init>(Loo0/f;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final u(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 6
+
+    iput-object p1, p0, Lja0/a;->j:Ljava/lang/Object;
+
+    iget p1, p0, Lja0/a;->l:I
+
+    const/high16 v0, -0x80000000
+
+    or-int/2addr p1, v0
+
+    iput p1, p0, Lja0/a;->l:I
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    iget-object v0, p0, Lja0/a;->k:Lja0/b;
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x0
+
+    move-object v5, p0
+
+    invoke-virtual/range {v0 .. v5}, Lja0/b;->G(Lza0/a;Lvb0/d;ZZLqo0/d;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method

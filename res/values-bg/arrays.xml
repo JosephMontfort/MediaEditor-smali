@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>Бяло</item>
+        <item>Тъмно синьо</item>
+        <item>Светло синьо</item>
+        <item>Червено</item>
+        <item>Зелено</item>
+        <item>Розово</item>
+        <item>Кафяво</item>
+        <item>Сиво</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Внасяне на изображение</item>
+        <item>Прозрачен фон</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Свободно време</item>
+        <item>Бриз</item>
+        <item>Сънища</item>
+        <item>Облаци</item>
+        <item>Мисли</item>
+        <item>Цветя</item>
+        <item>Метаморфоза</item>
+        <item>Дълбочина</item>
+        <item>Отражения</item>
+        <item>Минималистично</item>
+        <item>Мистерия</item>
+        <item>Мъгла</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Футуристичен геометричен фон</item>
+        <item>Атмосфера на класически принтове</item>
+        <item>Превърнете фоновете в скици</item>
+        <item>Фонове в акварелен стил</item>
+        <item>Киберпънк ретро</item>
+        <item>Разместени вертикални сегменти</item>
+        <item>Неясно замъгляване</item>
+        <item>Футуристично усещане</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Полигон</item>
+        <item>Издълбаване</item>
+        <item>Скица</item>
+        <item>Акварел</item>
+        <item>RGB</item>
+        <item>Щори</item>
+        <item>Замъглен прозорец</item>
+        <item>Технология</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Оцветен контур</item>
+        <item>Прекъснат контур</item>
+        <item>Флуоресцентен контур</item>
+        <item>Оцветена сянка</item>
+        <item>Електрическа вълна</item>
+        <item>Течение</item>
+        <item>Вълни</item>
+        <item>Частици</item>
+        <item>Текст</item>
+        <item>Крила</item>
+        <item>Ангел</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>Основни</item>
+        <item>Пътуване</item>
+        <item>Работа</item>
+        <item>Документи</item>
+        <item>Образование</item>
+        <item>Изпити</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Социално осигуряване</item>
+        <item>Здравен статус</item>
+        <item>Медицинска застраховка</item>
+        <item>Документ за самоличност</item>
+        <item>Разрешение за пребиваване</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>Един цун</item>
+        <item>Две хитрини</item>
+        <item>По-малко от един цун</item>
+        <item>По-малко от два цуна</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Заявление за прием</item>
+        <item>Студентска мрежа</item>
+        <item>Ученическата мрежа за начални училища</item>
+        <item>Профил на студентската мрежа</item>
+        <item>Прием в университет</item>
+        <item>NCEE</item>
+        <item>Поднови</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>Тест 1 по английски език в колеж</item>
+        <item>Тест 2 по английски език в колеж</item>
+        <item>Тест 3 по английски език в колеж</item>
+        <item>Тест 1 за владеене на путунхуа</item>
+        <item>Тест 2 за владеене на путунхуа</item>
+        <item>Тест за степен на владеене на английски език</item>
+        <item>PET за колежи</item>
+        <item>PETS ниво 3</item>
+        <item>Изпит 1 в Националния ранг по компютри</item>
+        <item>Изпит 2 в Националния ранг по компютри</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>Сертификат на учител в начално и средно образование</item>
+        <item>Сертификат на учител</item>
+        <item>Шофьорска книжка</item>
+        <item>Разрешително за екскурзовод</item>
+        <item>Електронно разрешително за екскурзовод</item>
+        <item>Национален съдебен изпит</item>
+        <item>Електронен сертификат за строител първа група</item>
+        <item>Сертификат за строител втора група</item>
+        <item>Изпит за длъжността младши счетоводител</item>
+        <item>Дипломиран експерт-счетоводител</item>
+        <item>Разрешително за екскурзовод в Пекин</item>
+        <item>Изпит за междинно счетоводно отчитане</item>
+        <item>Изпит за длъжността старши счетоводител</item>
+        <item>Сертификат за счетоводна квалификация</item>
+        <item>Изпит за сертифициран експерт-счетоводител</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>САЩ</item>
+        <item>Виетнам</item>
+        <item>Япония</item>
+        <item>Хонгконг и Макао</item>
+        <item>Южна Корея</item>
+        <item>Тайланд (туристически)</item>
+        <item>Тайланд (при пристигане)</item>
+        <item>Индия</item>
+        <item>Израел</item>
+        <item>Тайван</item>
+        <item>Малайзия</item>
+        <item>Нова Зеландия</item>
+        <item>Италия</item>
+        <item>Аржентина</item>
+        <item>Бразилия</item>
+        <item>Исландия</item>
+        <item>Кения</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

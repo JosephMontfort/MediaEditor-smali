@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>ពណ៌ស</item>
+        <item>ពណ៌ទឹកប៊ិច</item>
+        <item>ពណ៌ខៀវ​ស្រាល</item>
+        <item>ពណ៌ក្រហម</item>
+        <item>ពណ៌បៃតង</item>
+        <item>ពណ៌ផ្កាឈូក</item>
+        <item>ពណ៌ត្នោត</item>
+        <item>ពណ៌ប្រផេះ</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>បញ្ចូលរូបភាព</item>
+        <item>ផ្ទៃខាងក្រោយថ្លា</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>ពេលទំនេរ</item>
+        <item>ខ្យល់រំភើយ</item>
+        <item>សុបិន្ត</item>
+        <item>ពពក</item>
+        <item>គំនិត</item>
+        <item>ពន្លក</item>
+        <item>មេតាប៉ូលីស</item>
+        <item>ជម្រៅ</item>
+        <item>ការឆ្លុះបញ្ចាំង</item>
+        <item>សាមញ្ញនិយម</item>
+        <item>អាថ៌កំបាំង</item>
+        <item>អ័ព្ទ</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>ផ្ទៃខាងក្រោយធរណីមាត្របែបទំនើប</item>
+        <item>បរិយាកាសនៃស្នាដៃបោះពុម្ពចាស់</item>
+        <item>បំលែងផ្ទៃខាងក្រោយទៅជាគំនូរព្រាង</item>
+        <item>ផ្ទៃខាងក្រោយបែបទឹកពណ៌</item>
+        <item>Cyberpunk retro</item>
+        <item>ផ្នែកបញ្ឈរមិនត្រឹមត្រូវ</item>
+        <item>ព្រិលដោយខ្យល់</item>
+        <item>អារម្មណ៍នាបែបអនាគត</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>ពហុកោន</item>
+        <item>ឆ្លាក់</item>
+        <item>គំនូរព្រៀង</item>
+        <item>ទឹកពណ៌</item>
+        <item>RGB</item>
+        <item>របាំង</item>
+        <item>បង្អួចអណ្តែត</item>
+        <item>បច្ចេកវិទ្យា</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>ពណ៌គំនូសគ្រោង</item>
+        <item>គំនូសគ្រោងដាច់ៗ</item>
+        <item>គំនូសគ្រោងចេញពន្លឺ</item>
+        <item>ស្រម៉ោលពណ៌</item>
+        <item>រលកអគ្គិសនី</item>
+        <item>បច្ចុប្បន្ន</item>
+        <item>រលក</item>
+        <item>ភាគល្អិត</item>
+        <item>អត្ថបទ</item>
+        <item>ស្លាប</item>
+        <item>ទេវតា</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>ទូទៅ</item>
+        <item>ការធ្វើដំណើរ</item>
+        <item>ការងារ</item>
+        <item>ឯកសារ</item>
+        <item>ការអប់រំ</item>
+        <item>ការប្រលង</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>សន្តិសុខសង្គម</item>
+        <item>សេចក្តីថ្លែងការណ៍អំពីសុខភាព</item>
+        <item>ការធានារ៉ាប់រងផ្នែកវេជ្ជសាស្រ្ត</item>
+        <item>លេខសម្គាល់</item>
+        <item>បណ្ណស្នាក់នៅ</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>មួយអ៊ីញចិន</item>
+        <item>ពីរអ៊ីញចិន</item>
+        <item>តូចជាងមួយអ៊ីញចិន</item>
+        <item>តូចជាងពីរអ៊ីញចិន</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>ពាក្យសុំចូលរៀន</item>
+        <item>បណ្តាញសិស្ស</item>
+        <item>បណ្តាញសិស្សសម្រាប់សាលាបឋមសិក្សា</item>
+        <item>ប្រវត្ដិរូបបណ្តាញសិស្ស</item>
+        <item>ពាក្យសុំចូលរៀនសាកលវិទ្យាល័យ</item>
+        <item>NCEE</item>
+        <item>ប្រវត្តិរូបសង្ខេប</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>តេស្តភាសាអង់គ្លេសនៅមហាវិទ្យាល័យកម្រិត 1</item>
+        <item>តេស្តភាសាអង់គ្លេសនៅមហាវិទ្យាល័យកម្រិត 2</item>
+        <item>តេស្តភាសាអង់គ្លេសនៅមហាវិទ្យាល័យកម្រិត 3</item>
+        <item>តេស្តសមត្ថភាពភាសាចិនកម្រិត 1</item>
+        <item>តេស្តសមត្ថភាពភាសាចិនកម្រិត 2</item>
+        <item>សញ្ញាបត្រតេស្តភាសាអង់គ្លេស</item>
+        <item>PET សម្រាប់មហាវិទ្យាល័យ</item>
+        <item>PETS កម្រិត 3</item>
+        <item>ការប្រឡងកុំព្យូទ័រថ្នាក់ជាតិកម្រិត 1</item>
+        <item>ការប្រឡងកុំព្យូទ័រថ្នាក់ជាតិកម្រិត 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>សញ្ញាបត្រគ្រូបង្រៀនបឋមសិក្សា និងមធ្យមសិក្សា</item>
+        <item>សញ្ញាបត្រគ្រូបង្រៀន</item>
+        <item>បណ្ណបើកបរ</item>
+        <item>លិខិតអនុញ្ញាតមគ្គុទេសក៍ទេសចរណ៍</item>
+        <item>លិខិតអនុញ្ញាតមគ្គុទេសក៍អេឡិចត្រូនិក</item>
+        <item>ការប្រឡងចៅក្រមថ្នាក់ជាតិ</item>
+        <item>វិញ្ញាបនបត្រអ្នកសាងសង់អេឡិចត្រូនិចកម្រិតមួយ</item>
+        <item>វិញ្ញាបនបត្រអ្នកសាងសង់អេឡិចត្រូនិចកម្រិតពីរ</item>
+        <item>ការប្រឡងគណនេយ្យកម្រិតទាប</item>
+        <item>សញ្ញាបត្រវិជ្ជាជីវៈគណនេយ្យសាធារណៈ</item>
+        <item>លិខិតអនុញ្ញាតមគ្គុទេសក៍ទេសចរណ៍ទីក្រុងប៉េកាំង</item>
+        <item>ការប្រឡងគណនេយ្យកម្រិតមធ្យម</item>
+        <item>ការប្រឡងគណនេយ្យកម្រិតខ្ពស់</item>
+        <item>សញ្ញាបត្របចេ្ចកទេសគណនេយ្យ</item>
+        <item>ការប្រឡងសញ្ញាបត្រវិជ្ជាជីវៈគណនេយ្យសាធារណៈ</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>សហរដ្ឋអាមេរិក</item>
+        <item>វៀតណាម</item>
+        <item>ជប៉ុន</item>
+        <item>ហុងកុង និងម៉ាកាវ</item>
+        <item>កូរ៉េ​ខាងត្បូង</item>
+        <item>ប្រទេសថៃ (អ្នកទេសចរណ៍)</item>
+        <item>ប្រទេសថៃ (ពេលមកដល់)</item>
+        <item>ឥណ្ឌា</item>
+        <item>អ៊ីស្រាអែល</item>
+        <item>តៃវ៉ាន់</item>
+        <item>ម៉ាឡេស៊ី</item>
+        <item>នូវែល​សេឡង់</item>
+        <item>អ៊ីតាលី</item>
+        <item>អាហ្សង់ទីន</item>
+        <item>ប្រេស៊ីល</item>
+        <item>អ៊ីស្លង់</item>
+        <item>កេនយ៉ា</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/preview_top_line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/vlog_main_title_panel_height" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/preview_bottom_line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/vlog_main_menu_top_line" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/preview_start_line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="0.0dip" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/preview_end_line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="0.0dip" />
+    <include android:id="@id/loading_view_include" android:layout_width="@dimen/vlog_common_loading_size" android:layout_height="@dimen/vlog_common_loading_size" app:layout_constraintBottom_toBottomOf="@id/preview_bottom_line" app:layout_constraintEnd_toEndOf="@id/preview_end_line" app:layout_constraintStart_toStartOf="@id/preview_start_line" app:layout_constraintTop_toTopOf="@id/preview_top_line" layout="@layout/editor_loading_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

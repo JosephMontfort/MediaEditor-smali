@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:clipToOutline="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <micamx.compat.ui.widget.bar.MixBar android:id="@id/mix_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/mix_bar_padding_h" style="@style/editor_mix_bar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

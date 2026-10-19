@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/photo_agent_analysis_assistant_icon_size" android:layout_height="@dimen/photo_agent_analysis_assistant_icon_size" android:src="@drawable/photo_agent_ic_xiaoai" android:contentDescription="@string/photo_agent_assistant_label" />
+        <TextView android:textSize="@dimen/photo_agent_analysis_label_text_size" android:textColor="@color/photo_agent_analysis_label_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photo_agent_assistant_label" android:layout_marginStart="@dimen/photo_agent_analysis_assistant_icon_margin_end" />
+    </LinearLayout>
+    <com.miui.mediaeditor.photo.agent.view.ShimmerTextView android:textSize="@dimen/photo_agent_analysis_title_text_size" android:textColor="@color/photo_agent_analysis_title_fallback_text" android:id="@id/agent_analysis_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photo_agent_analysis_title_margin_top" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/agent_analysis_step_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photo_agent_analysis_step_margin_top">
+        <View android:background="@drawable/photo_agent_analysis_step_dot_1" android:layout_width="@dimen/photo_agent_analysis_step_dot_size" android:layout_height="@dimen/photo_agent_analysis_step_dot_size" android:importantForAccessibility="no" />
+        <TextView android:textSize="@dimen/photo_agent_analysis_step_text_size" android:textColor="@color/photo_agent_analysis_step_text" android:id="@id/agent_analysis_step_1_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/photo_agent_analysis_step_dot_margin_end" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/agent_analysis_step_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photo_agent_analysis_step_gap">
+        <View android:background="@drawable/photo_agent_analysis_step_dot_2" android:layout_width="@dimen/photo_agent_analysis_step_dot_size" android:layout_height="@dimen/photo_agent_analysis_step_dot_size" android:importantForAccessibility="no" />
+        <TextView android:textSize="@dimen/photo_agent_analysis_step_text_size" android:textColor="@color/photo_agent_analysis_step_text" android:id="@id/agent_analysis_step_2_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/photo_agent_analysis_step_dot_margin_end" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/agent_analysis_step_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photo_agent_analysis_step_gap">
+        <View android:background="@drawable/photo_agent_analysis_step_dot_3" android:layout_width="@dimen/photo_agent_analysis_step_dot_size" android:layout_height="@dimen/photo_agent_analysis_step_dot_size" android:importantForAccessibility="no" />
+        <TextView android:textSize="@dimen/photo_agent_analysis_step_text_size" android:textColor="@color/photo_agent_analysis_step_text" android:id="@id/agent_analysis_step_3_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/photo_agent_analysis_step_dot_margin_end" />
+    </LinearLayout>
+</merge>

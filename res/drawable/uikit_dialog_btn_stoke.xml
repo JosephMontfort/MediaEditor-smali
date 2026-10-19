@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="200.0dip" android:width="156.0dip" android:viewportWidth="156.0" android:viewportHeight="200.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#00000000" android:pathData="M16.67,1.5L139.33,1.5A15.17,15.17 0,0 1,154.5 16.67L154.5,183.33A15.17,15.17 0,0 1,139.33 198.5L16.67,198.5A15.17,15.17 0,0 1,1.5 183.33L1.5,16.67A15.17,15.17 0,0 1,16.67 1.5z" android:strokeColor="@drawable/$uikit_dialog_btn_stoke__0" android:strokeWidth="3.0" />
+</vector>

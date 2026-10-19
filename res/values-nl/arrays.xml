@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>Wit</item>
+        <item>Donkerblauw</item>
+        <item>Lichtblauw</item>
+        <item>Rood</item>
+        <item>Groen</item>
+        <item>Roze</item>
+        <item>Bruin</item>
+        <item>Grijs</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Afbeelding importeren</item>
+        <item>Transparante achtergrond</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Vrije tijd</item>
+        <item>Bries</item>
+        <item>Dromen</item>
+        <item>Wolken</item>
+        <item>Gedachten</item>
+        <item>Knoppen</item>
+        <item>Metamorfose</item>
+        <item>Diepte</item>
+        <item>Reflecties</item>
+        <item>Minimalistisch</item>
+        <item>Mysterie</item>
+        <item>Mist</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Futuristische geometrische achtergrond</item>
+        <item>Sfeer van oude meestersprints</item>
+        <item>Verander achtergronden in schetsen</item>
+        <item>Aquarel stijl achtergronden</item>
+        <item>Cyberpunk retro</item>
+        <item>Misplaatste verticale segmenten</item>
+        <item>Wazige vervaging</item>
+        <item>Futuristisch gevoel</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Laagpoly</item>
+        <item>Etsen</item>
+        <item>Schets</item>
+        <item>Aquarel</item>
+        <item>RGB</item>
+        <item>Gordijnen</item>
+        <item>Mistig raam</item>
+        <item>Technologie</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Gekleurde contour</item>
+        <item>Gestippelde contour</item>
+        <item>Fluorescerende contour</item>
+        <item>Gekleurde schaduw</item>
+        <item>Elektrische golf</item>
+        <item>Stroom</item>
+        <item>Golven</item>
+        <item>Deeltjes</item>
+        <item>Tekst</item>
+        <item>Vleugels</item>
+        <item>Engel</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>Algemeen</item>
+        <item>Reizen</item>
+        <item>Werk</item>
+        <item>Documenten</item>
+        <item>Onderwijs</item>
+        <item>Examens</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Sociale zekerheid</item>
+        <item>Gezondheidsverklaring</item>
+        <item>Medische verzekering</item>
+        <item>ID</item>
+        <item>Verblijfsvergunning</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>Een cun</item>
+        <item>Twee cuns</item>
+        <item>Kleiner een sun</item>
+        <item>Kleinere twee sun</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Toelatingsaanvraag</item>
+        <item>Studentennetwerk</item>
+        <item>Studentennetwerk voor basisscholen</item>
+        <item>Studentennetwerkprofiel</item>
+        <item>Toelating tot universiteit</item>
+        <item>NCEE</item>
+        <item>CV</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>College Engels Test 1</item>
+        <item>College Engels Test 2</item>
+        <item>College Engels Test 3</item>
+        <item>Chinees Mandarijn Vaardigheidstest 1</item>
+        <item>Chinees Mandarijn Vaardigheidstest 2</item>
+        <item>Diploma Engelse test</item>
+        <item>PET voor hogescholen</item>
+        <item>PETS Niveau 3</item>
+        <item>Nationaal Computerrangschikkingsexamen 1</item>
+        <item>Nationaal Computerrangschikkingsexamen 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>Certificering van leraren in het basis- en voortgezet onderwijs</item>
+        <item>Lerarencertificering</item>
+        <item>Rijbewijs</item>
+        <item>Gidsvergunning</item>
+        <item>Elektronische gidsvergunning</item>
+        <item>Chinese Nationale Juridische Examen</item>
+        <item>Elektronisch eersteklas constructeurscertificaat</item>
+        <item>Constructeurscertificaat tweede klasse</item>
+        <item>Junior examen boekhoudtitel</item>
+        <item>Gecertificeerd accountant</item>
+        <item>Beijing gids vergunning</item>
+        <item>Intermediair examen boekhouden</item>
+        <item>Senior examen boekhoudtitel</item>
+        <item>Boekhoudkundig kwalificatiecertificaat</item>
+        <item>Gecertificeerd openbaar accountantsexamen</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>Verenigde Staten</item>
+        <item>Vietnam</item>
+        <item>Japan</item>
+        <item>Hongkong en Macau</item>
+        <item>Zuid-Korea</item>
+        <item>Thailand (toerist)</item>
+        <item>Thailand (bij aankomst)</item>
+        <item>India</item>
+        <item>Israël</item>
+        <item>Taiwan</item>
+        <item>Maleisië</item>
+        <item>Nieuw-Zeeland</item>
+        <item>Italië</item>
+        <item>Argentinië</item>
+        <item>Brazilië</item>
+        <item>IJsland</item>
+        <item>Kenia</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

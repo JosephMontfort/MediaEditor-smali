@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/progress_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <TextView android:textSize="@dimen/vlog_track_volume_text_size" android:textColor="@color/vlog_track_single_volume_text_color" android:gravity="center_vertical" android:id="@id/min_volume_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="0" android:layout_marginEnd="@dimen/vlog_track_single_volume_text_margin" />
+        <com.miui.gallery.editor.ui.view.BubbleSeekBar android:id="@id/seek_bar" android:layout_width="@dimen/vlog_filter2_bubble_seekbar_hot_area_width" android:layout_height="fill_parent" android:layoutDirection="ltr" style="@style/bubble_seek_bar_vlog" />
+        <TextView android:textSize="@dimen/vlog_track_volume_text_size" android:textColor="@color/vlog_track_single_volume_text_color" android:gravity="center_vertical" android:id="@id/max_volume_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="1000" android:layout_marginStart="@dimen/vlog_track_single_volume_text_margin" />
+    </LinearLayout>
+    <include android:id="@id/apply_layout" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_menu_common_confirm_height" app:layout_constraintBottom_toBottomOf="parent" layout="@layout/common_editor_menu_apply_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

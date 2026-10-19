@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/constraintLayout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alignmentMode="alignMargins" android:importantForAccessibility="no" android:layout_marginHorizontal="@dimen/watermark_preference_type_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start|center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="@dimen/watermark_preference_style_title_bar_height" android:importantForAccessibility="no" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="@dimen/watermark_preference_style_title_text_size" android:textStyle="bold" android:textColor="@color/watermark_text_color" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="misans-normal" />
+    </LinearLayout>
+    <HorizontalScrollView android:gravity="start|center" android:orientation="horizontal" android:id="@id/scrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title">
+        <miuix.visual.check.VisualCheckGroup android:id="@id/wm_patterning_group" android:layout_width="wrap_content" android:layout_height="wrap_content" app:itemSpacing="@dimen/watermark_preference_style_wm_background_item_space" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title">
+            <miuix.visual.check.VisualCheckBox android:gravity="center" android:id="@id/wm_patterning_off" android:focusable="true" android:visibility="gone" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <miuix.visual.check.BorderLayout android:gravity="center" android:focusable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/watermark_preference_frame_background_item_size" android:layout_height="@dimen/watermark_preference_frame_background_item_size" app:checkedBackGround="@drawable/preference_wm_visual_check_border_oval">
+                    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_wm_image_off" android:layout_width="@dimen/watermark_preference_style_layout_item_height" android:layout_height="@dimen/watermark_preference_style_layout_item_height">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wm_image_off_view" android:contentDescription="@string/pref_wm_off_icon" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </miuix.visual.check.BorderLayout>
+            </miuix.visual.check.VisualCheckBox>
+        </miuix.visual.check.VisualCheckGroup>
+    </HorizontalScrollView>
+    <View android:id="@id/divider" android:background="@color/preference_watermark_edit_layout_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/watermark_preference_style_divider_height" android:layout_marginTop="@dimen/watermark_preference_style_divider_margin_top" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/scrollView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

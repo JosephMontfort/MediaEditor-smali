@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/pc_id_photo_type_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/pc_id_photo_type_text_selector" android:gravity="center_horizontal" android:layout_gravity="start|center" android:id="@id/text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="@dimen/pc_id_photo_type_text_height" android:text="@string/photo_certificate_mode_single" android:layout_marginStart="@dimen/pc_id_photo_type_text_margin_start" android:layout_marginEnd="@dimen/pc_id_photo_type_text_margin_end" style="@style/editor_common_floating_button_text_style" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/arrow" android:duplicateParentState="true" android:layout_width="@dimen/pc_id_photo_type_arrow_size" android:layout_height="@dimen/pc_id_photo_type_arrow_size" android:src="@drawable/editor_ic_arrow_down" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/pc_id_photo_type_arrow_margin_end" app:tint="@color/pc_id_photo_type_arrow_tint_selector" />
+</merge>

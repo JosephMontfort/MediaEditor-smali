@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/photo_agent_analysis_assistant_icon_size" android:layout_height="@dimen/photo_agent_analysis_assistant_icon_size" android:src="@drawable/photo_agent_ic_xiaoai" android:contentDescription="@string/photo_agent_assistant_label" />
+            <TextView android:textSize="@dimen/photo_agent_analysis_label_text_size" android:textColor="@color/photo_agent_recommend_label_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photo_agent_assistant_label" android:layout_marginStart="@dimen/photo_agent_analysis_assistant_icon_margin_end" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/agent_recommend_refresh" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/photo_agent_recommend_refresh" android:paddingHorizontal="6.0dip" android:paddingVertical="4.0dip">
+            <ImageView android:layout_width="@dimen/photo_agent_recommend_refresh_icon_size" android:layout_height="@dimen/photo_agent_recommend_refresh_icon_size" android:src="@drawable/photo_agent_ic_refresh" android:contentDescription="@null" />
+            <TextView android:textSize="@dimen/photo_agent_recommend_refresh_text_size" android:textColor="@color/photo_agent_recommend_refresh_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photo_agent_recommend_refresh" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/photo_agent_recommend_title_text_size" android:textColor="@color/photo_agent_recommend_title_text" android:id="@id/agent_recommend_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photo_agent_recommend_title_margin_top" />
+    <LinearLayout android:orientation="vertical" android:id="@id/agent_recommend_chip_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photo_agent_recommend_chip_row_margin_top" />
+</merge>

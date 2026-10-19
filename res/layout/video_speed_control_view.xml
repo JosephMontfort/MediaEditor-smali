@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/video_audio_speed_seekbar_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <micamx.compat.ui.widget.seekbar.SmoothBaseSeekBar android:layout_gravity="center_horizontal" android:id="@id/seekBar" android:layout_width="@dimen/video_audio_speed_seekbar_width" android:layout_height="wrap_content" style="@style/editor_smooth_seek_bar_indicator" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/scaleContainer" android:layout_width="@dimen/video_audio_speed_seekbar_indicator_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/video_audio_speed_seekbar_indicator_text_margin_top" android:weightSum="5.0" />
+</LinearLayout>

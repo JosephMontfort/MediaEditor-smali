@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>Biela</item>
+        <item>Tmavo modrá</item>
+        <item>Svetlo modrá</item>
+        <item>Červená</item>
+        <item>Zelená</item>
+        <item>Ružová</item>
+        <item>Hnedá</item>
+        <item>Sivá</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Importovať obrázok</item>
+        <item>Priehľadné pozadie</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Voľný čas</item>
+        <item>Vánok</item>
+        <item>Sny</item>
+        <item>Oblaky</item>
+        <item>Myšlienky</item>
+        <item>Puky</item>
+        <item>Metamorfóza</item>
+        <item>Hĺbka</item>
+        <item>Odrazy</item>
+        <item>Minimalizmus</item>
+        <item>Záhada</item>
+        <item>Hmla</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Futuristické geometrické pozadie</item>
+        <item>Atmosféra starých predlôh</item>
+        <item>Zmeniť pozadia za skice</item>
+        <item>Akvarelové pozadia</item>
+        <item>Cyberpunk retro</item>
+        <item>Nesprávne umiestnené vertikálne segmenty</item>
+        <item>Hmlisté rozostrenie</item>
+        <item>Vidina budúcnosti</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Low-poly</item>
+        <item>Zoškriabavanie</item>
+        <item>Skica</item>
+        <item>Akvarel</item>
+        <item>RGB</item>
+        <item>Rolety</item>
+        <item>Zahmlené okno</item>
+        <item>Tech</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Farebný obrys</item>
+        <item>Bodkovaný obrys</item>
+        <item>Fluorescenčný obrys</item>
+        <item>Farebný tieň</item>
+        <item>Elektrická vlna</item>
+        <item>Prúd</item>
+        <item>Vlny</item>
+        <item>Častice</item>
+        <item>Text</item>
+        <item>Krídla</item>
+        <item>Anjel</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>Všeobecné</item>
+        <item>Cestovanie</item>
+        <item>Práca</item>
+        <item>Dokumenty</item>
+        <item>Vzdelanie</item>
+        <item>Skúšky</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Sociálne zabezpečenie</item>
+        <item>Vyhlásenie o zdravotnom stave</item>
+        <item>Zdravotné poistenie</item>
+        <item>Občiansky preukaz</item>
+        <item>Povolenie na pobyt</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>Jeden cun</item>
+        <item>Dva cuny</item>
+        <item>Jeden menší cun</item>
+        <item>Dva menšie cuny</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Prihláška na štúdium</item>
+        <item>Študentská sieť</item>
+        <item>Študentská sieť pre základné školy</item>
+        <item>Profil študentskej siete</item>
+        <item>Prijatie na univerzitu</item>
+        <item>NCEE</item>
+        <item>Obnoviť</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>Test z angličtiny pre vysoké školy 1</item>
+        <item>Test z angličtiny pre vysoké školy 2</item>
+        <item>Test z angličtiny pre vysoké školy 3</item>
+        <item>Test znalosti putonghua 1</item>
+        <item>Test znalosti putonghua 2</item>
+        <item>Test angličtiny na úrovni vysokoškolského vzdelania</item>
+        <item>PET pre vysoké školy</item>
+        <item>PETS úroveň 3</item>
+        <item>Národná skúška z výpočtovej techniky 1</item>
+        <item>Národná skúška z výpočtovej techniky 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>Certifikácia učiteľov základných a stredných škôl</item>
+        <item>Certifikácia učiteľov</item>
+        <item>Vodičský preukaz</item>
+        <item>Sprievodcovské povolenie</item>
+        <item>Elektronické povolenie sprievodcu</item>
+        <item>Národná justičná skúška</item>
+        <item>Elektronický certifikát prvotriedneho konštruktéra</item>
+        <item>Osvedčenie konštruktéra druhej triedy</item>
+        <item>Skúška na získanie titulu junior účtovník</item>
+        <item>Certifikovaný účtovník</item>
+        <item>Povolenie pre sprievodcu v Pekingu</item>
+        <item>Skúška z účtovníctva pre stredne pokročilých</item>
+        <item>Skúška na získanie titulu senior účtovník</item>
+        <item>Osvedčenie o kvalifikácii v oblasti účtovníctva</item>
+        <item>Skúška certifikovaného verejného účtovníka</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>Spojené štáty</item>
+        <item>Vietnam</item>
+        <item>Japonsko</item>
+        <item>Hong Kong a Macao</item>
+        <item>Južná Kórea</item>
+        <item>Thajsko (turista)</item>
+        <item>Thajsko (pri príchode)</item>
+        <item>India</item>
+        <item>Izrael</item>
+        <item>Taiwan</item>
+        <item>Malajzia</item>
+        <item>Nový Zéland</item>
+        <item>Taliansko</item>
+        <item>Argentína</item>
+        <item>Brazília</item>
+        <item>Island</item>
+        <item>Keňa</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/vlog_album_gallery_rename_color" />
+    <size android:width="@dimen/vlog_track_caption_dialog_edit_text_cursor_width" />
+    <padding android:top="@dimen/vlog_track_caption_dialog_edit_text_cursor_vertical_padding" android:bottom="@dimen/vlog_track_caption_dialog_edit_text_cursor_vertical_padding" />
+</shape>

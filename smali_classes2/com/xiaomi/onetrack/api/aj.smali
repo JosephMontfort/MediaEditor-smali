@@ -1,0 +1,108 @@
+.class Lcom/xiaomi/onetrack/api/aj;
+.super Landroid/content/BroadcastReceiver;
+
+
+# instance fields
+.field final synthetic a:Lcom/xiaomi/onetrack/api/ai;
+
+
+# direct methods
+.method public constructor <init>(Lcom/xiaomi/onetrack/api/ai;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/xiaomi/onetrack/api/aj;->a:Lcom/xiaomi/onetrack/api/ai;
+
+    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+    .locals 2
+
+    :try_start_0
+    iget-object p1, p0, Lcom/xiaomi/onetrack/api/aj;->a:Lcom/xiaomi/onetrack/api/ai;
+
+    invoke-static {p1}, Lcom/xiaomi/onetrack/api/ai;->a(Lcom/xiaomi/onetrack/api/ai;)Landroid/os/Handler;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_2
+
+    invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result p2
+
+    if-eqz p2, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const-string p2, "android.intent.action.SCREEN_ON"
+
+    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p2
+
+    const-wide/16 v0, 0x1f4
+
+    if-eqz p2, :cond_1
+
+    iget-object p0, p0, Lcom/xiaomi/onetrack/api/aj;->a:Lcom/xiaomi/onetrack/api/ai;
+
+    invoke-static {p0}, Lcom/xiaomi/onetrack/api/ai;->a(Lcom/xiaomi/onetrack/api/ai;)Landroid/os/Handler;
+
+    move-result-object p0
+
+    const/16 p1, 0x64
+
+    invoke-virtual {p0, p1, v0, v1}, Landroid/os/Handler;->sendEmptyMessageDelayed(IJ)Z
+
+    return-void
+
+    :cond_1
+    const-string p2, "android.intent.action.SCREEN_OFF"
+
+    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_2
+
+    iget-object p0, p0, Lcom/xiaomi/onetrack/api/aj;->a:Lcom/xiaomi/onetrack/api/ai;
+
+    invoke-static {p0}, Lcom/xiaomi/onetrack/api/ai;->a(Lcom/xiaomi/onetrack/api/ai;)Landroid/os/Handler;
+
+    move-result-object p0
+
+    const/16 p1, 0x65
+
+    invoke-virtual {p0, p1, v0, v1}, Landroid/os/Handler;->sendEmptyMessageDelayed(IJ)Z
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :cond_2
+    :goto_0
+    return-void
+
+    :catchall_0
+    move-exception p0
+
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    const-string p2, "screenReceiver throwable: "
+
+    invoke-direct {p1, p2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    const-string p2, "BroadcastManager"
+
+    invoke-static {p2, p1, p0}, Lcom/xiaomi/onetrack/api/a0;->b(Ljava/lang/String;Ljava/lang/StringBuilder;Ljava/lang/Throwable;)V
+
+    return-void
+.end method

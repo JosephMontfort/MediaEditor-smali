@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>Oq</item>
+        <item>To‘q ko‘k</item>
+        <item>Ochiq ko‘k</item>
+        <item>Qizil</item>
+        <item>Yashil</item>
+        <item>Pushti</item>
+        <item>Jigar rang</item>
+        <item>Kul rang</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Rasmni import qilish</item>
+        <item>Shaffof fon</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Erkin</item>
+        <item>Shabada</item>
+        <item>Orzular</item>
+        <item>Bulutlar</item>
+        <item>Fikrlar</item>
+        <item>Kurtaklari</item>
+        <item>Metamorfoz</item>
+        <item>Chuqurlik</item>
+        <item>Ko‘zgular</item>
+        <item>Minimalist</item>
+        <item>Sir</item>
+        <item>Tuman</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Futuristik geometrik fon</item>
+        <item>Qadimgi bosh nashrlarning atmosferasi</item>
+        <item>Fonlarni eskizlarga aylantiring</item>
+        <item>Akvarel uslubdagi fonlar</item>
+        <item>Cyberpunk retro</item>
+        <item>Noto‘g‘ri vertikal segmentlar</item>
+        <item>Xira</item>
+        <item>Futuristik stil</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Pastki poli</item>
+        <item>Naqsh</item>
+        <item>Chizma</item>
+        <item>Akvarel</item>
+        <item>RGB</item>
+        <item>Pardalar</item>
+        <item>Tumanli oyna</item>
+        <item>Texnologiya</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Rangli loyiha</item>
+        <item>Kesikli kontur</item>
+        <item>Floresan konturi</item>
+        <item>Rangli soya</item>
+        <item>Elektr to‘lqini</item>
+        <item>Joriy</item>
+        <item>To‘lqinlar</item>
+        <item>Zarralar</item>
+        <item>Matn</item>
+        <item>Qanotlar</item>
+        <item>Farishta</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>Umumiy</item>
+        <item>Sayohat</item>
+        <item>Ish</item>
+        <item>Hujjatlar</item>
+        <item>Ta’lim</item>
+        <item>Imtihon</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Ijtimoiy Havfsizlik</item>
+        <item>Sog‘liqni saqlash bayonoti</item>
+        <item>Tibbiy sug‘urta</item>
+        <item>ID</item>
+        <item>Yashash uchun ruxsatnoma</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>Bir cun</item>
+        <item>Ikki cun</item>
+        <item>Kichikroq bir cun</item>
+        <item>Kichikroq ikki cun</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Qabul qilish uchun ariza</item>
+        <item>Talabalar tarmog‘i</item>
+        <item>Boshlang‘ich maktablar uchun talabalar tarmog‘i</item>
+        <item>Talabalar tarmog‘i profili</item>
+        <item>Universitetga kirish</item>
+        <item>NCEE</item>
+        <item>Rezyume</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>Kollej Ingliz tili Testi 1</item>
+        <item>Kollej Ingliz tili Testi 2</item>
+        <item>Kollej Ingliz tili Testi 3</item>
+        <item>Putonghua Malaka Testi 1</item>
+        <item>Putonghua Malaka Testi 2</item>
+        <item>Ingliz tili bo‘yicha test</item>
+        <item>Kollejlar uchun PET</item>
+        <item>PETS 3-daraja</item>
+        <item>Milliy Kompyuter Darajasi Imtihoni 1</item>
+        <item>Milliy Kompyuter Darajasi Imtihoni 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>Boshlang‘ich va o‘rta maktab o‘qituvchilarining attestatsiyasi</item>
+        <item>O‘qituvchilarni sertifikati</item>
+        <item>Haydovchilik guvohnomasi</item>
+        <item>Qo‘llanma ruxsatnomasi</item>
+        <item>Elektron qo‘llanma ruxsatnomasi</item>
+        <item>Milliy sud ekspertizasi</item>
+        <item>Elektron birinchi darajali konstruktor sertifikati</item>
+        <item>Ikkinchi darajali konstruktor sertifikati</item>
+        <item>Kichik buxgalteriya unvonini imtihon</item>
+        <item>Sertifikatlangan buxgalter</item>
+        <item>Pekin yo‘riqnomasi ruxsatnomasi</item>
+        <item>Oraliq buxgalteriya sarlavhasi imtihoni</item>
+        <item>Katta buxgalteriya unvonini imtihon</item>
+        <item>Buxgalteriya malaka sertifikati</item>
+        <item>Sertifikatlangan buxgalter imtihoni</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>AQSh</item>
+        <item>Vetnam</item>
+        <item>Yaponiya</item>
+        <item>Gonkong va Makao</item>
+        <item>Janubiy Koreya</item>
+        <item>Tailand (turist)</item>
+        <item>Tailand (kelgach)</item>
+        <item>Hindiston</item>
+        <item>Isroil</item>
+        <item>Tayvan</item>
+        <item>Malayziya</item>
+        <item>Yangi Zelandiya</item>
+        <item>Italiya</item>
+        <item>Argentina</item>
+        <item>Braziliya</item>
+        <item>Islandiya</item>
+        <item>Keniya</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

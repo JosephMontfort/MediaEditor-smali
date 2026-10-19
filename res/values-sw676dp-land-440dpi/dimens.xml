@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vlog_menu_common_operation_margin">10.909973dip</dimen>
+    <dimen name="vlog_menu_nav_mask_view_height">26.666992dip</dimen>
+    <dimen name="vlog_menu_nav_mask_view_width">53.332977dip</dimen>
+</resources>

@@ -1,0 +1,145 @@
+.class public final Lcom/miui/mediaeditor/photo/watermark/widgets/watermarksetting/signature/keyboard/download/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static final a(Lt70/a;)Ljava/io/File;
+    .locals 2
+
+    iget-object v0, p0, Lt70/a;->b:Ljava/lang/String;
+
+    iget-object p0, p0, Lt70/a;->c:Ljava/lang/String;
+
+    invoke-virtual {p0}, Ljava/lang/String;->length()I
+
+    move-result p0
+
+    if-eqz p0, :cond_0
+
+    invoke-virtual {v0}, Ljava/lang/String;->length()I
+
+    move-result p0
+
+    if-eqz p0, :cond_0
+
+    new-instance p0, Ljava/io/File;
+
+    invoke-direct {p0, v0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    return-object p0
+
+    :cond_0
+    new-instance p0, Lcom/miui/mediaeditor/photo/watermark/widgets/watermarksetting/signature/keyboard/download/DownloadException;
+
+    const-string v0, "Task is Empty, get relevant file failed"
+
+    sget-object v1, Lcom/miui/mediaeditor/photo/watermark/widgets/watermarksetting/signature/keyboard/download/DownloadException$a$e;->a:Lcom/miui/mediaeditor/photo/watermark/widgets/watermarksetting/signature/keyboard/download/DownloadException$a$e;
+
+    invoke-direct {p0, v0, v1}, Lcom/miui/mediaeditor/photo/watermark/widgets/watermarksetting/signature/keyboard/download/DownloadException;-><init>(Ljava/lang/String;Lcom/miui/mediaeditor/photo/watermark/widgets/watermarksetting/signature/keyboard/download/DownloadException$a;)V
+
+    throw p0
+.end method
+
+.method public static b(Ljava/io/File;)V
+    .locals 3
+
+    const-string v0, "<this>"
+
+    invoke-static {p0, v0}, Lap0/m;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Ljava/io/File;->delete()Z
+
+    invoke-virtual {p0}, Ljava/io/File;->createNewFile()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    new-instance v0, Ljava/io/RandomAccessFile;
+
+    const-string v1, "rw"
+
+    invoke-direct {v0, p0, v1}, Ljava/io/RandomAccessFile;-><init>(Ljava/io/File;Ljava/lang/String;)V
+
+    const-wide/16 v1, 0x0
+
+    invoke-virtual {v0, v1, v2}, Ljava/io/RandomAccessFile;->setLength(J)V
+
+    sget-object p0, Lko0/e0;->a:Lko0/e0;
+
+    return-void
+
+    :cond_0
+    new-instance v0, Lcom/miui/mediaeditor/photo/watermark/widgets/watermarksetting/signature/keyboard/download/DownloadException;
+
+    invoke-virtual {p0}, Ljava/io/File;->getName()Ljava/lang/String;
+
+    move-result-object p0
+
+    filled-new-array {p0}, [Ljava/lang/Object;
+
+    move-result-object p0
+
+    const/4 v1, 0x1
+
+    invoke-static {p0, v1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+
+    move-result-object p0
+
+    const-string v1, "create file:[%s] failed!"
+
+    invoke-static {v1, p0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p0
+
+    sget-object v1, Lcom/miui/mediaeditor/photo/watermark/widgets/watermarksetting/signature/keyboard/download/DownloadException$a$e;->a:Lcom/miui/mediaeditor/photo/watermark/widgets/watermarksetting/signature/keyboard/download/DownloadException$a$e;
+
+    invoke-direct {v0, p0, v1}, Lcom/miui/mediaeditor/photo/watermark/widgets/watermarksetting/signature/keyboard/download/DownloadException;-><init>(Ljava/lang/String;Lcom/miui/mediaeditor/photo/watermark/widgets/watermarksetting/signature/keyboard/download/DownloadException$a;)V
+
+    throw v0
+.end method
+
+.method public static final c(Ljava/io/File;)Ljava/io/File;
+    .locals 1
+
+    invoke-virtual {p0}, Ljava/io/File;->getCanonicalPath()Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v0, ".download"
+
+    invoke-static {p0, v0}, Lt/e;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    new-instance v0, Ljava/io/File;
+
+    invoke-direct {v0, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public static final d(Ljava/io/File;)Ljava/io/File;
+    .locals 1
+
+    const-string v0, "<this>"
+
+    invoke-static {p0, v0}, Lap0/m;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Ljava/io/File;->getCanonicalPath()Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v0, ".tmp"
+
+    invoke-static {p0, v0}, Lt/e;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    new-instance v0, Ljava/io/File;
+
+    invoke-direct {v0, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    return-object v0
+.end method

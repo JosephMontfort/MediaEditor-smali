@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/video_menu_item_icon_size" android:width="@dimen/video_menu_item_icon_size" android:autoMirrored="true" android:viewportWidth="28.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/common_menu_item_icon_color" android:pathData="M14,3.2C19.964,3.2 24.799,8.035 24.8,14C24.8,19.965 19.965,24.8 14,24.8C8.035,24.8 3.2,19.965 3.2,14C3.2,8.035 8.035,3.2 14,3.2ZM7.066,7.957C5.656,9.574 4.8,11.686 4.8,14C4.8,19.081 8.919,23.2 14,23.2C16.314,23.2 18.426,22.344 20.043,20.934L7.066,7.957ZM14,4.8C11.809,4.8 9.798,5.567 8.218,6.846L21.153,19.782C22.432,18.202 23.2,16.191 23.2,14C23.2,8.919 19.081,4.8 14,4.8Z" />
+</vector>

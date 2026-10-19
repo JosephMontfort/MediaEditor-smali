@@ -1,0 +1,21 @@
+{
+  "name": "mengchong2",
+  "cover": "cover.png",
+  "music": "mengchong2.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 7000,
+      "oriDuration": 7000,
+      "4koriDuration": 7000,
+      "tag": "29-65;162-165;630-695;828-844",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.jpg",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ]
+    }
+  ]
+}

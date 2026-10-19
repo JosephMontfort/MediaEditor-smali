@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@drawable/vlog_template_auto_audio_holder_bg_unselected" android:layout_width="@dimen/vlog_template_auto_audio_add_icon_width" android:layout_height="@dimen/vlog_template_auto_audio_add_icon_width" android:contentDescription="@string/vlog_talkback_audio_null">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/ic_vlog_audio_lib" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/on_surface" android:ellipsize="marquee" android:layout_gravity="bottom|center" android:id="@id/item_ai_music_title" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:text="@string/vlog_template_ai_music_start" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="mipro-medium" />
+    </FrameLayout>
+    <View android:layout_gravity="center_vertical" android:background="@drawable/vlog_template_auto_item_dividing_line_bg" android:layout_width="@dimen/vlog_template_auto_audio_divider_width" android:layout_height="@dimen/vlog_template_auto_audio_divider_height" android:layout_marginStart="9.0dip" />
+</LinearLayout>

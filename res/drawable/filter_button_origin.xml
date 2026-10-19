@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="20.0dip" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/filter_origin_button_selector" android:pathData="M10,2.321C14.24,2.321 17.678,5.759 17.678,10C17.678,14.241 14.241,17.678 10,17.678C5.759,17.678 2.321,14.24 2.321,10C2.321,5.759 5.759,2.321 10,2.321ZM5.119,5.846C4.166,6.965 3.59,8.415 3.59,10C3.59,13.54 6.46,16.41 10,16.41C11.585,16.41 13.034,15.833 14.153,14.881L5.119,5.846ZM10,3.59C8.502,3.59 7.124,4.105 6.033,4.966L15.033,13.966C15.894,12.875 16.41,11.498 16.41,10C16.41,6.46 13.54,3.59 10,3.59Z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>తెలుపు</item>
+        <item>ముదురు నీలం</item>
+        <item>లేత నీలం</item>
+        <item>ఎరుపు</item>
+        <item>ఆకుపచ్చ</item>
+        <item>గులాబీ</item>
+        <item>గోధుమ రంగు</item>
+        <item>బూడిద రంగు</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>చిత్రాన్ని దిగుమతి చేయి</item>
+        <item>పారదర్శక నేపథ్యం</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>విశ్రాంతి</item>
+        <item>బ్రీజ్</item>
+        <item>డ్రీమ్స్</item>
+        <item>మేఘాలు</item>
+        <item>ఆలోచనలు</item>
+        <item>బడ్స్</item>
+        <item>మెటామార్ఫోసిస్</item>
+        <item>డెప్త్</item>
+        <item>రిఫ్లెక్షన్స్</item>
+        <item>మినిమలిస్ట్</item>
+        <item>మిస్టరీ</item>
+        <item>పొగ మంచు</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>ఫ్యూచరిస్టిక్ జియోమెట్రిక్ నేపథ్యం</item>
+        <item>పాత మాస్టర్ ప్రింట్‌ల వాతావరణం</item>
+        <item>నేపథ్యాలను స్కెచ్‌ల్లోకి మార్చండి</item>
+        <item>వాటర్‌కలర్ శైలి నేపథ్యాలు</item>
+        <item>సైబర్‌పంక్ రెట్రో</item>
+        <item>పోగొట్టుకున్న నిలువు భాగాలు</item>
+        <item>హేజీ బ్లర్</item>
+        <item>భవిష్యత్ అనుభూతి</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>లో పాలీ</item>
+        <item>ఇచింగ్</item>
+        <item>స్కెచ్</item>
+        <item>వాటర్‌కలర్</item>
+        <item>RGB</item>
+        <item>బ్లైండ్స్</item>
+        <item>పొగమంచు కిటికీ</item>
+        <item>టెక్</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>రంగుమయ అవుట్‌లైన్</item>
+        <item>డాష్‌లతో ఉన్న అవుట్‌లైన్</item>
+        <item>ఫ్లోరోసెంట్ అవుట్‌లైన్</item>
+        <item>రంగుల నీడ</item>
+        <item>ఎలక్ట్రిక్ తరంగం</item>
+        <item>ప్రవాహం</item>
+        <item>తరంగాలు</item>
+        <item>కణాలు</item>
+        <item>టెక్స్ట్</item>
+        <item>రెక్కలు</item>
+        <item>ఏంజెల్</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>సాధారణ</item>
+        <item>ట్రావెల్</item>
+        <item>వర్క్</item>
+        <item>పత్రాలు</item>
+        <item>విద్య</item>
+        <item>పరీక్షలు</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>సోషల్ సెక్యూరిటీ</item>
+        <item>ఆరోగ్య ప్రకటన</item>
+        <item>వైద్య బీమా</item>
+        <item>ID</item>
+        <item>నివాస అనుమతి</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>ఒక అంగుళం</item>
+        <item>రెండు అంగుళాలు</item>
+        <item>చిన్న ఒక అంగుళం</item>
+        <item>చిన్న రెండు అంగుళాలు</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>అడ్మిషన్ దరఖాస్తు</item>
+        <item>విద్యార్థి నెట్‌వర్క్</item>
+        <item>ప్రైమరీ స్కూల్స్ కోసం స్టూడెంట్ నెట్‌వర్క్</item>
+        <item>స్టూడెంట్ నెట్‌వర్క్ ప్రొఫైల్</item>
+        <item>యూనివర్శిటీ అడ్మిషన్</item>
+        <item>NCEE</item>
+        <item>రెజ్యూమ్</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>కాలేజ్ ఇంగ్లీష్ టెస్ట్ 1</item>
+        <item>కాలేజ్ ఇంగ్లీష్ టెస్ట్ 2</item>
+        <item>కాలేజ్ ఇంగ్లీష్ టెస్ట్ 3</item>
+        <item>Putonghua ప్రొఫిసిన్సీ టెస్ట్ 1</item>
+        <item>Putonghua ప్రొఫిసిన్సీ టెస్ట్ 2</item>
+        <item>డిగ్రీ ఇంగ్లీష్ టెస్ట్</item>
+        <item>కాలేజ్స్ కోసం PET</item>
+        <item>PETS స్థాయి 3</item>
+        <item>నేషనల్ కంప్యూటర్ ర్యాంక్ పరీక్ష 1</item>
+        <item>నేషనల్ కంప్యూటర్ ర్యాంక్ పరీక్ష 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>ప్రైమరీ మరియు సెకండరీ స్కూల్ టీచర్ సర్టిఫికేషన్</item>
+        <item>టీచర్ సర్టిఫికేషన్</item>
+        <item>డ్రైవర్స్ లైసెన్స్</item>
+        <item>గైడ్ పర్మిట్</item>
+        <item>ఎలక్ట్రానిక్ గైడ్ పర్మిట్</item>
+        <item>నేషనల్ జ్యూడిషల్ ఎగ్జామినేషన్</item>
+        <item>ఎలక్ట్రానిక్ ఫస్ట్-క్లాస్ కన్‌స్ట్రక్టర్ సర్టిఫికేట్</item>
+        <item>సెకండ్-క్లాస్ కన్‌స్ట్రక్టర్ సర్టిఫికేట్</item>
+        <item>జూనియర్ అకౌంటింగ్ టైటిల్ పరీక్ష</item>
+        <item>సర్టిఫైడ్ పబ్లిక్ అకౌంటెంట్</item>
+        <item>బీజింగ్ గైడ్ పర్మిట్</item>
+        <item>ఇంటర్‌మీడియెట్ అకౌంటింగ్ టైటిల్ పరీక్ష</item>
+        <item>సీనియర్ అకౌంటింగ్ టైటిల్ పరీక్ష</item>
+        <item>అకౌంటింగ్ అర్హత సర్టిఫికేట్</item>
+        <item>సర్టిఫైడ్ పబ్లిక్ అకౌంటెంట్ పరీక్ష</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>యునైటెడ్ స్టేట్స్</item>
+        <item>వియత్నాం</item>
+        <item>జపాన్</item>
+        <item>హాంగ్ కాంగ్ మరియు మకావు</item>
+        <item>దక్షిణ కొరియా</item>
+        <item>థాయి‌ల్యాండ్ (టూరిస్ట్)</item>
+        <item>థాయిల్యాండ్ (చేరుకున్నప్పుడు)</item>
+        <item>భారతదేశం</item>
+        <item>ఇజ్రాయెల్</item>
+        <item>తైవాన్</item>
+        <item>మలేషియా</item>
+        <item>న్యూజీల్యాండ్</item>
+        <item>ఇటలీ</item>
+        <item>అర్జెంటీనా</item>
+        <item>బ్రెజిల్</item>
+        <item>ఐస్‌ల్యాండ్</item>
+        <item>కెన్యా</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

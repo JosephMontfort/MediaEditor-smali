@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>ಬಿಳುಪು</item>
+        <item>ಗಾಢ ನೀಲಿ</item>
+        <item>ತಿಳಿ ನೀಲಿ</item>
+        <item>ಕೆಂಪು</item>
+        <item>ಹಸಿರು</item>
+        <item>ಗುಲಾಬಿ</item>
+        <item>ಕಂದು</item>
+        <item>ಬೂದು</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>ಚಿತ್ರ ಆಮದು ಮಾಡಿಕೊಳ್ಳಿ</item>
+        <item>ಪಾರದರ್ಶಕ ಹಿನ್ನೆಲೆ</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>ಲೀಶರ್‌</item>
+        <item>ಬ್ರೀಝ್‌</item>
+        <item>ಡ್ರೀಮ್ಸ್‌</item>
+        <item>ಕ್ಲೌಡ್ಸ್‌</item>
+        <item>ಥಾಟ್ಸ್‌</item>
+        <item>ಬಡ್ಸ್‌</item>
+        <item>ಮೆಟಾಮಾರ್ಫೋಸಿಸ್‌</item>
+        <item>ಡೆಪ್ತ್‌</item>
+        <item>ರಿಫ್ಲೆಕ್ಷನ್ಸ್‌</item>
+        <item>ಮಿನಿಮಲಿಸ್ಟ್‌</item>
+        <item>ಮಿಸ್ಟರಿ</item>
+        <item>ಫಾಗ್‌</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>ಭವಿಷ್ಯದ ಜಿಯೋಮ್ಯಾಟ್ರಿಕ್‌ ಹಿನ್ನೆಲೆ</item>
+        <item>ಹಳೆಯ ಮಾಸ್ಟರ್‌ ಪ್ರಿಂಟ್‌ಗಳ ಸನ್ನಿವೇಶ</item>
+        <item>ಹಿನ್ನೆಲೆಗಳನ್ನು ಸ್ಕೆಚ್‌ಗಳನ್ನಾಗಿ ಪರಿವರ್ತಿಸಿ</item>
+        <item>ವಾಟರ್‌ಕಲರ್‌ ಸ್ಟೈಲ್‌ ಹಿನ್ನೆಲೆಗಳು</item>
+        <item>ಸೈಬರ್‌ಪಂಕ್‌ ರೆಟ್ರೋ</item>
+        <item>ಮಿಸ್‌ಪ್ಲೇಸ್ಡ್‌ ವರ್ಟಿಕಲ್‌ ಸೆಗ್ಮೆಂಟ್‌ಗಳು</item>
+        <item>ಹೇಝಿ ಬ್ಲರ್‌</item>
+        <item>ಫ್ಯೂಚರಿಸ್ಟಿಕ್‌ ಫೀಲ್‌</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>ಲೋ ಪೋಲಿ</item>
+        <item>ಎಚಿಂಗ್‌</item>
+        <item>ಸ್ಕೆಚ್‌‌</item>
+        <item>ವಾಟರ್‌ಕಲರ್</item>
+        <item>RGB</item>
+        <item>ಬ್ಲೈಂಡ್ಸ್‌</item>
+        <item>ಫಾಗ್ಗಿ ವಿಂಡೋ</item>
+        <item>ಟೆಕ್‌</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>ಕಲರ್ಡ್‌ ಔಟ್‌ಲೈನ್‌</item>
+        <item>ಡ್ಯಾಶ್‌ ಔಟ್‌ಲೈನ್‌</item>
+        <item>ಫ್ಲೋರೋಸೆಂಟ್‌ ಔಟ್‌ಲೈನ್‌</item>
+        <item>ಕಲರ್ಡ್‌ ಶಾಡೋ</item>
+        <item>ಎಲೆಕ್ಟಿಕ್‌ ವೇವ್‌</item>
+        <item>ಪ್ರಸ್ತುತ</item>
+        <item>ವೇವ್ಸ್‌</item>
+        <item>ಪಾರ್ಟಿಕಲ್ಸ್‌</item>
+        <item>ಪಠ್ಯ</item>
+        <item>ವಿಂಗ್ಸ್‌</item>
+        <item>ಏಂಜೆಲ್‌</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>ಸಾಮಾನ್ಯ</item>
+        <item>ಪ್ರಯಾಣ</item>
+        <item>ಉದ್ಯೋಗ</item>
+        <item>ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು</item>
+        <item>ಶಿಕ್ಷಣ</item>
+        <item>ಪರೀಕ್ಷೆಗಳು</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>ಸಾಮಾಜಿಕ ಭದ್ರತೆ</item>
+        <item>ಆರೋಗ್ಯದ ಹೇಳಿಕೆ</item>
+        <item>ವೈದ್ಯಕೀಯ ವಿಮೆ</item>
+        <item>ಐಡಿ</item>
+        <item>ವಾಸದ ಗೃಹ ಅನುಮತಿ</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>ಒಂದು ಕುನ್‌</item>
+        <item>ಎರಡು ಕುನ್‌ಗಳು</item>
+        <item>ಚಿಕ್ಕದಾದ ಒಂದು ಕುನ್‌</item>
+        <item>ಚಿಕ್ಕದಾದ ಎರಡು ಕುನ್‌ಗಳು</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>ದಾಖಲಾತಿ ಅಪ್ಲಿಕೇಶನ್‌</item>
+        <item>ವಿದ್ಯಾರ್ಥಿ ನೆಟ್‌ವರ್ಕ್‌</item>
+        <item>ಪ್ರಾಥಮಿಕ ಶಾಲೆಗಳಿಗಾಗಿ ವಿದ್ಯಾರ್ಥಿ ನೆಟ್‌ವರ್ಕ್‌</item>
+        <item>ವಿದ್ಯಾರ್ಥಿ ನೆಟ್‌ವರ್ಕ್‌ ಪ್ರೊಫೈಲ್‌</item>
+        <item>ವಿಶ್ವವಿದ್ಯಾಲಯ ಅನುಮತಿ</item>
+        <item>NCEE</item>
+        <item>ಮುಂದುವರಿಸಿ</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>ಕಾಲೇಜು ಇಂಗ್ಲೀಷ್‌ ಪರೀಕ್ಷೆ 1</item>
+        <item>ಕಾಲೇಜು ಇಂಗ್ಲೀಷ್‌ ಪರೀಕ್ಷೆ 2</item>
+        <item>ಕಾಲೇಜು ಇಂಗ್ಲೀಷ್‌ ಪರೀಕ್ಷೆ 3</item>
+        <item>ಪುಟೊಂಗುವಾ ಪ್ರಾವಿಣ್ಯ ಪರೀಕ್ಷೆ 1</item>
+        <item>ಪುಟೊಂಗುವಾ ಪ್ರಾವಿಣ್ಯ ಪರೀಕ್ಷೆ 2</item>
+        <item>ಡಿಗ್ರಿ ಇಂಗ್ಲೀಷ್‌ ಪರೀಕ್ಷೆ</item>
+        <item>ಕಾಲೇಜುಗಳಿಗಾಗಿ PET</item>
+        <item>PETS ಹಂತ 3</item>
+        <item>ರಾಷ್ಟ್ರೀಯ ಕಂಪ್ಯೂಟರ್‌ ರ್ಯಾಂಕ್‌ ಪರೀಕ್ಷೆ 1</item>
+        <item>ರಾಷ್ಟ್ರೀಯ ಕಂಪ್ಯೂಟರ್‌ ರ್ಯಾಂಕ್‌ ಪರೀಕ್ಷೆ 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>ಪ್ರಾಥಮಿಕ ಮತ್ತು ಮಾಧ್ಯಮಿಕ ಶಾಲೆ ಶಿಕ್ಷಕ ಪ್ರಮಾಣಪತ್ರ</item>
+        <item>ಶಿಕ್ಷಕ ಪ್ರಮಾಣಪತ್ರ</item>
+        <item>ಚಾಲಕರ ಪರವಾನಗಿ</item>
+        <item>ಮಾರ್ಗದರ್ಶಿ ಅನುಮತಿ</item>
+        <item>ಎಲೆಕ್ಟ್ರಾನಿಕ್‌ ಮಾರ್ಗದರ್ಶಿ ಅನುಮತಿ</item>
+        <item>ರಾಷ್ಟ್ರೀಯ ಕಾನೂನು ಪರೀಕ್ಷೆ</item>
+        <item>ಎಲೆಕ್ಟ್ರಾನಿಕ್ ಪ್ರಥಮ-ದರ್ಜೆ ನಿರ್ಮಾಣಕಾರರ ಪ್ರಮಾಣಪತ್ರ</item>
+        <item>ಎರಡನೇ-ದರ್ಜೆ ನಿರ್ಮಾಣಕಾರರ ಪ್ರಮಾಣಪತ್ರ</item>
+        <item>ಕಿರಿಯ ಲೆಕ್ಕಾಧಿಕಾರಿ ಹುದ್ದೆಯ ಪರೀಕ್ಷೆ</item>
+        <item>ಪ್ರಾಮಾಣಿತ ಸಾರ್ವಜನಿಕ ಖಾತೆ</item>
+        <item>ಬೀಜಿಂಗ್‌ ಮಾರ್ಗದರ್ಶಿ ಅನುಮತಿ</item>
+        <item>ಮಧ್ಯಮ ಲೆಕ್ಕಾಧಿಕಾರಿ ಹುದ್ದೆಯ ಪರೀಕ್ಷೆ</item>
+        <item>ಹಿರಿಯ ಲೆಕ್ಕಾಧಿಕಾರಿ ಹುದ್ದೆಯ ಪರೀಕ್ಷೆ</item>
+        <item>ಲೆಕ್ಕಾಧಿಕಾರಿ ಅರ್ಹತೆ ಪ್ರಮಾಣಪತ್ರ</item>
+        <item>ಪ್ರಮಾಣೀಕೃತ ಸಾರ್ವಜನಿಕ ಲೆಕ್ಕಾಧಿಕಾರಿ ಪರೀಕ್ಷೆ</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>ಯುನೈಟೆಡ್ ಸ್ಟೇಟ್ಸ್</item>
+        <item>ವಿಯೆಟ್ನಾಂ</item>
+        <item>ಜಪಾನ್‌</item>
+        <item>ಹಾಂಗ್‌ ಕಾಂಗ್ ಮತ್ತು ಮಕಾವು</item>
+        <item>ದಕ್ಷಿಣ ಕೊರಿಯಾ</item>
+        <item>ಥಾಯ್‌ಲ್ಯಾಂಡ್‌ (ಪ್ರವಾಸಿ)</item>
+        <item>ಥಾಯ್‌ಲ್ಯಾಂಡ್‌ (ಆಗಮನದಲ್ಲಿ)</item>
+        <item>ಭಾರತ</item>
+        <item>ಇಸ್ರೇಲ್‌</item>
+        <item>ತೈವಾನ್</item>
+        <item>ಮಲೇಷ್ಯಾ</item>
+        <item>ನ್ಯೂಜಿಲ್ಯಾಂಡ್</item>
+        <item>ಇಟಲಿ</item>
+        <item>ಅರ್ಜೆಂಟಿನಾ</item>
+        <item>ಬ್ರೆಜಿಲ್</item>
+        <item>ಐಸ್‌ಲ್ಯಾಂಡ್‌</item>
+        <item>ಕೀನ್ಯಾ</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

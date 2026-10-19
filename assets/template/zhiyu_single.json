@@ -1,0 +1,21 @@
+{
+  "name": "zhiyu",
+  "cover": "cover.png",
+  "music": "zhiyu.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 6933,
+      "oriDuration": 6933,
+      "4koriDuration": 6933,
+      "tag": "40001;68;71;72;79-80;83-87;89;91-92;132;152-159;180;207;421;423;435;451;437;455;500;506-507;1992-2000",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ]
+    }
+  ]
+}

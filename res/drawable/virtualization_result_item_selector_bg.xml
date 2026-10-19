@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/virtualization_result_view_size" android:width="@dimen/virtualization_result_view_size">
+        <shape>
+            <corners android:radius="@dimen/corners_small" />
+            <stroke android:width="@dimen/virtualization_result_selected_stroke_width" android:color="@color/primary" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/photo_editor_common_menu_item_icon_size" android:width="@dimen/photo_editor_common_menu_item_icon_size" android:viewportWidth="28.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/on_surface" android:pathData="M6.148,10.278L4.009,8.484C4.002,8.545 3.998,8.606 3.998,8.669V17.331C3.998,17.867 4.284,18.362 4.748,18.63L12.25,22.962C12.714,23.23 13.286,23.23 13.75,22.962L18.201,20.392L16.448,18.921L13,20.912L6.148,16.956V10.278ZM19.852,15.722L21.991,17.516C21.998,17.455 22.002,17.394 22.002,17.331V8.669C22.002,8.133 21.716,7.638 21.252,7.37L13.75,3.038C13.286,2.77 12.714,2.77 12.25,3.038L7.799,5.608L9.552,7.079L13,5.088L19.852,9.044V15.722ZM14.37,11.122L15.743,9.791C15.974,9.568 16.316,9.504 16.612,9.629C16.908,9.755 17.1,10.045 17.1,10.366V13.413L14.37,11.122ZM8.9,12.587L10.5,13.93V15.372C10.5,15.814 10.142,16.172 9.7,16.172C9.258,16.172 8.9,15.814 8.9,15.372V12.587Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/on_surface" android:pathData="M4.078,6.264L4.817,5.383A0.5,0.5 48.456,0 1,5.522 5.322L21.86,19.031A0.5,0.5 122.716,0 1,21.922 19.736L21.183,20.617A0.5,0.5 85.067,0 1,20.478 20.678L4.14,6.969A0.5,0.5 46.123,0 1,4.078 6.264z" />
+</vector>

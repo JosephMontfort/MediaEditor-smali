@@ -1,0 +1,127 @@
+version: 2.10.0
+apkFileName: EditorMod_v2.11.10.0.3_PeaceModss.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 29
+  targetSdkVersion: 36
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 211991003
+  versionName: 2.11.10.0.3
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+  kotlin-tooling-metadata.json: 8
+  play-services-ads-identifier.properties: 8
+  play-services-base.properties: 8
+  play-services-basement.properties: 8
+  play-services-tasks.properties: 8
+doNotCompress:
+- resources.arsc
+- META-INF/version-control-info.textproto
+- META-INF/com/android/build/gradle/app-metadata.properties
+- META-INF/services/as0.q
+- META-INF/services/np0.b
+- META-INF/services/ur0.d0
+- META-INF/services/w6.f
+- META-INF/services/w6.o
+- png
+- assets/fccache.zip
+- assets/stickers.zip
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- jpg
+- assets/graphics/image_beauty_basic.bundle
+- assets/graphics/image_beauty_bodyslim.bundle
+- assets/graphics/image_beauty_facebeauty.bundle
+- assets/graphics/image_beauty_facewarp.bundle
+- assets/graphics/image_editor_enhance.bundle
+- assets/graphics/image_editor_scenebeauty.bundle
+- assets/makeup/item_bundle/jingdian.bundle
+- assets/makeup/item_bundle/jingfu.bundle
+- assets/makeup/item_bundle/liti.bundle
+- assets/makeup/item_bundle/nanshi.bundle
+- assets/makeup/item_bundle/oumei.bundle
+- assets/makeup/item_bundle/wenrou.bundle
+- assets/mcfg/.tag
+- assets/model/ai_beauty_type_processor.bundle
+- assets/model/ai_face_attribute_processor.bundle
+- assets/model/ai_face_beauty_processor.bundle
+- assets/model/ai_face_bindi_seg_processor.bundle
+- assets/model/ai_face_emoji_editing_processor.bundle
+- assets/model/ai_face_processor_detect_landmark.bundle
+- assets/model/ai_human_processor_beautybody_mb.bundle
+- assets/model/ai_photo_editing_processor_scene_recog.bundle
+- assets/movieAssetsNormal/AA21846C-AF51-4768-945C-B716ABB92641.4.theme
+- assets/movieAssetsNormal/E529874A-3C60-4494-BFBC-D50B2FB34C2B.animatedsticker
+- assets/movieAssetsNormal/E71F9B1C-C71B-4E23-8ED0-AEA511E82925.4.theme
+- assets/prompt/autumn.txt
+- assets/prompt/spring.txt
+- assets/video_watermarks/version
+- assets/watermarks/version
+- m4a
+- mp4
+- lib/arm64-v8a/libCNamaSDK.so
+- lib/arm64-v8a/libFaceBeautyWrapper.so
+- lib/arm64-v8a/libMiFilterSDK.so
+- lib/arm64-v8a/libMiVideoSDK.so
+- lib/arm64-v8a/libXmStreamingSDK.so
+- lib/arm64-v8a/libarcsoft_dualcam_refocus.so
+- lib/arm64-v8a/libavif_android.so
+- lib/arm64-v8a/libbitmap_util.so
+- lib/arm64-v8a/libbytehook.so
+- lib/arm64-v8a/libc++.so
+- lib/arm64-v8a/libc++_shared.so
+- lib/arm64-v8a/libcameraheif.so
+- lib/arm64-v8a/libcloud_text_loader.so
+- lib/arm64-v8a/libdoc_photo_process.so
+- lib/arm64-v8a/libeditor_config_native.so
+- lib/arm64-v8a/libfuai.so
+- lib/arm64-v8a/libgainmap_grayscale.so
+- lib/arm64-v8a/libgallery_block_sdk.so
+- lib/arm64-v8a/libheif_jni.so
+- lib/arm64-v8a/libmegvii_bokeh_jni.so
+- lib/arm64-v8a/libmegvii_single_bokeh_jni.so
+- lib/arm64-v8a/libmi_portrait_jni.so
+- lib/arm64-v8a/libmievent.so
+- lib/arm64-v8a/libmiffmpeg.so
+- lib/arm64-v8a/libmmkv.so
+- lib/arm64-v8a/libmpbase.so
+- lib/arm64-v8a/libnative_buffer.so
+- lib/arm64-v8a/libpendant.so
+- lib/arm64-v8a/libqcloud-avif.so
+- lib/arm64-v8a/librefocus.so
+- lib/arm64-v8a/libresource_loader.so
+- lib/arm64-v8a/libshadowhook.so
+- lib/arm64-v8a/libshadowhook_nothing.so
+- lib/arm64-v8a/libturbojpeg.so
+- lib/arm64-v8a/libvis.so
+- lib/arm64-v8a/libwatermark-service.so
+- lib/arm64-v8a/libwatermark_effect.so
+- lib/arm64-v8a/libxcrash.so
+- lib/arm64-v8a/libxcrash_dumper.so
+- lib/arm64-v8a/libyuv.so
+- res/raw/desc_guide_animation_ai_id_photo.avif
+- res/raw/camera_movement_guide_cover_image_to_video.avif
+- ogg
+- res/raw/camera_movement_guide_cover_time_lapse.avif
+- res/raw/desc_guide_animation_ai_camera_movement.avif
+- res/raw/desc_guide_animation_image_enhance.avif
+- res/raw/save_option_cover_origin.avif
+- res/raw/save_option_save_as_copy.avif
+- res/raw/desc_guide_animation_beautification.avif
+- res/raw/camera_movement_guide_cover_dolly_zoom.avif
+- res/raw/loading_v2.avif
+- res/raw/description_ai_camera_movement.avif
+- res/raw/desc_guide_animation_ai_deblur.avif
+- res/raw/camera_movement_guide_cover_three_dimension.avif
+- res/raw/desc_guide_animation_filming.avif

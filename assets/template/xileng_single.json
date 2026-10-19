@@ -1,0 +1,21 @@
+{
+  "name": "xileng",
+  "cover": "cover.png",
+  "music": "xileng.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 7400,
+      "oriDuration": 7400,
+      "4koriDuration": 7400,
+      "tag": "103;107;119-121;1591",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ]
+    }
+  ]
+}

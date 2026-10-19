@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="motion_photo_effect_layout_padding_horizontal">200.0dip</dimen>
+</resources>

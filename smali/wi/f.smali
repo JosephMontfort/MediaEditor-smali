@@ -1,0 +1,40 @@
+.class public final synthetic Lwi/f;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/content/DialogInterface$OnClickListener;
+
+
+# instance fields
+.field public final synthetic a:Lwi/g$a;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lwi/g$a;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lwi/f;->a:Lwi/g$a;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/content/DialogInterface;I)V
+    .locals 0
+
+    invoke-interface {p1}, Landroid/content/DialogInterface;->cancel()V
+
+    const/4 p1, 0x0
+
+    const/4 p2, 0x1
+
+    iget-object p0, p0, Lwi/f;->a:Lwi/g$a;
+
+    invoke-interface {p0, p1, p2}, Lwi/g$a;->a(ZZ)V
+
+    return-void
+.end method

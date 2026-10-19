@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.gallery.widget.recyclerview.SimpleRecyclerView android:layout_gravity="center_horizontal" android:id="@id/nav_recycler" android:paddingTop="@dimen/video_main_nav_area_padding_top" android:layout_width="wrap_content" android:layout_height="@dimen/video_main_nav_area_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

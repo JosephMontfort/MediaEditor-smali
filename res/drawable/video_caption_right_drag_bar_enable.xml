@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/video_track_effect_drag_bar_height" android:width="@dimen/video_track_effect_drag_bar_width" android:autoMirrored="true" android:viewportWidth="12.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff7499f8" android:pathData="M0,0C3.728,0 5.591,0 7.061,0.609C9.022,1.421 10.579,2.978 11.391,4.939C12,6.409 12,8.272 12,12V16C12,19.728 12,21.591 11.391,23.062C10.579,25.022 9.022,26.579 7.061,27.391C5.591,28 3.728,28 0,28V0Z" />
+    <path android:fillColor="#ff000000" android:pathData="M5,11C5,10.448 5.448,10 6,10C6.552,10 7,10.448 7,11V17C7,17.552 6.552,18 6,18C5.448,18 5,17.552 5,17V11Z" android:fillAlpha="0.9" />
+</vector>

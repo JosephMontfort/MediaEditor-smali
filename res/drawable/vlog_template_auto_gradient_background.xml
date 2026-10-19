@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/vlog_template_list_template_auto_gradient_start_color" android:endColor="@color/vlog_template_list_template_auto_gradient_end_color" android:angle="-45.0" android:type="linear" />
+            <corners android:radius="@dimen/vlog_template_list_icon_radius" />
+        </shape>
+    </item>
+</selector>

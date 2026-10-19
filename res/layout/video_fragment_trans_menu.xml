@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/video_menu_bg" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/apply_top_line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/video_menu_apply_top_line" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/bottom_line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/video_menu_bottom_line" />
+    <com.miui.gallery.widget.recyclerview.SimpleRecyclerView android:id="@id/item_recycler" android:paddingTop="@dimen/video_menu_recycler_padding_top" android:paddingBottom="@dimen/video_menu_recycler_padding_top" android:layout_width="wrap_content" android:layout_height="@dimen/video_menu_recycler_height" app:layout_constraintBottom_toTopOf="@id/apply_top_line" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <com.miui.mediaeditor.video.ui.widget.CommonApplyView android:id="@id/apply_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/bottom_line" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/apply_top_line" />
+</androidx.constraintlayout.widget.ConstraintLayout>

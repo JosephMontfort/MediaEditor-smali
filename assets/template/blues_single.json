@@ -1,0 +1,21 @@
+{
+  "name": "blues",
+  "cover": "cover.png",
+  "music": "blues.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 8100,
+      "oriDuration": 8100,
+      "4koriDuration": 8100,
+      "tag": "34;1006;1007;1018;1554;185;189-192;194-195;349;388",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ]
+    }
+  ]
+}

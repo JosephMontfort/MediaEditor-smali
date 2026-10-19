@@ -1,0 +1,21 @@
+{
+  "name": "rufeng",
+  "cover": "cover.png",
+  "music": "rufeng.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 6233,
+      "oriDuration": 6233,
+      "4koriDuration": 6233,
+      "tag": "95-100;111-112;115;123-131;150-151;178;180;203-207;398;418;499;1147;1896-1949",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ]
+    }
+  ]
+}

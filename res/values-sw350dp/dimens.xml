@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="photo_editor_frame_seek_bar_margin_end">0.0dip</dimen>
+    <item type="dimen" name="text_edit_dialog_options_style_item_width">@dimen/px_290</item>
+    <item type="dimen" name="text_edit_dialog_tab_style_transparent_title_margin_right">@dimen/px_23</item>
+    <item type="dimen" name="vlog_single_clip_speed_picker_item_width">@dimen/px_180</item>
+</resources>

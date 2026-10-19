@@ -1,0 +1,21 @@
+{
+  "name": "lingdong",
+  "cover": "cover.png",
+  "music": "lingdong.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 6400,
+      "oriDuration": 6400,
+      "4koriDuration": 6400,
+      "tag": "1121-1128;78;622-695;828-844;108-109",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ]
+    }
+  ]
+}

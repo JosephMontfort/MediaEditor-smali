@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="screen_arrow_popwin_height">@dimen/px_26</item>
+    <item type="dimen" name="screen_arrow_popwin_width">@dimen/px_52</item>
+    <item type="dimen" name="screen_brush_popwin_height">@dimen/px_352</item>
+    <dimen name="screen_brush_popwin_width">293.8125dip</dimen>
+    <dimen name="screen_color_popwin_height">171.63599dip</dimen>
+    <dimen name="screen_color_popwin_width">293.8125dip</dimen>
+    <item type="dimen" name="screen_mosaic_popwin_height">@dimen/px_352</item>
+    <item type="dimen" name="screen_mosaic_popwin_size_bar_bg_corner">@dimen/px_50</item>
+    <item type="dimen" name="screen_mosaic_popwin_size_bar_bg_height">@dimen/px_48</item>
+    <dimen name="screen_mosaic_popwin_size_bar_bg_width">201.818dip</dimen>
+    <dimen name="screen_mosaic_popwin_width">293.8125dip</dimen>
+    <item type="dimen" name="screen_operation_icon_width">@dimen/px_75</item>
+    <item type="dimen" name="screen_pen_seek_bar_bg_height">@dimen/px_48</item>
+    <item type="dimen" name="screen_pen_seek_bar_height">@dimen/px_80</item>
+    <item type="dimen" name="screen_pen_seek_bar_thumb_size">@dimen/px_64</item>
+    <dimen name="screen_pen_seek_bar_width">201.818dip</dimen>
+    <item type="dimen" name="screen_shape_popwin_height">@dimen/px_180</item>
+    <dimen name="screen_shape_popwin_width">293.8125dip</dimen>
+    <item type="dimen" name="screen_stroke_item_bg_level_1">@dimen/px_14</item>
+    <item type="dimen" name="screen_stroke_item_bg_level_2">@dimen/px_24</item>
+    <item type="dimen" name="screen_stroke_item_bg_level_3">@dimen/px_34</item>
+    <item type="dimen" name="screen_stroke_item_bg_level_4">@dimen/px_44</item>
+    <item type="dimen" name="screen_stroke_item_bg_level_5">@dimen/px_54</item>
+    <item type="dimen" name="screen_stroke_item_level_1">@dimen/px_10</item>
+    <item type="dimen" name="screen_stroke_item_level_2">@dimen/px_20</item>
+    <item type="dimen" name="screen_stroke_item_level_3">@dimen/px_30</item>
+    <item type="dimen" name="screen_stroke_item_level_4">@dimen/px_40</item>
+    <item type="dimen" name="screen_stroke_item_level_5">@dimen/px_50</item>
+    <item type="dimen" name="screen_text_popwin_height">@dimen/px_180</item>
+    <item type="dimen" name="screen_text_popwin_item_size">@dimen/px_90</item>
+    <dimen name="screen_text_popwin_width">293.8125dip</dimen>
+    <item type="dimen" name="vlog_resolution_item_divider_margin">@dimen/px_12</item>
+    <item type="dimen" name="vlog_resolution_item_divider_width">@dimen/px_3</item>
+    <item type="dimen" name="vlog_resolution_item_estimate_size_tv_margin_start">@dimen/px_80</item>
+    <item type="dimen" name="vlog_resolution_item_estimate_size_tv_max_width">@dimen/px_546</item>
+    <item type="dimen" name="vlog_resolution_item_first_line_margin_start">@dimen/px_80</item>
+    <item type="dimen" name="vlog_resolution_item_selected_icon_margin_end">@dimen/px_84</item>
+    <item type="dimen" name="vlog_resolution_item_tv_resolution_max_width">@dimen/px_220</item>
+</resources>

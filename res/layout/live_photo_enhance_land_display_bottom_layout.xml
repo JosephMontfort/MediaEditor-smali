@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/live_photo_enhance_land_seek_bar_container" android:layout_width="fill_parent" android:layout_height="@dimen/video_play_seek_bar_container_height" android:layout_marginHorizontal="@dimen/video_play_seek_bar_container_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.mediaeditor.photo.livephoto_enhance.component.view.VideoPlaySeekBar android:layout_gravity="center_vertical" android:id="@id/video_play_seek_bar" android:layout_width="fill_parent" android:layout_height="@dimen/video_play_seek_bar_height" app:vpsb_container_bg_color="@color/surface_container" app:vpsb_container_corner_radius="@dimen/corners_tiny" app:vpsb_play_area_width="@dimen/video_play_seek_bar_play_area_width" app:vpsb_progress_line="@drawable/video_play_seek_bar_progress_line" />
+    <View android:id="@id/video_play_seek_bar_dim" android:background="@color/mask_ai" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

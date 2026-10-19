@@ -1,0 +1,21 @@
+{
+  "name": "liaoli",
+  "cover": "cover.png",
+  "music": "liaoli.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 7300,
+      "oriDuration": 7300,
+      "4koriDuration": 7300,
+      "tag": "15-23;304-395;1490-1610;1621-1658",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.jpg",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ]
+    }
+  ]
+}

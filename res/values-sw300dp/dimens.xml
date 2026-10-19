@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="photo_editor_frame_seek_bar_margin_end">25.449982dip</dimen>
+    <dimen name="text_edit_dialog_options_style_item_width">76.359985dip</dimen>
+    <dimen name="text_edit_dialog_options_style_panel_rl_seek_bar_margin_right">0.0dip</dimen>
+    <dimen name="text_edit_dialog_tab_style_transparent_title_margin_right">0.0dip</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="26.0dip" android:width="26.0dip" android:viewportWidth="26.0" android:viewportHeight="26.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/surface_button" android:pathData="M13,25C19.627,25 25,19.627 25,13C25,6.373 19.627,1 13,1C6.373,1 1,6.373 1,13C1,19.627 6.373,25 13,25Z" />
+    <path android:fillColor="@color/on_surface_pressed" android:pathData="M16.899,10.658C17.33,10.228 17.33,9.529 16.899,9.099C16.469,8.668 15.77,8.668 15.34,9.099L13,11.438L10.66,9.099C10.23,8.668 9.531,8.668 9.101,9.099C8.67,9.529 8.67,10.228 9.101,10.658L11.44,12.998L9.101,15.338C8.67,15.769 8.67,16.467 9.101,16.898C9.531,17.328 10.23,17.328 10.66,16.898L13,14.558L15.34,16.898C15.77,17.328 16.469,17.328 16.899,16.898C17.33,16.467 17.33,15.769 16.899,15.338L14.56,12.998L16.899,10.658Z" android:fillType="evenOdd" />
+</vector>

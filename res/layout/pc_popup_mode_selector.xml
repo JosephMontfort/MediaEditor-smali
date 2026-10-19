@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/pc_bg_popup_window" android:paddingTop="@dimen/pc_popup_mode_item_padding_v" android:paddingBottom="@dimen/pc_popup_mode_item_padding_v" android:layout_width="@dimen/pc_mode_selector_window_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pc_popup_mode_single" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/pc_popup_mode_item_height" android:paddingStart="@dimen/pc_popup_mode_item_padding_h" android:paddingEnd="@dimen/pc_popup_mode_item_padding_h">
+        <TextView android:textSize="@dimen/pc_popup_mode_item_text_size" android:textColor="@color/pc_popup_text_color" android:id="@id/pc_popup_mode_single_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/photo_certificate_mode_single" android:layout_weight="1.0" />
+        <ImageView android:id="@id/pc_popup_mode_single_check" android:visibility="visible" android:layout_width="@dimen/pc_popup_mode_item_check_size" android:layout_height="@dimen/pc_popup_mode_item_check_size" android:src="@drawable/pc_icon_check" />
+    </LinearLayout>
+    <View android:background="@color/pc_popup_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/pc_popup_mode_divider_height" android:layout_marginStart="@dimen/pc_popup_mode_divider_margin_h" android:layout_marginEnd="@dimen/pc_popup_mode_divider_margin_h" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pc_popup_mode_multiple" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/pc_popup_mode_item_height" android:paddingStart="@dimen/pc_popup_mode_item_padding_h" android:paddingEnd="@dimen/pc_popup_mode_item_padding_h">
+        <TextView android:textSize="@dimen/pc_popup_mode_item_text_size" android:textColor="@color/pc_popup_text_color" android:id="@id/pc_popup_mode_multiple_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/photo_certificate_mode_multiple" android:layout_weight="1.0" />
+        <ImageView android:id="@id/pc_popup_mode_multiple_check" android:visibility="gone" android:layout_width="@dimen/pc_popup_mode_item_check_size" android:layout_height="@dimen/pc_popup_mode_item_check_size" android:src="@drawable/pc_icon_check" />
+    </LinearLayout>
+</LinearLayout>

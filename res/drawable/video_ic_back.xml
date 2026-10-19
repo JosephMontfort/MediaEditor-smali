@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/video_common_svg_icon_size" android:width="@dimen/video_common_svg_icon_size" android:autoMirrored="true" android:viewportWidth="28.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/video_icon_color_selector" android:pathData="M17.516,22.017C17.285,22.233 17.169,22.341 17.04,22.378C16.926,22.41 16.805,22.406 16.694,22.366C16.567,22.32 16.46,22.205 16.246,21.976L10.622,15.949C9.869,15.143 9.87,13.891 10.622,13.084L16.246,7.057C16.46,6.828 16.567,6.714 16.694,6.668C16.805,6.627 16.926,6.623 17.04,6.656C17.169,6.693 17.285,6.801 17.516,7.017C17.747,7.233 17.863,7.341 17.909,7.467C17.949,7.578 17.953,7.699 17.921,7.813C17.884,7.942 17.777,8.057 17.563,8.286L11.938,14.312C11.83,14.427 11.83,14.607 11.938,14.722L17.563,20.747C17.777,20.977 17.884,21.091 17.921,21.221C17.953,21.334 17.949,21.455 17.909,21.566C17.863,21.693 17.747,21.801 17.516,22.017Z" />
+</vector>

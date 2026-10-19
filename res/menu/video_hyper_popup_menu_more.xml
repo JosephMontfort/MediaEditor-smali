@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/group4">
+        <item android:id="@id/appearanceSetting" android:title="@string/more_menu_appearance_setting">
+            <menu>
+                <item android:id="@id/appearanceSettingSystem" android:title="@string/appearance_setting_system" android:checkable="true" />
+                <item android:id="@id/appearanceSettingDark" android:title="@string/appearance_setting_dark" android:checkable="true" />
+                <item android:id="@id/appearanceSettingLight" android:title="@string/appearance_setting_light" android:checkable="true" />
+            </menu>
+        </item>
+        <item android:id="@id/descriptionTitle" android:title="@string/description_title" />
+        <item android:id="@id/videoDraftTitle" android:title="@string/video_draft_title" />
+    </group>
+</menu>

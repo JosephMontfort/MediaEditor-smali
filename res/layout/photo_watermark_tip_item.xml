@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/photo_watermark_tip_item_text_size" android:textColor="#ffffe5a1" android:gravity="center" android:layout_gravity="center" android:background="@drawable/photo_watermark_tip_item_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/photo_watermark_tip_item_text_padding_horizontal" android:paddingVertical="@dimen/photo_watermark_tip_item_text_padding_vertical" android:fallbackLineSpacing="false" android:textFontWeight="500"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

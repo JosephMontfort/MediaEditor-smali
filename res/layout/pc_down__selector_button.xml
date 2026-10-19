@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/pc_selector_button_text_size" android:textColor="@color/on_surface" android:gravity="center" android:id="@id/pc_selector_button_text" android:background="@drawable/bg_select_button" android:layout_width="wrap_content" android:layout_height="@dimen/pc_selector_button_height" android:minWidth="@dimen/pc_selector_button_width" android:text="@string/photo_certificate_mode_single" android:drawableEnd="@drawable/pc_src_arrows_down" android:paddingStart="@dimen/pc_down_selector_button_padding_h" android:paddingEnd="@dimen/pc_down_selector_button_padding_h" />
+</LinearLayout>

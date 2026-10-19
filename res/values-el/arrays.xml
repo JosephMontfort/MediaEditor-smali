@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>Άσπρο</item>
+        <item>Σκούρο μπλε</item>
+        <item>Απαλό μπλε</item>
+        <item>Κόκκινο</item>
+        <item>Πράσινο</item>
+        <item>Ροζ</item>
+        <item>Καφέ</item>
+        <item>Γκρι</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Εισαγωγή εικόνας</item>
+        <item>Διάφανο φόντο</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="alphabet_table">
+        <item>Α</item>
+        <item>Β</item>
+        <item>Γ</item>
+        <item>Δ</item>
+        <item>Ε</item>
+        <item>Ζ</item>
+        <item>Η</item>
+        <item>Θ</item>
+        <item>Ι</item>
+        <item>Κ</item>
+        <item>Λ</item>
+        <item>Μ</item>
+        <item>Ν</item>
+        <item>Ξ</item>
+        <item>Ο</item>
+        <item>Π</item>
+        <item>Ρ</item>
+        <item>Σ</item>
+        <item>Τ</item>
+        <item>Υ</item>
+        <item>Φ</item>
+        <item>Χ</item>
+        <item>Ψ</item>
+        <item>Ω</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Χαλαρότητα</item>
+        <item>Αεράκι</item>
+        <item>Όνειρα</item>
+        <item>Σύννεφα</item>
+        <item>Σκέψεις</item>
+        <item>Μπουμπούκια</item>
+        <item>Μεταμόρφωση</item>
+        <item>Βάθος</item>
+        <item>Αντανακλάσεις</item>
+        <item>Μινιμαλιστικό</item>
+        <item>Μυστήριο</item>
+        <item>Ομίχλη</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Φουτουριστικό γεωμετρικό φόντο</item>
+        <item>Ατμόσφαιρα από παλιές κύριες εκτυπώσεις</item>
+        <item>Μετατρέψτε τα υπόβαθρα σε σκίτσα</item>
+        <item>Ακουαρέλα στυλ υπόβαθρα</item>
+        <item>Cyberpunk ρετρό</item>
+        <item>Λανθασμένα κατακόρυφα τμήματα</item>
+        <item>Ομιχλώδες θόλωμα</item>
+        <item>Φουτουριστική αίσθηση</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Χαμηλό πολύγωνο</item>
+        <item>Χαλκογραφία</item>
+        <item>Σκίτσο</item>
+        <item>Ακουαρέλα</item>
+        <item>RGB</item>
+        <item>Σκίαστρα</item>
+        <item>Ομιχλώδες παράθυρο</item>
+        <item>Τεχνολογία</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Έγχρωμο περίγραμμα</item>
+        <item>Διακεκομμένο περίγραμμα</item>
+        <item>Περίγραμμα φθορισμού</item>
+        <item>Χρωματιστή σκιά</item>
+        <item>Ηλεκτρικό κύμα</item>
+        <item>Ροή</item>
+        <item>Κύματα</item>
+        <item>Σωματίδια</item>
+        <item>Κείμενο</item>
+        <item>Φτερά</item>
+        <item>Άγγελος</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>Γενικά</item>
+        <item>Ταξίδια</item>
+        <item>Εργασία</item>
+        <item>Έγγραφα</item>
+        <item>Εκπαίδευση</item>
+        <item>Εξετάσεις</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Κοινωνική ασφάλιση</item>
+        <item>Δήλωση υγείας</item>
+        <item>Ιατρική ασφάλιση</item>
+        <item>ID</item>
+        <item>Άδεια παραμονής</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>Μία κινεζική ίντσα</item>
+        <item>Δύο κινεζικές ίντσες</item>
+        <item>Μικρότερη από μία κινεζική ίντσα</item>
+        <item>Μικρότερη από δύο κινεζικές ίντσες</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Αίτηση εισαγωγής</item>
+        <item>Μαθητικό δίκτυο</item>
+        <item>Μαθητικό δίκτυο για δημοτικά σχολεία</item>
+        <item>Προφίλ μαθητικού δικτύου</item>
+        <item>Εισαγωγή στο πανεπιστήμιο</item>
+        <item>NCEE</item>
+        <item>Συνέχεια</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>College English Test 1</item>
+        <item>College English Test 2</item>
+        <item>College English Test 3</item>
+        <item>Putonghua Proficiency Test 1</item>
+        <item>Putonghua Proficiency Test 2</item>
+        <item>Degree English Test</item>
+        <item>PET για πανεπιστήμια</item>
+        <item>PETS Επίπεδο 3</item>
+        <item>National Computer Rank Examination 1</item>
+        <item>National Computer Rank Examination 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>Πιστοποίηση εκπαιδευτικού για το δημοτικό και γυμνάσιο/λύκειο</item>
+        <item>Πιστοποίηση εκπαιδευτικού</item>
+        <item>Άδεια οδήγησης</item>
+        <item>Άδεια ξεναγού</item>
+        <item>Ηλεκτρονική άδεια ξεναγού</item>
+        <item>Εθνική δικαστική εξέταση</item>
+        <item>Πιστοποιητικό ηλεκτρονικού πρώτης κατηγορίας κατασκευαστή</item>
+        <item>Πιστοποιητικό ηλεκτρονικού δεύτερης κατηγορίας κατασκευαστή</item>
+        <item>Εξέταση τίτλου Junior λογιστή</item>
+        <item>Πιστοποιημένος δημόσιος λογιστής</item>
+        <item>Άδεια ξεναγού Πεκίνου</item>
+        <item>Εξέταση τίτλου Intermediate λογιστή</item>
+        <item>Εξέταση τίτλου Senior λογιστή</item>
+        <item>Πιστοποιητικό λογιστικής</item>
+        <item>Εξέταση πιστοποιημένου δημόσιου λογιστή</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>Ηνωμένες Πολιτείες</item>
+        <item>Βιετνάμ</item>
+        <item>Ιαπωνία</item>
+        <item>Χονγκ Κονγκ και Μακάου</item>
+        <item>Νότια Κορέα</item>
+        <item>Ταϊλάνδη (τουριστική)</item>
+        <item>Ταϊλάνδη (κατά την άφιξη)</item>
+        <item>Ινδία</item>
+        <item>Ισραήλ</item>
+        <item>Ταϊβάν</item>
+        <item>Μαλαισία</item>
+        <item>Νέα Ζηλανδία</item>
+        <item>Ιταλία</item>
+        <item>Αργεντινή</item>
+        <item>Βραζιλία</item>
+        <item>Ισλανδία</item>
+        <item>Κένυα</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.mediaeditor.photo.ai_emote.render.AiEmoteView android:id="@id/emote_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_loading" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" android:alpha="0.5" app:layout_constraintBottom_toBottomOf="@id/emote_view" app:layout_constraintTop_toTopOf="@id/emote_view" app:lottie_autoPlay="false" app:lottie_loop="true" app:lottie_rawRes="@raw/ai_loading" />
+</androidx.constraintlayout.widget.ConstraintLayout>

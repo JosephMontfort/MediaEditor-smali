@@ -1,0 +1,21 @@
+{
+  "name": "jiezou",
+  "cover": "cover.png",
+  "music": "卡点1.MP3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 7700,
+      "oriDuration": 7700,
+      "4koriDuration": 7700,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "生动.png",
+          "filterName": "movit.filter.track_lut"
+        }
+      ]
+    }
+  ]
+}

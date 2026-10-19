@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="#ff191919" android:endColor="#ff191919" android:angle="315.0" android:type="linear" android:centerColor="#ff191919" />
+    <stroke android:width="@dimen/photo_agent_recommend_card_stroke" android:color="@color/photo_agent_suggestion_card_stroke" />
+    <corners android:radius="@dimen/photo_agent_recommend_card_radius" />
+</shape>

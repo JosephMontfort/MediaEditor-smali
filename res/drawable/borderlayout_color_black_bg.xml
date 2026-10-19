@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/portrait_mode_image_padding" android:color="@color/miuix_appcompat_dialog_default_bg_color_dark" />
+    <corners android:radius="@dimen/borderlayout_bg_corner_radius" />
+</shape>

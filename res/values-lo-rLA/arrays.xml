@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>​ສີ​ຂາວ</item>
+        <item>ຟ້າເຂັ້ມ</item>
+        <item>ສີຟ້າອ່ອນ</item>
+        <item>​ສີ​ແດງ</item>
+        <item>​ສີ​ຂຽວ</item>
+        <item>ສີບົວ</item>
+        <item>​ສີ​ນ້ຳ​ຕານ</item>
+        <item>ສີເທົາ</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>ນຳເຂົ້າຮູບພາບ</item>
+        <item>ພື້ນຫຼັງແບບໂປ່ງໃສ</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>ພັກຜ່ອນ</item>
+        <item>ສາຍລົມເບົາໆ</item>
+        <item>ຄວາມຝັນ</item>
+        <item>ເມກ</item>
+        <item>ຄວາມຄິດ</item>
+        <item>ດອກໄມ້ຕູມ</item>
+        <item>ປ່ຽນແບບ</item>
+        <item>ຄວາມເລິກ</item>
+        <item>ພາບສະທ້ອນ</item>
+        <item>ລຽບງ່າຍ</item>
+        <item>ລຶກລັບ</item>
+        <item>ໝອກ</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>ພື້ນຫຼັງເລຂາຄະນິດແຫ່ງອະນາຄົດ</item>
+        <item>ພາບບັນຍາກາດງານພິມເກົ່າ</item>
+        <item>ປ່ຽນພື້ນຫຼັງເປັນພາບຮ່າງ</item>
+        <item>ພື້ນຫຼັງແບບສີນ້ຳ</item>
+        <item>Cyberpunk ເຣໂທຣ</item>
+        <item>ວາງສ່ວນລວງຕັ້ງຜິດຕຳແໜ່ງ</item>
+        <item>ໝອກມົວ</item>
+        <item>ຄວາມຮູ້ສຶກລ້ຳຍຸກ</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Low poly</item>
+        <item>Etching</item>
+        <item>​ພາບ​ຮ່າງ</item>
+        <item>ສີນ້ຳ</item>
+        <item>RGB</item>
+        <item>ຜ້າມ່ານ</item>
+        <item>ໜ້າຕ່າງທີ່ມີໝອກ</item>
+        <item>ເຕັກໂນໂລຢີ</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>ໂຄງຮ່າງສີ</item>
+        <item>ໂຄງຮ່າງເສັ້ນປະ</item>
+        <item>ໂຄງຮ່າງເຮືອງແສງ</item>
+        <item>ເງົາສີ</item>
+        <item>ຄື້ນໄຟຟ້າ</item>
+        <item>ປັດຈຸບັນ</item>
+        <item>ຄື້ນ</item>
+        <item>ອະນຸພາກ</item>
+        <item>ສົ່ງຂໍ້ຄວາມ</item>
+        <item>ປີກ</item>
+        <item>ນາງຟ້າ</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>​ທົ່ວ​ໄປ</item>
+        <item>ທ່ອງທ່ຽວ</item>
+        <item>ວຽກງານ</item>
+        <item>ເອກະສານ</item>
+        <item>ການສຶກສາ</item>
+        <item>ການທົດສອບ</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>ປະກັນສັງຄົມ</item>
+        <item>ຄຳຊີ້ແຈງກ່ຽວກັບສຸຂະພາບ</item>
+        <item>ປະກັນສຸຂະພາບ</item>
+        <item>ID</item>
+        <item>ໃບອະນຸຍາດທີ່ຢູ່ອາໄສ</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>ໜຶ່ງ cun</item>
+        <item>2 cuns</item>
+        <item>ນ້ອຍກວ່າໜຶ່ງ cun</item>
+        <item>ນ້ອຍກວ່າສອງ cun</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>ໃບສະໝັກເຂົ້າຮຽນ</item>
+        <item>ເຄືອຂ່າຍນັກຮຽນ</item>
+        <item>ເຄືອຂ່າຍນັກຮຽນສຳລັບໂຮງຮຽນປະຖົມ</item>
+        <item>ໂປຣໄຟລ໌ເຄືອຂ່າຍນັກຮຽນ</item>
+        <item>ການສະໝັກເຂົ້າມະຫາວິທະຍາໄລ</item>
+        <item>NCEE</item>
+        <item>ປະຫວັດຫຍໍ້</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>ການສອບເສັງພາສາອັງກິດລະດັບວິທະຍາໄລ 1</item>
+        <item>ການສອບເສັງພາສາອັງກິດລະດັບວິທະຍາໄລ 2</item>
+        <item>ການສອບເສັງພາສາອັງກິດລະດັບວິທະຍາໄລ 3</item>
+        <item>ການທົດສອບຄວາມສາມາດພາສາຈີນກາງ 1</item>
+        <item>ການທົດສອບຄວາມສາມາດພາສາຈີນກາງ 2</item>
+        <item>ການສອບເສັງລະດັບພາສາອັງກິດ</item>
+        <item>PET ສຳລັບວິທະຍາໄລ</item>
+        <item>PETS ລະດັບ 3</item>
+        <item>ການ​ສອບ​ເສັງ​ຄອມ​ພິວ​ເຕີລະ​ດັບ​​​ຊາດ 1</item>
+        <item>ການ​ສອບ​ເສັງ​ຄອມ​ພິວ​ເຕີລະ​ດັບ​​​ຊາດ 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>ການຢັ້ງຢືນຄູສອນຊັ້ນປະຖົມແລະມັດທະຍົມ</item>
+        <item>ໃບຢັ້ງຢືນຄູ</item>
+        <item>ໃບຂັບຂີ່</item>
+        <item>ໃບອະນຸຍາດຜູ້ນຳທ່ຽວ</item>
+        <item>ໃບອະນຸຍາດຜູ້ນຳທ່ຽວເອເລັກໂຕຣນິກ</item>
+        <item>ການ​ສອບ​ເສັງ​ວັດລະດັບຕຸລາການ​ແຫ່ງ​ຊາດ</item>
+        <item>ໃບ​ຢັ້ງ​ຢືນ​ຜູ້​​ສ້າງ​ຊັ້ນໜຶ່ງ​ເອ​ເລັກ​ໂຕຣ​ນິກ​</item>
+        <item>ໃບ​ຢັ້ງ​ຢືນ​ຜູ້​​ສ້າງ​ຊັ້ນສອງ</item>
+        <item>ການ​ສອບ​ເສັງ​ຫົວ​ຂໍ້​ການ​ບັນ​ຊີ​ຊັ້ນຕົ້ນ</item>
+        <item>ນັກບັນຊີສາທາລະນະທີ່ໄດ້ຮັບການຮັບຮອງ</item>
+        <item>ໃບອະນຸຍາດຜູ້ນຳທ່ຽວປັກກິ່ງ</item>
+        <item>ການ​ສອບ​ເສັງ​ຫົວ​ຂໍ້​ການ​ບັນ​ຊີ​ຊັ້ນກາງ</item>
+        <item>ການ​ສອບ​ເສັງ​ຫົວ​ຂໍ້​ການ​ບັນ​ຊີ​ຊັ້ນສູງ</item>
+        <item>ໃບຮັບຮອງການບັນຊີ</item>
+        <item>ການສອບເສັງນັກບັນຊີສາທາລະນະທີ່ໄດ້ຮັບການຮັບຮອງ</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>ສະ​ຫະ​ລັດອາເມລິກາ</item>
+        <item>ຫວຽດນາມ</item>
+        <item>ຍີ່ປຸ່ນ</item>
+        <item>ຮ່ອງກົງແລະມາເກົ້າ</item>
+        <item>ເກົາຫຼີໃຕ້</item>
+        <item>ປະເທດໄທ (ນັກທ່ອງທ່ຽວ)</item>
+        <item>ປະເທດໄທ (ເມື່ອມາຮອດ)</item>
+        <item>ອິນເດຍ</item>
+        <item>Israel</item>
+        <item>ໄຕ້ຫວັນ</item>
+        <item>Malaysia</item>
+        <item>ນິວ​ຊີ​ແລນ</item>
+        <item>ອິຕາລີ</item>
+        <item>Argentina</item>
+        <item>ບຣາຊິວ</item>
+        <item>Iceland</item>
+        <item>Kenya</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

@@ -1,0 +1,66 @@
+.class public final Lcom/miui/gallery/editor_common/font/typeface/TextStyle$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/os/Parcelable$Creator;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/miui/gallery/editor_common/font/typeface/TextStyle;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Landroid/os/Parcelable$Creator<",
+        "Lcom/miui/gallery/editor_common/font/typeface/TextStyle;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    .locals 1
+
+    new-instance p0, Lcom/miui/gallery/editor_common/font/typeface/TextStyle;
+
+    invoke-direct {p0}, Lcom/miui/gallery/net/resource/c;-><init>()V
+
+    const v0, 0x7f140944
+
+    iput v0, p0, Lcom/miui/gallery/editor_common/font/typeface/TextStyle;->a:I
+
+    const/16 v0, 0x14
+
+    iput v0, p0, Lcom/miui/gallery/editor_common/font/typeface/TextStyle;->c:I
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+
+    move-result v0
+
+    iput v0, p0, Lcom/miui/gallery/editor_common/font/typeface/TextStyle;->a:I
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+
+    move-result p1
+
+    iput p1, p0, Lcom/miui/gallery/editor_common/font/typeface/TextStyle;->c:I
+
+    return-object p0
+.end method
+
+.method public final newArray(I)[Ljava/lang/Object;
+    .locals 0
+
+    new-array p0, p1, [Lcom/miui/gallery/editor_common/font/typeface/TextStyle;
+
+    return-object p0
+.end method

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<micamx.compat.ui.miuix.widget.HyperProgressSeekBar android:id="@id/seek_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/adjust_seekbar_margin_top" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/editor_hyper_label_seek_bar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

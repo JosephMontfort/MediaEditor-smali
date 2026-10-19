@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>সাদা</item>
+        <item>ডার্ক ব্লু</item>
+        <item>হালকা নীল</item>
+        <item>লাল</item>
+        <item>সবুজ</item>
+        <item>গোলাপি</item>
+        <item>বাদামি</item>
+        <item>ধূসর</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>ছবি ইম্পোর্ট করুন</item>
+        <item>ট্রান্সপারেন্ট ব্যাকগ্রাউন্ড</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>অবসর</item>
+        <item>ব্রিজ</item>
+        <item>স্বপ্ন</item>
+        <item>ক্লাউড</item>
+        <item>চিন্তা</item>
+        <item>বাড</item>
+        <item>মেটামরফসিস</item>
+        <item>ডেপ্থ</item>
+        <item>প্রতিবিম্ব</item>
+        <item>মিনিমালিস্ট</item>
+        <item>মিস্ট্রি</item>
+        <item>কুয়াশা</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>ফিউচারিস্টিক জিওমেট্রিক ব্যাকগ্রাউন্ড</item>
+        <item>ওল্ড মাস্টার প্রিন্টের অ্যাটমোসফিয়ার</item>
+        <item>স্কেচগুলিকে ব্যাকগ্রাউন্ডে বদলান</item>
+        <item>ওয়াটারকালার স্টাইল ব্যাকগ্রাউন্ড</item>
+        <item>সাইবারপাঙ্ক রেট্রো</item>
+        <item>ভুল উলম্ব সেগমেন্ট</item>
+        <item>হেজি ব্লার</item>
+        <item>ফিউচারিস্টিক ফিল</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>লো পোলি</item>
+        <item>এচেিং</item>
+        <item>স্কেচ</item>
+        <item>ওয়াটারকালার</item>
+        <item>RGB</item>
+        <item>ব্লাইন্ড</item>
+        <item>ফগি উইন্ডো</item>
+        <item>প্ৰযুক্তি</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>কালার করা আউটলাইন</item>
+        <item>ড্যাশ আউটলাইন</item>
+        <item>ফ্লোরেসেন্ট আউটলাইন</item>
+        <item>কালার শ্যাডো</item>
+        <item>ইলেকট্রিক ওয়েভ</item>
+        <item>স্ট্রিম</item>
+        <item>ঢেউ</item>
+        <item>পার্টিকেল</item>
+        <item>টেকস্ট</item>
+        <item>উইংস</item>
+        <item>পরি</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>সাধারণ</item>
+        <item>ভ্রমণ</item>
+        <item>কাজ</item>
+        <item>ডকুমেন্ট</item>
+        <item>শিক্ষা</item>
+        <item>পরীক্ষা</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>সোশাল সিকিউরিটি</item>
+        <item>স্বাস্থ্যের বিবৃতি</item>
+        <item>মেডিকাল বীমা</item>
+        <item>আইডি</item>
+        <item>বসবাসের অনুমতি</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>এক ইঞ্চ</item>
+        <item>দুই কান্স</item>
+        <item>ছোট এক ইঞ্চ</item>
+        <item>ছোট দেই ইঞ্চ</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>অ্যাডমিশন অ্যাপ্লিকেশন</item>
+        <item>স্টুডেন্ট নেটওয়ার্ক</item>
+        <item>প্রাথমিক বিদ্যালয়ের জন্য স্টুডেন্ট নেটওয়ার্ক</item>
+        <item>স্টুডেন্ট নেটওয়ার্ক প্রোফাইল</item>
+        <item>বিশ্ববিদ্যালয় ভর্তি</item>
+        <item>NCEE</item>
+        <item>আবার শুরু করুন</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>কলেজ ইংরেজি টেস্ট 1</item>
+        <item>কলেজ ইংরেজি টেস্ট 2</item>
+        <item>কলেজ ইংরেজি টেস্ট 3</item>
+        <item>পুটোংহুয়া দক্ষতা টেস্ট 1</item>
+        <item>পুটোংহুয়া দক্ষতা টেস্ট 2</item>
+        <item>ডিগ্রি ইংরেজি টেস্ট</item>
+        <item>PET কলেজের জন্য</item>
+        <item>PETS লেভেল 3</item>
+        <item>জাতীয় কম্পিউটার র‍্যাঙ্ক পরীক্ষা 1</item>
+        <item>জাতীয় কম্পিউটার র‍্যাঙ্ক পরীক্ষা 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>প্রাথমিক ও মাধ্যমিক বিদ্যালয়ের শিক্ষক সার্টিফিকেশন</item>
+        <item>শিক্ষক সার্টিফিকেশন</item>
+        <item>ড্রাইভিং লাইসেন্স</item>
+        <item>গাইড পারমিট</item>
+        <item>ইলেকট্রনিক গাইড পারমিট</item>
+        <item>জাতীয় বিচারিক পরীক্ষা</item>
+        <item>ইলেকট্রনিক প্রথম-শ্রেণীর কনস্ট্রাক্টর সার্টিফিকেট</item>
+        <item>দ্বিতীয় শ্রেণীর কনস্ট্রাক্টর সার্টিফিকেট</item>
+        <item>জুনিয়র অ্যাকাউন্টিং টাইটেল পরীক্ষা</item>
+        <item>সার্টিফাইড পাবলিক অ্যাকাউন্ট্যান্ট</item>
+        <item>বেইজিং গাইড পারমিট</item>
+        <item>ইন্টারমিডিয়েট অ্যাকাউন্টিং টাইটেল পরীক্ষা</item>
+        <item>সিনিয়র অ্যাকাউন্টিং টাইটেল পরীক্ষা</item>
+        <item>অ্যাকাউন্টিং যোগ্যতা সার্টিফিকেট</item>
+        <item>সার্টিফাইড পাবলিক অ্যাকাউন্ট্যান্ট পরীক্ষা</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>মার্কিন যুক্তরাষ্ট্র</item>
+        <item>ভিয়েতনাম</item>
+        <item>জাপান</item>
+        <item>হংকং এবং ম্যাকাও</item>
+        <item>উত্তর কোরিয়া</item>
+        <item>থাইল্যান্ড (পর্যটক)</item>
+        <item>থাইল্যান্ড (আগমনে)</item>
+        <item>ভারত</item>
+        <item>ইজরায়েল</item>
+        <item>তাইওয়ান</item>
+        <item>মালয়েশিয়া</item>
+        <item>নিউজিল্যান্ড</item>
+        <item>ইতালি</item>
+        <item>আর্জেন্টিনা</item>
+        <item>ব্রাজিল</item>
+        <item>আইসল্যান্ড</item>
+        <item>কেনিয়া</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.mediaeditor.algo.beauty.common.core.widgets.MagnifierBeautyGlView android:id="@id/gl_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.miui.mediaeditor.photo.widgets.ProtectiveImageView android:id="@id/image_placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

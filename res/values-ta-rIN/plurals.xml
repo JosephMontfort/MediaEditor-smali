@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="filter_images_ratio_unsupport_v2">
+        <item quantity="other">%d ஆதரிக்கப்படாத உருப்படிகள் ஃபில்ட்டர் செய்யப்பட்டன</item>
+        <item quantity="one">%d ஆதரிக்கப்படாத உருப்படி ஃபில்ட்டர் செய்யப்பட்டது</item>
+    </plurals>
+    <plurals name="filter_images_unsupport_v2">
+        <item quantity="other">%d ஆதரிக்கப்படாத உருப்படிகள் ஃபில்ட்டர் செய்யப்பட்டன</item>
+        <item quantity="one">%d ஆதரிக்கப்படாத உருப்படி ஃபில்ட்டர் செய்யப்பட்டது</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_2">
+        <item quantity="other">ஒரே நேரத்தில் %d பணிகள் வரை செயலாக்கலாம். மேலும் சேர்ப்பதற்கு முன் முந்தையது நிறைவடையும் வரை காத்திருங்கள்.</item>
+        <item quantity="one">ஒரே நேரத்தில் %d பணி வரை செயலாக்கலாம். மேலும் சேர்ப்பதற்கு முன் முந்தையது நிறைவடையும் வரை காத்திருங்கள்.</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_3">
+        <item quantity="other">%d நொடிகளுக்குள் இருக்கும் நேரலைத் தருணங்களை மட்டுமே ஆதரிக்கும். வேறொரு ஃபோட்டோவைத் தேர்ந்தெடுத்து மீண்டும் முயல்க.</item>
+        <item quantity="one">%d நொடிக்குள் இருக்கும் நேரலைத் தருணங்களை மட்டுமே ஆதரிக்கும். வேறொரு ஃபோட்டோவைத் தேர்ந்தெடுத்து மீண்டும் முயல்க.</item>
+    </plurals>
+    <plurals name="mark_doodle_max_node">
+        <item quantity="other">%d ஸ்டிக்கர்கள் வரை சேர்க்கலாம்</item>
+        <item quantity="one">%d ஸ்டிக்கர் வரை சேர்க்கலாம்</item>
+    </plurals>
+    <plurals name="mark_shape_max_node">
+        <item quantity="other">%d ஷேப்கள் வரை சேர்த்திடுங்கள்</item>
+        <item quantity="one">%d ஷேப் வரை சேருங்கள்</item>
+    </plurals>
+    <plurals name="mark_signature_max_node">
+        <item quantity="other">%d கையொப்பங்கள் வரை சேர்க்கலாம்</item>
+        <item quantity="one">%d கையொப்பம் வரை சேர்க்கலாம்</item>
+    </plurals>
+    <plurals name="mark_text_max_node">
+        <item quantity="other">%d உரை பெட்டிகள் வரை சேர்க்கலாம்</item>
+        <item quantity="one">%d உரை பெட்டி வரை சேர்க்கலாம்</item>
+    </plurals>
+    <plurals name="photo_crop_talkback_px">
+        <item quantity="other">%d பிக்சல்கள்</item>
+        <item quantity="one">%d பிக்சல்</item>
+    </plurals>
+    <plurals name="photo_editor_livephoto_enhance_notification_complete_msg">
+        <item quantity="other">%d பணிகள் நிறைவுசெய்யப்பட்டன. பார்ப்பதற்குத் தட்டுங்கள்.</item>
+        <item quantity="one">%d பணி நிறைவுசெய்யப்பட்டது. பார்ப்பதற்குத் தட்டுங்கள்.</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_distortion_value">
+        <item quantity="other">சிதைவு: %d</item>
+        <item quantity="one">சிதைவு: %d</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_horizontal_value">
+        <item quantity="other">கிடைமட்டம்: %d டிகிரிகள்</item>
+        <item quantity="one">கிடைமட்டம்: %d டிகிரி</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_scale_value">
+        <item quantity="other">சுழற்றல்: %d டிகிரிகள்</item>
+        <item quantity="one">சுழற்றல்: %d டிகிரி</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_vertical_value">
+        <item quantity="other">செங்குத்து: %d டிகிரிகள்</item>
+        <item quantity="one">செங்குத்து: %d டிகிரி</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg">
+        <item quantity="other">எஃபெக்ட் உருவாவதற்கு %d நொடிகள் ஆகலாம். ஆப்பை விட்டு வெளியேறுவது செயல்நிலையை பாதிக்காது. தயாரானதும் அறிவிப்பு ஒன்று அனுப்பப்படும்.</item>
+        <item quantity="one">எஃபெக்ட் உருவாவதற்கு %d நொடி ஆகலாம். ஆப்பை விட்டு வெளியேறுவது செயல்நிலையை பாதிக்காது. தயாரானதும் அறிவிப்பு ஒன்று அனுப்பப்படும்.</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit1">
+        <item quantity="other">ஒரே சமயத்தில் %d கிளிப்புகளுக்கு மேல் செயலாக்க இயலாது</item>
+        <item quantity="one">ஒரே சமயத்தில் %d கிளிப்பிற்கு மேல் செயலாக்க இயலாது</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit2">
+        <item quantity="other">%d நிமிடங்களுக்கு மேலுள்ள கிளிப்களை செயலாக்க இயலாது</item>
+        <item quantity="one">%d நிமிடத்திற்கு மேலுள்ள கிளிப்களை செயலாக்க இயலாது</item>
+    </plurals>
+    <plurals name="video_editor_tip_track_limit">
+        <item quantity="other">நீங்கள் %d டிராக்குகள் வரை சேர்க்கலாம்</item>
+        <item quantity="one">நீங்கள் %d டிராக் வரை சேர்க்கலாம்</item>
+    </plurals>
+    <plurals name="video_tuning_audio_limit">
+        <item quantity="other">ஒரே நேரத்தில் உங்களால் %1$d நிமி வரை செயலாக்க முடியும், அல்லது வீடியோவை ட்ரிம் செய்து மீண்டும் முயலுங்கள்</item>
+        <item quantity="one">ஒரே நேரத்தில் உங்களால் %1$d நிமி வரை செயலாக்க முடியும் அல்லது வீடியோவை ட்ரிம் செய்து மீண்டும் முயலுங்கள்</item>
+    </plurals>
+    <plurals name="vlog_audio_origin_sound">
+        <item quantity="other">அசல் ஆடியோ %1$d</item>
+        <item quantity="one">அசல் ஆடியோ %1$d</item>
+    </plurals>
+    <plurals name="vlog_clip_cut_fail_min_time">
+        <item quantity="other">கிளிப்கள் குறைந்தபட்சம் %1$s நொடிகள் இருக்க வேண்டும்</item>
+        <item quantity="one">கிளிப்கள் குறைந்தபட்சம் %1$s நொடி இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="vlog_filter_audio_unsupport_audio_file">
+        <item quantity="other">ஆதரிக்கப்படாத %d ஆடியோ கோப்புகளை ஃபில்ட்டர் செய்தது</item>
+        <item quantity="one">ஆதரிக்கப்படாத %d ஆடியோ கோப்பினை ஃபில்ட்டர் செய்தது</item>
+    </plurals>
+    <plurals name="vlog_filter_diy_lut_import_success_toast">
+        <item quantity="other">%1$d வடிப்பான்கள் வெற்றிகரமாக இறக்குமதி செய்யப்பட்டது</item>
+        <item quantity="one">%1$d வடிப்பான் வெற்றிகரமாக இறக்குமதி செய்யப்பட்டது</item>
+    </plurals>
+    <plurals name="vlog_filter_no_support_nums">
+        <item quantity="other">ஆதரிக்கப்படாத %d உருப்படிகளை ஃபில்ட்டர் செய்தது</item>
+        <item quantity="one">ஆதரிக்கப்படாத %d உருப்படியை ஃபில்ட்டர் செய்தது</item>
+    </plurals>
+    <plurals name="vlog_generate_loading_notice2">
+        <item quantity="other">தோராயமாக %s நிமி மீதமுள்ளன. இந்த வேளையில் நீங்கள் பிற அம்சங்களைத் தொடர்ந்து பயன்படுத்தலாம்.</item>
+        <item quantity="one">தோராயமாக %s நிமி மீதமுள்ளது. இந்த வேளையில் நீங்கள் பிற அம்சங்களைத் தொடர்ந்து பயன்படுத்தலாம்.</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_limit">
+        <item quantity="other">"கால அளவு இப்போது %d நிமிடத்தை தாண்டியுள்ளது. "</item>
+        <item quantity="one">"கால அளவு இப்போது %d நிமிடத்தை தாண்டியுள்ளது. "</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_no_support_nums">
+        <item quantity="other">ஆதரிக்கப்படாத %d உருப்படிகளை ஃபில்ட்டர் செய்தது</item>
+        <item quantity="one">ஆதரிக்கப்படாத %d உருப்படியை ஃபில்ட்டர் செய்தது</item>
+    </plurals>
+    <plurals name="vlog_no_support_duration">
+        <item quantity="other">இறக்குமதி செய்ய முடியவில்லை. கால அளவு %d நிமிடத்தைக் கடந்தது.</item>
+        <item quantity="one">இறக்குமதி செய்ய முடியவில்லை. கால அளவு %d நிமிடத்தைக் கடந்தது.</item>
+    </plurals>
+    <plurals name="vlog_talkback_crop_scale_value">
+        <item quantity="other">%d டிகிரிகள் சுழற்றவும்</item>
+        <item quantity="one">%d டிகிரி சுழற்றவும்</item>
+    </plurals>
+    <plurals name="vlog_template_support_count_desc">
+        <item quantity="other">%d கிளிப்புகள்</item>
+        <item quantity="one">%d கிளிப்</item>
+    </plurals>
+    <plurals name="legendary_render_notice_v2">
+        <item quantity="other">"செயலாக்குவதற்கு %1$d நொடிகள் எடுத்துக்கொள்ளப்படும். பின்னணியில் காத்திருப்பது செயலாக்கத்தை பாதிக்காது.
+\"சமீபத்திய பணிகள்\" என்பதில் நிலையை சரிபாருங்கள்."</item>
+        <item quantity="one">"செயலாக்குவதற்கு %1$d நொடிகள் எடுத்துக்கொள்ளப்படும். பின்னணியில் காத்திருப்பது செயலாக்கத்தை பாதிக்காது.
+\"சமீபத்திய பணிகள்\" என்பதில் நிலையை சரிபாருங்கள்."</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_cancel_dialog_notice">
+        <item quantity="other">இலவசமாக %d முறைகள் பயன்படுத்திவிட்டீர்கள். இருப்பினும் நிறுத்தவா?</item>
+        <item quantity="one">இலவசமாக %d முறை பயன்படுத்திவிட்டீர்கள். இருப்பினும் நிறுத்தவா?</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_cancel_dialog_notice_2">
+        <item quantity="other">%d பாயிண்ட்கள் பயன்படுத்திவிட்டீர்கள். இருப்பினும் நிறுத்தவா?</item>
+        <item quantity="one">%d பாயிண்ட் பயன்படுத்திவிட்டீர்கள். இருப்பினும் நிறுத்தவா?</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_point_cost_hint">
+        <item quantity="other">இதற்கு %d பாயிண்ட்கள் செலவாகும்</item>
+        <item quantity="one">இதற்கு %d பாயிண்ட் செலவாகும்</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_remaining_count">
+        <item quantity="other">%d முறைகள்</item>
+        <item quantity="one">%d முறை</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_total_count">
+        <item quantity="other">%d முறைகள்</item>
+        <item quantity="one">%d முறை</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg_v2">
+        <item quantity="other">இதற்கு %d நொடிகள் ஆகலாம். பின்னணியில் தொடர்வதற்கு \"காத்திரு\" என்பதைத் தட்டுங்கள். இந்தப் பணி முடிந்தவுடன் உங்களுக்கு அறிவிப்பொன்று அனுப்பப்படும்.</item>
+        <item quantity="one">இதற்கு %d நொடி ஆகலாம். பின்னணியில் தொடர்வதற்கு \"காத்திரு\" என்பதைத் தட்டுங்கள். இந்தப் பணி முடிந்தவுடன் உங்களுக்கு அறிவிப்பொன்று அனுப்பப்படும்.</item>
+    </plurals>
+</resources>

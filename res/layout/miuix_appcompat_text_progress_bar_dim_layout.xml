@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/text_progress_bar_dim_view" android:background="@color/miuix_appcompat_text_progress_bar_dim_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <miuix.androidbasewidget.widget.TextProgressBar android:layout_gravity="center" android:id="@id/text_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:miShadowEnabled="true" app:roundCornerBackgroundEnabled="true" />
+</FrameLayout>

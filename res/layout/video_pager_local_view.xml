@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/video_audio_local_import_btn_text_size" android:textColor="@color/video_common_text_color_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/video_audio_local_label_title_margin_bottom" android:text="@string/vlog_auto_audio_local_title" />
+        <TextView android:textSize="@dimen/video_audio_local_label_desc_text_size" android:textColor="@color/video_common_sub_text_color_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/video_audio_local_label_desc_margin_bottom" android:text="@string/vlog_auto_audio_local_desc" android:layout_marginStart="@dimen/video_audio_local_label_desc_margin_start" android:layout_marginEnd="@dimen/video_audio_local_label_desc_margin_start" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/audio_local_import" android:background="@drawable/video_audio_local_import_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/video_audio_local_import_btn_margin_top" android:height="@dimen/video_audio_local_import_btn_height" android:contentDescription="@string/vlog_auto_audio_import">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_ic_import_audio" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/video_audio_lib_item_local_label_margin_end" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/video_audio_local_import_btn_text_size" android:textColor="@color/video_common_text_color_normal" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vlog_auto_audio_import" />
+        </LinearLayout>
+    </LinearLayout>
+    <miuix.nestedheader.widget.NestedHeaderLayout android:id="@id/nested_header" android:visibility="visible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:headerContentId="@id/audio_local_import2" app:headerView="@id/audio_local_import2_layout" app:maskBackground="@color/transparent" app:scrollableView="@id/local_recycler_view">
+        <com.miui.gallery.widget.recyclerview.SimpleRecyclerView android:orientation="vertical" android:id="@id/local_recycler_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <FrameLayout android:id="@id/audio_local_import2_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/video_audio_local_import2_layout_height">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/audio_local_import2" android:background="@drawable/video_audio_local_import_btn_bg" android:layout_width="wrap_content" android:layout_height="@dimen/video_audio_local_import_btn_height" android:contentDescription="@string/vlog_auto_audio_import">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_ic_import_audio" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/video_audio_lib_item_local_label_margin_end" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/video_audio_local_import_btn_text_size" android:textColor="@color/video_common_text_color_normal" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vlog_auto_audio_import" />
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+    </miuix.nestedheader.widget.NestedHeaderLayout>
+</FrameLayout>

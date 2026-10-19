@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vlog_resolution_item_divider_margin">4.569977dip</dimen>
+    <dimen name="vlog_resolution_item_divider_width">1.1399841dip</dimen>
+    <dimen name="vlog_resolution_item_estimate_size_tv_margin_start">30.46997dip</dimen>
+    <dimen name="vlog_resolution_item_estimate_size_tv_max_width">207.948dip</dimen>
+    <dimen name="vlog_resolution_item_first_line_margin_start">30.46997dip</dimen>
+    <dimen name="vlog_resolution_item_selected_icon_margin_end">32.0dip</dimen>
+    <dimen name="vlog_resolution_item_tv_resolution_max_width">83.78998dip</dimen>
+    <dimen name="vlog_single_clip_bar_margin_start">30.475983dip</dimen>
+</resources>

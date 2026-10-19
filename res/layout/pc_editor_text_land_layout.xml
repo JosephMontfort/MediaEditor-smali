@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.mediaeditor.photo.certificates.view.TabScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:gravity="center_vertical" android:orientation="vertical" android:id="@id/radio_group_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/pc_editor_text_land_padding_horizontal">
+        <ImageView android:id="@id/btn_search_size" android:layout_width="@dimen/pc_category_layout_height" android:layout_height="@dimen/pc_category_layout_height" android:src="@drawable/ic_search_bar_icon" android:contentDescription="@string/acc_search_guide" />
+        <RadioButton android:id="@id/radio_button_idp1" android:text="@string/text_tab_idp1" style="@style/pc_idp_radio_button_land" />
+        <RadioButton android:id="@id/radio_button_idp2" android:text="@string/text_tab_idp2" style="@style/pc_idp_radio_button_land" />
+        <RadioButton android:id="@id/radio_button_idp4" android:text="@string/text_tab_idp4" style="@style/pc_idp_radio_button_land" />
+        <RadioButton android:id="@id/radio_button_idp7" android:text="@string/text_tab_idp7" style="@style/pc_idp_radio_button_land" />
+    </RadioGroup>
+</com.miui.mediaeditor.photo.certificates.view.TabScrollView>

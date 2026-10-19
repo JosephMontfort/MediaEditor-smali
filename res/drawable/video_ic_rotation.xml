@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/video_common_icon_btn_size" android:width="@dimen/video_common_icon_btn_size" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/video_common_icon_color_normal" android:pathData="M20.705,10.046L24.534,6.217L25.666,7.348L23.031,9.983H28.1C29.094,9.983 29.9,10.789 29.9,11.783V15.783H28.3V11.783C28.3,11.672 28.21,11.583 28.1,11.583H21.341C20.539,11.583 20.138,10.613 20.705,10.046ZM24.5,15.383H11.7V28.183H24.5V15.383ZM26.1,13.783H24.5H11.7H10.1V15.383V28.183V29.783H11.7H24.5H26.1V28.183V15.383V13.783Z" android:fillType="evenOdd" />
+</vector>

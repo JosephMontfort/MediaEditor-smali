@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/photo_agent_bubble_radius" />
+    <stroke android:width="@dimen/photo_agent_bubble_glow_stroke" android:color="@color/photo_agent_bubble_glow_mid" />
+    <gradient android:startColor="@color/photo_agent_bubble_glow_start" android:endColor="@color/photo_agent_bubble_glow_end" android:angle="0.0" android:type="linear" android:centerColor="@color/photo_agent_bubble_glow_mid" />
+</shape>

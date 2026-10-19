@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/watermark_preference_style_padding" android:paddingVertical="4.0dip">
+        <EditText android:layout_gravity="center" android:id="@id/edit_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text" android:imeOptions="actionDone" android:paddingEnd="@dimen/watermark_count_view_width" android:fallbackLineSpacing="false" style="@style/Widget.EditText.Clearable.DayNight" />
+    </FrameLayout>
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/preference_watermark_greeting_list_title_color" android:gravity="start|center" android:id="@id/greeting_label" android:layout_width="fill_parent" android:layout_height="@dimen/watermark_preference_style_title_bar_height" android:text="@string/pref_wm_greeting_content_title" android:layout_marginHorizontal="@dimen/watermark_preference_style_greeting_padding_horizontal" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/greeting_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingStart="@dimen/watermark_preference_style_greeting_padding_horizontal" android:paddingEnd="@dimen/watermark_preference_style_padding" />
+</LinearLayout>

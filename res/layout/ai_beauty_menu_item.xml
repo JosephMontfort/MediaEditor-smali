@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/outpaint_op_item_width" android:layout_height="@dimen/outpaint_op_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.gallery.editor.ui.view.RoundImageView android:id="@id/preview" android:layout_width="@dimen/outpaint_op_item_width" android:layout_height="@dimen/outpaint_op_item_height" android:scaleType="centerCrop" android:layout_alignParentBottom="true" app:borderRadius="@dimen/corners_small" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/filter_item_title_color" android:ellipsize="end" android:gravity="bottom|center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/px_15" android:minHeight="@dimen/ai_beauty_menu_item_title_height" android:maxLines="2" android:shadowColor="@color/text_shadow" android:shadowDy="2.0" android:layout_alignBottom="@id/preview" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-medium" app:autoSizeMaxTextSize="12.0dip" app:autoSizeMinTextSize="8.0dip" app:autoSizeTextType="uniform" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/configable_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+</RelativeLayout>

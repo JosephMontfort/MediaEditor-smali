@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/vlog_auto_generate_clip_holder_size" android:layout_height="@dimen/vlog_auto_generate_clip_holder_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.gallery.editor.ui.view.RoundImageView android:layout_gravity="start|bottom|center" android:id="@id/holder_image" android:focusable="true" android:clickable="true" android:layout_width="@dimen/vlog_auto_generate_clip_image_size" android:layout_height="@dimen/vlog_auto_generate_clip_image_size" android:scaleType="centerCrop" app:borderRadius="@dimen/corners_small" />
+    <com.miui.gallery.editor.ui.view.RoundImageView android:layout_gravity="start|bottom|center" android:id="@id/holder_add_image" android:layout_width="@dimen/vlog_auto_generate_clip_image_size" android:layout_height="@dimen/vlog_auto_generate_clip_image_size" android:scaleType="centerCrop" android:contentDescription="@string/vlog_talkback_clip_add_videos" />
+    <ImageView android:layout_gravity="end" android:id="@id/holder_cancel" android:layout_width="@dimen/vlog_auto_generate_clip_cancel_image_size" android:layout_height="@dimen/vlog_auto_generate_clip_cancel_image_size" android:src="@drawable/ic_vlog_clip_cancel" android:contentDescription="@string/vlog_auto_clip_delete" />
+</FrameLayout>

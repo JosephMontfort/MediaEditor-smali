@@ -1,0 +1,126 @@
+.class public final Lim/j;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lzo0/l;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lzo0/l<",
+        "Lco/a;",
+        "Lko0/e0;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lim/i;
+
+.field public final synthetic b:Loo0/k;
+
+
+# direct methods
+.method public constructor <init>(Lim/i;Loo0/k;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lim/j;->a:Lim/i;
+
+    iput-object p2, p0, Lim/j;->b:Loo0/k;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final g(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    check-cast p1, Lco/a;
+
+    const-string v0, "it"
+
+    invoke-static {p1, v0}, Lap0/m;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p1, p0, Lim/j;->a:Lim/i;
+
+    iget-object p1, p1, Lim/i;->b:Lio/n;
+
+    invoke-virtual {p1}, Lio/n;->d()Lim/p0;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result p1
+
+    iget-object p0, p0, Lim/j;->b:Loo0/k;
+
+    if-eqz p1, :cond_4
+
+    const/4 v0, 0x1
+
+    if-eq p1, v0, :cond_3
+
+    const/4 v0, 0x2
+
+    if-eq p1, v0, :cond_2
+
+    const/4 v0, 0x3
+
+    if-eq p1, v0, :cond_1
+
+    const/4 v0, 0x4
+
+    if-ne p1, v0, :cond_0
+
+    sget-object p1, Ly40/l;->b:Ly40/l;
+
+    invoke-virtual {p0, p1}, Loo0/k;->f(Ljava/lang/Object;)V
+
+    goto :goto_0
+
+    :cond_0
+    new-instance p0, Lko0/m;
+
+    invoke-direct {p0}, Ljava/lang/RuntimeException;-><init>()V
+
+    throw p0
+
+    :cond_1
+    sget-object p1, Ly40/l;->a:Ly40/l;
+
+    invoke-virtual {p0, p1}, Loo0/k;->f(Ljava/lang/Object;)V
+
+    goto :goto_0
+
+    :cond_2
+    sget-object p1, Ly40/l;->c:Ly40/l;
+
+    invoke-virtual {p0, p1}, Loo0/k;->f(Ljava/lang/Object;)V
+
+    goto :goto_0
+
+    :cond_3
+    sget-object p1, Ly40/l;->d:Ly40/l;
+
+    invoke-virtual {p0, p1}, Loo0/k;->f(Ljava/lang/Object;)V
+
+    goto :goto_0
+
+    :cond_4
+    sget-object p1, Ly40/l;->e:Ly40/l;
+
+    invoke-virtual {p0, p1}, Loo0/k;->f(Ljava/lang/Object;)V
+
+    :goto_0
+    sget-object p0, Lko0/e0;->a:Lko0/e0;
+
+    return-object p0
+.end method

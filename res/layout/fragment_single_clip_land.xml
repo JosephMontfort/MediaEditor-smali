@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.gallery.vlog.module.single_clip.seekbar.SingleVideoClipBar android:layout_gravity="center_horizontal" android:id="@id/single_clip_bar" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_single_clip_bar_height" android:contentDescription="@string/vlog_talkback_clip_seek_bar" android:paddingStart="@dimen/vlog_single_clip_bar_margin_start" android:paddingEnd="@dimen/vlog_single_clip_bar_margin_start"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

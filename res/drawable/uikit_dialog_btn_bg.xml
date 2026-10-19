@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/borderlayout_bg_corner_radius" />
+    <gradient android:orientation="horizontal" android:startColor="@color/button_start_color" android:endColor="@color/button_end_color" android:angle="315.0" android:type="linear" android:centerColor="@color/button_center_color" />
+</shape>

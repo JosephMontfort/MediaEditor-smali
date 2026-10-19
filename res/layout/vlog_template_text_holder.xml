@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:background="@drawable/vlog_template_bg_item_text_container" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_template_item_text_height" android:layout_marginTop="@dimen/vlog_template_item_text_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/vlog_template_edit_holder_text_size" android:textColor="@color/on_surface_subtle" android:gravity="center_vertical" android:id="@id/holder_num" android:layout_width="wrap_content" android:layout_height="fill_parent" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/vlog_template_item_text_num_margin_start" />
+    <TextView android:textSize="@dimen/vlog_template_edit_holder_text_size" android:textColor="@drawable/vlog_template_bg_item_text" android:gravity="center_vertical" android:id="@id/holder_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/vlog_template_item_text_content_margin_start" />
+</FrameLayout>

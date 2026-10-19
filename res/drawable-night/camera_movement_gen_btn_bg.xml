@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="186.0dip" android:viewportWidth="186.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$camera_movement_gen_btn_bg__0" android:pathData="M24,1H162C174.7,1 185,11.3 185,24C185,36.7 174.7,47 162,47H24C11.3,47 1,36.7 1,24C1,11.3 11.3,1 24,1Z" android:fillAlpha="0.25" />
+    <path android:fillColor="#ff000000" android:pathData="M24,1H162C174.7,1 185,11.3 185,24C185,36.7 174.7,47 162,47H24C11.3,47 1,36.7 1,24C1,11.3 11.3,1 24,1Z" android:fillAlpha="0.2" />
+    <path android:fillColor="#00000000" android:pathData="M24,1H162C174.7,1 185,11.3 185,24C185,36.7 174.7,47 162,47H24C11.3,47 1,36.7 1,24C1,11.3 11.3,1 24,1Z" android:strokeColor="@drawable/$camera_movement_gen_btn_bg__1" android:strokeWidth="2.0" />
+</vector>

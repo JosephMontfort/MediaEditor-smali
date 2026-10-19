@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/layout_icon_background" android:layout_width="@dimen/collage_item_width" android:layout_height="@dimen/collage_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/collage_item_icon" android:layout_width="@dimen/px_146" android:layout_height="@dimen/px_146" android:layout_margin="1.0px" android:contentDescription="@null" />
+    <ImageView android:layout_gravity="center" android:id="@id/selected_item_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/collage_item_selected" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+</FrameLayout>

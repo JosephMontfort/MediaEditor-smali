@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/btn_multi_delete" android:background="@color/video_common_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/video_fragment_bottom_container_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon_multi_delete" android:layout_width="@dimen/video_common_svg_icon_size" android:layout_height="@dimen/video_common_svg_icon_size" android:layout_marginTop="@dimen/video_draft_multi_delete_icon_margin_top" android:src="@drawable/video_ic_remove" android:scaleType="centerCrop" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/video_draft_multi_delete_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/video_action_name_margin_bottom" android:text="@string/clip_menu_remove" android:fontFamily="sans-serif-medium" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/icon_multi_delete" />
+</androidx.constraintlayout.widget.ConstraintLayout>

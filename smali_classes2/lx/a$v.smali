@@ -1,0 +1,152 @@
+.class public final Llx/a$v;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Llx/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "v"
+.end annotation
+
+
+# static fields
+.field public static final a:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lq/o;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public static final b:Lq/x;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 12
+
+    new-instance v0, Lq/j;
+
+    const/4 v1, 0x0
+
+    const-string v2, ""
+
+    const/4 v3, 0x0
+
+    invoke-direct {v0, v1, v2, v3}, Lq/j;-><init>(ZLjava/lang/String;Ljava/util/Set;)V
+
+    new-instance v4, Lq/o;
+
+    const-string v5, "effect"
+
+    const/4 v6, 0x1
+
+    invoke-direct {v4, v5, v6, v0, v2}, Lq/o;-><init>(Ljava/lang/String;ZLq/f;Ljava/lang/String;)V
+
+    new-instance v0, Lq/j;
+
+    invoke-direct {v0, v1, v2, v3}, Lq/j;-><init>(ZLjava/lang/String;Ljava/util/Set;)V
+
+    new-instance v5, Lq/o;
+
+    const-string v7, "style"
+
+    invoke-direct {v5, v7, v6, v0, v2}, Lq/o;-><init>(Ljava/lang/String;ZLq/f;Ljava/lang/String;)V
+
+    new-instance v0, Lq/j;
+
+    invoke-direct {v0, v1, v2, v3}, Lq/j;-><init>(ZLjava/lang/String;Ljava/util/Set;)V
+
+    move v7, v6
+
+    new-instance v6, Lq/o;
+
+    const-string v8, "color"
+
+    invoke-direct {v6, v8, v7, v0, v2}, Lq/o;-><init>(Ljava/lang/String;ZLq/f;Ljava/lang/String;)V
+
+    new-instance v0, Lq/h;
+
+    invoke-direct {v0, v2, v1}, Lq/f;-><init>(Ljava/lang/String;Z)V
+
+    move v8, v7
+
+    new-instance v7, Lq/o;
+
+    const-string v9, "strength"
+
+    invoke-direct {v7, v9, v8, v0, v2}, Lq/o;-><init>(Ljava/lang/String;ZLq/f;Ljava/lang/String;)V
+
+    new-instance v0, Lq/c;
+
+    invoke-direct {v0, v2, v1}, Lq/f;-><init>(Ljava/lang/String;Z)V
+
+    move v9, v8
+
+    new-instance v8, Lq/o;
+
+    const-string v10, "auto"
+
+    invoke-direct {v8, v10, v9, v0, v2}, Lq/o;-><init>(Ljava/lang/String;ZLq/f;Ljava/lang/String;)V
+
+    new-instance v0, Lq/u;
+
+    invoke-direct {v0, v1, v2, v3}, Lq/u;-><init>(ZLjava/lang/String;Ljava/util/Set;)V
+
+    move v10, v9
+
+    new-instance v9, Lq/o;
+
+    const-string v11, "uri"
+
+    invoke-direct {v9, v11, v10, v0, v2}, Lq/o;-><init>(Ljava/lang/String;ZLq/f;Ljava/lang/String;)V
+
+    new-instance v0, Lq/u;
+
+    invoke-direct {v0, v1, v2, v3}, Lq/u;-><init>(ZLjava/lang/String;Ljava/util/Set;)V
+
+    move v3, v10
+
+    new-instance v10, Lq/o;
+
+    const-string v11, "outputUri"
+
+    invoke-direct {v10, v11, v3, v0, v2}, Lq/o;-><init>(Ljava/lang/String;ZLq/f;Ljava/lang/String;)V
+
+    filled-new-array/range {v4 .. v10}, [Lq/o;
+
+    move-result-object v0
+
+    invoke-static {v0}, Llo0/q;->g([Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object v0
+
+    sput-object v0, Llx/a$v;->a:Ljava/util/List;
+
+    new-instance v3, Lq/q;
+
+    const-string v4, "com.miui.mediaeditor.photo.aiclaw.ActionResult"
+
+    invoke-direct {v3, v4, v2, v1}, Lq/q;-><init>(Ljava/lang/String;Ljava/lang/String;Z)V
+
+    new-instance v1, Lq/r;
+
+    invoke-direct {v1, v3, v2}, Lq/r;-><init>(Lq/f;Ljava/lang/String;)V
+
+    new-instance v2, Lq/x;
+
+    const-string v3, "com.miui.mediaeditor.photo.aiclaw.AiClawFunctions#hsl"
+
+    invoke-direct {v2, v3, v0, v1}, Lq/x;-><init>(Ljava/lang/String;Ljava/util/List;Lq/r;)V
+
+    sput-object v2, Llx/a$v;->b:Lq/x;
+
+    return-void
+.end method

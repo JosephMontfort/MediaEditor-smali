@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="@dimen/ai_emote_menu_item_width" android:layout_height="@dimen/ai_emote_menu_item_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/preview" android:background="@drawable/icon_emote_placeholder" android:layout_width="@dimen/ai_emote_menu_item_image_unselected_width" android:layout_height="@dimen/ai_emote_menu_item_image_unselected_width" android:layout_centerInParent="true" />
+    <View android:id="@id/selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/ai_emote_menu_item_selector_bg" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="28.0dip" android:width="29.0dip" android:viewportWidth="29.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/video_mark_text_edit_style_color_selector" android:pathData="M6.5,7.25H22.5V8.85H6.5V7.25ZM9.5,13.25H19.5V14.85H9.5V13.25ZM22.5,19.2H6.5V20.8H22.5V19.2Z" android:fillType="evenOdd" />
+</vector>

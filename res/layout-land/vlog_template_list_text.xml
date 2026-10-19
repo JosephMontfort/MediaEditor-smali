@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/text_layout_container" android:layout_width="@dimen/vlog_template_list_text_width" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/guide_menu" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_template_btn_text_add_height">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/text_add_button" android:background="@drawable/vlog_template_bg_btn_add_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_vlog_template_add_text" android:contentDescription="@null" />
+            <TextView android:textSize="@dimen/vlog_template_btn_text_size" android:textColor="@color/on_surface" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_editor_text_add" app:sqbTextGravity="text_center" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/vlog_template_btn_text_size" android:gravity="center" android:id="@id/text_ai_button" android:background="@drawable/vlog_template_bg_btn_add_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/video_editor_text_ai_caption" android:layout_weight="1.0" android:layout_marginStart="@dimen/vlog_template_btn_text_padding" android:textFontWeight="500" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.miui.gallery.widget.recyclerview.SimpleRecyclerView android:id="@id/text_recycler_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/on_surface_disabled" android:gravity="center" android:id="@id/text_hint" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/video_editor_text_tip_add_text" />
+    </LinearLayout>
+</LinearLayout>

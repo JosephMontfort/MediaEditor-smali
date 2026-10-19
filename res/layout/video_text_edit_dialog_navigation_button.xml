@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="14.0dip" android:textColor="@color/video_mark_text_edit_dialog_tab_color_selector" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/text_edit_dialog_navigation_button" android:layout_width="wrap_content" android:layout_height="@dimen/mark_text_edit_dialog_navigation_tab_button_height" android:fontFamily="sans-serif-medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

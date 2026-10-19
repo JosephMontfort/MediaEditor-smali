@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="collage_render_margin_bottom">30.0dip</dimen>
+    <dimen name="collage_render_margin_top">0.0dip</dimen>
+    <item type="dimen" name="editor_loupe_margin_left">@dimen/px_83</item>
+    <item type="dimen" name="editor_loupe_margin_top">@dimen/px_83</item>
+    <dimen name="editor_menu_title_button_padding">10.0dip</dimen>
+    <dimen name="magic_effects_guide_item_h">398.20312dip</dimen>
+    <dimen name="magic_effects_guide_item_w">302.21875dip</dimen>
+    <dimen name="magic_effects_guide_list_magin_end">67.54999dip</dimen>
+    <dimen name="magic_effects_guide_list_magin_start">67.54999dip</dimen>
+    <dimen name="magic_galery_top">18.289978dip</dimen>
+    <dimen name="magic_id_photo_guide_text_margin_left">97.78dip</dimen>
+    <dimen name="magic_idp_guide_btn1h">84.03998dip</dimen>
+    <dimen name="magic_idp_guide_btn1w">136.4dip</dimen>
+    <dimen name="magic_idp_guide_photo_height">196.44dip</dimen>
+    <dimen name="magic_idp_guide_photo_width">271.10938dip</dimen>
+    <dimen name="magic_idp_make_recycler_item_margin">23.549988dip</dimen>
+    <dimen name="magic_idp_make_search_height_left">31.109985dip</dimen>
+    <dimen name="magic_idp_make_search_look_max_width">982.21875dip</dimen>
+    <dimen name="magic_idp_make_tab_width">332.5dip</dimen>
+    <dimen name="magic_search_edit_width">982.21875dip</dimen>
+    <dimen name="magic_status_bar_height">0.0dip</dimen>
+    <dimen name="screen_arrow_popwin_height">11.556dip</dimen>
+    <dimen name="screen_arrow_popwin_width">23.110992dip</dimen>
+    <dimen name="screen_brush_popwin_height">156.444dip</dimen>
+    <dimen name="screen_brush_popwin_width">359.10938dip</dimen>
+    <dimen name="screen_color_popwin_height">209.77798dip</dimen>
+    <dimen name="screen_color_popwin_width">359.10938dip</dimen>
+    <dimen name="screen_mosaic_popwin_height">156.444dip</dimen>
+    <dimen name="screen_mosaic_popwin_size_bar_bg_corner">20.221985dip</dimen>
+    <dimen name="screen_mosaic_popwin_size_bar_bg_height">21.332977dip</dimen>
+    <dimen name="screen_mosaic_popwin_size_bar_bg_width">246.66699dip</dimen>
+    <dimen name="screen_mosaic_popwin_width">359.10938dip</dimen>
+    <dimen name="screen_operation_icon_width">33.332977dip</dimen>
+    <dimen name="screen_pen_seek_bar_bg_height">21.332977dip</dimen>
+    <dimen name="screen_pen_seek_bar_height">35.556dip</dimen>
+    <dimen name="screen_pen_seek_bar_thumb_size">28.444dip</dimen>
+    <dimen name="screen_pen_seek_bar_width">246.66699dip</dimen>
+    <dimen name="screen_shape_popwin_height">80.0dip</dimen>
+    <dimen name="screen_shape_popwin_width">359.10938dip</dimen>
+    <dimen name="screen_stroke_item_bg_level_1">6.221985dip</dimen>
+    <dimen name="screen_stroke_item_bg_level_2">10.666992dip</dimen>
+    <dimen name="screen_stroke_item_bg_level_3">15.110992dip</dimen>
+    <dimen name="screen_stroke_item_bg_level_4">19.556dip</dimen>
+    <dimen name="screen_stroke_item_bg_level_5">24.0dip</dimen>
+    <dimen name="screen_stroke_item_level_1">4.4439697dip</dimen>
+    <dimen name="screen_stroke_item_level_2">8.888977dip</dimen>
+    <dimen name="screen_stroke_item_level_3">13.332977dip</dimen>
+    <dimen name="screen_stroke_item_level_4">17.777985dip</dimen>
+    <dimen name="screen_stroke_item_level_5">22.221985dip</dimen>
+    <dimen name="screen_text_popwin_height">80.0dip</dimen>
+    <dimen name="screen_text_popwin_item_size">40.0dip</dimen>
+    <dimen name="screen_text_popwin_width">359.10938dip</dimen>
+    <dimen name="screen_tool_popwin_layout_margin_bottom">11.556dip</dimen>
+    <dimen name="storage_guide_content_margin_start">283.0dip</dimen>
+</resources>

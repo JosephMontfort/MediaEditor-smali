@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/solid" />
+    <stroke android:width="@dimen/vlog_track_center_line_border_width" android:color="@color/vlog_track_center_line_border_color" />
+    <corners android:radius="@dimen/corners_circle" />
+</shape>

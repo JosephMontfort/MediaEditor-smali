@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>Սպիտակ</item>
+        <item>Մուգ կապույտ</item>
+        <item>Բաց կապույտ</item>
+        <item>Կարմիր</item>
+        <item>Կանաչ</item>
+        <item>Վարդագույն</item>
+        <item>Շագանակագույն</item>
+        <item>Մոխրագույն</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Ներմուծել պատկեր</item>
+        <item>Թափանցիկ ֆոն</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Ժամանց</item>
+        <item>Ծովային քամի</item>
+        <item>Երազանքներ</item>
+        <item>Ամպերը</item>
+        <item>Մտքեր</item>
+        <item>Բողբոջ</item>
+        <item>Մետամորֆոզ</item>
+        <item>Խորություն</item>
+        <item>Արտացոլանք</item>
+        <item>Մինիմալիստական</item>
+        <item>Առեղծված</item>
+        <item>Մառախուղ</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Ֆուտուրիստական երկրաչափական ֆոն</item>
+        <item>Հին վարպետ տպագրության մթնոլորտ</item>
+        <item>Ֆոնները դարձնել էսքիզներ</item>
+        <item>Ջաներկի ոճի ֆոններ</item>
+        <item>Կիբերպանկ ռետրո</item>
+        <item>Ուղղահայաց հատվածները անտեղի են</item>
+        <item>Մշուշոտ պղտորություն</item>
+        <item>Ֆուտուրիստական զգացողություն</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Բազմանկյուններ</item>
+        <item>Փորագրություն</item>
+        <item>Էսքիզ</item>
+        <item>Ջրաներկ</item>
+        <item>RGB</item>
+        <item>Վարագույրներ</item>
+        <item>Մառախլապատ պատուհան</item>
+        <item>Տեխնոլոգիա</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Գունավոր ուրվագիծ</item>
+        <item>Ջնջված ուրվագիծ</item>
+        <item>Լյումինեսցենտային ուրվագիծ</item>
+        <item>Գունավոր ստվեր</item>
+        <item>Էլեկտրական ալիք</item>
+        <item>Ընթացիկ</item>
+        <item>Ալիքներ</item>
+        <item>Մասնիկներ</item>
+        <item>Տեքստ</item>
+        <item>Թևեր</item>
+        <item>Հրեշտակ</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>Ընդհանուր</item>
+        <item>Ճամփորդություն</item>
+        <item>Աշխատանք</item>
+        <item>Փաստաթղթեր</item>
+        <item>Կրթություն</item>
+        <item>Քննություններ</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Սոցիալական Անվտանգություն</item>
+        <item>Առողջական վիճակի մասին տեղեկանք</item>
+        <item>Բժշկական ապահովագրություն</item>
+        <item>ID</item>
+        <item>Կացության թույլտվություն</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>Մեկ կուն</item>
+        <item>Երկու կուն</item>
+        <item>Մեկ կունից փոքր</item>
+        <item>Երկու կունից փոքր</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Ընդունելության դիմում</item>
+        <item>Սովորողների համակազմ</item>
+        <item>Տարրական դպրոցի սովորողների համակազմ</item>
+        <item>Սովորողների համակազմի պրոֆիլ</item>
+        <item>Համալսարանի ընդունելություն</item>
+        <item>Չինաստանի բարձրագույն ուսումնական հաստատությունների ազգային ընդունելության քննություն</item>
+        <item>Ռեզյումե</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>Քոլեջի Անգլերենի Թեստ՝ մակարդակ 1</item>
+        <item>Քոլեջի Անգլերենի Թեստ՝ մակարդակ 2</item>
+        <item>Քոլեջի Անգլերենի Թեստ՝ մակարդակ 3</item>
+        <item>Պուտոնգհուա (չինարեն՝ մանդարին) լեզվական հմտությունների քննություն՝ մակարդակ 1</item>
+        <item>Պուտոնգհուա (չինարեն՝ մանդարին) լեզվական հմտությունների քննություն՝ մակարդակ 2</item>
+        <item>Բուհր ընդունելության անգլերեն լեզվի թեստ</item>
+        <item>PET քննություն բուհերի համար</item>
+        <item>PET քննություն բուհերի համար` Մակարդակ 3</item>
+        <item>Համակարգչային որակավորման ազգային քննություն՝ մակարդակ 1</item>
+        <item>Համակարգչային որակավորման ազգային քննություն՝ մակարդակ 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>Տարրական և միջնակարգ դպրոցի ուսուցչի ատեստավորում</item>
+        <item>Ուսուցչի ատեստավորում</item>
+        <item>Վարորդական վկայական</item>
+        <item>Գիդի արտոնագիր</item>
+        <item>Գիդի էլեկտրոնային վկայական</item>
+        <item>Ազգային դատական ​​​​քննություն</item>
+        <item>Առաջին կարգի էլեկտրոնային կոնստրուկտորի սերտիֆիկատ</item>
+        <item>Երկրորդ կարգի էլեկտրոնային կոնստրուկտորի սերտիֆիկատ</item>
+        <item>Կրտսեր հաշվապահական հաշվառման որակավորման քննություն</item>
+        <item>Լիազորված հանրային հաշվապահ</item>
+        <item>Պեկինի գիդի արտոնագիր</item>
+        <item>Միջանկյալ հաշվապահական հաշվառման որակավորման քննություն</item>
+        <item>Ավագ հաշվապահական հաշվառման որակավորման քննություն</item>
+        <item>Հաշվապահական հաշվառման որակավորման վկայական</item>
+        <item>Հավաստագրված հանրային հաշվապահի քննություն</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>Միացյալ Նահանգներ</item>
+        <item>Վիետնամ</item>
+        <item>Ճապոնիա</item>
+        <item>Հոնկոնգ և Մակաո</item>
+        <item>Հարավային Կորեա</item>
+        <item>Թաիլանդ (զբոսաշրջիկ)</item>
+        <item>Թաիլանդ (ժամանելուն պես)</item>
+        <item>Հնդկաստան</item>
+        <item>Իսրայել</item>
+        <item>Թայվան</item>
+        <item>Մալայզիա</item>
+        <item>Նոր Զելանդիա</item>
+        <item>Իտալիա</item>
+        <item>Արգենտինա</item>
+        <item>Բրազիլիա</item>
+        <item>Իսլանդիա</item>
+        <item>Քենիա</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

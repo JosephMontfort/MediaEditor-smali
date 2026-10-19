@@ -1,0 +1,178 @@
+{
+  "name": "guochao",
+  "cover": "cover.png",
+  "music": "卡点5.MP3",
+  "trackFilter": [
+    {
+      "filterIsFile": false,
+      "filterParam": "{\"lut_path\":\"frame_9_16.png\",\"hide\":\"0=1.0;2567=1.0;2601=0.0\"}",
+      "filterName": "movit.filter.photo.frame"
+    }
+  ],
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 2600,
+      "oriDuration": 2600,
+      "4koriDuration": 2600,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975",
+      "filterList": [
+        {
+          "filterIsFile": false,
+          "filterParam": "",
+          "filterName": "movit.filter.soft_focus"
+        }
+      ],
+      "decorateList": [
+        {
+          "start": 0,
+          "end": 2567,
+          "string": "{\"width\": 1080,\"height\": 1920,\"animList\": [{\"text\": \"片头logo.png\",\"posX\": 0.0,\"posY\": 0.0,\"bold\": false,\"thrutext\": false,\"underline\": false,\"skewX\": 0,\"color\": \"#FFFFFF\",\"textSize\": 0,\"letterSpacing\": 0.1,\"transX\": 0.0,\"transY\": 0.0,\"rotate\": 0,\"alpha\": \"0~=255;1000~=255;\",\"scale\": \"0~=1.0;766~=0.4;\",\"type\": 3}]}",
+          "filterList": [
+            {
+              "filterIsFile": false,
+              "filterParam": "{\"blurRadius\":\"0~=30.0;600~=15.0;766~=1.0\"}",
+              "filterName": "movit.filter.radial.blur.diverge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "duration": 1566,
+      "oriDuration": 1566,
+      "4koriDuration": 1566,
+      "isNeedAnim": false,
+      "tag": "0",
+      "filterList": [
+        {
+          "filterIsFile": false,
+          "filterParam": "{\"path\":\"卡点_5.webp\",\"enable\":\"1.0\",\"frameNumber\":\"0=0.0;133=1.0;2033~=57.0\"}",
+          "filterName": "movit.filter.video.overlay"
+        },
+        {
+          "filterIsFile": false,
+          "filterParam": "",
+          "filterName": "movit.filter.soft_focus"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "duration": 1600,
+      "oriDuration": 1600,
+      "4koriDuration": 1600,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975",
+      "filterList": [
+        {
+          "filterIsFile": false,
+          "filterParam": "{\"path\":\"卡点_5.webp\",\"enable\":\"1.0\",\"frameNumber\":\"0=58.0;1900~=114.0;1933=0\"}",
+          "filterName": "movit.filter.video.overlay"
+        },
+        {
+          "filterIsFile": false,
+          "filterParam": "",
+          "filterName": "movit.filter.soft_focus"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "duration": 1566,
+      "oriDuration": 1566,
+      "4koriDuration": 1566,
+      "isNeedAnim": false,
+      "tag": "0",
+      "filterList": [
+        {
+          "filterIsFile": false,
+          "filterParam": "{\"path\":\"卡点_5.webp\",\"enable\":\"1.0\",\"frameNumber\":\"0=0.0;133=1.0;2033~=57.0;\"}",
+          "filterName": "movit.filter.video.overlay"
+        },
+        {
+          "filterIsFile": false,
+          "filterParam": "",
+          "filterName": "movit.filter.soft_focus"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "duration": 1566,
+      "oriDuration": 1566,
+      "4koriDuration": 1566,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975",
+      "filterList": [
+        {
+          "filterIsFile": false,
+          "filterParam": "{\"path\":\"卡点_5.webp\",\"enable\":\"1.0\",\"frameNumber\":\"0=58.0;1900~=114.0;1933=0\"}",
+          "filterName": "movit.filter.video.overlay"
+        },
+        {
+          "filterIsFile": false,
+          "filterParam": "",
+          "filterName": "movit.filter.soft_focus"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "duration": 1600,
+      "oriDuration": 1600,
+      "4koriDuration": 1600,
+      "isNeedAnim": false,
+      "tag": "0",
+      "filterList": [
+        {
+          "filterIsFile": false,
+          "filterParam": "{\"path\":\"卡点_5.webp\",\"enable\":\"1.0\",\"frameNumber\":\"0=0.0;167=1.0;2067~=57.0;\"}",
+          "filterName": "movit.filter.video.overlay"
+        },
+        {
+          "filterIsFile": false,
+          "filterParam": "",
+          "filterName": "movit.filter.soft_focus"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "duration": 1566,
+      "oriDuration": 1566,
+      "4koriDuration": 1566,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975",
+      "filterList": [
+        {
+          "filterIsFile": false,
+          "filterParam": "{\"path\":\"卡点_5.webp\",\"enable\":\"1.0\",\"frameNumber\":\"0=58.0;1900~=114.0;1933=0\"}",
+          "filterName": "movit.filter.video.overlay"
+        },
+        {
+          "filterIsFile": false,
+          "filterParam": "",
+          "filterName": "movit.filter.soft_focus"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "duration": 2300,
+      "oriDuration": 2300,
+      "4koriDuration": 2300,
+      "isNeedAnim": false,
+      "tag": "0",
+      "filterList": [
+        {
+          "filterIsFile": false,
+          "filterParam": "",
+          "filterName": "movit.filter.soft_focus"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="filter_images_ratio_unsupport_v2">
+        <item quantity="other">%d የማይደገፉ ዕቃዎች ተጣርተዋል</item>
+        <item quantity="one">%d የማይደገፍ ንጥል ተጣርቷል</item>
+    </plurals>
+    <plurals name="filter_images_unsupport_v2">
+        <item quantity="other">%d የማይደገፉ ዕቃዎች ተጣርተዋል</item>
+        <item quantity="one">%d የማይደገፍ ንጥል ተጣርቷል</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_2">
+        <item quantity="other">በተመሳሳይ ጊዜ እስከ %d ተግባራት ማከናወን ይችላሉ። ተጨማሪ ከማከልዎ በፊት እስኪጠናቀቁ ይጠብቁ።</item>
+        <item quantity="one">በተመሳሳይ ጊዜ እስከ %d ተግባር ማከናወን ይችላሉ። ተጨማሪ ከማከልዎ በፊት እስኪጠናቀቅ ይጠብቁ።</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_3">
+        <item quantity="other">እስከ %d ሰከንዶች ድረስ ብቻ ያሉ ቀጥታ ቅጽበቶች ይደገፋሉ። ሌላ ፎቶ ይምረጡ እና እንደገና ይሞክሩ።</item>
+        <item quantity="one">እስከ %d ሰከንድ ድረስ ብቻ ያሉ ቀጥታ ቅጽበቶች ይደገፋሉ። ሌላ ፎቶ ይምረጡ እና እንደገና ይሞክሩ።</item>
+    </plurals>
+    <plurals name="mark_doodle_max_node">
+        <item quantity="other">እስከ %d ተለጣፊዎች ማከል ይችላሉ</item>
+        <item quantity="one">እስከ %d ተለጣፊ ማከል ይችላሉ</item>
+    </plurals>
+    <plurals name="mark_shape_max_node">
+        <item quantity="other">እስከ %d ቅርፆችን ያክሉ</item>
+        <item quantity="one">እስከ %d ቅርፅ ያክሉ</item>
+    </plurals>
+    <plurals name="mark_signature_max_node">
+        <item quantity="other">እስከ %d ፊርማዎች ማከል ይችላሉ</item>
+        <item quantity="one">እስከ %d ፊርማ ማከል ይችላሉ</item>
+    </plurals>
+    <plurals name="mark_text_max_node">
+        <item quantity="other">እስከ %d የጽሑፍ ሳጥኖች ማከል ይችላሉ</item>
+        <item quantity="one">እስከ %d የጽሑፍ ሳጥን ማከል ይችላሉ</item>
+    </plurals>
+    <plurals name="photo_crop_talkback_px">
+        <item quantity="other">%d ፒክስሎች</item>
+        <item quantity="one">%d ፒክስል</item>
+    </plurals>
+    <plurals name="photo_editor_livephoto_enhance_notification_complete_msg">
+        <item quantity="other">%d ተግባራት ተጠናቋል። ለመመልከት መታ ያድርጉ።</item>
+        <item quantity="one">%d ተግባር ተጠናቋል። ለመመልከት መታ ያድርጉ።</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_distortion_value">
+        <item quantity="other">መዛባት፦ %d</item>
+        <item quantity="one">መዛባት፦ %d</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_horizontal_value">
+        <item quantity="other">አግድም፦ %d ዲግሪዎች</item>
+        <item quantity="one">አግድም፦ %d ዲግሪ</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_scale_value">
+        <item quantity="other">ሽክርክር፦ %d ዲግሪዎች</item>
+        <item quantity="one">ሽክርክር፦ %d ዲግሪ</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_vertical_value">
+        <item quantity="other">አቀባዊ፦ %d ዲግሪዎች</item>
+        <item quantity="one">አቀባዊ፦ %d ዲግሪ</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg">
+        <item quantity="other">ውጤቱን መፍጠር %d ሰከንዶች ሊወስድ ይችላል። መተግበሪያውን መልቀቅ ሂደቱ ላይ ተጽዕኖ አይኖረውም። ሲዘጋጅ ማሳወቂያ ይደርስዎታል።</item>
+        <item quantity="one">ውጤቱን መፍጠር %d ሰከንድ ሊወስድ ይችላል። መተግበሪያውን መልቀቅ ሂደቱ ላይ ተጽዕኖ አይኖረውም። ሲዘጋጅ ማሳወቂያ ይደርስዎታል።</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit1">
+        <item quantity="other">በአንድ ጊዜ ከ%d በላይ ቅንጥቦችን ማቀናበር አይቻልም</item>
+        <item quantity="one">በአንድ ጊዜ ከ%d በላይ ቅንጥብ ማቀናበር አይቻልም</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit2">
+        <item quantity="other">ከ%d ደቂቃዎች በላይ የሚሆኑ ቅንጥቦችን ማቀናበር አይቻልም</item>
+        <item quantity="one">ከ%d ደቂቃ በላይ የሚሆኑ ቅንጥቦችን ማቀናበር አይቻልም</item>
+    </plurals>
+    <plurals name="video_editor_tip_track_limit">
+        <item quantity="other">እስከ %d ትራኮች ማከል ይችላሉ</item>
+        <item quantity="one">እስከ %d ትራክ ማከል ይችላሉ</item>
+    </plurals>
+    <plurals name="video_tuning_audio_limit">
+        <item quantity="other">በአንድ ጊዜ እስከ %1$d ደቂቃዎች ማቀናበር ይችላሉ፣ ወይም ቪዲዮውን ይከርክሙ እና እንደገና ይሞክሩ</item>
+        <item quantity="one">በአንድ ጊዜ እስከ %1$d ደቂቃ ማቀናበር ይችላሉ፣ ወይም ቪዲዮውን ይከርክሙ እና እንደገና ይሞክሩ</item>
+    </plurals>
+    <plurals name="vlog_audio_origin_sound">
+        <item quantity="other">ዋና ኦዲዮ %1$d</item>
+        <item quantity="one">ዋና ኦዲዮ %1$d</item>
+    </plurals>
+    <plurals name="vlog_clip_cut_fail_min_time">
+        <item quantity="other">ቅንጥቦች ቢያንስ %1$s ሰከንዶች መሆን አለባቸው</item>
+        <item quantity="one">ቅንጥቦች ቢያንስ %1$s ሰከንድ መሆን አለባቸው</item>
+    </plurals>
+    <plurals name="vlog_filter_audio_unsupport_audio_file">
+        <item quantity="other">%d የማይደገፉ የድምጽ ፋይሎች ተጣርተዋል</item>
+        <item quantity="one">%d የማይደገፍ የድምጽ ፋይል ተጣርቷል</item>
+    </plurals>
+    <plurals name="vlog_filter_diy_lut_import_success_toast">
+        <item quantity="other">%1$d ማጣሪያዎች በተሳካ ሁኔታ መጥተዋል</item>
+        <item quantity="one">%1$d ማጣሪያ በተሳካ ሁኔታ መጥቷል</item>
+    </plurals>
+    <plurals name="vlog_filter_no_support_nums">
+        <item quantity="other">%d የማይደገፉ ንጥሎች ተጣርተዋል</item>
+        <item quantity="one">%d የማይደገፍ ንጥል ተጣርቷል</item>
+    </plurals>
+    <plurals name="vlog_generate_loading_notice2">
+        <item quantity="other">ወደ %s ያህል ደቂቃዎች ቀርተዋል። ይህ በእንዲህ እንዳለ ሌሎች ባህሪያትን መጠቀም መቀጠል ይችላሉ።</item>
+        <item quantity="one">ወደ %s ያህል ደቂቃ ቀርቷል። ይህ በእንዲህ እንዳለ ሌሎች ባህሪያትን መጠቀም መቀጠል ይችላሉ።</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_limit">
+        <item quantity="other">"የቆይታ ጊዜ አሁን %d ደቂቃዎችንአልፏል "</item>
+        <item quantity="one">"የቆይታ ጊዜ አሁን %d ደቂቃንአልፏል "</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_no_support_nums">
+        <item quantity="other">%d የማይደገፉ ንጥሎች ተጣርተዋል</item>
+        <item quantity="one">%d የማይደገፍ ንጥል ተጣርቷል</item>
+    </plurals>
+    <plurals name="vlog_no_support_duration">
+        <item quantity="other">ማምጣት አልተቻለም። የቆይታ ጊዜ %d ደቂቃዎች ያልፋል።</item>
+        <item quantity="one">ማምጣት አልተቻለም። የቆይታ ጊዜ %d ደቂቃ ያልፋል።</item>
+    </plurals>
+    <plurals name="vlog_talkback_crop_scale_value">
+        <item quantity="other">%d ዲግሪዎች ያዙሩ</item>
+        <item quantity="one">%d ዲግሪ ያዙሩ</item>
+    </plurals>
+    <plurals name="vlog_template_support_count_desc">
+        <item quantity="other">%d ቅንጥቦች</item>
+        <item quantity="one">%d ቅንጥብ</item>
+    </plurals>
+    <plurals name="legendary_render_notice_v2">
+        <item quantity="other">"ማቀናበር %1$d ሰከንድ ያህል ይወስዳል። ከበስተጀርባ መጠበቅ ማቀናበሩ ላይ ተጽዕኖ አይኖረውም።
+ሁኔታን በ\"የቅርብ ጊዜ ተግባራት\" ውስጥ ያጣሩ።"</item>
+        <item quantity="one">"ማቀናበር %1$d ሰከንድ ያህል ይወስዳል። ከበስተጀርባ መጠበቅ ማቀናበሩ ላይ ተጽዕኖ አይኖረውም።
+ሁኔታን በ\"የቅርብ ጊዜ ተግባራት\" ውስጥ ያጣሩ።"</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_cancel_dialog_notice">
+        <item quantity="other">%d ጊዜያት በነፃ ተጠቅመዋል። ያም ሆኖ ይቁም?</item>
+        <item quantity="one">%d ጊዜ በነፃ ተጠቅመዋል። ያም ሆኖ ይቁም?</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_cancel_dialog_notice_2">
+        <item quantity="other">%d ነጥቦች ተጠቅመዋል። ያም ሆኖ ይቁም?</item>
+        <item quantity="one">%d ነጥብ ተጠቅመዋል። ያም ሆኖ ይቁም?</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_point_cost_hint">
+        <item quantity="other">ይህ %d ነጥቦች ያስከፍላል</item>
+        <item quantity="one">ይህ %d ነጥብ ያስከፍላል</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_remaining_count">
+        <item quantity="other">%d ጊዜያት</item>
+        <item quantity="one">%d ጊዜ</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_total_count">
+        <item quantity="other">%d ጊዜያት</item>
+        <item quantity="one">%d ጊዜ</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg_v2">
+        <item quantity="other">ይህ %d ሰከንዶች አከባቢ ይወስዳል። ከበስተጀርባ ለመቀጠል \"ይጠብቁ\" የሚለውን መታ ያድርጉ። ይህ ተግባር ሲጠናቀቅ ማሳወቂያ ይደርስዎታል።</item>
+        <item quantity="one">ይህ %d ሰከንድ አከባቢ ይወስዳል። ከበስተጀርባ ለመቀጠል \"ይጠብቁ\" የሚለውን መታ ያድርጉ። ይህ ተግባር ሲጠናቀቅ ማሳወቂያ ይደርስዎታል።</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/more_menu_divider" android:layout_width="fill_parent" android:layout_height="@dimen/more_menu_item_divider_height" android:paddingHorizontal="@dimen/more_menu_item_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center" android:background="@color/border" android:layout_width="@dimen/more_menu_line_width" android:layout_height="@dimen/more_menu_item_divider_line_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

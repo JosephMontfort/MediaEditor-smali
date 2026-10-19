@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>Biały</item>
+        <item>Ciemny niebieski</item>
+        <item>Jasny niebieski</item>
+        <item>Czerwony</item>
+        <item>Zielony</item>
+        <item>Różowy</item>
+        <item>Brązowy</item>
+        <item>Szary</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Importuj obraz</item>
+        <item>Przezroczyste tło</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Relaks</item>
+        <item>Bryza</item>
+        <item>Sny</item>
+        <item>Chmury</item>
+        <item>Myśli</item>
+        <item>Pączki</item>
+        <item>Metamorfozy</item>
+        <item>Głębia</item>
+        <item>Odbicia</item>
+        <item>Minimalizm</item>
+        <item>Tajemnica</item>
+        <item>Mgła</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Futurystyczne geometryczne tło</item>
+        <item>Atmosfera dawnych grafik</item>
+        <item>Zamień tła w szkice</item>
+        <item>Tła w stylu akwareli</item>
+        <item>Cyberpunk retro</item>
+        <item>Niewłaściwe segmenty pionowe</item>
+        <item>Mgliste rozmycie</item>
+        <item>Nowoczesny styl</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Low poly</item>
+        <item>Akwaforta</item>
+        <item>Szkic</item>
+        <item>Akwarela</item>
+        <item>RGB</item>
+        <item>Przysłona</item>
+        <item>Zamglone okno</item>
+        <item>Technika</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Kolorowy kontur</item>
+        <item>Przerywany kontur</item>
+        <item>Fluorescencyjny kontur</item>
+        <item>Kolorowy cień</item>
+        <item>Fala elektryczna</item>
+        <item>Strumień</item>
+        <item>Fale</item>
+        <item>Cząsteczki</item>
+        <item>Tekst</item>
+        <item>Skrzydła</item>
+        <item>Anioł</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>Ogólne</item>
+        <item>Podróże</item>
+        <item>Praca</item>
+        <item>Dokumenty</item>
+        <item>Edukacja</item>
+        <item>Egzaminy</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Ubezpieczenie społeczne</item>
+        <item>Oświadczenie o stanie zdrowia</item>
+        <item>Ubezpieczenie zdrowotne</item>
+        <item>DOWÓD OSOBISTY</item>
+        <item>Zezwolenie na pobyt</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>Jeden cun</item>
+        <item>Dwa cuny</item>
+        <item>Jeden mniejszy cun</item>
+        <item>Dwa mniejsze cuny</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Wniosek o przyjęcie</item>
+        <item>Sieć studencka</item>
+        <item>Sieć uczniów szkół podstawowych</item>
+        <item>Profil sieci studenckiej</item>
+        <item>Przyjęcie na studia</item>
+        <item>NCEE</item>
+        <item>CV</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>Egzamin z języka angielskiego na uczelni 1</item>
+        <item>Egzamin z języka angielskiego na uczelni 2</item>
+        <item>Egzamin z języka angielskiego na uczelni 3</item>
+        <item>Egzamin biegłości językowej z języka mandaryńskiego (putonghua) 1</item>
+        <item>Egzamin biegłości językowej z języka mandaryńskiego (putonghua) 2</item>
+        <item>Egzamin dyplomowy z języka angielskiego</item>
+        <item>Egzamin wstępny z języka angielskiego (PET) dla szkół wyższych</item>
+        <item>Egzamin PETS – poziom 3</item>
+        <item>Ogólnokrajowy Egzamin z Informatyki – poziom 1</item>
+        <item>Ogólnokrajowy Egzamin z Informatyki – poziom 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>Uprawnienia do nauczania w szkołach podstawowych i średnich</item>
+        <item>Uprawnienia do nauczania</item>
+        <item>Prawo jazdy</item>
+        <item>Zezwolenie na wykonywanie usług przewodnickich</item>
+        <item>Elektroniczne zezwolenie na wykonywanie usług przewodnickich</item>
+        <item>Krajowy egzamin sędziowski</item>
+        <item>Elektroniczny certyfikat budowniczego pierwszej klasy</item>
+        <item>Certyfikat budowniczego drugiej klasy</item>
+        <item>Egzamin na młodszego księgowego</item>
+        <item>Certyfikowany księgowy</item>
+        <item>Zezwolenie dla przewodnika po Pekinie</item>
+        <item>Egzamin na księgowego na poziomie średniozaawansowanym</item>
+        <item>Egzamin na starszego księgowego</item>
+        <item>Certyfikat kwalifikacji księgowych</item>
+        <item>Egzamin na certyfikowanego księgowego</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>USA</item>
+        <item>Wietnam</item>
+        <item>Japonia</item>
+        <item>Hongkong i Makau</item>
+        <item>Korea Południowa</item>
+        <item>Tajlandia (wiza turystyczna)</item>
+        <item>Tajlandia (wiza po przylocie)</item>
+        <item>Indie</item>
+        <item>Izrael</item>
+        <item>Tajwan</item>
+        <item>Malezja</item>
+        <item>Nowa Zelandia</item>
+        <item>Włochy</item>
+        <item>Argentyna</item>
+        <item>Brazylia</item>
+        <item>Islandia</item>
+        <item>Kenia</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

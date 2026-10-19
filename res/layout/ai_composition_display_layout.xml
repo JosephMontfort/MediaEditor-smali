@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_loading_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="12.0dip" android:scaleType="fitCenter" android:importantForAccessibility="no" />
+    <com.miui.mediaeditor.photo.ai_composition.view.AiCompositionPreviewView android:id="@id/iv_preview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="12.0dip" />
+    <TextView android:textSize="@dimen/ai_composition_ratio_hint_text_size" android:textColor="@color/on_surface" android:id="@id/tv_ratio_hint" android:background="@drawable/ai_composition_ratio_hint_bg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="MiSans" android:paddingHorizontal="@dimen/ai_composition_ratio_hint_padding_h" android:paddingVertical="@dimen/ai_composition_ratio_hint_padding_v" app:layout_constraintEnd_toEndOf="@id/iv_preview" app:layout_constraintStart_toStartOf="@id/iv_preview" app:layout_constraintTop_toTopOf="@id/iv_preview" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<micamx.compat.ui.widget.button.SquareButton android:id="@id/btn" android:layout_width="@dimen/video_menu_item_width" android:layout_height="@dimen/video_menu_item_height" style="@style/editor_square_button_center_edge_default"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

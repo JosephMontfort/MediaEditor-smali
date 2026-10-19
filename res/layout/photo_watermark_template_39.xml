@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.mediaeditor.photo.watermark.widgets.elementview.PhotoElementView android:id="@id/frame_photo_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="116.0px" android:layout_marginTop="141.0px" android:layout_marginRight="108.0px" android:layout_marginBottom="213.0px" />
+    <com.miui.mediaeditor.photo.watermark.widgets.elementview.ImageElementView android:layout_width="fill_parent" android:layout_height="fill_parent" app:src="frame_bg.webp" app:srcFileCategory="disney_18" />
+</androidx.constraintlayout.widget.ConstraintLayout>

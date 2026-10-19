@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/vlog_filter2_add_icon_radius" />
+    <solid android:color="@color/vlog_bg_color1" />
+</shape>

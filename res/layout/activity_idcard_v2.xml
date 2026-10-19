@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/idcard_content_container_v2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/idcard_loading_overlay" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/idcard_loading_lottie" android:background="@drawable/editor_loading_background" android:layout_width="@dimen/photo_editor_common_loading_dialog_width" android:layout_height="@dimen/photo_editor_common_loading_dialog_height" app:lottie_loop="true" app:lottie_rawRes="@raw/loading" />
+    </FrameLayout>
+</FrameLayout>

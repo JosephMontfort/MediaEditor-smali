@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/skin_menu_popup" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_horizontal" android:id="@id/skin_menu" android:background="@drawable/more_menu_popup_bg" android:paddingBottom="24.0dip" android:clickable="true" android:layout_width="@dimen/switch_pop_width" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/switch_pop_margin">
+        <include android:id="@id/switch_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/more_switch_layout" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

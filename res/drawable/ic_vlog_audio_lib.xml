@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dip" android:width="36.0dip" android:autoMirrored="true" android:viewportWidth="36.0" android:viewportHeight="36.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_vlog_audio_lib__0" android:pathData="M26.818,24.348C26.818,25.791 25.414,26.961 23.682,26.961C21.95,26.961 20.546,25.791 20.546,24.348C20.546,22.904 21.95,21.735 23.682,21.734C24.049,21.734 24.4,21.789 24.728,21.886V13.56L14.273,15.302V25.394H14.273C14.273,26.837 12.869,28.008 11.137,28.008C9.405,28.008 8,26.837 8,25.394C8,23.95 9.405,22.78 11.137,22.78C11.503,22.78 11.855,22.835 12.182,22.932V11.439L13.056,11.294L25.602,9.203L26.818,9V24.348Z" />
+</vector>

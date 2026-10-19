@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/miuix_appcompat_transparent" />
+            <padding android:left="@dimen/miuix_appcompat_dialog_border_padding" android:top="@dimen/miuix_appcompat_dialog_border_padding" android:right="@dimen/miuix_appcompat_dialog_border_padding" android:bottom="@dimen/miuix_appcompat_dialog_border_padding" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="@dimen/corners_demi_big" android:topRightRadius="@dimen/corners_demi_big" android:bottomLeftRadius="@dimen/corners_demi_big" android:bottomRightRadius="@dimen/corners_demi_big" />
+            <solid android:color="@color/surface_popup" />
+        </shape>
+    </item>
+</layer-list>

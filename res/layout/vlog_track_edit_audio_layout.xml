@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/navRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/view_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/vlog_clip_trans_item_margin_bottom" android:layout_above="@id/apply_layout">
+        <com.miui.gallery.widget.recyclerview.SimpleRecyclerView android:layout_gravity="bottom" android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_clip_trans_item_height" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:id="@id/audio_operation_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/frame_panel" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_audio_frame_panel_height" android:layout_marginBottom="@dimen/vlog_audio_menu_confirm_layout_margin_top" android:layoutDirection="ltr" app:layout_constraintBottom_toBottomOf="parent">
+                <View android:id="@id/audio_frame_background" android:background="@drawable/vlog_audio_frame_background" android:layout_width="@dimen/vlog_audio_frame_background_width" android:layout_height="@dimen/vlog_audio_frame_panel_height" android:layout_centerInParent="true" />
+                <miuix.recyclerview.widget.RecyclerView android:id="@id/audio_recycler_view" android:paddingTop="@dimen/vlog_audio_frame_panel_recycler_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+                <View android:id="@id/left_frame_mask" android:background="@drawable/vlog_audio_frame_mask_rotate" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/audio_frame_background" android:layout_alignParentStart="true" />
+                <ImageView android:id="@id/right_frame_mask" android:background="@drawable/vlog_audio_frame_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toEndOf="@id/audio_frame_background" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <include android:id="@id/apply_layout" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_menu_common_confirm_height" android:layout_alignParentBottom="true" layout="@layout/vlog_audio_apply_layout" />
+</RelativeLayout>

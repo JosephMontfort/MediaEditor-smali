@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start|center" android:background="@color/signature_crop_tip_bar_color" android:layout_width="fill_parent" android:layout_height="@dimen/signature_crop_tip_bar_height">
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/signature_crop_tip_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wm_signature_preview_tip" android:fontFamily="misans-normal" android:layout_marginStart="28.0dip" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_signature_preview" android:layout_width="fill_parent" android:layout_height="@dimen/signature_preview_height" android:layout_marginHorizontal="@dimen/signature_layout_margin_horizontal">
+        <ImageView android:id="@id/signature_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

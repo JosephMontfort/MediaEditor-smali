@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:id="@id/navigator_item" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <micamx.compat.ui.widget.button.SquareButton android:layout_gravity="center_vertical" android:id="@id/navigate_btn" android:clickable="false" android:layout_width="wrap_content" android:layout_height="48.0dip" android:maxWidth="87.0dip" android:paddingHorizontal="10.0dip" style="@style/editor_square_button_photo_bottom_navigator" />
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/navigate_red_dot" android:visibility="invisible" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/navigator_item_red_dot" android:importantForAccessibility="no" android:layout_marginEnd="20.0dip" />
+</FrameLayout>

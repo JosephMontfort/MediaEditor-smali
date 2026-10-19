@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="1.5dip" android:color="@color/doc_photo_preview_btn_boarder_color" />
+    <corners android:radius="@dimen/radius_middle" />
+</shape>

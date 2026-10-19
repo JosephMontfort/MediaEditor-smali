@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/mark_tools_port_shape_select_height" android:width="@dimen/mark_tools_port_shape_select_height" />
+    <solid android:color="@color/mark_shape_select_surface_container" />
+</shape>

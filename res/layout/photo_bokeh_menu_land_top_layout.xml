@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/head_area" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <micamx.compat.ui.miuix.widget.HyperProgressSeekBar android:id="@id/seek_bar" android:layout_width="@dimen/common_seekbar_length" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:showProgress="false" app:vertical="true" style="@style/editor_hyper_progress_seek_bar_default" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,1673 @@
+{
+        "type": "urn:aiot-spec-v3:com.mi.phones:device:phones:0:0.8",
+        "description": "",
+        "protocol-version": "3.0",
+        "class": "MiPhone",
+        "dynamic": 0,
+        "ddfid": 6750216,
+        "modules": {
+                "iid": 1,
+                "type": "urn:aiot-spec-v3:com.mi.phones:module:[com.miui.mediaeditor]:0:0.8",
+                "description": "photo or video edit",
+                "name": "com.miui.mediaeditor",
+                "services": {
+                        "iid": 1,
+                        "type": "urn:aiot-spec-v3:com.mi.phones:service:[com.miui.mediaeditor/photo]:0:0.8",
+                        "description": "photo edit service",
+                        "name": "photo",
+                        "actions": [
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/enhance]:0.0.3",
+                                        "description": "图片增强",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "description": "期望添加的效果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "亮度"
+                                                                },
+                                                                {
+                                                                        "value": 1,
+                                                                        "description": "对比度"
+                                                                },
+                                                                {
+                                                                        "value": 2,
+                                                                        "description": "饱和度"
+                                                                },
+                                                                {
+                                                                        "value": 4,
+                                                                        "description": "晕影"
+                                                                },
+                                                                {
+                                                                        "value": 6,
+                                                                        "description": "曝光"
+                                                                },
+                                                                {
+                                                                        "value": 7,
+                                                                        "description": "色温"
+                                                                },
+                                                                {
+                                                                        "value": 8,
+                                                                        "description": "色调"
+                                                                },
+                                                                {
+                                                                        "value": 9,
+                                                                        "description": "高光"
+                                                                },
+                                                                {
+                                                                        "value": 10,
+                                                                        "description": "阴影"
+                                                                },
+                                                                {
+                                                                        "value": 12,
+                                                                        "description": "自然饱和度"
+                                                                },
+                                                                {
+                                                                        "value": 13,
+                                                                        "description": "黑色色阶"
+                                                                },
+                                                                {
+                                                                        "value": 14,
+                                                                        "description": "白色色阶"
+                                                                }
+                                                        ]
+                                                },
+                                                {
+                                                        "name": "auto",
+                                                        "format-list": [
+                                                                "boolean"
+                                                        ],
+                                                        "description": "是否自动取值，默认false"
+                                                },
+                                                {
+                                                        "name": "strength",
+                                                        "format-list": [
+                                                                "float"
+                                                        ],
+                                                        "value-range": [
+                                                                -100,
+                                                                100
+                                                        ],
+                                                        "description": "想要添加的效果的浓度"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/enhance-extra]:0.0.1",
+                                        "description": "图片增强第二部分",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "description": "期望添加的效果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 3,
+                                                                        "description": "锐化"
+                                                                },
+                                                                {
+                                                                        "value": 5,
+                                                                        "description": "颗粒"
+                                                                },
+                                                                {
+                                                                        "value": 11,
+                                                                        "description": "褪色"
+                                                                },
+                                                                {
+                                                                        "value": 15,
+                                                                        "description": "清晰度"
+                                                                }
+                                                        ]
+                                                },
+                                                {
+                                                        "name": "auto",
+                                                        "format-list": [
+                                                                "boolean"
+                                                        ],
+                                                        "description": "是否自动取值，默认false"
+                                                },
+                                                {
+                                                        "name": "strength",
+                                                        "format-list": [
+                                                                "float"
+                                                        ],
+                                                        "value-range": [
+                                                                0,
+                                                                100
+                                                        ],
+                                                        "description": "想要添加的效果的浓度"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/posterize]:0.0.1",
+                                        "description": "色调分离",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 21,
+                                                                        "description": "色调分离"
+                                                                }
+                                                        ],
+                                                        "description": "固定值=21"
+                                                },
+                                                {
+                                                        "name": "style",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "description": "期望调整的区域",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "高光"
+                                                                },
+                                                                {
+                                                                        "value": 1,
+                                                                        "description": "阴影"
+                                                                }
+                                                        ]
+                                                },
+                                                {
+                                                        "name": "color",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "description": "期望调整的颜色",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "红色"
+                                                                },
+                                                                {
+                                                                        "value": 1,
+                                                                        "description": "橙色"
+                                                                },
+                                                                {
+                                                                        "value": 2,
+                                                                        "description": "黄色"
+                                                                },
+                                                                {
+                                                                        "value": 3,
+                                                                        "description": "绿色"
+                                                                },
+                                                                {
+                                                                        "value": 4,
+                                                                        "description": "蓝色"
+                                                                },
+                                                                {
+                                                                        "value": 5,
+                                                                        "description": "紫色"
+                                                                }
+                                                        ]
+                                                },
+                                                {
+                                                        "name": "auto",
+                                                        "format-list": [
+                                                                "boolean"
+                                                        ],
+                                                        "description": "是否自动取值，默认false"
+                                                },
+                                                {
+                                                        "name": "strength",
+                                                        "format-list": [
+                                                                "float"
+                                                        ],
+                                                        "value-range": [
+                                                                0,
+                                                                100
+                                                        ],
+                                                        "description": "想要添加的效果的浓度"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/hsl]:0.0.1",
+                                        "description": "hsl",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 22,
+                                                                        "description": "hsl"
+                                                                }
+                                                        ],
+                                                        "description": "固定值=22"
+                                                },
+                                                {
+                                                        "name": "style",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "description": "期望调整的维度",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "色相"
+                                                                },
+                                                                {
+                                                                        "value": 1,
+                                                                        "description": "饱和度"
+                                                                },
+                                                                {
+                                                                        "value": 2,
+                                                                        "description": "亮度"
+                                                                }
+                                                        ]
+                                                },
+                                                {
+                                                        "name": "color",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "description": "期望调整的颜色",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "红色"
+                                                                },
+                                                                {
+                                                                        "value": 1,
+                                                                        "description": "橙色"
+                                                                },
+                                                                {
+                                                                        "value": 2,
+                                                                        "description": "黄色"
+                                                                },
+                                                                {
+                                                                        "value": 3,
+                                                                        "description": "绿色"
+                                                                },
+                                                                {
+                                                                        "value": 4,
+                                                                        "description": "蓝色"
+                                                                },
+                                                                {
+                                                                        "value": 5,
+                                                                        "description": "紫色"
+                                                                }
+                                                        ]
+                                                },
+                                                {
+                                                        "name": "auto",
+                                                        "format-list": [
+                                                                "boolean"
+                                                        ],
+                                                        "description": "是否自动取值，默认false"
+                                                },
+                                                {
+                                                        "name": "strength",
+                                                        "format-list": [
+                                                                "float"
+                                                        ],
+                                                        "value-range": [
+                                                                -100 ,
+                                                                100
+                                                        ],
+                                                        "description": "想要添加的效果的浓度"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/de-noise]:0.0.1",
+                                        "description": "降噪",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 33,
+                                                                        "description": "降噪"
+                                                                }
+                                                        ],
+                                                        "description": "固定值=33"
+                                                },
+                                                {
+                                                        "name": "style",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "description": "期望调整的维度",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "明度降噪"
+                                                                },
+                                                                {
+                                                                        "value": 1,
+                                                                        "description": "色彩降噪"
+                                                                }
+                                                        ]
+                                                },
+                                                {
+                                                        "name": "auto",
+                                                        "format-list": [
+                                                                "boolean"
+                                                        ],
+                                                        "description": "是否自动取值，默认false"
+                                                },
+                                                {
+                                                        "name": "strength",
+                                                        "format-list": [
+                                                                "float"
+                                                        ],
+                                                        "value-range": [
+                                                                0,
+                                                                100
+                                                        ],
+                                                        "description": "想要添加的效果的浓度"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/beautification]:0.0.2",
+                                        "description": "自动美化",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 35,
+                                                                        "description": "一键美化/智能美化/自动增强"
+                                                                }
+                                                        ],
+                                                        "description": "固定值=35"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/super-portrait]:0.0.2",
+                                        "description": "超清人像",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 36,
+                                                                        "description": "超清人像/画质修复"
+                                                                }
+                                                        ],
+                                                        "description": "固定值=36"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/image-quality-restoration]:0.0.2",
+                                        "description": "画质修复",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 36,
+                                                                        "description": "超清人像/画质修复"
+                                                                }
+                                                        ],
+                                                        "description": "固定值=36"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/watermark-frame]:0.0.1",
+                                        "description": "水印画框/徕卡水印/定制画框",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/auto-beauty]:0.0.1",
+                                        "description": "智能美颜",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/face-beauty]:0.0.2",
+                                        "description": "美肤",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "磨皮"
+                                                                },
+                                                                {
+                                                                        "value": 2,
+                                                                        "description": "祛皱"
+                                                                },
+                                                                {
+                                                                        "value": 5,
+                                                                        "description": "匀肤"
+                                                                },
+                                                                {
+                                                                        "value": 6,
+                                                                        "description": "祛黑眼圈"
+                                                                },
+                                                                {
+                                                                        "value": 8,
+                                                                        "description": "亮眼"
+                                                                },
+                                                                {
+                                                                        "value": 9,
+                                                                        "description": "气色提升"
+                                                                },
+                                                                {
+                                                                        "value": 10,
+                                                                        "description": "五官立体"
+                                                                }
+                                                        ],
+                                                        "description": "想要执行的美肤效果"
+                                                },
+                                                {
+                                                        "name": "auto",
+                                                        "format-list": [
+                                                                "boolean"
+                                                        ],
+                                                        "description": "是否自动取值，默认false"
+                                                },
+                                                {
+                                                        "name": "strength",
+                                                        "format-list": [
+                                                                "float"
+                                                        ],
+                                                        "value-range": [
+                                                                0,
+                                                                100
+                                                        ],
+                                                        "description": "想要添加的效果的浓度"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/face-beauty-acne]:0.0.1",
+                                        "description": "祛斑祛痘",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 1,
+                                                                        "description": "祛斑祛痘"
+                                                                }
+                                                        ],
+                                                        "description": "固定值=1"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/face-beauty-skin]:0.0.1",
+                                        "description": "美白",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 4,
+                                                                        "description": "美白"
+                                                                }
+                                                        ],
+                                                        "description": "固定值=4"
+                                                },
+                                                {
+                                                        "name": "auto",
+                                                        "format-list": [
+                                                                "boolean"
+                                                        ],
+                                                        "description": "是否自动取值，默认false"
+                                                },
+                                                {
+                                                        "name": "strength",
+                                                        "format-list": [
+                                                                "float"
+                                                        ],
+                                                        "value-range": [
+                                                                -100,
+                                                                100
+                                                        ],
+                                                        "description": "想要添加的效果的浓度"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/face-shape]:0.0.2",
+                                        "description": "面部重塑第一部分",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 2,
+                                                                        "description": "脸型宽度"
+                                                                },
+                                                                {
+                                                                        "value": 4,
+                                                                        "description": "太阳穴"
+                                                                },
+                                                                {
+                                                                        "value": 5,
+                                                                        "description": "颧骨"
+                                                                },
+                                                                {
+                                                                        "value": 6,
+                                                                        "description": "下颌角"
+                                                                },
+                                                                {
+                                                                        "value": 7,
+                                                                        "description": "下巴"
+                                                                },
+                                                                {
+                                                                        "value": 8,
+                                                                        "description": "发际线"
+                                                                },
+                                                                {
+                                                                        "value": 9,
+                                                                        "description": "蓬蓬发"
+                                                                },
+                                                                {
+                                                                        "value": 10,
+                                                                        "description": "眉毛粗细"
+                                                                },
+                                                                {
+                                                                        "value": 11,
+                                                                        "description": "眼睛大小"
+                                                                },
+                                                                {
+                                                                        "value": 12,
+                                                                        "description": "眼距"
+                                                                },
+                                                                {
+                                                                        "value": 14,
+                                                                        "description": "鼻子胖瘦"
+                                                                },
+                                                                {
+                                                                        "value": 15,
+                                                                        "description": "鼻尖"
+                                                                },
+                                                                {
+                                                                        "value": 16,
+                                                                        "description": "鼻子长短"
+                                                                },
+                                                                {
+                                                                        "value": 17,
+                                                                        "description": "嘴型大小"
+                                                                }
+                                                        ],
+                                                        "description": "想要执行的效果"
+                                                },
+                                                {
+                                                        "name": "auto",
+                                                        "format-list": [
+                                                                "boolean"
+                                                        ],
+                                                        "description": "是否自动取值，默认false"
+                                                },
+                                                {
+                                                        "name": "strength",
+                                                        "format-list": [
+                                                                "float"
+                                                        ],
+                                                        "value-range": [
+                                                                -100,
+                                                                100
+                                                        ],
+                                                        "description": "想要添加的效果的浓度"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/face-shape-extra]:0.0.1",
+                                        "description": "面部重塑第二部分",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "脸型胖瘦"
+                                                                },
+                                                                {
+                                                                        "value": 1,
+                                                                        "description": "脸型大小"
+                                                                },
+                                                                {
+                                                                        "value": 3,
+                                                                        "description": "v脸"
+                                                                },
+                                                                {
+                                                                        "value": 18,
+                                                                        "description": "微笑嘴角"
+                                                                }
+                                                        ],
+                                                        "description": "想要执行的效果"
+                                                },
+                                                {
+                                                        "name": "auto",
+                                                        "format-list": [
+                                                                "boolean"
+                                                        ],
+                                                        "description": "是否自动取值，默认false"
+                                                },
+                                                {
+                                                        "name": "strength",
+                                                        "format-list": [
+                                                                "float"
+                                                        ],
+                                                        "value-range": [
+                                                                0,
+                                                                100
+                                                        ],
+                                                        "description": "想要添加的效果的浓度"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/body-beauty]:0.0.1",
+                                        "description": "美体",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 3,
+                                                                        "description": "瘦肩"
+                                                                },
+                                                                {
+                                                                        "value": 4,
+                                                                        "description": "瘦手臂"
+                                                                },
+                                                                {
+                                                                        "value": 5,
+                                                                        "description": "瘦腰"
+                                                                },
+                                                                {
+                                                                        "value": 6,
+                                                                        "description": "美胯"
+                                                                },
+                                                                {
+                                                                        "value": 8,
+                                                                        "description": "瘦腿"
+                                                                }
+                                                        ],
+                                                        "description": "想要执行的效果"
+                                                },
+                                                {
+                                                        "name": "auto",
+                                                        "format-list": [
+                                                                "boolean"
+                                                        ],
+                                                        "description": "是否自动取值，默认false"
+                                                },
+                                                {
+                                                        "name": "strength",
+                                                        "format-list": [
+                                                                "float"
+                                                        ],
+                                                        "value-range": [
+                                                                -100,
+                                                                100
+                                                        ],
+                                                        "description": "想要添加的效果的浓度"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/body-beauty-extra]:0.0.1",
+                                        "description": "美体第二部分",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 1,
+                                                                        "description": "小头"
+                                                                },
+                                                                {
+                                                                        "value": 2,
+                                                                        "description": "天鹅颈"
+                                                                },
+                                                                {
+                                                                        "value": 7,
+                                                                        "description": "长腿"
+                                                                }
+                                                        ],
+                                                        "description": "想要执行的效果"
+                                                },
+                                                {
+                                                        "name": "auto",
+                                                        "format-list": [
+                                                                "boolean"
+                                                        ],
+                                                        "description": "是否自动取值，默认false"
+                                                },
+                                                {
+                                                        "name": "strength",
+                                                        "format-list": [
+                                                                "float"
+                                                        ],
+                                                        "value-range": [
+                                                                0,
+                                                                100
+                                                        ],
+                                                        "description": "想要添加的效果的浓度"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/body-beauty-slim]:0.0.1",
+                                        "description": "美体瘦身组合效果",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 100,
+                                                                        "description": "固定值=100"
+                                                                }
+                                                        ],
+                                                        "description": "想要执行的效果"
+                                                },
+                                                {
+                                                        "name": "auto",
+                                                        "format-list": [
+                                                                "boolean"
+                                                        ],
+                                                        "description": "是否自动取值，默认false"
+                                                },
+                                                {
+                                                        "name": "strength",
+                                                        "format-list": [
+                                                                "float"
+                                                        ],
+                                                        "value-range": [
+                                                                0,
+                                                                100
+                                                        ],
+                                                        "description": "想要添加的效果的浓度"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/ai-cloud-function]:0.0.2",
+                                        "description": "云端ai功能",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "query",
+                                                        "format-list": [
+                                                                "String"
+                                                        ],
+                                                        "description": "若是单指令，传用户原始query；若是组合指令，传切分的、对应该action的query"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "description": "期望执行的ai能力",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 2,
+                                                                        "description": "AI扩图"
+                                                                },
+                                                                {
+                                                                        "value": 3,
+                                                                        "description": "路人消除"
+                                                                },
+                                                                {
+                                                                        "value": 4,
+                                                                        "description": "风格迁移"
+                                                                },
+                                                                {
+                                                                        "value": 5,
+                                                                        "description": "主体物换背景"
+                                                                }
+                                                        ]
+                                                },
+                                                {
+                                                        "name": "request_id",
+                                                        "format-list": [
+                                                                "String"
+                                                        ],
+                                                        "description": "小爱query request id"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/virtualization-portrait]:0.0.2",
+                                        "description": "虚拟形象",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "description": "期望生成的风格",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 1,
+                                                                        "description": "繁花"
+                                                                },
+                                                                {
+                                                                        "value": 2,
+                                                                        "description": "虚幻之境"
+                                                                },
+                                                                {
+                                                                        "value": 3,
+                                                                        "description": "蓝调时刻"
+                                                                },
+                                                                {
+                                                                        "value": 4,
+                                                                        "description": "原野"
+                                                                },
+                                                                {
+                                                                        "value": 5,
+                                                                        "description": "发丝光"
+                                                                },
+                                                                {
+                                                                        "value": 6,
+                                                                        "description": "伦勃朗光"
+                                                                },
+                                                                {
+                                                                        "value": 7,
+                                                                        "description": "窗边光影"
+                                                                }
+                                                        ]
+                                                },
+                                                {
+                                                        "name": "auto",
+                                                        "format-list": [
+                                                                "boolean"
+                                                        ],
+                                                        "description": "是否自动应用效果，默认false"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/filter]:0.0.2",
+                                        "description": "滤镜",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "description": "期望的滤镜风格",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 4,
+                                                                        "description": "徕卡"
+                                                                },
+                                                                {
+                                                                        "value": 5,
+                                                                        "description": "流行"
+                                                                },
+                                                                {
+                                                                        "value": 6,
+                                                                        "description": "胶片"
+                                                                },
+                                                                {
+                                                                        "value": 7,
+                                                                        "description": "经典"
+                                                                },
+                                                                {
+                                                                        "value": 8,
+                                                                        "description": "人像"
+                                                                },
+                                                                {
+                                                                        "value": 9,
+                                                                        "description": "美食"
+                                                                },
+                                                                {
+                                                                        "value": 10,
+                                                                        "description": "电影"
+                                                                },
+                                                                {
+                                                                        "value": 11,
+                                                                        "description": "旅行"
+                                                                },
+                                                                {
+                                                                        "value": 12,
+                                                                        "description": "夜景"
+                                                                },
+                                                                {
+                                                                        "value": 13,
+                                                                        "description": "质感"
+                                                                }
+                                                        ]
+                                                },
+                                                {
+                                                        "name": "auto",
+                                                        "format-list": [
+                                                                "boolean"
+                                                        ],
+                                                        "description": "是否自动应用效果，默认false"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/magic-sky]:0.0.1",
+                                        "description": "魔法换天",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "description": "期望的天空风格",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 1,
+                                                                        "description": "晴天"
+                                                                },
+                                                                {
+                                                                        "value": 2,
+                                                                        "description": "傍晚"
+                                                                },
+                                                                {
+                                                                        "value": 3,
+                                                                        "description": "夜景"
+                                                                }
+                                                        ]
+                                                },
+                                                {
+                                                        "name": "auto",
+                                                        "format-list": [
+                                                                "boolean"
+                                                        ],
+                                                        "description": "是否自动应用效果，默认false"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/reflection-eliminate]:0.0.1",
+                                        "description": "反光消除",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/import]:0.0.1",
+                                        "description": "导入图片",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待导入的图片的Uri"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "导入结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                },
+                                {
+                                        "type": "urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/ai-cloud-function-super-editor]:0.0.1",
+                                        "description": "云端ai功能,相册万能编辑",
+                                        "in": [
+                                                {
+                                                        "name": "client_input_image_uri",
+                                                        "format-list": [
+                                                                "Uri"
+                                                        ],
+                                                        "description": "待调整的图片的Uri"
+                                                },
+                                                {
+                                                        "name": "query",
+                                                        "format-list": [
+                                                                "String"
+                                                        ],
+                                                        "description": "若是单指令，传用户原始query；若是组合指令，传切分的、对应该action的query"
+                                                },
+                                                {
+                                                        "name": "effect",
+                                                        "format-list": [
+                                                                "int"
+                                                        ],
+                                                        "description": "期望执行的ai能力"
+                                                },
+                                                {
+                                                        "name": "request_id",
+                                                        "format-list": [
+                                                                "String"
+                                                        ],
+                                                        "description": "小爱query request id"
+                                                }
+                                        ],
+                                        "out": [
+                                                {
+                                                        "name": "status",
+                                                        "format": "int32",
+                                                        "description": "渲染结果",
+                                                        "value-list": [
+                                                                {
+                                                                        "value": 0,
+                                                                        "description": "成功"
+                                                                },
+                                                                {
+                                                                        "value": -1,
+                                                                        "description": "失败"
+                                                                }
+                                                        ]
+                                                }
+                                        ]
+                                }
+                        ]
+                }
+        }
+}

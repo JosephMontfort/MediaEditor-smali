@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="filter_images_ratio_unsupport_v2">
+        <item quantity="other">Филтрирани се %d неподдржани ставки</item>
+        <item quantity="one">Филтрирана е %d неподдржана ставка</item>
+    </plurals>
+    <plurals name="filter_images_unsupport_v2">
+        <item quantity="other">Филтрирани се %d неподдржани ставки</item>
+        <item quantity="one">Филтрирана е %d неподдржана ставка</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_2">
+        <item quantity="other">Можете да обработите истовремено до %d задачи. Причекајте да завршат за да додадете други.</item>
+        <item quantity="one">Можете да обработите истовремено до %d задача. Причекајте да заврши за да додадете друга.</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_3">
+        <item quantity="other">Се поддржуваат само моменти во живо со времетраење до %d сек. Изберете друга фотографија и обидете се повторно.</item>
+        <item quantity="one">Се поддржуваат само моменти во живо со времетраење до %d сек. Изберете друга фотографија и обидете се повторно.</item>
+    </plurals>
+    <plurals name="mark_doodle_max_node">
+        <item quantity="other">Можете да додадете до %d налепници</item>
+        <item quantity="one">Можете да додадете до %d налепница</item>
+    </plurals>
+    <plurals name="mark_shape_max_node">
+        <item quantity="other">Додајте до %d облици</item>
+        <item quantity="one">Додајте до %d облик</item>
+    </plurals>
+    <plurals name="mark_signature_max_node">
+        <item quantity="other">Можете да додадете до %d потписи</item>
+        <item quantity="one">Можете да додадете до %d потпис</item>
+    </plurals>
+    <plurals name="mark_text_max_node">
+        <item quantity="other">Можете да додадете до %d текстуални полиња</item>
+        <item quantity="one">Можете да додадете до %d текстуално поле</item>
+    </plurals>
+    <plurals name="photo_crop_talkback_px">
+        <item quantity="other">%d пиксели</item>
+        <item quantity="one">%d пиксел</item>
+    </plurals>
+    <plurals name="photo_editor_livephoto_enhance_notification_complete_msg">
+        <item quantity="other">Се завршија %d задачи. Допрете за да видите.</item>
+        <item quantity="one">Се заврши %d задача. Допрете за да видите.</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_distortion_value">
+        <item quantity="other">Изобличување: %d</item>
+        <item quantity="one">Изобличување: %d</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_horizontal_value">
+        <item quantity="other">Хоризонтално: %d степени</item>
+        <item quantity="one">Хоризонтално: %d степен</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_scale_value">
+        <item quantity="other">Вртење: %d степени</item>
+        <item quantity="one">Вртење: %d степен</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_vertical_value">
+        <item quantity="other">Вертикално: %d степени</item>
+        <item quantity="one">Вертикално: %d степен</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg">
+        <item quantity="other">Генерирањето на ефект може да потрае %d секунди. Заминувањето од апликацијата нема да влијае на напредокот. Ќе добиете известување кога ќе заврши.</item>
+        <item quantity="one">Генерирањето на ефект може да потрае %d секунда. Заминувањето од апликацијата нема да влијае на напредокот. Ќе добиете известување кога ќе заврши.</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit1">
+        <item quantity="other">Не може да се обработат повеќе од %d клипа одеднаш</item>
+        <item quantity="one">Не може да се обработи повеќе од %d клип одеднаш</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit2">
+        <item quantity="other">Не може да се обработат клипови подолги од %d минути</item>
+        <item quantity="one">Не може да се обработат клипови подолги од %d минута</item>
+    </plurals>
+    <plurals name="video_editor_tip_track_limit">
+        <item quantity="other">Можете да додадете до %d песни</item>
+        <item quantity="one">Можете да додадете до %d песна</item>
+    </plurals>
+    <plurals name="video_tuning_audio_limit">
+        <item quantity="other">Можете да обработите до %1$d минути наеднаш или да потсечете видео и да се обидете повторно</item>
+        <item quantity="one">Можете да обработите до %1$d минута наеднаш или да потсечете видео и да се обидете повторно</item>
+    </plurals>
+    <plurals name="vlog_audio_origin_sound">
+        <item quantity="other">Оригинално аудио %1$d</item>
+        <item quantity="one">Оригинално аудио %1$d</item>
+    </plurals>
+    <plurals name="vlog_clip_cut_fail_min_time">
+        <item quantity="other">Клиповите мора да траат најмалку %1$s секунди</item>
+        <item quantity="one">Клиповите мора да траат најмалку %1$s секунда</item>
+    </plurals>
+    <plurals name="vlog_filter_audio_unsupport_audio_file">
+        <item quantity="other">Се исфилтрираа %d неподдржани аудиодатотеки</item>
+        <item quantity="one">Се исфилтрира %d неподдржана аудиодатотека</item>
+    </plurals>
+    <plurals name="vlog_filter_diy_lut_import_success_toast">
+        <item quantity="other">Успешно се увезени %1$d филтери</item>
+        <item quantity="one">Успешно е увезен %1$d филтер</item>
+    </plurals>
+    <plurals name="vlog_filter_no_support_nums">
+        <item quantity="other">Филтрирани се %d неподдржани ставки</item>
+        <item quantity="one">Филтрирана е %d неподдржана ставка</item>
+    </plurals>
+    <plurals name="vlog_generate_loading_notice2">
+        <item quantity="other">Преостануваат околу %s минути. Во меѓувреме, можеш да продолжиш да користиш други функции.</item>
+        <item quantity="one">Преостанува околу %s минута. Во меѓувреме, можеш да продолжиш да користиш други функции.</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_limit">
+        <item quantity="other">"Времетраењето сега надминува %d мин. "</item>
+        <item quantity="one">"Времетраењето сега надминува %d мин. "</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_no_support_nums">
+        <item quantity="other">Филтрирани се %d неподдржани ставки</item>
+        <item quantity="one">Филтрирана е %d неподдржана ставка</item>
+    </plurals>
+    <plurals name="vlog_no_support_duration">
+        <item quantity="other">Не можеше да се увезат. Времетраењето надминува %d мин.</item>
+        <item quantity="one">Не можеше да се увезе. Времетраењето надминува %d мин.</item>
+    </plurals>
+    <plurals name="vlog_talkback_crop_scale_value">
+        <item quantity="other">Ротирај за %d степени</item>
+        <item quantity="one">Ротирај за %d степен</item>
+    </plurals>
+    <plurals name="vlog_template_support_count_desc">
+        <item quantity="other">%d клипови</item>
+        <item quantity="one">%d клип</item>
+    </plurals>
+    <plurals name="legendary_render_notice_v2">
+        <item quantity="other">"Обработката ќе трае околу %1$d сек. Чекањето во заднина нема да влијае на обработката.
+Проверете го статусот во \"Неодамнешни задачи\"."</item>
+        <item quantity="one">"Обработката ќе трае околу %1$d сек. Чекањето во заднина нема да влијае на обработката.
+Проверете го статусот во \"Неодамнешни задачи\"."</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_cancel_dialog_notice">
+        <item quantity="other">Искористивте %d пати бесплатно. Сепак сакате да запрете?</item>
+        <item quantity="one">Искористивте %d пат бесплатно. Сепак сакате да запрете?</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_cancel_dialog_notice_2">
+        <item quantity="other">Искористивте %d поени. Сепак сакате да запрете?</item>
+        <item quantity="one">Искористивте %d поен. Сепак сакате да запрете?</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_point_cost_hint">
+        <item quantity="other">Ова ќе чини %d поени</item>
+        <item quantity="one">Ова ќе чини %d поен</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_remaining_count">
+        <item quantity="other">%d пати</item>
+        <item quantity="one">%d пат</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_total_count">
+        <item quantity="other">%d пати</item>
+        <item quantity="one">%d пат</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg_v2">
+        <item quantity="other">Ова трае околу %d секунди. Допрете на \"Чекај\" за да продолжите во заднина. Ќе примите известување кога задачата ќе заврши.</item>
+        <item quantity="one">Ова трае околу %d секунда. Допрете на \"Чекај\" за да продолжите во заднина. Ќе примите известување кога задачата ќе заврши.</item>
+    </plurals>
+</resources>

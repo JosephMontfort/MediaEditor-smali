@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory>
+        <Preference android:summary="Tap here to join - Peace Mods">
+            <intent android:action="android.intent.action.VIEW" android:data="https://t.me/+EThS7e7oATszZjY1" />
+        </Preference>
+        <Preference android:summary="Backup Channel: Peace Mods 2">
+            <intent android:action="android.intent.action.VIEW" android:data="https://t.me/hyperos_mods" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/editor_export" android:key="pref_header_key_save">
+        <miuix.preference.DropDownPreference android:title="@string/description_save_operate" android:key="pref_key_save_option" android:defaultValue="ask_every_time" app:entries="@array/photo_editor_setting_saving_option_entries_array" app:entryValues="@array/photo_editor_setting_saving_option_entry_values_array" />
+        <miuix.preference.DropDownPreference android:title="@string/photo_editor_picture_quality" android:key="pref_key_picture_quality" android:defaultValue="best" app:entries="@array/photo_editor_setting_picture_quality_entries_array" app:entryValues="@array/photo_editor_setting_picture_quality_entry_values_array" />
+        <miuix.preference.DropDownPreference android:title="@string/photo_editor_setting_title_picture_size" android:key="pref_key_picture_size" android:defaultValue="100" app:entries="@array/photo_editor_setting_picture_size_entries_array" app:entryValues="@array/photo_editor_setting_picture_size_entry_values_array" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/photo_editor_setting_title_appearance" android:key="pref_header_key_appearance">
+        <miuix.preference.DropDownPreference android:title="@string/more_menu_appearance_setting" android:key="pref_key_appearance_setting" android:defaultValue="system" app:entries="@array/photo_editor_setting_appearance_setting_entries_array" app:entryValues="@array/photo_editor_setting_appearance_setting_entry_values_array" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/adjust_quality_ultra_hd" android:key="pref_header_key_ultra_hd" app:isPreferenceVisible="false">
+        <SwitchPreference android:title="@string/image_enhancer_pop_title" android:key="pref_key_image_enhancer" android:summary="@string/image_enhancer_pop_subtitle" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/photo_editor_setting_title_others_setting" android:key="pref_header_key_others_setting">
+        <SwitchPreference android:title="@string/more_menu_ai_compliance" android:key="pref_key_ai_compliance" android:summary="@string/ai_compliance_menu_pop_video_description" android:defaultValue="true" app:isPreferenceVisible="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="pref_header_key_empty_setting">
+        <Preference android:title="@string/photo_editor_setting_title_check_user_agreement" android:key="pref_key_check_user_agreement" />
+        <Preference android:title="@string/photo_editor_setting_title_check_privacy_policy" android:key="pref_key_check_privacy_policy" />
+        <Preference android:title="@string/photo_editor_setting_title_revoke_privacy_policy" android:key="pref_key_revoke_privacy_policy" />
+        <Preference android:title="@string/photo_editor_setting_title_record_information" android:key="pref_key_record_information" app:isPreferenceVisible="false" />
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

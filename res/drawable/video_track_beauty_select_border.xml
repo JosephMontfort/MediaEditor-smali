@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/corners_tiny" />
+    <stroke android:width="@dimen/video_track_item_select_border_width" android:color="@color/video_track_beauty_select_border" />
+</shape>

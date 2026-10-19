@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>Beyaz</item>
+        <item>Koyu mavi</item>
+        <item>Açık mavi</item>
+        <item>Kırmızı</item>
+        <item>Yeşil</item>
+        <item>Pembe</item>
+        <item>Kahverengi</item>
+        <item>Gri</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Görüntüyü içe aktar</item>
+        <item>Şeffaf arka plan</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Serbest</item>
+        <item>Esinti</item>
+        <item>Rüyalar</item>
+        <item>Bulutlar</item>
+        <item>Düşünceler</item>
+        <item>Gonca</item>
+        <item>Metamorfoz</item>
+        <item>Derinlik</item>
+        <item>Yansımalar</item>
+        <item>Minimalist</item>
+        <item>Gizem</item>
+        <item>Sis</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Fütüristik geometrik arka plan</item>
+        <item>Eski ana baskı atmosferi</item>
+        <item>Arka planları eskizlere dönüştürün</item>
+        <item>Suluboya tarzı arka planlar</item>
+        <item>Cyberpunk retro</item>
+        <item>Yanlış yerleştirilmiş dikey simgeler</item>
+        <item>Puslu bulanıklık</item>
+        <item>Fütüristik his</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Düşük poli</item>
+        <item>Oyma</item>
+        <item>Eskiz</item>
+        <item>Suluboya</item>
+        <item>RGB</item>
+        <item>Panjur</item>
+        <item>Sisli pencere</item>
+        <item>Teknoloji</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Renkli ana hat</item>
+        <item>Kesikli ana hat</item>
+        <item>Floresan ana hat</item>
+        <item>Renkli gölge</item>
+        <item>Elektrik dalgası</item>
+        <item>Geçerli</item>
+        <item>Dalgalar</item>
+        <item>Parçacıklar</item>
+        <item>Metin</item>
+        <item>Kanatlar</item>
+        <item>Melek</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>Genel</item>
+        <item>Seyahat</item>
+        <item>İş</item>
+        <item>Belgeler</item>
+        <item>Eğitim</item>
+        <item>Sınavlar</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Sosyal güvenlik</item>
+        <item>Sağlık beyanı</item>
+        <item>Sağlık sigortası</item>
+        <item>Kimlik</item>
+        <item>Oturum izni</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>Bir cun</item>
+        <item>İki cun</item>
+        <item>Daha küçük bir cun</item>
+        <item>Daha küçük iki cun</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Kabul başvurusu</item>
+        <item>Öğrenci ağı</item>
+        <item>İlkokullar için öğrenci ağı</item>
+        <item>Öğrenci ağı profili</item>
+        <item>Üniversiteye kabul</item>
+        <item>NCEE</item>
+        <item>Özgeçmiş</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>Üniversite İngilizcesi Testi 1</item>
+        <item>Üniversite İngilizcesi Testi 2</item>
+        <item>Üniversite İngilizcesi Testi 3</item>
+        <item>Putonghua Yeterlilik Testi 1</item>
+        <item>Putonghua Yeterlilik Testi 2</item>
+        <item>Derece İngilizce Testi</item>
+        <item>Üniversiteler için PET</item>
+        <item>PETS Seviye 3</item>
+        <item>Ulusal Bilgisayar Sıralama Sınavı 1</item>
+        <item>Ulusal Bilgisayar Sıralama Sınavı 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>İlkokul ve ortaokul öğretmenliği sertifikası</item>
+        <item>Öğretmenlik sertifikası</item>
+        <item>Ehliyet</item>
+        <item>Rehber izni</item>
+        <item>Elektronik rehber izni</item>
+        <item>Ulusal adli inceleme</item>
+        <item>Elektronik birinci sınıf inşaatçı sertifikası</item>
+        <item>İkinci sınıf inşaatçı sertifikası</item>
+        <item>Kıdemsiz muhasebe unvanı sınavı</item>
+        <item>Yeminli mali müşavir</item>
+        <item>Pekin rehber izni</item>
+        <item>Orta düzey muhasebe unvanı sınavı</item>
+        <item>Kıdemli muhasebe unvanı sınavı</item>
+        <item>Muhasebe yeterlilik belgesi</item>
+        <item>Sertifikalı mali müşavirlik sınavı</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>Amerika Birleşik Devletleri</item>
+        <item>Vietnam</item>
+        <item>Japonya</item>
+        <item>Hong Kong ve Makau</item>
+        <item>Güney Kore</item>
+        <item>Tayland (turist)</item>
+        <item>Tayland (kapıda)</item>
+        <item>Hindistan</item>
+        <item>İsrail</item>
+        <item>Tayvan</item>
+        <item>Malezya</item>
+        <item>Yeni Zelanda</item>
+        <item>İtalya</item>
+        <item>Arjantin</item>
+        <item>Brezilya</item>
+        <item>İzlanda</item>
+        <item>Kenya</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

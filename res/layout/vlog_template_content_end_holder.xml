@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/vlog_template_list_content_holder_end_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_template_list_content_holder_end_height" android:layout_marginTop="@dimen/vlog_template_list_content_holder_end_view_margin_top">
+        <View android:layout_gravity="center_vertical" android:background="@color/vlog_template_list_content_holder_end_line_color" android:layout_width="0.0dip" android:layout_height="@dimen/vlog_template_list_content_holder_end_line_height" android:layout_weight="1.0" android:layout_marginStart="@dimen/vlog_template_list_icon_margin_start" android:layout_marginEnd="@dimen/vlog_template_list_content_holder_end_padding" />
+        <ImageView android:id="@id/content_end_image" android:layout_width="@dimen/vlog_template_list_content_holder_end_height" android:layout_height="@dimen/vlog_template_list_content_holder_end_height" android:src="@drawable/ic_vlog_template_no_content" />
+        <TextView android:textSize="@dimen/vlog_template_list_content_holder_end_text_size" android:textColor="@color/vlog_template_list_content_holder_end_text_color" android:gravity="center_vertical" android:id="@id/content_end_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/vlog_template_more_desc" android:singleLine="true" android:fontFamily="MiSans" />
+        <View android:layout_gravity="center_vertical" android:background="@color/vlog_template_list_content_holder_end_line_color" android:layout_width="0.0dip" android:layout_height="@dimen/vlog_template_list_content_holder_end_line_height" android:layout_weight="1.0" android:layout_marginStart="@dimen/vlog_template_list_content_holder_end_padding" android:layout_marginEnd="@dimen/vlog_template_list_icon_margin_start" />
+    </LinearLayout>
+</FrameLayout>

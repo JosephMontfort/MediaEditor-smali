@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/photo_agent_press_overlay"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/photo_agent_retry_btn_radius" />
+            <stroke android:width="1.0dip" android:color="@color/photo_agent_retry_btn_stroke" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+</ripple>

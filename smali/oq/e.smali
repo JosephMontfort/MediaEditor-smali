@@ -1,0 +1,11 @@
+.class public interface abstract Loq/e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a(Lcom/miui/mediaeditor/algo/base/BaseParam;Lcom/miui/mediaeditor/algo/base/BaseResult;)V
+.end method
+
+.method public abstract b(Lcom/miui/mediaeditor/algo/base/BaseParam;)V
+.end method

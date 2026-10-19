@@ -1,0 +1,26 @@
+{
+  "name": "huaijiu",
+  "cover": "cover.png",
+  "music": "huaijiu.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 7533,
+      "oriDuration": 7533,
+      "4koriDuration": 7533,
+      "tag": "20001;30003;24-26;66;69;76;77;83;106;138-147;170-174;184-197;342;477;492;934-972;1024;1708-1838",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        },
+        {
+          "filterIsFile": false,
+          "filterParam": "",
+          "filterName": "movit.filter.soft_focus"
+        }
+      ]
+    }
+  ]
+}

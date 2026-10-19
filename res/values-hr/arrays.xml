@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>Bijelo</item>
+        <item>Tamno plavo</item>
+        <item>Svijetlo plavo</item>
+        <item>Crveno</item>
+        <item>Zeleno</item>
+        <item>Ružičasto</item>
+        <item>Smeđe</item>
+        <item>Sivo</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Uvezi sliku</item>
+        <item>Prozirna pozadina</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Razonoda</item>
+        <item>Povjetarac</item>
+        <item>Snovi</item>
+        <item>Oblaci</item>
+        <item>Misli</item>
+        <item>Pupoljci</item>
+        <item>Preobražaj</item>
+        <item>Dubina</item>
+        <item>Razmišljanja</item>
+        <item>Minimalističko</item>
+        <item>Misterija</item>
+        <item>Magla</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Futuristička geometrijska pozadina</item>
+        <item>Štih starih majstorskih grafika</item>
+        <item>Pretvorite pozadinu u skečeve</item>
+        <item>Pozadina u stilu vodenih boja</item>
+        <item>Retro kiberpunk</item>
+        <item>Nepravilni okomiti dijelovi</item>
+        <item>Zamagljivanje</item>
+        <item>Futuristička vibra</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Low poly</item>
+        <item>Graviranje</item>
+        <item>Skica</item>
+        <item>Vodene boje</item>
+        <item>RGB</item>
+        <item>Zavjese</item>
+        <item>Zamagljeni prozor</item>
+        <item>Tehnika</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Šareni obrisi</item>
+        <item>Isprekidani obrisi</item>
+        <item>Jarki obrisi</item>
+        <item>Sjene u boji</item>
+        <item>Strujni val</item>
+        <item>Struja</item>
+        <item>Valovi</item>
+        <item>Čestice</item>
+        <item>Tekst</item>
+        <item>Krila</item>
+        <item>Anđeo</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>Općenito</item>
+        <item>Putovanje</item>
+        <item>Posao</item>
+        <item>Dokumenti</item>
+        <item>Obrazovanje</item>
+        <item>Ispiti</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Socijalno osiguranje</item>
+        <item>Izjava o zdravstvenom stanju</item>
+        <item>Zdravstveno osiguranje</item>
+        <item>Osobna iskaznica</item>
+        <item>Dozvola boravka</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>Jedan cun</item>
+        <item>Dva cuna</item>
+        <item>Manje od jednog cuna</item>
+        <item>Manje od dva cuna</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Prijava za prijem</item>
+        <item>Studentska mreža</item>
+        <item>Učenička mreža za osnovne škole</item>
+        <item>Profil studentske mreže</item>
+        <item>Upis na fakultet</item>
+        <item>NCEE</item>
+        <item>Nastavi</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>Fakultetski ispit engleskog jezika 1</item>
+        <item>Fakultetski ispit engleskog jezika 2</item>
+        <item>Fakultetski ispit engleskog jezika 3</item>
+        <item>Ispit znanja putonghua 1</item>
+        <item>Ispit znanja putonghua 2</item>
+        <item>Test engleskog jezika za stupanj</item>
+        <item>PET za fakultete</item>
+        <item>PETS Nivo 3</item>
+        <item>Nacionalni računalni ispit 1</item>
+        <item>Nacionalni računalni ispit 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>Certifikacija nastavnika osnovnih i srednjih škola</item>
+        <item>Certificiranje nastavnika</item>
+        <item>Vozačka dozvola</item>
+        <item>Dozvola za vodiča</item>
+        <item>Elektronička dozvola vodiča</item>
+        <item>Nacionalni pravosudni ispit</item>
+        <item>Elektronička potvrda konstruktora prve klase</item>
+        <item>Potvrda konstruktora druge klase</item>
+        <item>Ispit za zvanje mlađeg računovođe</item>
+        <item>Ovlašteni računovođa</item>
+        <item>Dozvola vodiča u Pekingu</item>
+        <item>Ispit srednjeg računovodstvenog zvanja</item>
+        <item>Ispit za zvanje višeg računovođe</item>
+        <item>Potvrda o kvalifikaciji za računovodstvo</item>
+        <item>Ispit za ovlaštenog računovođu</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>Sjedinjene Države</item>
+        <item>Vijetnam</item>
+        <item>Japan</item>
+        <item>Hong Kong i Makao</item>
+        <item>Južna Koreja</item>
+        <item>Tajland (turist)</item>
+        <item>Tajland (na dolasku)</item>
+        <item>Indija</item>
+        <item>Izrael</item>
+        <item>Tajvan</item>
+        <item>Malezija</item>
+        <item>Novi Zeland</item>
+        <item>Italija</item>
+        <item>Argentina</item>
+        <item>Brazil</item>
+        <item>Island</item>
+        <item>Kenija</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

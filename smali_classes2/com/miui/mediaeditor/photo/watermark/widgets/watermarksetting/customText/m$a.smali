@@ -1,0 +1,52 @@
+.class public final Lcom/miui/mediaeditor/photo/watermark/widgets/watermarksetting/customText/m$a;
+.super Landroidx/recyclerview/widget/o$e;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/miui/mediaeditor/photo/watermark/widgets/watermarksetting/customText/m;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Landroidx/recyclerview/widget/o$e<",
+        "Ljava/lang/String;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    .locals 0
+
+    check-cast p1, Ljava/lang/String;
+
+    check-cast p2, Ljava/lang/String;
+
+    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public final b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    .locals 0
+
+    check-cast p1, Ljava/lang/String;
+
+    check-cast p2, Ljava/lang/String;
+
+    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    return p0
+.end method

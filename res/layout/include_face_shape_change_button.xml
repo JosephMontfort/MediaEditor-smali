@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/sp_face_shape_change_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/px_30" android:paddingEnd="@dimen/px_30"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_change_icon" android:layout_width="@dimen/px_40" android:layout_height="@dimen/px_40" android:layout_marginTop="@dimen/px_10" android:layout_marginBottom="@dimen/px_10" android:src="@drawable/ic_beauty_change_face" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/px_30" android:textColor="@color/white" android:id="@id/tv_change_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/beauty_face_reshaping_btn_exchange_face" android:fontFamily="mipro-medium" android:layout_marginStart="@dimen/px_9" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/iv_change_icon" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

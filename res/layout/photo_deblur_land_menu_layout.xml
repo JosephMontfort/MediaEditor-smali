@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/photo_editor_large_screen_display_panel_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/deblur_menu_placeholder" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/image_enhancer_menu_placeholder_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/image_enhancer_menu_placeholder_image_size" android:layout_height="@dimen/image_enhancer_menu_placeholder_image_size" android:src="@drawable/deblur_result_placeholder" />
+        <TextView android:textSize="@dimen/image_enhancer_menu_placeholder_text_size" android:textColor="@color/on_surface_subtle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/image_enhancer_menu_placeholder_text_margin_top" android:text="@string/photo_editor_ai_deblur_completed" android:fontFamily="MiSans" />
+    </LinearLayout>
+    <View android:id="@id/deblur_ai_loading_anchor" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.mediaeditor.photo.matting.view.portrait.MattingGestureView android:id="@id/matting_gesture_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.miui.mediaeditor.photo.matting.view.portrait.MattingMaskShineView android:id="@id/matting_shine_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.miui.mediaeditor.photo.matting.view.doodle.MattingDoodleView android:id="@id/matting_doodle_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

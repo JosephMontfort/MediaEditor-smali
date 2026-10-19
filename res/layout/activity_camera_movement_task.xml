@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.nestedheader.widget.NestedHeaderLayout android:id="@id/nested_header_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:scrollableView="@id/task_page_list" app:stickyView="@id/placeholder_view"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <miuix.recyclerview.widget.RecyclerView android:id="@id/task_page_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <View android:id="@id/placeholder_view" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</miuix.nestedheader.widget.NestedHeaderLayout>

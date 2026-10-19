@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>सेतो</item>
+        <item>गाढा निलो</item>
+        <item>हल्का नीलो</item>
+        <item>रातो</item>
+        <item>हरियो</item>
+        <item>गुलाबी</item>
+        <item>खैरो</item>
+        <item>खरानी</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>छवि इम्पोर्ट गर्नुहोस्</item>
+        <item>पारदर्शी पृष्ठभूमि</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>आराम</item>
+        <item>मन्द हावा</item>
+        <item>सपनाहरू</item>
+        <item>बादल</item>
+        <item>विचार</item>
+        <item>कोपिला</item>
+        <item>मेटामोर्फोसिस</item>
+        <item>गहिराई</item>
+        <item>प्रतिबिम्ब</item>
+        <item>मिनिमालिस्ट</item>
+        <item>रहस्यमयी</item>
+        <item>कुहिरो लागेको</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>भविष्यकालिन ज्यामितीय पृष्ठभूमि</item>
+        <item>पुरानो मास्टर प्रिन्टको वातावरण</item>
+        <item>पृष्ठभूमिलाई स्केचहरूमा बदल्नुहोस्</item>
+        <item>वाटर कलर शैली भएको पृष्ठभूमि</item>
+        <item>साइबरपंक रेट्रो</item>
+        <item>गलत तरिकाले राखेको ठाडो खण्डहरू</item>
+        <item>हेजी ब्लर</item>
+        <item>भविष्यको अनुभूति दिलाउने</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>लो पोली</item>
+        <item>इचिंग</item>
+        <item>स्केच</item>
+        <item>वाटरकलर</item>
+        <item>RGB</item>
+        <item>ब्लाइन्ड्स</item>
+        <item>कुहिरो लागेको झ्याल</item>
+        <item>टेक</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>रंगीन आउटलाइन</item>
+        <item>ड्याश जस्तो देखिने आउटलाइन</item>
+        <item>फ्लोरोसेंट आउटलाइन</item>
+        <item>रंगिन छाँया</item>
+        <item>इलेक्ट्रिक तरंग</item>
+        <item>वर्तमान</item>
+        <item>लहर</item>
+        <item>कणहरू</item>
+        <item>पाठ</item>
+        <item>पखेटा</item>
+        <item>परी</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>सामान्य</item>
+        <item>यात्रा</item>
+        <item>कार्य</item>
+        <item>कागजातहरू</item>
+        <item>शिक्षा</item>
+        <item>परीक्षा</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>सामाजिक सुरक्षा</item>
+        <item>स्वास्थ्य का विवरण</item>
+        <item>चिकित्सा बीमा</item>
+        <item>आइडी</item>
+        <item>निवास अनुमतिपत्र</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>एक कुन</item>
+        <item>दुईवटा कन्स</item>
+        <item>सबैभन्दा सानो एउटा कुन</item>
+        <item>सबैभन्दा सानो दुईवटा कुन</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>प्रवेश आवेदन</item>
+        <item>छात्र नेटवर्क</item>
+        <item>प्राथमिक विद्यालयहरूको लागि छात्र नेटवर्क</item>
+        <item>विद्यार्थी नेटवर्क प्रोफाइल</item>
+        <item>विश्वविद्यालयमा भर्ना हुने</item>
+        <item>NCEE</item>
+        <item>फेरि सुरु गर्नुहोस्</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>कलेज इङ्ग्लिस परीक्षा 1</item>
+        <item>कलेज इङ्ग्लिस परीक्षा 2</item>
+        <item>कलेज इङ्ग्लिस परीक्षा 3</item>
+        <item>पुटोङहुआ प्रोफिसेन्सी टेस्ट 1</item>
+        <item>पुटोङहुआ प्रोफिसेन्सी टेस्ट 2</item>
+        <item>डिग्री इङ्ग्लिस टेस्ट</item>
+        <item>कलेजका लागि PET</item>
+        <item>PETS लेभल 3</item>
+        <item>नेसनल कम्प्युटर ऱ्याङ्क इक्जामिनेसन 1</item>
+        <item>नेसनल कम्प्युटर ऱ्याङ्क इक्जामिनेसन 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>प्राथमिक र माध्यमिक विद्यालय शिक्षक प्रमाणीकरण</item>
+        <item>शिक्षक प्रमाणीकरण</item>
+        <item>चालक अनुमतिपत्र</item>
+        <item>गाइड परमिट</item>
+        <item>इलेक्ट्रोनिक गाइड अनुमतिपत्र</item>
+        <item>राष्ट्रीय न्यायिक परीक्षा</item>
+        <item>इलेक्ट्रोनिक प्रथम श्रेणी कन्स्ट्रक्टर प्रमाणपत्र</item>
+        <item>द्वितीय श्रेणी कन्स्ट्रक्टर प्रमाणपत्र</item>
+        <item>जूनियर लेखा उपाधि परीक्षा</item>
+        <item>प्रमाणित सार्वजनिक लेखाकार</item>
+        <item>बीजिङ गाइड परमिट</item>
+        <item>इन्टरमिडिएट लेखा उपाधि परीक्षा</item>
+        <item>जूनियर लेखा उपाधि परीक्षा</item>
+        <item>लेखा योग्यता प्रमाणपत्र</item>
+        <item>प्रमाणित सार्वजनिक लेखाकार परीक्षा</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>संयुत्त राज्य अमेरिका</item>
+        <item>भियतनाम</item>
+        <item>जापान</item>
+        <item>हङकङ र मकाउ</item>
+        <item>दक्षिण कोरिया</item>
+        <item>थाइल्याण्ड (पर्यटक)</item>
+        <item>थाइल्याण्ड (आगमनमा)</item>
+        <item>भारत</item>
+        <item>इजरायल</item>
+        <item>ताइवान</item>
+        <item>मलेशिया</item>
+        <item>न्युजिल्याण्ड</item>
+        <item>इटाली</item>
+        <item>अर्जेन्टीना</item>
+        <item>ब्राजिल</item>
+        <item>आइसल्याण्ड</item>
+        <item>केन्या</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/photo_live_clip_axis_icon_height" android:width="@dimen/photo_live_clip_axis_icon_width" android:autoMirrored="true" android:viewportWidth="16.0" android:viewportHeight="56.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h16v56h-16z" />
+        <path android:fillColor="@color/primary" android:pathData="M0,12.8C0,8.32 0,6.079 0.872,4.368C1.639,2.863 2.863,1.639 4.368,0.872C6.079,0 8.32,0 12.8,0H16V56H12.8C8.32,56 6.079,56 4.368,55.128C2.863,54.361 1.639,53.137 0.872,51.632C0,49.921 0,47.68 0,43.2V12.8Z" />
+        <path android:fillColor="#ff000000" android:pathData="M7,21C7,20.448 7.448,20 8,20V20C8.552,20 9,20.448 9,21V35C9,35.552 8.552,36 8,36V36C7.448,36 7,35.552 7,35V21Z" android:fillAlpha="0.9" />
+    </group>
+</vector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="@dimen/ai_emote_face_item_width" android:width="@dimen/ai_emote_face_item_width">
+        <shape>
+            <corners android:radius="@dimen/ai_emote_menu_item_corner" />
+            <stroke android:width="4.0dip" android:color="@color/surface_container" />
+        </shape>
+    </item>
+</layer-list>

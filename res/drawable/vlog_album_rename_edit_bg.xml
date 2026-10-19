@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/vlog_album_rename_bg_color" />
+            <stroke android:width="@dimen/vlog_album_rename_dialog_edit_text_stroke_width" android:color="@color/vlog_album_gallery_rename_color" />
+            <corners android:radius="@dimen/vlog_album_rename_dialog_edit_text_radius" />
+        </shape>
+    </item>
+</selector>

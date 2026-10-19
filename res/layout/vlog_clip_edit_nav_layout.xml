@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/navRoot" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/back_layout" android:background="@drawable/vlog_edit_nav_back_bg" android:layout_width="@dimen/vlog_edit_nav_back_icon_width" android:layout_height="@dimen/vlog_edit_nav_back_icon_height" android:contentDescription="@string/clip_menu_back" android:layout_marginStart="@dimen/vlog_edit_nav_back_icon_margin_start">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_clip_back_img" android:layout_width="@dimen/vlog_edit_nav_back_image_width" android:layout_height="@dimen/vlog_edit_nav_back_image_height" android:src="@drawable/ic_vlog_bottom_menu_back" />
+    </FrameLayout>
+    <com.miui.gallery.widget.recyclerview.SimpleRecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/vlog_edit_nav_back_frame_margin_start" />
+    <FrameLayout android:id="@id/back_frame_layout" android:background="@drawable/vlog_track_mask_gradient_background" android:layout_width="@dimen/vlog_edit_nav_back_frame_width" android:layout_height="fill_parent" android:layout_marginStart="@dimen/vlog_edit_nav_back_frame_margin_start" />
+</FrameLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>سفید</item>
+        <item>گہرا نیلا</item>
+        <item>ہلکا نیلا</item>
+        <item>سرخ</item>
+        <item>سبز</item>
+        <item>گلابی</item>
+        <item>بھورا</item>
+        <item>سرمئی</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>تصویر امپورٹ کریں</item>
+        <item>شفاف پس منظر</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>فرصت</item>
+        <item>بریز</item>
+        <item>خواب</item>
+        <item>بادل</item>
+        <item>خیالات</item>
+        <item>کلی</item>
+        <item>میٹامارفوسس</item>
+        <item>گہرائی</item>
+        <item>انعکاس</item>
+        <item>منیملسٹ</item>
+        <item>معمہ</item>
+        <item>کہرا</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>مستقبل کا جیومٹری پس منظر</item>
+        <item>پرانے ماسٹر پرنٹس کا ماحول</item>
+        <item>پس منظر کو اسکیچ میں بدلیں</item>
+        <item>واٹر کلر اسٹائل پس منظر</item>
+        <item>سائبرپنک ریٹرو</item>
+        <item>غلط طریقے سے رکھے گئے عمودی ٹکڑے</item>
+        <item>غیر واضح دھند</item>
+        <item>مستقبل کا احساس</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>کثیر ضلعی جال</item>
+        <item>نقاشی</item>
+        <item>اسکیچ</item>
+        <item>واٹر کلر</item>
+        <item>RGB</item>
+        <item>بلائنڈز</item>
+        <item>کہردار کھڑکی</item>
+        <item>تکنیک</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>رنگین آؤٹ لائن</item>
+        <item>ڈیش آؤٹ لائن</item>
+        <item>فلوری آؤٹ لائن</item>
+        <item>رنگین سایہ</item>
+        <item>برقی لہر</item>
+        <item>بہاؤ</item>
+        <item>لہریں</item>
+        <item>ذرات</item>
+        <item>ٹیکسٹ</item>
+        <item>پنکھ</item>
+        <item>فرشتہ</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>عمومی</item>
+        <item>سفر</item>
+        <item>کام</item>
+        <item>دستاویزات</item>
+        <item>تعلیم</item>
+        <item>امتحان</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>سوشل سیکورٹی</item>
+        <item>صحت کا بیانیہ</item>
+        <item>میڈیکل انشورنس</item>
+        <item>ID</item>
+        <item>رہائشی پرمٹ</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>ایک کن</item>
+        <item>دو کون</item>
+        <item>چھوٹا ایک کن</item>
+        <item>چھوٹے دو کن</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>داخلے کی درخواست</item>
+        <item>طالب علم کا نیٹ ورک</item>
+        <item>پرائمری اسکولوں کے لیے طلبا کا نیٹ ورک</item>
+        <item>طالب علم نیٹ ورک پروفائل</item>
+        <item>یونیورسٹی داخلہ</item>
+        <item>NCEE</item>
+        <item>پھر سے شروع کریں</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>کالج انگریزی ٹیسٹ 1</item>
+        <item>کالج انگریزی ٹیسٹ 2</item>
+        <item>کالج انگریزی ٹیسٹ 3</item>
+        <item>پوتونگھوا کی مہارت کا ٹیسٹ 1</item>
+        <item>پوتونگھوا کی مہارت کا ٹیسٹ 2</item>
+        <item>ڈگری انگریزی ٹیسٹ</item>
+        <item>کالج کے لیے PET</item>
+        <item>PETS لیول 3</item>
+        <item>نیشنل کمپیوٹر رینک امتحان 1</item>
+        <item>نیشنل کمپیوٹر رینک امتحان 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>پرائمری اور سیکنڈری اسکول ٹیچر کا سرٹیفیکیشن</item>
+        <item>ٹیچر سرٹیفیکیشن</item>
+        <item>ڈرائیور کا لائسنس</item>
+        <item>گائیڈ کا پرمٹ</item>
+        <item>الیکٹرانک گائیڈ پرمٹ</item>
+        <item>قومی عدالتی امتحان</item>
+        <item>الیکٹرانک فرسٹ کلاس کنسٹرکٹر سرٹیفکیٹ</item>
+        <item>سیکنڈ کلاس کنسٹرکٹر سرٹیفکیٹ</item>
+        <item>جونیئر اکاؤنٹنگ ٹائٹل امتحان</item>
+        <item>سند یافتہ پبلک اکاؤنٹنٹ</item>
+        <item>بیجنگ گائیڈ پرمٹ</item>
+        <item>انٹرمیڈیٹ اکاؤنٹنگ ٹائٹل امتحان</item>
+        <item>سینیئر اکاؤنٹنگ ٹائٹل امتحان</item>
+        <item>اکاؤنٹنگ کی اہلیت کا سرٹیفکیٹ</item>
+        <item>سند یافتہ پبلک اکاؤنٹنٹ امتحان</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>ریاستہائے متحدہ امریکہ</item>
+        <item>ویتنام</item>
+        <item>جاپان</item>
+        <item>ہانگ کانگ اور مکاؤ</item>
+        <item>جنوبی کوریا</item>
+        <item>تھائی لینڈ (سیاح)</item>
+        <item>تھائی لینڈ (آمد پر)</item>
+        <item>بھارت</item>
+        <item>اسرائیل</item>
+        <item>تائیوان</item>
+        <item>ملیشیا</item>
+        <item>نیوزی لینڈ</item>
+        <item>اٹلی</item>
+        <item>ارجنٹینا</item>
+        <item>برازیل</item>
+        <item>آئس لینڈ</item>
+        <item>کینیا</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

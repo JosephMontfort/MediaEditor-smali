@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>Білий</item>
+        <item>Темно-синій</item>
+        <item>Світло-синій</item>
+        <item>Червоний</item>
+        <item>Зелений</item>
+        <item>Рожевий</item>
+        <item>Коричневий</item>
+        <item>Сірий</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Імпорт зображення</item>
+        <item>Прозорий фон</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="alphabet_table">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Ґ</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Є</item>
+        <item>Ж</item>
+        <item>З</item>
+        <item>И</item>
+        <item>І</item>
+        <item>Ї</item>
+        <item>Й</item>
+        <item>К</item>
+        <item>Л</item>
+        <item>М</item>
+        <item>Н</item>
+        <item>О</item>
+        <item>П</item>
+        <item>Р</item>
+        <item>С</item>
+        <item>Т</item>
+        <item>У</item>
+        <item>Ф</item>
+        <item>Х</item>
+        <item>Ц</item>
+        <item>Ч</item>
+        <item>Ш</item>
+        <item>Щ</item>
+        <item>Ь</item>
+        <item>Ю</item>
+        <item>Я</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Дозвілля</item>
+        <item>Бриз</item>
+        <item>Фантазії</item>
+        <item>Хмари</item>
+        <item>Думки</item>
+        <item>Паросток</item>
+        <item>Метаморфоза</item>
+        <item>Глибина</item>
+        <item>Відображення</item>
+        <item>Мінімалізм</item>
+        <item>Таємниця</item>
+        <item>Туман</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Геометричний фон у футуристичному стилі</item>
+        <item>У стилі старовинних гравюр</item>
+        <item>Перетворіть фон у малюнок</item>
+        <item>Фон у акварельному стилі</item>
+        <item>Кіберпанк ретро</item>
+        <item>Зміщені вертикальні сегменти</item>
+        <item>Розмиття</item>
+        <item>Футуристичний стиль</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Полігони</item>
+        <item>Офорт</item>
+        <item>Малюнок</item>
+        <item>Акварель</item>
+        <item>RGB</item>
+        <item>Завіси</item>
+        <item>Затуманене вікно</item>
+        <item>Технології</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Колірний контур</item>
+        <item>Пунктирний контур</item>
+        <item>Флуоресцентний контур</item>
+        <item>Колірна тінь</item>
+        <item>Електрична хвиля</item>
+        <item>Потік</item>
+        <item>Хвилі</item>
+        <item>Частинки</item>
+        <item>Текст</item>
+        <item>Крила</item>
+        <item>Янгол</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>Основні</item>
+        <item>Подорожі</item>
+        <item>Робота</item>
+        <item>Документи</item>
+        <item>Освіта</item>
+        <item>Екзамени</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Соціальне страхування</item>
+        <item>"Довідка про здоров'я"</item>
+        <item>Медичне страхування</item>
+        <item>Документи</item>
+        <item>Посвідка на проживання</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>Один цунь</item>
+        <item>Два цуня</item>
+        <item>Менше ніж один цунь</item>
+        <item>Менше ніж два цуня</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Заява про вступ</item>
+        <item>Студентська мережа</item>
+        <item>Учнівська мережа для початкових класів</item>
+        <item>Профіль студентської мережі</item>
+        <item>Вступ до університету</item>
+        <item>NCEE</item>
+        <item>Резюме</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>Тест з англійської мови в коледжі 1</item>
+        <item>Тест з англійської мови в коледжі 2</item>
+        <item>Тест з англійської мови в коледжі 3</item>
+        <item>Тест на знання мови путунхуа 1</item>
+        <item>Тест на знання мови путунхуа 2</item>
+        <item>Дипломний тест з англійської мови</item>
+        <item>PET для університету</item>
+        <item>PETS рівня 3</item>
+        <item>"Національний комп'ютерний іспит 1"</item>
+        <item>"Національний комп'ютерний іспит 2"</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>Сертифікація вчителів початкових та середніх шкіл</item>
+        <item>Сертифікація вчителя</item>
+        <item>Водійські права</item>
+        <item>Дозвіл на роботу гідом</item>
+        <item>Дозвіл електронного гіда</item>
+        <item>Національний судовий іспит</item>
+        <item>Електронний сертифікат конструктора першого класу</item>
+        <item>Електронний сертифікат конструктора другого класу</item>
+        <item>Іспит на молодшого бухгалтера</item>
+        <item>Сертифікований бухгалтер</item>
+        <item>Дозвіл на роботу гідом в Пекіні</item>
+        <item>Іспит на бухгалтера середнього рівня</item>
+        <item>Іспит на старшого бухгалтера</item>
+        <item>Сертифікат з бухгалтерської кваліфікації</item>
+        <item>Іспит на сертифікованого бухгалтера</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>США</item>
+        <item>"В'єтнам"</item>
+        <item>Японія</item>
+        <item>Гонеонг та Макао</item>
+        <item>Південна Корея</item>
+        <item>Таїланд (турист)</item>
+        <item>Таїланд (після прибуття)</item>
+        <item>Індія</item>
+        <item>Ізраїль</item>
+        <item>Тайвань</item>
+        <item>Малайзія</item>
+        <item>Нова Зеландія</item>
+        <item>Італія</item>
+        <item>Аргентина</item>
+        <item>Бразилія</item>
+        <item>Ісландія</item>
+        <item>Кенія</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

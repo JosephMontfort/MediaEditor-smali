@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/navRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/operation_line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/vlog_menu_common_operation_height" />
+    <FrameLayout android:id="@id/filter_mid_content" android:layout_width="fill_parent" android:layout_height="@dimen/common_button_height" android:layout_marginBottom="@dimen/vlog_filter2_tag_margin_bottom" app:layout_constraintBottom_toTopOf="@id/filter_item_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/tag_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/delete_filter" android:layout_width="@dimen/vlog_filter2_tag_container_height" android:layout_height="@dimen/vlog_filter2_tag_container_height" android:src="@drawable/ic_vlog_filter_none" android:scaleType="center" android:contentDescription="@string/vlog_filter_origin" android:layout_marginStart="@dimen/vlog_filter2_tag_delete_margin_start" />
+            <TextView android:textSize="@dimen/vlog_filter2_tag_text_size" android:textColor="@drawable/vlog_selector_filter2_menu_item" android:gravity="center" android:id="@id/diy_filter" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/vlog_filter_tag_diy" android:singleLine="true" android:layout_marginStart="@dimen/vlog_filter2_tag_diy_margin_start" />
+            <View android:layout_gravity="center_vertical" android:background="@color/vlog_filter2_mid_line_color" android:layout_width="@dimen/vlog_filter2_tag_line_width" android:layout_height="@dimen/vlog_filter2_tag_height" android:layout_marginStart="@dimen/vlog_filter2_tag_line_margin_start" />
+            <com.miui.gallery.widget.recyclerview.SimpleRecyclerView android:id="@id/tag_filter_recyclerview" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/seekbar_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/progress_layout" android:layout_width="@dimen/vlog_filter2_bubble_seekbar_hot_area_width" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+                <com.miui.gallery.editor.ui.view.BubbleSeekBar android:id="@id/seek_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr" style="@style/bubble_seek_bar_vlog" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/master_layout" android:layout_width="@dimen/vlog_filter2_tag_container_height" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/progress_layout">
+                <View android:layout_gravity="center" android:background="@drawable/vlog_common_operation_btn_bg" android:layout_width="@dimen/vlog_menu_common_operation_btn_bg_size" android:layout_height="@dimen/vlog_menu_common_operation_btn_bg_size" />
+                <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/image_master_open" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_rawRes="@raw/vlog_filter_master_close" />
+                <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/image_master_close" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_rawRes="@raw/vlog_filter_master_open" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/filter_item_content" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_filter2_item_height" android:layout_marginBottom="@dimen/vlog_filter2_item_margin_bottom" app:layout_constraintBottom_toTopOf="@id/apply_layout">
+        <com.miui.gallery.widget.recyclerview.SimpleRecyclerView android:id="@id/rv_filter_list" android:layout_width="wrap_content" android:layout_height="@dimen/vlog_filter2_item_height" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/diy_container" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_filter2_item_height">
+            <com.miui.gallery.widget.recyclerview.SimpleRecyclerView android:id="@id/filter_diy_recyclerview" android:layout_width="wrap_content" android:layout_height="@dimen/vlog_filter2_item_height" android:layout_marginStart="@dimen/vlog_filter2_item_interval" />
+            <TextView android:textSize="@dimen/vlog_filter2_item_common_text_size" android:textColor="@color/vlog_filter2_add_filter_desc_color" android:gravity="center" android:id="@id/filter_add_text" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_filter2_item_height" />
+        </LinearLayout>
+    </FrameLayout>
+    <include android:id="@id/apply_layout" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_menu_common_confirm_height" app:layout_constraintBottom_toBottomOf="parent" layout="@layout/common_editor_menu_apply_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

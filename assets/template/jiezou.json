@@ -1,0 +1,193 @@
+{
+  "name": "jiezou",
+  "cover": "cover.png",
+  "music": "卡点1.MP3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 466,
+      "oriDuration": 466,
+      "4koriDuration": 466,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "生动.png",
+          "filterName": "movit.filter.track_lut"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "duration": 266,
+      "oriDuration": 266,
+      "4koriDuration": 266,
+      "isNeedAnim": false,
+      "tag": "0",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "生动.png",
+          "filterName": "movit.filter.track_lut"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "duration": 266,
+      "oriDuration": 266,
+      "4koriDuration": 266,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "生动.png",
+          "filterName": "movit.filter.track_lut"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "duration": 1023,
+      "oriDuration": 1023,
+      "4koriDuration": 1023,
+      "isNeedAnim": false,
+      "transition": {
+        "duration": 800,
+        "filterIsFile": false,
+        "filterParam": "movit.transition.black.round",
+        "filterName": "movit.transition"
+      },
+      "tag": "0",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "生动.png",
+          "filterName": "movit.filter.track_lut"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "duration": 2633,
+      "oriDuration": 2633,
+      "4koriDuration": 2633,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "生动.png",
+          "filterName": "movit.filter.track_lut"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "duration": 1900,
+      "oriDuration": 1900,
+      "4koriDuration": 1900,
+      "isNeedAnim": false,
+      "tag": "0",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "生动.png",
+          "filterName": "movit.filter.track_lut"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "duration": 1933,
+      "oriDuration": 1933,
+      "4koriDuration": 1933,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "生动.png",
+          "filterName": "movit.filter.track_lut"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "duration": 1900,
+      "oriDuration": 1900,
+      "4koriDuration": 1900,
+      "isNeedAnim": false,
+      "tag": "0",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "生动.png",
+          "filterName": "movit.filter.track_lut"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "duration": 1900,
+      "oriDuration": 1900,
+      "4koriDuration": 1900,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "生动.png",
+          "filterName": "movit.filter.track_lut"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "duration": 1966,
+      "oriDuration": 1966,
+      "4koriDuration": 1966,
+      "isNeedAnim": false,
+      "tag": "0",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "生动.png",
+          "filterName": "movit.filter.track_lut"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "duration": 1900,
+      "oriDuration": 1900,
+      "4koriDuration": 1900,
+      "isNeedAnim": false,
+      "tag": "26;97;99-100;111-112;115;123-131;178;203-207;1898-1916;10002-10004;10005;10007;20001-20002;30001-30002;71;86-87;89;116;1950-1975",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "生动.png",
+          "filterName": "movit.filter.track_lut"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "duration": 2433,
+      "oriDuration": 2433,
+      "4koriDuration": 2433,
+      "isNeedAnim": false,
+      "tag": "0",
+      "filterList": [
+        {
+          "filterIsFile": false,
+          "filterParam": "0=1.0;1900=1.0;1933=0.9;1966=0.85;2000=0.8;2033=0.75;2066=0.6;2100=0.55;2133=0.5;2166=0.45;2200=0.4;2233=0.35;2266=0.3;2300=0.25;2333=0.2;2366=0.15;2400=0.1;",
+          "filterName": "movit.filter.fade_black"
+        }
+      ]
+    }
+  ]
+}

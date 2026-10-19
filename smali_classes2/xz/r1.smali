@@ -1,0 +1,216 @@
+.class public final Lxz/r1;
+.super Lqo0/j;
+.source "SourceFile"
+
+# interfaces
+.implements Lzo0/p;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lqo0/j;",
+        "Lzo0/p<",
+        "Lur0/f0;",
+        "Loo0/f<",
+        "-",
+        "Lko0/e0;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lqo0/f;
+    c = "com.miui.mediaeditor.photo.livephoto.PhotoLiveSaveHelper$exportVideo$$inlined$observeExportResultEvent$1"
+    f = "PhotoLiveSaveHelper.kt"
+    l = {
+        0x148
+    }
+    m = "invokeSuspend"
+.end annotation
+
+
+# instance fields
+.field public e:I
+
+.field public final synthetic f:Lyz/b;
+
+.field public final synthetic g:Lap0/b0;
+
+.field public final synthetic h:Z
+
+.field public final synthetic i:Lcom/miui/mediaeditor/photo/livephoto/render/LivePhotoRenderData;
+
+.field public final synthetic j:Lcom/miui/mediaeditor/photo/livephoto/bean/LiveBaseInfo;
+
+.field public final synthetic k:Ljava/lang/String;
+
+.field public final synthetic l:Ljava/util/concurrent/CountDownLatch;
+
+
+# direct methods
+.method public constructor <init>(Lyz/b;Loo0/f;Lap0/b0;ZLcom/miui/mediaeditor/photo/livephoto/render/LivePhotoRenderData;Lcom/miui/mediaeditor/photo/livephoto/bean/LiveBaseInfo;Ljava/lang/String;Ljava/util/concurrent/CountDownLatch;)V
+    .locals 0
+
+    iput-object p1, p0, Lxz/r1;->f:Lyz/b;
+
+    iput-object p3, p0, Lxz/r1;->g:Lap0/b0;
+
+    iput-boolean p4, p0, Lxz/r1;->h:Z
+
+    iput-object p5, p0, Lxz/r1;->i:Lcom/miui/mediaeditor/photo/livephoto/render/LivePhotoRenderData;
+
+    iput-object p6, p0, Lxz/r1;->j:Lcom/miui/mediaeditor/photo/livephoto/bean/LiveBaseInfo;
+
+    iput-object p7, p0, Lxz/r1;->k:Ljava/lang/String;
+
+    iput-object p8, p0, Lxz/r1;->l:Ljava/util/concurrent/CountDownLatch;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1, p2}, Lqo0/j;-><init>(ILoo0/f;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final o(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Lur0/f0;
+
+    check-cast p2, Loo0/f;
+
+    invoke-virtual {p0, p1, p2}, Lxz/r1;->p(Ljava/lang/Object;Loo0/f;)Loo0/f;
+
+    move-result-object p0
+
+    check-cast p0, Lxz/r1;
+
+    sget-object p1, Lko0/e0;->a:Lko0/e0;
+
+    invoke-virtual {p0, p1}, Lxz/r1;->u(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final p(Ljava/lang/Object;Loo0/f;)Loo0/f;
+    .locals 9
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Loo0/f<",
+            "*>;)",
+            "Loo0/f<",
+            "Lko0/e0;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance v0, Lxz/r1;
+
+    iget-object v7, p0, Lxz/r1;->k:Ljava/lang/String;
+
+    iget-object v8, p0, Lxz/r1;->l:Ljava/util/concurrent/CountDownLatch;
+
+    iget-object v1, p0, Lxz/r1;->f:Lyz/b;
+
+    iget-object v3, p0, Lxz/r1;->g:Lap0/b0;
+
+    iget-boolean v4, p0, Lxz/r1;->h:Z
+
+    iget-object v5, p0, Lxz/r1;->i:Lcom/miui/mediaeditor/photo/livephoto/render/LivePhotoRenderData;
+
+    iget-object v6, p0, Lxz/r1;->j:Lcom/miui/mediaeditor/photo/livephoto/bean/LiveBaseInfo;
+
+    move-object v2, p2
+
+    invoke-direct/range {v0 .. v8}, Lxz/r1;-><init>(Lyz/b;Loo0/f;Lap0/b0;ZLcom/miui/mediaeditor/photo/livephoto/render/LivePhotoRenderData;Lcom/miui/mediaeditor/photo/livephoto/bean/LiveBaseInfo;Ljava/lang/String;Ljava/util/concurrent/CountDownLatch;)V
+
+    return-object v0
+.end method
+
+.method public final u(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 10
+
+    sget-object v0, Lpo0/a;->a:Lpo0/a;
+
+    iget v1, p0, Lxz/r1;->e:I
+
+    const/4 v2, 0x1
+
+    if-eqz v1, :cond_1
+
+    if-ne v1, v2, :cond_0
+
+    invoke-static {p1}, Lko0/q;->b(Ljava/lang/Object;)V
+
+    goto :goto_1
+
+    :cond_0
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    const-string p1, "call to \'resume\' before \'invoke\' with coroutine"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_1
+    invoke-static {p1}, Lko0/q;->b(Ljava/lang/Object;)V
+
+    iget-object p1, p0, Lxz/r1;->f:Lyz/b;
+
+    invoke-interface {p1}, Lyz/b;->c()Lxr0/z0;
+
+    move-result-object p1
+
+    new-instance v3, Lxz/r1$a;
+
+    iget-object v8, p0, Lxz/r1;->k:Ljava/lang/String;
+
+    iget-object v9, p0, Lxz/r1;->l:Ljava/util/concurrent/CountDownLatch;
+
+    iget-object v4, p0, Lxz/r1;->g:Lap0/b0;
+
+    iget-boolean v5, p0, Lxz/r1;->h:Z
+
+    iget-object v6, p0, Lxz/r1;->i:Lcom/miui/mediaeditor/photo/livephoto/render/LivePhotoRenderData;
+
+    iget-object v7, p0, Lxz/r1;->j:Lcom/miui/mediaeditor/photo/livephoto/bean/LiveBaseInfo;
+
+    invoke-direct/range {v3 .. v9}, Lxz/r1$a;-><init>(Lap0/b0;ZLcom/miui/mediaeditor/photo/livephoto/render/LivePhotoRenderData;Lcom/miui/mediaeditor/photo/livephoto/bean/LiveBaseInfo;Ljava/lang/String;Ljava/util/concurrent/CountDownLatch;)V
+
+    iput v2, p0, Lxz/r1;->e:I
+
+    new-instance v1, Lxz/q1;
+
+    invoke-direct {v1, v3}, Lxz/q1;-><init>(Lxr0/h;)V
+
+    invoke-interface {p1, v1, p0}, Lxr0/g;->c(Lxr0/h;Loo0/f;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    if-ne p0, v0, :cond_2
+
+    goto :goto_0
+
+    :cond_2
+    sget-object p0, Lko0/e0;->a:Lko0/e0;
+
+    :goto_0
+    if-ne p0, v0, :cond_3
+
+    return-object v0
+
+    :cond_3
+    :goto_1
+    sget-object p0, Lko0/e0;->a:Lko0/e0;
+
+    return-object p0
+.end method

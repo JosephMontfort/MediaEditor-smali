@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.gallery.vlog.template2.view.TemplateContentRecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/no_net_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/no_net_image" android:layout_width="@dimen/vlog_template_list_no_net_icon_width" android:layout_height="@dimen/vlog_template_list_no_net_icon_width" android:layout_marginTop="@dimen/vlog_template_list_no_net_icon_margin_top" android:src="@drawable/pic_empty_internet_dark" />
+        <TextView android:textSize="@dimen/vlog_template_list_no_net_text_size" android:textColor="@color/vlog_template_list_no_net_text_color" android:layout_gravity="center_horizontal" android:id="@id/no_net_text" android:layout_width="wrap_content" android:layout_height="@dimen/vlog_template_list_no_net_text_height" android:layout_marginTop="@dimen/vlog_template_list_no_net_text_margin_top" android:text="@string/vlog_template_net_error" android:fontFamily="MiSans" />
+        <TextView android:textSize="@dimen/vlog_template_list_no_net_retry_text_size" android:textColor="@color/vlog_template_list_no_net_retry_text_color" android:gravity="center" android:layout_gravity="bottom" android:id="@id/no_net_retry" android:background="@drawable/vlog_template_retry_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_template_list_no_net_retry_height" android:layout_marginBottom="@dimen/vlog_template_list_no_net_retry_margin_bottom" android:text="@string/vlog_template_retry" android:fontFamily="MiSans" android:layout_marginStart="@dimen/vlog_template_list_no_net_retry_margin_start" android:layout_marginEnd="@dimen/vlog_template_list_no_net_retry_margin_start" />
+    </FrameLayout>
+</FrameLayout>

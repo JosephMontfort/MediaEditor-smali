@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.visual.check.VisualCheckBox android:gravity="center" android:id="@id/watermark_signature_item" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <miuix.visual.check.BorderLayout android:gravity="center" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/watermark_preference_custom_signature_item_width" android:layout_height="@dimen/watermark_preference_custom_signature_item_height" app:checkedBackGround="@drawable/preference_wm_signature_visual_check_border">
+        <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/watermark_preference_custom_signature_item_width" android:layout_height="@dimen/watermark_preference_custom_signature_item_height">
+            <ImageView android:layout_gravity="center" android:background="@drawable/bg_wm_signature_off" android:layout_width="@dimen/watermark_preference_style_signature_item_width" android:layout_height="@dimen/watermark_preference_style_layout_item_height" android:contentDescription="@null" />
+            <ImageView android:layout_gravity="center" android:id="@id/watermark_signature_item_image" android:padding="@dimen/watermark_preference_style_signature_item_padding" android:layout_width="@dimen/watermark_preference_style_signature_item_width" android:layout_height="@dimen/watermark_preference_style_layout_item_height" android:contentDescription="@null" />
+            <ImageView android:layout_gravity="end|center|top" android:id="@id/watermark_signature_item_delete_icon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wm_icon_delete_icon" />
+        </FrameLayout>
+    </miuix.visual.check.BorderLayout>
+</miuix.visual.check.VisualCheckBox>

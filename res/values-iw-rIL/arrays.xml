@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>לבן</item>
+        <item>כחול כהה</item>
+        <item>כחול בהיר</item>
+        <item>אדום</item>
+        <item>ירוק</item>
+        <item>ורוד</item>
+        <item>חום</item>
+        <item>אפור</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>ייבא תמונה</item>
+        <item>רקע שקוף</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="alphabet_table">
+        <item>א</item>
+        <item>ב</item>
+        <item>ג</item>
+        <item>ד</item>
+        <item>ה</item>
+        <item>ו</item>
+        <item>ז</item>
+        <item>ח</item>
+        <item>ט</item>
+        <item>י</item>
+        <item>כ</item>
+        <item>ל</item>
+        <item>מ</item>
+        <item>נ</item>
+        <item>ס</item>
+        <item>ע</item>
+        <item>פ</item>
+        <item>צ</item>
+        <item>ק</item>
+        <item>ר</item>
+        <item>ש</item>
+        <item>ת</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>פנאי</item>
+        <item>בריזה</item>
+        <item>חלומות</item>
+        <item>עננים</item>
+        <item>מחשבות</item>
+        <item>ניצנים</item>
+        <item>מטמורפוזה</item>
+        <item>עומק</item>
+        <item>השתקפויות</item>
+        <item>מינימליסטי</item>
+        <item>מסתורין</item>
+        <item>ערפל כבד</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>רקע גיאומטרי עתידני</item>
+        <item>אווירה של הדפסים אמנותיים ישנים</item>
+        <item>הפוך רקעים לשרטוטים</item>
+        <item>רקעים בסגנון צבעי מים</item>
+        <item>סייברפאנק רטרו</item>
+        <item>מקטעים אנכיים שלא במקומם</item>
+        <item>טשטוש מעורפל</item>
+        <item>הרגשה עתידנית</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>מעט מצולעים</item>
+        <item>חריטה</item>
+        <item>שרטוט</item>
+        <item>צבע מים</item>
+        <item>RGB</item>
+        <item>תריסים</item>
+        <item>חלון עם אדים</item>
+        <item>טכנולוגיה</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>קו מתאר צבעוני</item>
+        <item>קו מתאר מקווקו</item>
+        <item>קו מתאר פלואורוסנטי</item>
+        <item>צל צבעוני</item>
+        <item>גל חשמלי</item>
+        <item>זרם חשמלי</item>
+        <item>גלים</item>
+        <item>חלקיקים</item>
+        <item>טקסט</item>
+        <item>כנפיים</item>
+        <item>מלאך</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>כללי</item>
+        <item>טיולים</item>
+        <item>עבודה</item>
+        <item>מסמכים</item>
+        <item>חינוך</item>
+        <item>מבחנים</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>ביטוח לאומי</item>
+        <item>הצהרת בריאות</item>
+        <item>ביטוח רפואי</item>
+        <item>תעודת זהות</item>
+        <item>אישור שהייה</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>קוּן אחד</item>
+        <item>שני קוּנים</item>
+        <item>קוּן קטן אחד</item>
+        <item>שני קוּנים קטנים</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>בקשת קבלה</item>
+        <item>רשת סטודנטים</item>
+        <item>רשת סטודנטים לחינוך יסודי</item>
+        <item>פרופיל של רשת סטודנטים</item>
+        <item>קבלה לאוניברסיטה</item>
+        <item>NCEE</item>
+        <item>קורות חיים</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>מבחן אנגלית למכללה 1</item>
+        <item>מבחן אנגלית למכללה 2</item>
+        <item>מבחן אנגלית למכללה 3</item>
+        <item>מבחן שליטה בשפת פוטונגואה 1</item>
+        <item>מבחן שליטה בשפת פוטונגואה 2</item>
+        <item>מבחן אנגלית לתואר</item>
+        <item>PET למכללות</item>
+        <item>PETS רמה 3</item>
+        <item>מבחן ארצי במדעי המחשב 1</item>
+        <item>מבחן ארצי במדעי המחשב 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>תעודת הוראה לבית ספר יסודי ותיכון</item>
+        <item>תעודת הוראה</item>
+        <item>רישיון נהיגה</item>
+        <item>רישיון מורה דרך</item>
+        <item>רישיון מורה דרך אלקטרוני</item>
+        <item>מבחן ארצי במשפטים</item>
+        <item>תעודה אלקטרונית לעובד בניין סוג 1</item>
+        <item>תעודת עובד בניין סוג 2</item>
+        <item>מבחן לתואר מנהל חשבונות זוטר</item>
+        <item>מנהל חשבונות ציבורי מוסמך</item>
+        <item>"רישיון למורה דרך בבייג'ינג"</item>
+        <item>מבחן לתואר מנהל חשבונות בדרג ביניים</item>
+        <item>מבחן לתואר מנהל חשבונות בכיר</item>
+        <item>תעודת הסמכה בהנהלת חשבונות</item>
+        <item>מבחן לתעודת רואה חשבון ציבורי</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>ארצות הברית</item>
+        <item>וייטנאם</item>
+        <item>יפן</item>
+        <item>הונג קונג ומקאו</item>
+        <item>דרום קוריאה</item>
+        <item>תאילנד (תייר)</item>
+        <item>תאילנד (לאחר הגעה)</item>
+        <item>הודו</item>
+        <item>ישראל</item>
+        <item>טייוואן</item>
+        <item>מלזיה</item>
+        <item>ניו זילנד</item>
+        <item>איטליה</item>
+        <item>ארגנטינה</item>
+        <item>ברזיל</item>
+        <item>איסלנד</item>
+        <item>קניה</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

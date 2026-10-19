@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="filter_images_ratio_unsupport_v2">
+        <item quantity="other">تم تصفية %d عنصر غير مدعوم</item>
+        <item quantity="zero">تم تصفية %d عنصر غير مدعوم</item>
+        <item quantity="one">تم تصفية %d عنصر غير مدعوم</item>
+        <item quantity="two">تم تصفية %d من العناصر غير المدعومة</item>
+        <item quantity="few">تم تصفية %d من العناصر غير المدعومة</item>
+        <item quantity="many">تم تصفية %d عنصر غير مدعوم</item>
+    </plurals>
+    <plurals name="filter_images_unsupport_v2">
+        <item quantity="other">تم تصفية %d عنصر غير مدعوم</item>
+        <item quantity="zero">تم تصفية %d عنصر غير مدعوم</item>
+        <item quantity="one">تم تصفية %d من العناصر غير المدعومة</item>
+        <item quantity="two">تم تصفية %d من العناصر غير المدعومة</item>
+        <item quantity="few">تم تصفية %d من العناصر غير المدعومة</item>
+        <item quantity="many">تم تصفية %d عنصر غير مدعوم</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_2">
+        <item quantity="other">يمكنك معالجة ما يصل إلى %d مهمة في الوقت نفسه. انتظر حتى تكتمل قبل إضافة المزيد.</item>
+        <item quantity="zero">يمكنك معالجة ما يصل إلى %d مهمة في الوقت نفسه. انتظر حتى تكتمل قبل إضافة المزيد.</item>
+        <item quantity="one">يمكنك معالجة ما يصل إلى %d مهمة في الوقت نفسه. انتظر حتى تكتمل قبل إضافة المزيد.</item>
+        <item quantity="two">يمكنك معالجة ما يصل إلى %d مهام في الوقت نفسه. انتظر حتى تكتمل قبل إضافة المزيد.</item>
+        <item quantity="few">يمكنك معالجة ما يصل إلى %d مهام في الوقت نفسه. انتظر حتى تكتمل قبل إضافة المزيد.</item>
+        <item quantity="many">يمكنك معالجة ما يصل إلى %d مهمة في الوقت نفسه. انتظر حتى تكتمل قبل إضافة المزيد.</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_3">
+        <item quantity="other">لا يتم دعم سوى اللحظات المباشرة التي لا تتجاوز مدتها %d ثانية. اختر صورة أخرى وحاول مرة أخرى.</item>
+        <item quantity="zero">لا يتم دعم سوى اللحظات المباشرة التي لا تتجاوز مدتها %d ثانية. اختر صورة أخرى وحاول مرة أخرى.</item>
+        <item quantity="one">لا يتم دعم سوى اللحظات المباشرة التي لا تتجاوز مدتها %d ثانية. اختر صورة أخرى وحاول مرة أخرى.</item>
+        <item quantity="two">لا يتم دعم سوى اللحظات المباشرة التي لا تتجاوز مدتها %d ثواني. اختر صورة أخرى وحاول مرة أخرى.</item>
+        <item quantity="few">لا يتم دعم سوى اللحظات المباشرة التي لا تتجاوز مدتها %d ثواني. اختر صورة أخرى وحاول مرة أخرى.</item>
+        <item quantity="many">لا يتم دعم سوى اللحظات المباشرة التي لا تتجاوز مدتها %d ثانية. اختر صورة أخرى وحاول مرة أخرى.</item>
+    </plurals>
+    <plurals name="mark_doodle_max_node">
+        <item quantity="other">يمكنك إضافة ما يصل إلى %d ملصق</item>
+        <item quantity="zero">يمكنك إضافة ما يصل إلى %d ملصق</item>
+        <item quantity="one">يمكنك إضافة ما يصل إلى %d ملصق</item>
+        <item quantity="two">يمكنك إضافة ما يصل إلى %d ملصقات</item>
+        <item quantity="few">يمكنك إضافة ما يصل إلى %d ملصقات</item>
+        <item quantity="many">يمكنك إضافة ما يصل إلى %d ملصق</item>
+    </plurals>
+    <plurals name="mark_shape_max_node">
+        <item quantity="other">يمكنك إضافة ما يصل إلى %d ملصق</item>
+        <item quantity="zero">يمكنك إضافة ما يصل إلى %d ملصق</item>
+        <item quantity="one">يمكنك إضافة ما يصل إلى %d ملصق</item>
+        <item quantity="two">يمكنك إضافة ما يصل إلى %d ملصقات</item>
+        <item quantity="few">يمكنك إضافة ما يصل إلى %d ملصقات</item>
+        <item quantity="many">يمكنك إضافة ما يصل إلى %d ملصق</item>
+    </plurals>
+    <plurals name="mark_signature_max_node">
+        <item quantity="other">يمكنك إضافة ما يصل إلى %d توقيع</item>
+        <item quantity="zero">يمكنك إضافة ما يصل إلى %d توقيع</item>
+        <item quantity="one">يمكنك إضافة ما يصل إلى %d توقيع</item>
+        <item quantity="two">يمكنك إضافة ما يصل إلى %d توقيعات</item>
+        <item quantity="few">يمكنك إضافة ما يصل إلى %d توقيعات</item>
+        <item quantity="many">يمكنك إضافة ما يصل إلى %d توقيع</item>
+    </plurals>
+    <plurals name="mark_text_max_node">
+        <item quantity="other">يمكنك إضافة ما يصل إلى %d مربع نص</item>
+        <item quantity="zero">يمكنك إضافة ما يصل إلى %d مربع نص</item>
+        <item quantity="one">يمكنك إضافة ما يصل إلى %d مربع نص</item>
+        <item quantity="two">يمكنك إضافة ما يصل إلى %d مربعات نص</item>
+        <item quantity="few">يمكنك إضافة ما يصل إلى %d مربعات نص</item>
+        <item quantity="many">يمكنك إضافة ما يصل إلى %d مربع نص</item>
+    </plurals>
+    <plurals name="photo_crop_talkback_px">
+        <item quantity="other">%d بكسل</item>
+        <item quantity="zero">%d بكسل</item>
+        <item quantity="one">%d بكسل</item>
+        <item quantity="two">%d بكسل</item>
+        <item quantity="few">%d بكسل</item>
+        <item quantity="many">%d بكسل</item>
+    </plurals>
+    <plurals name="photo_editor_livephoto_enhance_notification_complete_msg">
+        <item quantity="other">المهمة المكتملة %d. انقر للعرض.</item>
+        <item quantity="zero">المهمة المكتملة %d. انقر للعرض.</item>
+        <item quantity="one">المهمة المكتملة %d. انقر للعرض.</item>
+        <item quantity="two">المهام المكتملة %d. انقر للعرض.</item>
+        <item quantity="few">المهام المكتملة %d. انقر للعرض.</item>
+        <item quantity="many">المهمة المكتملة %d. انقر للعرض.</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_distortion_value">
+        <item quantity="other">التشويه: %d</item>
+        <item quantity="zero">التشويه: %d</item>
+        <item quantity="one">التشويه: %d</item>
+        <item quantity="two">التشويه: %d</item>
+        <item quantity="few">التشويه: %d</item>
+        <item quantity="many">التشويه: %d</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_horizontal_value">
+        <item quantity="other">أفقي: %d درجة</item>
+        <item quantity="zero">أفقي: %d درجة</item>
+        <item quantity="one">أفقي: %d درجة</item>
+        <item quantity="two">أفقي: %d درجات</item>
+        <item quantity="few">أفقي: %d درجات</item>
+        <item quantity="many">أفقي: %d درجة</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_scale_value">
+        <item quantity="other">الدوران: %d درجة</item>
+        <item quantity="zero">الدوران: %d درجة</item>
+        <item quantity="one">الدوران: %d درجة</item>
+        <item quantity="two">الدوران: %d درجات</item>
+        <item quantity="few">الدوران: %d درجات</item>
+        <item quantity="many">الدوران: %d درجة</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_vertical_value">
+        <item quantity="other">عمودي: %d درجة</item>
+        <item quantity="zero">عمودي: %d درجة</item>
+        <item quantity="one">عمودي: %d درجة</item>
+        <item quantity="two">عمودي: %d درجات</item>
+        <item quantity="few">عمودي: %d درجات</item>
+        <item quantity="many">عمودي: %d درجة</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg">
+        <item quantity="other">قد يستغرق توليد التأثير %d ثانية. مغادرة التطبيق لن تؤثر على التقدم. ستصلك إشعار عند جاهزيته.</item>
+        <item quantity="zero">قد يستغرق توليد التأثير %d ثانية. مغادرة التطبيق لن تؤثر على التقدم. ستصلك إشعار عند جاهزيته.</item>
+        <item quantity="one">قد يستغرق توليد التأثير %d ثانية. مغادرة التطبيق لن تؤثر على التقدم. ستصلك إشعار عند جاهزيته.</item>
+        <item quantity="two">قد يستغرق توليد التأثير %d ثواني. مغادرة التطبيق لن تؤثر على التقدم. ستصلك إشعار عند جاهزيته.</item>
+        <item quantity="few">قد يستغرق توليد التأثير %d ثواني. مغادرة التطبيق لن تؤثر على التقدم. ستصلك إشعار عند جاهزيته.</item>
+        <item quantity="many">قد يستغرق توليد التأثير %d ثانية. مغادرة التطبيق لن تؤثر على التقدم. ستصلك إشعار عند جاهزيته.</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit1">
+        <item quantity="other">لا يمكن معالجة أكثر من %d مقطع في المرة الواحدة</item>
+        <item quantity="zero">لا يمكن معالجة أكثر من %d مقطع في المرة الواحدة</item>
+        <item quantity="one">لا يمكن معالجة أكثر من %d مقطع في المرة الواحدة</item>
+        <item quantity="two">لا يمكن معالجة أكثر من %d مقاطع في المرة الواحدة</item>
+        <item quantity="few">لا يمكن معالجة أكثر من %d مقاطع في المرة الواحدة</item>
+        <item quantity="many">لا يمكن معالجة أكثر من %d مقطع في المرة الواحدة</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit2">
+        <item quantity="other">لا يمكن معالجة المقاطع التي تتجاوز %d دقيقة</item>
+        <item quantity="zero">لا يمكن معالجة المقاطع التي تتجاوز %d دقيقة</item>
+        <item quantity="one">لا يمكن معالجة المقاطع التي تتجاوز %d دقيقة</item>
+        <item quantity="two">لا يمكن معالجة المقاطع التي تتجاوز %d دقائق</item>
+        <item quantity="few">لا يمكن معالجة المقاطع التي تتجاوز %d دقائق</item>
+        <item quantity="many">لا يمكن معالجة المقاطع التي تتجاوز %d دقيقة</item>
+    </plurals>
+    <plurals name="video_editor_tip_track_limit">
+        <item quantity="other">يمكنك إضافة ما يصل إلى %d مسار</item>
+        <item quantity="zero">يمكنك إضافة ما يصل إلى %d مسار</item>
+        <item quantity="one">يمكنك إضافة ما يصل إلى %d مسار</item>
+        <item quantity="two">يمكنك إضافة ما يصل إلى %d مسارات</item>
+        <item quantity="few">يمكنك إضافة ما يصل إلى %d مسارات</item>
+        <item quantity="many">يمكنك إضافة ما يصل إلى %d مسار</item>
+    </plurals>
+    <plurals name="video_talkback_minutes">
+        <item quantity="other">%d دقيقة</item>
+        <item quantity="zero">%d دقيقة</item>
+        <item quantity="one">%d دقيقة</item>
+        <item quantity="two">%d دقائق</item>
+        <item quantity="few">%d دقائق</item>
+        <item quantity="many">%d دقيقة</item>
+    </plurals>
+    <plurals name="video_talkback_seconds">
+        <item quantity="other">%d ثانية</item>
+        <item quantity="zero">%d ثانية</item>
+        <item quantity="one">%d ثانية</item>
+        <item quantity="two">%d ثواني</item>
+        <item quantity="few">%d ثواني</item>
+        <item quantity="many">%d ثانية</item>
+    </plurals>
+    <plurals name="video_tuning_audio_limit">
+        <item quantity="other">يمكنك معالجة ما يصل إلى %1$d دقيقة في المرة الواحدة، أو قص الفيديو ثم المحاولة مرة أخرى</item>
+        <item quantity="zero">يمكنك معالجة ما يصل إلى %1$d دقيقة في المرة الواحدة، أو قص الفيديو ثم المحاولة مرة أخرى</item>
+        <item quantity="one">يمكنك معالجة ما يصل إلى %1$d دقيقة في المرة الواحدة، أو قص الفيديو ثم المحاولة مرة أخرى</item>
+        <item quantity="two">يمكنك معالجة ما يصل إلى %1$d دقائق في المرة الواحدة، أو قص الفيديو ثم المحاولة مرة أخرى</item>
+        <item quantity="few">يمكنك معالجة ما يصل إلى %1$d دقائق في المرة الواحدة، أو قص الفيديو ثم المحاولة مرة أخرى</item>
+        <item quantity="many">يمكنك معالجة ما يصل إلى %1$d دقيقة في المرة الواحدة، أو قص الفيديو ثم المحاولة مرة أخرى</item>
+    </plurals>
+    <plurals name="vlog_audio_origin_sound">
+        <item quantity="other">الصوت الأصلي %1$d</item>
+        <item quantity="zero">الصوت الأصلي %1$d</item>
+        <item quantity="one">الصوت الأصلي %1$d</item>
+        <item quantity="two">الصوت الأصلي %1$d</item>
+        <item quantity="few">الصوت الأصلي %1$d</item>
+        <item quantity="many">الصوت الأصلي %1$d</item>
+    </plurals>
+    <plurals name="vlog_clip_cut_fail_min_time">
+        <item quantity="other">يجب أن تكون المقاطع بطول لا يقل عن %1$s ثانية</item>
+        <item quantity="zero">يجب أن تكون المقاطع بطول لا يقل عن %1$s ثانية</item>
+        <item quantity="one">يجب أن تكون المقاطع بطول لا يقل عن %1$s ثانية</item>
+        <item quantity="two">يجب أن تكون المقاطع بطول لا يقل عن %1$s ثواني</item>
+        <item quantity="few">يجب أن تكون المقاطع بطول لا يقل عن %1$s ثواني</item>
+        <item quantity="many">يجب أن تكون المقاطع بطول لا يقل عن %1$s ثانية</item>
+    </plurals>
+    <plurals name="vlog_filter_audio_unsupport_audio_file">
+        <item quantity="other">تم تجاهل %d ملف صوتي غير مدعوم</item>
+        <item quantity="zero">تم تجاهل %d ملف صوتي غير مدعوم</item>
+        <item quantity="one">تم تجاهل %d ملف صوتي غير مدعوم</item>
+        <item quantity="two">تم تجاهل %d ملفات صوتية غير مدعومة</item>
+        <item quantity="few">تم تجاهل %d ملفات صوتية غير مدعومة</item>
+        <item quantity="many">تم تجاهل %d ملف صوتي غير مدعوم</item>
+    </plurals>
+    <plurals name="vlog_filter_diy_lut_import_success_toast">
+        <item quantity="other">تم استيراد %1$d فلتر بنجاح</item>
+        <item quantity="zero">تم استيراد %1$d فلتر بنجاح</item>
+        <item quantity="one">تم استيراد %1$d فلتر بنجاح</item>
+        <item quantity="two">تم استيراد %1$d فلاتر بنجاح</item>
+        <item quantity="few">تم استيراد %1$d فلاتر بنجاح</item>
+        <item quantity="many">تم استيراد %1$d فلتر بنجاح</item>
+    </plurals>
+    <plurals name="vlog_filter_no_support_nums">
+        <item quantity="other">تم استبعاد %d عنصر غير مدعوم</item>
+        <item quantity="zero">تم استبعاد %d عنصر غير مدعوم</item>
+        <item quantity="one">تم استبعاد %d عنصر غير مدعوم</item>
+        <item quantity="two">تم استبعاد %d عناصر غير مدعومة</item>
+        <item quantity="few">تم استبعاد %d عناصر غير مدعومة</item>
+        <item quantity="many">تم استبعاد %d عنصر غير مدعوم</item>
+    </plurals>
+    <plurals name="vlog_generate_loading_notice2">
+        <item quantity="other">يتبقى حوالي %s دقيقة. يمكنك الاستمرار في استخدام الميزات الأخرى في هذه الأثناء.</item>
+        <item quantity="zero">يتبقى حوالي %s دقيقة. يمكنك الاستمرار في استخدام الميزات الأخرى في هذه الأثناء.</item>
+        <item quantity="one">يتبقى حوالي %s دقيقة. يمكنك الاستمرار في استخدام الميزات الأخرى في هذه الأثناء.</item>
+        <item quantity="two">يتبقى حوالي %s دقائق. يمكنك الاستمرار في استخدام الميزات الأخرى في هذه الأثناء.</item>
+        <item quantity="few">يتبقى حوالي %s دقائق. يمكنك الاستمرار في استخدام الميزات الأخرى في هذه الأثناء.</item>
+        <item quantity="many">يتبقى حوالي %s دقيقة. يمكنك الاستمرار في استخدام الميزات الأخرى في هذه الأثناء.</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_limit">
+        <item quantity="other">"تتجاوز المدة %d دقيقة الآن. "</item>
+        <item quantity="zero">"تتجاوز المدة %d دقيقة الآن. "</item>
+        <item quantity="one">"تتجاوز المدة %d دقيقة الآن. "</item>
+        <item quantity="two">"تتجاوز المدة %d دقائق الآن. "</item>
+        <item quantity="few">"تتجاوز المدة %d دقائق الآن. "</item>
+        <item quantity="many">"تتجاوز المدة %d دقيقة الآن. "</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_no_support_nums">
+        <item quantity="other">تم استبعاد %d عنصر غير مدعوم</item>
+        <item quantity="zero">تم استبعاد %d عنصر غير مدعوم</item>
+        <item quantity="one">تم استبعاد %d عنصر غير مدعوم</item>
+        <item quantity="two">تم استبعاد %d عناصر غير مدعومة</item>
+        <item quantity="few">تم استبعاد %d عناصر غير مدعومة</item>
+        <item quantity="many">تم استبعاد %d عنصر غير مدعوم</item>
+    </plurals>
+    <plurals name="vlog_no_support_duration">
+        <item quantity="other">تعذر استيراد. تتجاوز المدة %d دقيقة.</item>
+        <item quantity="zero">تعذر استيراد. تتجاوز المدة %d دقيقة.</item>
+        <item quantity="one">تعذر استيراد. تتجاوز المدة %d دقيقة.</item>
+        <item quantity="two">تعذر استيراد. تتجاوز المدة %d دقائق.</item>
+        <item quantity="few">تعذر استيراد. تتجاوز المدة %d دقائق.</item>
+        <item quantity="many">تعذر استيراد. تتجاوز المدة %d دقيقة.</item>
+    </plurals>
+    <plurals name="vlog_talkback_crop_scale_value">
+        <item quantity="other">تدوير %d درجة</item>
+        <item quantity="zero">تدوير %d درجة</item>
+        <item quantity="one">تدوير %d درجة</item>
+        <item quantity="two">تدوير %d درجات</item>
+        <item quantity="few">تدوير %d درجات</item>
+        <item quantity="many">تدوير %d درجة</item>
+    </plurals>
+    <plurals name="vlog_template_support_count_desc">
+        <item quantity="other">%d فيديو</item>
+        <item quantity="zero">%d فيديو</item>
+        <item quantity="one">%d فيديو</item>
+        <item quantity="two">%d فيديوهات</item>
+        <item quantity="few">%d فيديوهات</item>
+        <item quantity="many">%d فيديو</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/icon_bg" android:layout_width="@dimen/photo_crop_menu_recycler_view_item_width" android:layout_height="@dimen/photo_crop_menu_recycler_view_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <micamx.compat.ui.widget.button.SquareButton android:id="@id/btnContainer" android:layout_width="@dimen/photo_crop_menu_recycler_view_item_width" android:layout_height="@dimen/photo_crop_menu_recycler_view_item_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/photo_menu_square_button_style" />
+    <com.miui.gallery.editor.ui.view.DownloadView android:id="@id/item_download" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

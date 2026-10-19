@@ -1,0 +1,21 @@
+{
+  "name": "guofeng",
+  "cover": "cover.png",
+  "music": "guofeng.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 6933,
+      "oriDuration": 6933,
+      "4koriDuration": 6933,
+      "tag": "74;184;186-188;193;827;778;711;68;34;39;861;919;1068;1835",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ]
+    }
+  ]
+}

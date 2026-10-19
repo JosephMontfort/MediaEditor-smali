@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="@dimen/mark_text_edit_dialog_options_style_item_width" android:layout_height="@dimen/mark_text_edit_dialog_options_style_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_style_image" android:background="@drawable/video_text_edit_style_bold" android:layout_width="@dimen/mark_text_edit_dialog_options_style_item_icon_width" android:layout_height="@dimen/mark_text_edit_dialog_options_style_item_icon_height" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    <TextView android:textSize="@dimen/mark_style_text_view_text_size" android:textColor="@color/video_mark_text_edit_style_color_selector" android:gravity="center" android:id="@id/tv_style_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mark_text_edit_dialog_options_style_item_style_name_margin_top" android:layout_below="@id/iv_style_image" android:fontFamily="mipro-medium" android:fallbackLineSpacing="false" />
+</RelativeLayout>

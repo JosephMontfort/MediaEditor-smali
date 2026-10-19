@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/vlog_menu_nav_item_text_size" android:textColor="@drawable/vlog_selector_menu_nav_item" android:ellipsize="marquee" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:fontFamily="mipro-medium" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" android:fallbackLineSpacing="false" app:layout_constraintStart_toStartOf="parent" />
+    <com.miui.gallery.editor.ui.view.DownloadView android:id="@id/download" android:layout_width="@dimen/vlog_common_download_view_size" android:layout_height="@dimen/vlog_common_download_view_size" android:layout_marginTop="@dimen/vlog_nav_download_view_margin" android:layout_marginEnd="@dimen/vlog_nav_download_view_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/video_editor_module_download_icon_style" />
+</androidx.constraintlayout.widget.ConstraintLayout>

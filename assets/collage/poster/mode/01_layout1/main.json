@@ -1,0 +1,22 @@
+{
+  "background": "#ffffff",
+  "collagePositions": [
+    {
+      "margin": 0,
+      "position": [
+        0.2,
+        0.221,
+        0.8,
+        0.779
+      ]
+    }
+  ],
+  "collageModels": [
+    20,
+    30,
+    40,
+    51,
+    60
+  ],
+  "talkbackResName": "collage_talkback_poster_layout1"
+}

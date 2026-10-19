@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/pc_cloth_list_table" android:clipChildren="false" android:layout_width="@dimen/pc_cloth_bottom_land_list_width" android:layout_height="fill_parent">
+        <com.miui.mediaeditor.photo.certificates.view.SimpleRecyclerViewMiuix android:id="@id/pc_cloth_recyclerview" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <include android:id="@id/pc_cloth_category_table" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/pc_cloth_category_land_layout" />
+</LinearLayout>

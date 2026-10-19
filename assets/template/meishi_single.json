@@ -1,0 +1,21 @@
+{
+  "name": "meishi",
+  "cover": "cover.png",
+  "music": "meishi.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 8233,
+      "oriDuration": 8233,
+      "4koriDuration": 8233,
+      "tag": "15-23;27-28;90;94;103-104;107;110;119-121;122;133;167;183;304-395;407;470;495-496;979-1022;1490-1610;1621-1706",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "lvmeng",
+  "cover": "cover.png",
+  "music": "lvmeng.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 6700,
+      "oriDuration": 6700,
+      "4koriDuration": 6700,
+      "tag": "10001;72-73;84-85;106;423;425;435;451;495;506-507;1840-1851;1993;1998",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ]
+    }
+  ]
+}

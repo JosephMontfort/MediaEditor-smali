@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/editor_menu_crop_preview_content_padding_top" android:layout_marginBottom="@dimen/editor_menu_crop_preview_content_padding_bottom" android:layout_marginStart="@dimen/editor_menu_crop_preview_content_padding_start_end" android:layout_marginEnd="@dimen/editor_menu_crop_preview_content_padding_start_end" />
+    <com.miui.mediaeditor.photo.crop.obsoletes.EditorView android:id="@id/editor_view" android:paddingTop="@dimen/editor_menu_crop_preview_content_padding_top" android:paddingBottom="@dimen/editor_menu_crop_preview_content_padding_bottom" android:focusable="true" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/photo_editor_talkback_crop_view" android:paddingStart="@dimen/editor_menu_crop_preview_content_padding_start_end" android:paddingEnd="@dimen/editor_menu_crop_preview_content_padding_start_end" />
+</androidx.constraintlayout.widget.ConstraintLayout>

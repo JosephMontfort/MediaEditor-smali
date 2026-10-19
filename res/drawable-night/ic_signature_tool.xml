@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="72.0dip" android:width="48.0dip" android:viewportWidth="48.0" android:viewportHeight="72.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,4C0,1.791 1.791,0 4,0H44C46.209,0 48,1.791 48,4V68C48,70.209 46.209,72 44,72H4C1.791,72 0,70.209 0,68V4Z" />
+        <group>
+            <clip-path android:pathData="M10,14h28v58h-28z" />
+            <path android:fillColor="#ff1b1b1b" android:pathData="M10,16C10,14.895 10.895,14 12,14H36C37.105,14 38,14.895 38,16V71C38,72.105 37.105,73 36,73H12C10.895,73 10,72.105 10,71V16Z" />
+            <path android:fillColor="@drawable/$ic_signature_tool__0" android:pathData="M11,16C11,15.448 11.448,15 12,15H36C36.552,15 37,15.448 37,16V74C37,74.552 36.552,75 36,75H12C11.448,75 11,74.552 11,74V16Z" />
+            <path android:fillColor="#ffffffff" android:pathData="M24,16C24,15.448 24.448,15 25,15H36C36.552,15 37,15.448 37,16V74C37,74.552 36.552,75 36,75H25C24.448,75 24,74.552 24,74V16Z" android:strokeAlpha="0.03" android:fillAlpha="0.03" />
+            <path android:fillColor="@drawable/$ic_signature_tool__1" android:pathData="M11.037,16.452C11.037,15.65 11.687,15 12.489,15H35.511C36.313,15 36.963,15.65 36.963,16.452V17.451H11.037V16.452Z" />
+            <path android:fillColor="@drawable/$ic_signature_tool__2" android:pathData="M12.452,73C11.65,73 11,72.35 11,71.548L11,16.452C11,15.65 11.65,15 12.452,15L14,15L14,73L12.452,73Z" android:fillAlpha="0.2" />
+        </group>
+        <path android:fillColor="#00000000" android:pathData="M15.79,37.603C16.674,36.987 20.497,33.788 21.06,31.506C21.765,28.653 20.421,28.191 19.985,28.225C19.548,28.258 17.939,29.223 18.375,31.506C18.812,33.788 21.128,36.205 21.631,36.205C22.135,36.205 23.343,33.721 23.846,33.654C24.35,33.587 23.712,35.903 25.659,36.205C26.34,35.865 27.712,34.569 28.51,33.886L33.012,36.887" android:strokeColor="#ffffffff" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="0.6" />
+    </group>
+</vector>

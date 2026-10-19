@@ -1,0 +1,22 @@
+.class public final Lt8/q;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lt8/a$a;
+
+
+# instance fields
+.field public final synthetic a:Lr8/d;
+
+
+# direct methods
+.method public constructor <init>(Lr8/d;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lt8/q;->a:Lr8/d;
+
+    return-void
+.end method

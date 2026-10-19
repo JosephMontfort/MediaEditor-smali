@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/vlog_track_video_filter_tag_radius" />
+    <solid android:color="@color/vlog_track_video_filter_tag_bg_color" />
+</shape>

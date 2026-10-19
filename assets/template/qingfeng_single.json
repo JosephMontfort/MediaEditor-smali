@@ -1,0 +1,21 @@
+{
+  "name": "qingfeng",
+  "cover": "cover.png",
+  "music": "qingfeng.mp3",
+  "clipList": [
+    {
+      "index": 0,
+      "duration": 7133,
+      "oriDuration": 7133,
+      "4koriDuration": 7133,
+      "tag": "10002;10004;20002;30004;40001;29-66;68;71;86;87;89;98;114;117;158;399;424;495;585;593;600;611;1839-1851",
+      "filterList": [
+        {
+          "filterIsFile": true,
+          "filterParam": "filter.png",
+          "filterName": "movit.filter.sdk.lut"
+        }
+      ]
+    }
+  ]
+}

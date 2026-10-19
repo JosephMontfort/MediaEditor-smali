@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.gallery.vlog.module.single_clip.seekbar.SingleVideoClipBar android:layout_gravity="center_horizontal" android:id="@id/single_clip_bar" android:layout_width="0.0dip" android:layout_height="@dimen/vlog_single_clip_bar_height" android:layout_marginTop="@dimen/vlog_single_clip_bar_margin_top" android:contentDescription="@string/vlog_talkback_clip_seek_bar" android:paddingStart="@dimen/vlog_single_clip_bar_margin_start" android:paddingEnd="@dimen/vlog_single_clip_bar_margin_start" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

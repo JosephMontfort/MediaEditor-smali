@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/video_common_svg_icon_size" android:width="@dimen/video_common_svg_icon_size" android:viewportWidth="28.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/video_editor_icon_color_normal" android:pathData="M20.879,13.667C21.116,13.825 21.116,14.175 20.879,14.333L10,21.585C9.734,21.763 9.378,21.572 9.378,21.253L9.378,6.747C9.378,6.428 9.734,6.237 10,6.415L20.879,13.667Z" />
+</vector>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dip" android:width="32.0dip" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,16C0,7.163 7.163,0 16,0V0C24.837,0 32,7.163 32,16V16C32,24.837 24.837,32 16,32V32C7.163,32 0,24.837 0,16V16Z" />
+        <path android:fillColor="#ff7ed2cc" android:pathData="M0,0h32v32h-32z" />
+        <path android:fillColor="#ffffffff" android:pathData="M1,2m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M6,2m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M11,2m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M16,2m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M21,2m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M26,2m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M31,2m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M3.5,6m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M8.5,6m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M13.5,6m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M18.5,6m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M23.5,6m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M28.5,6m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M1,10m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M6,10m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M11,10m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M16,10m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M21,10m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M26,10m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M31,10m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M3.5,14m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M8.5,14m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M13.5,14m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M18.5,14m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M23.5,14m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M28.5,14m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M1,18m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M6,18m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M11,18m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M16,18m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M21,18m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M26,18m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M31,18m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M3.5,22m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M8.5,22m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M13.5,22m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M18.5,22m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M23.5,22m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M28.5,22m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M1,26m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M6,26m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M11,26m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M16,26m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M21,26m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M26,26m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M31,26m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M3.5,30m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M8.5,30m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M13.5,30m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M18.5,30m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M23.5,30m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M28.5,30m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+    </group>
+</vector>

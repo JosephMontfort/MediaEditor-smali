@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/mark_tools_drawer_height" android:layout_height="@dimen/mark_tools_drawer_item_width" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" android:scaleX="1.5" android:scaleY="1.5" android:rotation="270.0" />
+</FrameLayout>

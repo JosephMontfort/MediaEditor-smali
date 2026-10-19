@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>வெள்ளை</item>
+        <item>அடர் நீலம்</item>
+        <item>வெளிர் நீலம்</item>
+        <item>சிவப்பு</item>
+        <item>பச்சை</item>
+        <item>பிங்க்</item>
+        <item>பழுப்பு</item>
+        <item>சாம்பல் நிறம்</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>படத்தை இறக்கவும்</item>
+        <item>ஒளி ஊடுருவும் பின்னணி</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>ஓய்வு</item>
+        <item>தென்றல்</item>
+        <item>கனவுகள்</item>
+        <item>மேகங்கள்</item>
+        <item>எண்ணங்கள்</item>
+        <item>மொட்டுகள்</item>
+        <item>உருமாற்றம்</item>
+        <item>ஆழம்</item>
+        <item>பிரதிபலிப்புகள்</item>
+        <item>மினிமலிஸ்ட்</item>
+        <item>புதிர்</item>
+        <item>பனிமூட்டம்</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>எதிர்கால ஜியோமெட்ரிக் பின்னணி</item>
+        <item>பழைய மாஸ்டர் பிரிண்ட்களின் சூழல்</item>
+        <item>பின்னணிகளை ஸ்கெட்ச்களாக மாற்றவும்</item>
+        <item>வாட்டர்கலர் ஸ்டைல் பின்னணிகள்</item>
+        <item>சைபர்பங்க் ரெட்ரோ</item>
+        <item>தவறாக வைக்கப்பட்ட பிரிவுகள்</item>
+        <item>ஹேஸி பிளர்</item>
+        <item>எதிர்கால உணர்வு</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>லோ போலி</item>
+        <item>எட்ச்சிங்</item>
+        <item>ஸ்கெட்ச்</item>
+        <item>வாட்டர்கலர்</item>
+        <item>RGB</item>
+        <item>மறைப்புகள்</item>
+        <item>பனிபடர்ந்த சாளரங்கள்</item>
+        <item>டெக்</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>நிறமூட்டிய அவுட்லைன்</item>
+        <item>புள்ளியிட்ட அவுட்லைன்</item>
+        <item>ஒளிரும் அவுட்லைன்</item>
+        <item>நிறமுடைய நிழல்</item>
+        <item>எலக்ட்ரிக் அலை</item>
+        <item>நீரோட்டம்</item>
+        <item>அலைகள்</item>
+        <item>துகள்கள்</item>
+        <item>உரை</item>
+        <item>இறகுகள்</item>
+        <item>தேவதை</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>பொதுவானது</item>
+        <item>பயணம்</item>
+        <item>பணி</item>
+        <item>ஆவணங்கள்</item>
+        <item>கல்வி</item>
+        <item>தேர்வுகள்</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>சமூக பாதுகாப்பு</item>
+        <item>உடல்நிலை அறிக்கை</item>
+        <item>மருத்துவ காப்பீடு</item>
+        <item>ஐடி</item>
+        <item>குடியிருப்பு அனுமதி</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>ஒரு இன்ச்</item>
+        <item>இரண்டு அங்குலம்</item>
+        <item>சிறிய ஒரு இன்ச்</item>
+        <item>சிறிய இரண்டு இன்ச்</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>சேர்க்கை விண்ணப்பம்</item>
+        <item>மாணவர் நெட்வொர்க்</item>
+        <item>ஆரம்ப பள்ளிகளுக்கான மாணவ நெட்வொர்க்</item>
+        <item>மாணவ நெட்வொர்க் சுயவிவரம்</item>
+        <item>பல்கலைக்கழக சேர்க்கை</item>
+        <item>NCEE</item>
+        <item>ரெஸ்யூமே</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>கல்லூரி ஆங்கில தேர்வு 1</item>
+        <item>கல்லூரி ஆங்கில தேர்வு 2</item>
+        <item>கல்லூரி ஆங்கில தேர்வு 3</item>
+        <item>Putonghua திறன்அறிதல் தேர்வு 1</item>
+        <item>Putonghua திறன்அறிதல் தேர்வு 2</item>
+        <item>டிகிரி ஆங்கில தேர்வு</item>
+        <item>கல்லூரிக்கான PET</item>
+        <item>PETS லெவல் 3</item>
+        <item>தேசிய கம்பியூட்டர் ரேங்க் தேர்வு 1</item>
+        <item>தேசிய கம்பியூட்டர் ரேங்க் தேர்வு 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>முதல் நிலை மற்றும் இரண்டாம் நிலை பள்ளி ஆசிரிய சான்றிதழ்</item>
+        <item>ஆசிரியர் சான்றிதழ்</item>
+        <item>ஓட்டுநர் உரிமம்</item>
+        <item>வழிகாட்டி அனுமதி</item>
+        <item>எலக்ட்ரானிக் கைடு அனுமதி</item>
+        <item>தேசிய நீதித்துறை தேர்வு</item>
+        <item>எலக்ட்ரானிக் முதல்தர கட்டுமான பணியாளர் சான்றிதழ்</item>
+        <item>இரண்டாம் தர கட்டுமான பணியாளர் சான்றிதழ்</item>
+        <item>ஜூனியர் அக்கவுண்டிங் டைட்டில் தேர்வு</item>
+        <item>சான்றளிக்கப்பட்ட பொது கணக்காளர்</item>
+        <item>பீஜிங் கைடு அனுமதி</item>
+        <item>இடைநிலை அக்கவுண்டிங் டைட்டில் தேர்வு</item>
+        <item>சீனியர் அக்கவுண்டிங் டைட்டில் தேர்வு</item>
+        <item>அக்கவுண்டிங் தர சான்றிதழ்</item>
+        <item>சான்றளிக்கப்பட்ட பொது கணக்காளர் தேர்வு</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>யுனைடெட் ஸ்டேட்ஸ்</item>
+        <item>வியட்நாம்</item>
+        <item>ஜப்பான்</item>
+        <item>ஹாங் காங் மற்றும் மக்கா</item>
+        <item>தென் கொரியா</item>
+        <item>தாய்லாந்து (சுற்றுலா)</item>
+        <item>தாய்லாந்து (இறங்கியவுடன் பெறுவது)</item>
+        <item>இந்தியா</item>
+        <item>இஸ்ரேல்</item>
+        <item>தைவான்</item>
+        <item>மலேசியா</item>
+        <item>நியூசிலாந்து</item>
+        <item>இத்தாலி</item>
+        <item>அர்ஜண்டினா</item>
+        <item>பிரேசில்</item>
+        <item>ஐஸ்லாந்து</item>
+        <item>கென்யா</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

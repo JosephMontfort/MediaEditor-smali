@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/corners_small" />
+    <stroke android:width="@dimen/vlog_template_auto_audio_holder_stroke_width" android:color="@color/vlog_template_auto_audio_holder_select_color" />
+</shape>

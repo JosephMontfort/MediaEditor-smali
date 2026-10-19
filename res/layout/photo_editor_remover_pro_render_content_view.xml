@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/remover_render_container" android:background="@color/surface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.mediaeditor.photo.remover_pro.view.RemoverGestureView android:id="@id/remover_gesture_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.miui.mediaeditor.baseui.widgets.remover.RemoverOverlayView android:id="@id/remover_overlay_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

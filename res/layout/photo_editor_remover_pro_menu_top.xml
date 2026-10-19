@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/head_area" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/seek_bar_view_rotatable" />
+    <CheckBox android:textSize="13.0dip" android:ellipsize="marquee" android:id="@id/btn_people_select" android:paddingLeft="13.0dip" android:focusable="true" android:visibility="gone" android:layout_width="@dimen/remover2_menu_top_checkbox_width" android:layout_height="32.25dip" android:checked="false" android:text="@string/photo_editor_remover_pro_select_all_people" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Style.PeopleSelectCheckBox" />
+</androidx.constraintlayout.widget.ConstraintLayout>

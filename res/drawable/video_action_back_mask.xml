@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/video_action_back_mask_height" android:width="@dimen/video_action_back_mask_width" />
+            <gradient android:startColor="@color/video_action_anchor_mask_start_color" android:endColor="@color/transparent" android:type="linear" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:paddingStart="20.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/miuix_font_size_headline2" android:ellipsize="end" android:gravity="center" android:id="@id/navigation_title" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="@string/miuix_font_style_misans_medium_font_family" android:textDirection="locale" android:textAlignment="center" />
+</LinearLayout>

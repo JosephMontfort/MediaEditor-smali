@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.gallery.editor.ui.view.RoundImageView android:id="@id/pc_cloth_imageView" android:clickable="true" android:layout_width="@dimen/pc_cloth_item_width" android:layout_height="@dimen/pc_cloth_item_height" android:scaleType="centerCrop" app:borderRadius="@dimen/corners_small" app:roundBackgroundColor="@color/color_size_child_item"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

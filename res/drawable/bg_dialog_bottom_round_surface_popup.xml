@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:bottomLeftRadius="@dimen/corners_demi_big" android:bottomRightRadius="@dimen/corners_demi_big" />
+    <solid android:color="@color/surface_popup" />
+</shape>

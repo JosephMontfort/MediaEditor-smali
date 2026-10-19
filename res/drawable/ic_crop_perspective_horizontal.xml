@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="60.0dip" android:width="60.0dip" android:viewportWidth="60.0" android:viewportHeight="60.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/photo_editor_menu_item_color_selector" android:pathData="M32.571,9.428C32.571,8.955 32.187,8.571 31.714,8.571H28.285C27.812,8.571 27.428,8.955 27.428,9.428L27.428,50.571C27.428,51.045 27.812,51.428 28.285,51.428H31.714C32.187,51.428 32.571,51.045 32.571,50.571L32.571,9.428Z" />
+    <path android:fillColor="@color/photo_editor_menu_item_color_selector" android:pathData="M9.522,8.577L25.713,10.568V15.731L13.713,14.219V45.601L25.713,44.128V49.288L9.519,51.226C9.013,51.28 8.57,50.883 8.57,50.374V9.429C8.57,8.918 9.015,8.521 9.522,8.577Z" />
+    <path android:fillColor="@color/photo_editor_menu_item_color_selector" android:pathData="M46.285,41.603L34.285,43.076V48.263L50.662,46.304C51.097,46.257 51.428,45.889 51.428,45.451V14.488C51.428,14.051 51.099,13.684 50.665,13.636L34.285,11.622V16.811L46.285,18.323V41.603Z" />
+</vector>

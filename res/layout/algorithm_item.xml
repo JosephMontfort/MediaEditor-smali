@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginVertical="@dimen/photo_filter_function_setting_algorithm_info_rv_item_margin_vertical" android:paddingHorizontal="@dimen/photo_filter_function_setting_algorithm_info_rv_item_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/photo_filter_function_setting_algorithm_info_rv_text_size" android:textColor="@color/on_surface_text" android:id="@id/tvAlgorithmName" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/photo_filter_function_setting_algorithm_info_rv_text_size" android:textColor="@color/on_surface_text" android:id="@id/tvSubjectName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photo_filter_function_setting_algorithm_info_tv_margin_top" />
+    <TextView android:textSize="@dimen/photo_filter_function_setting_algorithm_info_rv_text_size" android:textColor="@color/record_number_link_selector" android:id="@id/tvRecordNumber" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photo_filter_function_setting_algorithm_info_tv_margin_top" />
+</LinearLayout>

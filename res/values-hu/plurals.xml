@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="filter_images_ratio_unsupport_v2">
+        <item quantity="other">%d nem támogatott elem kiszűrve</item>
+        <item quantity="one">%d nem támogatott elem kiszűrve</item>
+    </plurals>
+    <plurals name="filter_images_unsupport_v2">
+        <item quantity="other">%d nem támogatott elem kiszűrve</item>
+        <item quantity="one">%d nem támogatott elem kiszűrve</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_2">
+        <item quantity="other">Egyszerre legfeljebb %d feladatot dolgozhat fel. Várja meg, amíg befejeződnek, mielőtt további elemeket adna hozzá.</item>
+        <item quantity="one">Egyszerre legfeljebb %d feladatot dolgozhat fel. Várjon, amíg befejeződik, mielőtt további elemeket adna hozzá.</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_3">
+        <item quantity="other">Csak a(z) %d mp-en belüli élő pillanatok támogatottak. Jelöljön ki egy másik fotót, és próbálja újra!</item>
+        <item quantity="one">Csak a(z) %d mp-en belüli élő pillanatok támogatottak. Jelöljön ki egy másik fotót, és próbálja újra!</item>
+    </plurals>
+    <plurals name="mark_doodle_max_node">
+        <item quantity="other">Legfeljebb %d matricát adhat hozzá</item>
+        <item quantity="one">Legfeljebb %d matricát adhat hozzá</item>
+    </plurals>
+    <plurals name="mark_shape_max_node">
+        <item quantity="other">Adjon hozzá legfeljebb %d formát</item>
+        <item quantity="one">Adjon hozzá legfeljebb %d formát</item>
+    </plurals>
+    <plurals name="mark_signature_max_node">
+        <item quantity="other">Legfeljebb %d aláírást adhat hozzá</item>
+        <item quantity="one">Legfeljebb %d aláírást adhat hozzá</item>
+    </plurals>
+    <plurals name="mark_text_max_node">
+        <item quantity="other">Legfeljebb %d szövegdobozt adhat hozzá</item>
+        <item quantity="one">Legfeljebb %d szövegdobozt adhat hozzá</item>
+    </plurals>
+    <plurals name="photo_crop_talkback_px">
+        <item quantity="other">%d pixel</item>
+        <item quantity="one">%d pixel</item>
+    </plurals>
+    <plurals name="photo_editor_livephoto_enhance_notification_complete_msg">
+        <item quantity="other">%d feladat befejeződött. Érintse meg a megtekintéshez.</item>
+        <item quantity="one">%d feladat befejeződött. Érintse meg a megtekintéshez.</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_distortion_value">
+        <item quantity="other">Torzítás: %d</item>
+        <item quantity="one">Torzítás: %d</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_horizontal_value">
+        <item quantity="other">Vízszintes: %d fok</item>
+        <item quantity="one">Vízszintes: %d fok</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_scale_value">
+        <item quantity="other">Elforgatás: %d fok</item>
+        <item quantity="one">Elforgatás: %d fok</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_vertical_value">
+        <item quantity="other">Függőleges: %d fok</item>
+        <item quantity="one">Függőleges: %d fok</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg">
+        <item quantity="other">Az effektus generálása %d másodpercig tarthat. Az alkalmazás elhagyása nem befolyásolja az előrehaladást. Értesítést fog kapni, ha elkészült.</item>
+        <item quantity="one">Az effektus generálása %d másodpercig tarthat. Az alkalmazás elhagyása nem befolyásolja az előrehaladást. Értesítést fog kapni, ha elkészült.</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit1">
+        <item quantity="other">Nem lehet több mint %d klipet feldolgozni egyidejűleg</item>
+        <item quantity="one">Nem lehet több mint %d klipet feldolgozni egyidejűleg</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit2">
+        <item quantity="other">Nem lehet %d percesnél hosszabb klipet feldolgozni</item>
+        <item quantity="one">Nem lehet %d percesnél hosszabb klipet feldolgozni</item>
+    </plurals>
+    <plurals name="video_editor_tip_track_limit">
+        <item quantity="other">Legfeljebb %d hangsávot adhat hozzá</item>
+        <item quantity="one">Legfeljebb %d hangsávot adhat hozzá</item>
+    </plurals>
+    <plurals name="video_tuning_audio_limit">
+        <item quantity="other">Egyszerre legfeljebb %1$d percet dolgozhat fel, vagy vágja meg a videót, és próbálja újra</item>
+        <item quantity="one">Egyszerre legfeljebb %1$d percet dolgozhat fel, vagy vágja meg a videót, és próbálja újra</item>
+    </plurals>
+    <plurals name="vlog_audio_origin_sound">
+        <item quantity="other">Eredeti hang: %1$d</item>
+        <item quantity="one">Eredeti hang: %1$d</item>
+    </plurals>
+    <plurals name="vlog_clip_cut_fail_min_time">
+        <item quantity="other">A klipeknek legalább %1$s másodperc hosszúságúnak kell lenniük</item>
+        <item quantity="one">A klipeknek legalább %1$s másodperc hosszúságúnak kell lenniük</item>
+    </plurals>
+    <plurals name="vlog_filter_audio_unsupport_audio_file">
+        <item quantity="other">%d nem támogatott hangfájl kiszűrve</item>
+        <item quantity="one">%d nem támogatott hangfájl kiszűrve</item>
+    </plurals>
+    <plurals name="vlog_filter_diy_lut_import_success_toast">
+        <item quantity="other">%1$d szűrő sikeresen importálva</item>
+        <item quantity="one">%1$d szűrő sikeresen importálva</item>
+    </plurals>
+    <plurals name="vlog_filter_no_support_nums">
+        <item quantity="other">%d nem támogatott elem kiszűrve</item>
+        <item quantity="one">%d nem támogatott elem kiszűrve</item>
+    </plurals>
+    <plurals name="vlog_generate_loading_notice2">
+        <item quantity="other">Körülbelül %s perc van hátra. Addig is továbbra is használhatja az egyéb funkciókat.</item>
+        <item quantity="one">Körülbelül %s perc van hátra. Addig is továbbra is használhatja az egyéb funkciókat.</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_limit">
+        <item quantity="other">"Az időtartam most már meghaladja a(z) %d percet. "</item>
+        <item quantity="one">"Az időtartam most már meghaladja a(z) %d percet. "</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_no_support_nums">
+        <item quantity="other">%d nem támogatott elem kiszűrve</item>
+        <item quantity="one">%d nem támogatott elem kiszűrve</item>
+    </plurals>
+    <plurals name="vlog_no_support_duration">
+        <item quantity="other">Nem sikerült importálni. Az időtartam meghaladja a(z) %d percet.</item>
+        <item quantity="one">Nem sikerült importálni. Az időtartam meghaladja a(z) %d percet.</item>
+    </plurals>
+    <plurals name="vlog_talkback_crop_scale_value">
+        <item quantity="other">%d fokos elforgatás</item>
+        <item quantity="one">%d fokos elforgatás</item>
+    </plurals>
+    <plurals name="vlog_template_support_count_desc">
+        <item quantity="other">%d klip</item>
+        <item quantity="one">%d klip</item>
+    </plurals>
+    <plurals name="legendary_render_notice_v2">
+        <item quantity="other">"A feldolgozás körülbelül %1$d másodpercig tart. A háttérben várakozás nem befolyásolja a feldolgozást.
+Az állapotot a „Legutóbbi feladatok” között ellenőrizheti."</item>
+        <item quantity="one">"A feldolgozás körülbelül %1$d másodpercig tart. A háttérben várakozás nem befolyásolja a feldolgozást.
+Az állapotot a „Legutóbbi feladatok” között ellenőrizheti."</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_cancel_dialog_notice">
+        <item quantity="other">%d ingyenes alkalmat használt fel. Mégis leállítja?</item>
+        <item quantity="one">%d ingyenes alkalmat használt fel. Mégis leállítja?</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_cancel_dialog_notice_2">
+        <item quantity="other">%d pontot használt fel. Mégis leállítja?</item>
+        <item quantity="one">%d pontot használt fel. Mégis leállítja?</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_point_cost_hint">
+        <item quantity="other">Ez %d pontot igényel</item>
+        <item quantity="one">Ez %d pontot igényel</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_remaining_count">
+        <item quantity="other">%d alkalommal</item>
+        <item quantity="one">%d alkalommal</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_total_count">
+        <item quantity="other">%d alkalommal</item>
+        <item quantity="one">%d alkalommal</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg_v2">
+        <item quantity="other">Ez körülbelül %d másodpercet vesz igénybe. Érintse meg a „Várakozás” gombot a háttérben történő folytatáshoz. Értesítést kap, amikor a feladat befejeződött.</item>
+        <item quantity="one">Ez körülbelül %d másodpercet vesz igénybe. Érintse meg a „Várakozás” gombot a háttérben történő folytatáshoz. Értesítést kap, amikor a feladat befejeződött.</item>
+    </plurals>
+</resources>

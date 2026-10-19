@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="filter_images_ratio_unsupport_v2">
+        <item quantity="other">%d elemente neacceptate au fost filtrate.</item>
+        <item quantity="one">%d element neacceptat a fost filtrat.</item>
+        <item quantity="few">%d elemente neacceptate au fost filtrate.</item>
+    </plurals>
+    <plurals name="filter_images_unsupport_v2">
+        <item quantity="other">%d elemente neacceptate au fost filtrate.</item>
+        <item quantity="one">%d element neacceptat a fost filtrat.</item>
+        <item quantity="few">%d elemente neacceptate au fost filtrate.</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_2">
+        <item quantity="other">Puteți procesa până la %d sarcini simultan. Așteptați până când sunt finalizate înainte de a adăuga mai multe.</item>
+        <item quantity="one">Puteți procesa până la %d sarcină simultan. Așteptați până când este finalizată înainte de a adăuga mai multe.</item>
+        <item quantity="few">Puteți procesa până la %d sarcini simultan. Așteptați până când sunt finalizate înainte de a adăuga mai multe.</item>
+    </plurals>
+    <plurals name="live_photo_remover_over_limit_3">
+        <item quantity="other">Sunt acceptate doar momentele live cu o durată de %d sec. Selectați o altă fotografie și încercați din nou.</item>
+        <item quantity="one">Sunt acceptate doar momentele live cu o durată de %d sec. Selectați o altă fotografie și încercați din nou.</item>
+        <item quantity="few">Sunt acceptate doar momentele live cu o durată de %d sec. Selectați o altă fotografie și încercați din nou.</item>
+    </plurals>
+    <plurals name="mark_doodle_max_node">
+        <item quantity="other">Puteți adăuga până la %d autocolante</item>
+        <item quantity="one">Puteți adăuga până la %d autocolant</item>
+        <item quantity="few">Puteți adăuga până la %d autocolante</item>
+    </plurals>
+    <plurals name="mark_shape_max_node">
+        <item quantity="other">Adaugă până la %d forme</item>
+        <item quantity="one">Adaugă până la %d formă</item>
+        <item quantity="few">Adaugă până la %d forme</item>
+    </plurals>
+    <plurals name="mark_signature_max_node">
+        <item quantity="other">Puteți adăuga până la %d semnături</item>
+        <item quantity="one">Puteți adăuga până la %d semnătură</item>
+        <item quantity="few">Puteți adăuga până la %d semnături</item>
+    </plurals>
+    <plurals name="mark_text_max_node">
+        <item quantity="other">Puteți adăuga până la %d casete de text</item>
+        <item quantity="one">Puteți adăuga până la %d casetă de text</item>
+        <item quantity="few">Puteți adăuga până la %d casete de text</item>
+    </plurals>
+    <plurals name="photo_crop_talkback_px">
+        <item quantity="other">%d pixeli</item>
+        <item quantity="one">%d pixel</item>
+        <item quantity="few">%d pixeli</item>
+    </plurals>
+    <plurals name="photo_editor_livephoto_enhance_notification_complete_msg">
+        <item quantity="other">S-au finalizat %d de sarcini. Atingeți pentru a vizualiza.</item>
+        <item quantity="one">S-a finalizat %d sarcină. Atingeți pentru a vizualiza.</item>
+        <item quantity="few">S-au finalizat %d sarcini. Atingeți pentru a vizualiza.</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_distortion_value">
+        <item quantity="other">Distorsiune: %d</item>
+        <item quantity="one">Distorsiune: %d</item>
+        <item quantity="few">Distorsiune: %d</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_horizontal_value">
+        <item quantity="other">Orizontal: %d grade</item>
+        <item quantity="one">Orizontal: %d grad</item>
+        <item quantity="few">Orizontal: %d grade</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_scale_value">
+        <item quantity="other">Rotație: %d de grade</item>
+        <item quantity="one">Rotație: %d grad</item>
+        <item quantity="few">Rotație: %d de grade</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_vertical_value">
+        <item quantity="other">Vertical: %d grade</item>
+        <item quantity="one">Vertical: %d grad</item>
+        <item quantity="few">Vertical: %d grade</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg">
+        <item quantity="other">Generarea efectului poate dura %d de secunde. Ieșirea din aplicație nu va afecta progresul. Vei primi o notificare când este gata.</item>
+        <item quantity="one">Generarea efectului poate dura %d secundă. Ieșirea din aplicație nu va afecta progresul. Vei primi o notificare când este gata.</item>
+        <item quantity="few">Generarea efectului poate dura %d secunde. Ieșirea din aplicație nu va afecta progresul. Vei primi o notificare când este gata.</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit1">
+        <item quantity="other">Nu se pot procesa mai mult de %d clipuri simultan</item>
+        <item quantity="one">Nu se pot procesa mai mult de %d clip simultan</item>
+        <item quantity="few">Nu se pot procesa mai mult de %d clipuri simultan</item>
+    </plurals>
+    <plurals name="video_ai_auto_limit2">
+        <item quantity="other">Nu se pot procesa clipuri mai lungi de %d minute</item>
+        <item quantity="one">Nu se pot procesa clipuri mai lungi de %d minut</item>
+        <item quantity="few">Nu se pot procesa clipuri mai lungi de %d minute</item>
+    </plurals>
+    <plurals name="video_editor_tip_track_limit">
+        <item quantity="other">Puteți adăuga până la %d piese</item>
+        <item quantity="one">Puteți adăuga până la %d piesă</item>
+        <item quantity="few">Puteți adăuga până la %d piese</item>
+    </plurals>
+    <plurals name="video_tuning_audio_limit">
+        <item quantity="other">Puteți procesa până la %1$d min simultan sau puteți decupa videoclipul și încerca din nou</item>
+        <item quantity="one">Puteți procesa până la %1$d min simultan sau puteți decupa videoclipul și încerca din nou</item>
+        <item quantity="few">Puteți procesa până la %1$d min simultan sau puteți decupa videoclipul și încerca din nou</item>
+    </plurals>
+    <plurals name="vlog_audio_origin_sound">
+        <item quantity="other">Audio original %1$d</item>
+        <item quantity="one">Audio original %1$d</item>
+        <item quantity="few">Audio original %1$d</item>
+    </plurals>
+    <plurals name="vlog_clip_cut_fail_min_time">
+        <item quantity="other">Clipurile trebuie să aibă cel puțin %1$s de secunde</item>
+        <item quantity="one">Clipurile trebuie să aibă cel puțin %1$s secundă</item>
+        <item quantity="few">Clipurile trebuie să aibă cel puțin %1$s secunde</item>
+    </plurals>
+    <plurals name="vlog_filter_audio_unsupport_audio_file">
+        <item quantity="other">Filtrat pentru %d fișiere audio neacceptate</item>
+        <item quantity="one">Filtrat pentru %d fișier audio neacceptat</item>
+        <item quantity="few">Filtrat pentru %d fișiere audio neacceptate</item>
+    </plurals>
+    <plurals name="vlog_filter_diy_lut_import_success_toast">
+        <item quantity="other">Importat %1$d filtre cu succes</item>
+        <item quantity="one">Importat %1$d filtru cu succes</item>
+        <item quantity="few">Importat %1$d filtre cu succes</item>
+    </plurals>
+    <plurals name="vlog_filter_no_support_nums">
+        <item quantity="other">Au fost filtrate %d elemente neacceptate</item>
+        <item quantity="one">A fost filtrat %d element neacceptat</item>
+        <item quantity="few">Au fost filtrate %d elemente neacceptate</item>
+    </plurals>
+    <plurals name="vlog_generate_loading_notice2">
+        <item quantity="other">Aproximativ %s min rămase. Puteți continua să utilizați alte funcții între timp.</item>
+        <item quantity="one">Aproximativ %s min rămase. Puteți continua să utilizați alte funcții între timp.</item>
+        <item quantity="few">Aproximativ %s min rămase. Puteți continua să utilizați alte funcții între timp.</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_limit">
+        <item quantity="other">"Durata depășește %d min acum. "</item>
+        <item quantity="one">"Durata depășește %d min acum. "</item>
+        <item quantity="few">"Durata depășește %d min acum. "</item>
+    </plurals>
+    <plurals name="vlog_import_minutes_no_support_nums">
+        <item quantity="other">Au fost filtrate %d elemente neacceptate</item>
+        <item quantity="one">A fost filtrat %d element neacceptat</item>
+        <item quantity="few">Au fost filtrate %d elemente neacceptate</item>
+    </plurals>
+    <plurals name="vlog_no_support_duration">
+        <item quantity="other">Nu s-a putut importa. Durata depășește %d min.</item>
+        <item quantity="one">Nu s-a putut importa. Durata depășește %d min.</item>
+        <item quantity="few">Nu s-a putut importa. Durata depășește %d min.</item>
+    </plurals>
+    <plurals name="vlog_talkback_crop_scale_value">
+        <item quantity="other">Rotește la %d grade</item>
+        <item quantity="one">Rotește la %d grad</item>
+        <item quantity="few">Rotește la %d grade</item>
+    </plurals>
+    <plurals name="vlog_template_support_count_desc">
+        <item quantity="other">%d clipuri</item>
+        <item quantity="one">%d clip</item>
+        <item quantity="few">%d clipuri</item>
+    </plurals>
+    <plurals name="legendary_render_notice_v2">
+        <item quantity="other">"Procesarea va dura aproximativ %1$d sec. Așteptarea în fundal nu va afecta procesarea.
+Verificați starea în \"Sarcini Recente\"."</item>
+        <item quantity="one">"Procesarea va dura aproximativ %1$d sec. Așteptarea în fundal nu va afecta procesarea.
+Verificați starea în \"Sarcini Recente\"."</item>
+        <item quantity="few">"Procesarea va dura aproximativ %1$d sec. Așteptarea în fundal nu va afecta procesarea.
+Verificați starea în \"Sarcini Recente\"."</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_cancel_dialog_notice">
+        <item quantity="other">Ați folosit de %d ori gratuit. Opriți oricum?</item>
+        <item quantity="one">Ați folosit %d dată gratuit. Opriți oricum?</item>
+        <item quantity="few">Ați folosit de %d ori gratuit. Opriți oricum?</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_cancel_dialog_notice_2">
+        <item quantity="other">Ați folosit %d puncte. Opriți oricum?</item>
+        <item quantity="one">Ați folosit %d punct. Opriți oricum?</item>
+        <item quantity="few">Ați folosit %d puncte. Opriți oricum?</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_point_cost_hint">
+        <item quantity="other">Acest lucru va costa %d puncte</item>
+        <item quantity="one">Acest lucru va costa %d punct</item>
+        <item quantity="few">Acest lucru va costa %d puncte</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_remaining_count">
+        <item quantity="other">%d ori</item>
+        <item quantity="one">%d dată</item>
+        <item quantity="few">%d ori</item>
+    </plurals>
+    <plurals name="photo_agent_ai_points_total_count">
+        <item quantity="other">%d ori</item>
+        <item quantity="one">%d dată</item>
+        <item quantity="few">%d ori</item>
+    </plurals>
+    <plurals name="photo_editor_video_generation_loading_page_msg_v2">
+        <item quantity="other">Aceasta durează aproximativ %d secunde. Atingeți \"Așteaptă\" pentru a continua în fundal. Veți primi o notificare când această sarcină este finalizată.</item>
+        <item quantity="one">Aceasta durează aproximativ %d secundă. Atingeți \"Așteaptă\" pentru a continua în fundal. Veți primi o notificare când această sarcină este finalizată.</item>
+        <item quantity="few">Aceasta durează aproximativ %d secunde. Atingeți \"Așteaptă\" pentru a continua în fundal. Veți primi o notificare când această sarcină este finalizată.</item>
+    </plurals>
+</resources>

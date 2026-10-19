@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/surface_menu_pressed" />
+    <corners android:radius="@dimen/switch_pop_click_item_corner" />
+</shape>

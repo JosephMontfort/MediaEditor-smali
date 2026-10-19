@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <micamx.compat.ui.widget.button.SquareButton android:textColor="@color/video_menu_item_text_color_selector" android:id="@id/btn" android:background="@color/surface_container" android:layout_width="@dimen/video_menu_item_width" android:layout_height="@dimen/video_menu_item_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/editor_square_button_center_edge_default" />
+</androidx.constraintlayout.widget.ConstraintLayout>

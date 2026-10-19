@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <micamx.compat.ui.miuix.widget.HyperProgressSeekBar android:gravity="center" android:id="@id/document_handwrite_seekbar" android:focusableInTouchMode="true" android:layout_width="@dimen/photo_document_seekbar_width" android:layout_height="@dimen/photo_document_seekbar_height" android:layout_marginBottom="@dimen/photo_document_seekbar_port_margin_bottom" app:layout_constraintBottom_toTopOf="@id/document_rv_handwrite" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/editor_hyper_label_seek_bar_without_margin" />
+    <com.miui.gallery.ui.CommonAutoCenterLinearRecyclerView android:id="@id/document_rv_handwrite" android:layout_width="fill_parent" android:layout_height="@dimen/photo_document_effect_recyclerview_height" android:layout_marginBottom="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

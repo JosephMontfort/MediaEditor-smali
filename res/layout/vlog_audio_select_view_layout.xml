@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/vlog_audio_lib_select_view_width" android:layout_height="@dimen/vlog_audio_lib_select_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/vlog_audio_lib_select_text_size" android:textColor="@color/vlog_template_auto_audio_item_text_color" android:gravity="center" android:id="@id/select_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/vlog_download_btn" android:singleLine="true" android:fontFamily="MiSans" />
+</FrameLayout>

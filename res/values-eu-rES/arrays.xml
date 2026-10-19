@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acc_category_color_description">
+        <item>Zuria</item>
+        <item>Urdin iluna</item>
+        <item>Urdin argia</item>
+        <item>Gorria</item>
+        <item>Berdea</item>
+        <item>Arrosa</item>
+        <item>Marroia</item>
+        <item>Grisa</item>
+    </string-array>
+    <string-array name="acc_magic_matting_background_description">
+        <item>Irudia inportatu</item>
+        <item>Atzeko plano gardena</item>
+    </string-array>
+    <string-array name="ai_beauty_loading_hint">
+        <item>@string/beauty_ai_beauty_tip_detecting_skin_tone</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_age</item>
+        <item>@string/beauty_ai_beauty_tip_detecting_gender</item>
+    </string-array>
+    <string-array name="beauty_face_paint_size_selector_talkback">
+        <item>@string/beauty_face_talkback_size_selecter_level_one</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_two</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_three</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_four</item>
+        <item>@string/beauty_face_talkback_size_selecter_level_five</item>
+    </string-array>
+    <string-array name="magic_effects_audio_titles">
+        <item></item>
+        <item></item>
+        <item>Aisialdia</item>
+        <item>Brisa</item>
+        <item>Ametsak</item>
+        <item>Hodeiak</item>
+        <item>Pentsamenduak</item>
+        <item>Kimuak</item>
+        <item>Metamorfosia</item>
+        <item>Sakontasuna</item>
+        <item>Isladak</item>
+        <item>Minimalista</item>
+        <item>Misterioa</item>
+        <item>Lainoa</item>
+    </string-array>
+    <string-array name="magic_effects_description">
+        <item>Hondo geometriko futuristikoa</item>
+        <item>Antzinako maisu-inprimakinen atmosfera</item>
+        <item>Bihurtu ziriborro atzeko planoak</item>
+        <item>Akuarela estiloko atzeko planoak</item>
+        <item>Ziberpunk retro</item>
+        <item>Gaizki kokatutako segmentu bertikalak</item>
+        <item>Desfokuratze lausoa</item>
+        <item>Sentsazio futurista</item>
+    </string-array>
+    <string-array name="magic_effects_title">
+        <item>Poligono txikia</item>
+        <item>Arraspatzea</item>
+        <item>Zirriborroa</item>
+        <item>Akuarela</item>
+        <item>RGB</item>
+        <item>Pertsianak</item>
+        <item>Leiho lainotsua</item>
+        <item>Teknologia</item>
+    </string-array>
+    <string-array name="magic_effects_video_titles">
+        <item></item>
+        <item>Kolorezko ingerada</item>
+        <item>Lerro eteneko ingerada</item>
+        <item>Ingerada fluoreszentea</item>
+        <item>Kolorezko itzala</item>
+        <item>Uhin elektrikoa</item>
+        <item>Korrontea</item>
+        <item>Olatuak</item>
+        <item>Partikulak</item>
+        <item>Testua</item>
+        <item>Hegalak</item>
+        <item>Aingerua</item>
+    </string-array>
+    <string-array name="magic_idp_size_category">
+        <item>Orokorra</item>
+        <item>Bidaiak</item>
+        <item>Lana</item>
+        <item>Dokumentuak</item>
+        <item>Hezkuntza</item>
+        <item>Azterketak</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_certificates">
+        <item>Gizarte segurantza</item>
+        <item>Osasun-adierazpena</item>
+        <item>Mediku asegurua</item>
+        <item>Identifikazioa</item>
+        <item>Mediku asegurua</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_common">
+        <item></item>
+        <item>Cun bat</item>
+        <item>Bi cun</item>
+        <item>Cun txikiago bat</item>
+        <item>Cun txikiago bi</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_education">
+        <item>Onarpen eskaera</item>
+        <item>Ikasleen sarea</item>
+        <item>Lehen Hezkuntzako ikasleen sarea</item>
+        <item>Ikasleen sareko profila</item>
+        <item>Unibertsitatera sartzeko</item>
+        <item>NCEE</item>
+        <item>Curriculuma</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_examination">
+        <item>Unibertsitateko ingeleseko proba 1</item>
+        <item>Unibertsitateko ingeleseko proba 2</item>
+        <item>Unibertsitateko ingeleseko proba 3</item>
+        <item>Putonghua gaitasun proba 1</item>
+        <item>Putonghua gaitasun proba 2</item>
+        <item>Graduko Ingeles Proba</item>
+        <item>PET unibertsitateetarako</item>
+        <item>MASKOTAK 3. maila</item>
+        <item>Nazioko Ordenagailu Maila azterketa 1</item>
+        <item>Nazioko Ordenagailu Maila azterketa 2</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_profession">
+        <item>Lehen eta Bigarren Hezkuntzako irakasleen egiaztagiria</item>
+        <item>Irakasleen ziurtagiria</item>
+        <item>Gidabaimena</item>
+        <item>Gida baimena</item>
+        <item>Gida baimen elektronikoa</item>
+        <item>Azterketa judizial nazionala</item>
+        <item>Lehen mailako eraikitzaileen ziurtagiri elektronikoa</item>
+        <item>Bigarren mailako eraikitzaile-ziurtagiria</item>
+        <item>Junior kontabilitate tituluaren azterketa</item>
+        <item>Kontu-hartzaile publiko ziurtatua</item>
+        <item>Pekineko gida baimena</item>
+        <item>Erdi mailako kontabilitate tituluaren azterketa</item>
+        <item>Kontabilitate tituluaren goi mailako azterketa</item>
+        <item>Kontabilitate kualifikazio-ziurtagiria</item>
+        <item>Kontabilitate publikoaren azterketa</item>
+    </string-array>
+    <string-array name="magic_idp_size_category_visa">
+        <item>Estatu Batuak</item>
+        <item>Vietnam</item>
+        <item>Japonia</item>
+        <item>Hong Kong eta Macau</item>
+        <item>Hego Korea</item>
+        <item>Thailandia (turista)</item>
+        <item>Thailandia (iristean)</item>
+        <item>India</item>
+        <item>Israel</item>
+        <item>Taiwan</item>
+        <item>Malaysia</item>
+        <item>Zeelanda berria</item>
+        <item>Italia</item>
+        <item>Argentina</item>
+        <item>Brasil</item>
+        <item>Islandia</item>
+        <item>Kenia</item>
+    </string-array>
+    <string-array name="super_portrait_loading_hint">
+        <item>@string/portrait_optimizing_skin_texture</item>
+        <item>@string/portrait_improving_skin_luster</item>
+        <item>@string/portrait_improving_the_texture_of_the_whole_picture</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="@dimen/editor_apply_button_size" android:maxWidth="@dimen/bokeh_category_recycler_view_item_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/bokeh_category_item_text_size" android:textColor="@color/photo_editor_selector_tab_color" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:id="@id/bokeh_category_text_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/bokeh_category_recycler_view_item_width" android:minWidth="72.0dip" android:singleLine="true" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/vlog_template_edit_holder_width" android:layout_height="@dimen/vlog_template_edit_holder_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.gallery.editor.ui.view.RoundImageView android:layout_gravity="center" android:id="@id/holder_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:borderRadius="@dimen/corners_small" />
+    <TextView android:textSize="@dimen/vlog_template_edit_holder_text_size" android:textColor="@color/white_90_transparent" android:layout_gravity="center" android:id="@id/holder_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/vlog_template_preview_holder_title_text_shadow_color" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="0.1" android:fontFamily="mipro-medium" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/clip_lottie" android:visibility="gone" android:layout_width="@dimen/vlog_template_auto_audio_holder_image_width" android:layout_height="@dimen/vlog_template_auto_audio_holder_image_width" app:lottie_autoPlay="false" app:lottie_colorFilter="@color/primary" app:lottie_loop="true" app:lottie_rawRes="@raw/vlog_audio_playing" />
+</FrameLayout>

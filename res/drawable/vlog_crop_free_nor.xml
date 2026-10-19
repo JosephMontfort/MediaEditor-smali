@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/vlog_crop_menu_icon_size" android:width="@dimen/vlog_crop_menu_icon_size" android:viewportWidth="60.0" android:viewportHeight="60.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M22.999,8H8C7.448,8 7,8.448 7,9V24.037H12.991V14.06H22.999V8Z" />
+    <path android:fillColor="#ffffffff" android:pathData="M35.999,14.06V8H51C51.552,8 52,8.448 52,9V24.037H46.004V14.06H35.999Z" />
+    <path android:fillColor="#ffffffff" android:pathData="M35.999,47.05H46.004V36.963H52V52C52,52.552 51.552,53 51,53H35.999V47.05Z" />
+    <path android:fillColor="#ffffffff" android:pathData="M12.991,36.963V47.05H22.999V53H8C7.448,53 7,52.552 7,52V36.963H12.991Z" />
+</vector>

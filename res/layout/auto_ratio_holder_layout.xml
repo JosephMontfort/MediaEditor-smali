@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="42.0dip" android:minWidth="21.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/ratio_image" android:layout_width="@dimen/vlog_template_auto_dialog_ratio_holder_width" android:layout_height="@dimen/vlog_template_auto_dialog_ratio_holder_width" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/vlog_template_auto_dialog_ratio_holder_text_size" android:textColor="@color/vlog_template_auto_dialog_ratio_text_color" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/ratio_text" android:layout_width="wrap_content" android:layout_height="@dimen/vlog_template_auto_dialog_ratio_holder_text_height" android:fontFamily="MiSans" />
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/enhance]:0.0.3" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/enhance-extra]:0.0.1" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/posterize]:0.0.1" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/hsl]:0.0.1" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/de-noise]:0.0.1" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/beautification]:0.0.2" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/watermark-frame]:0.0.1" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/auto-beauty]:0.0.1" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/face-beauty]:0.0.2" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/face-beauty-acne]:0.0.1" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/face-beauty-skin]:0.0.1" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/face-shape]:0.0.2" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/face-shape-extra]:0.0.1" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/body-beauty]:0.0.1" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/body-beauty-extra]:0.0.1" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/body-beauty-slim]:0.0.1" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/ai-cloud-function]:0.0.2" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/virtualization-portrait]:0.0.2" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/super-portrait]:0.0.2" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/image-quality-restoration]:0.0.2" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/filter]:0.0.2" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/magic-sky]:0.0.1" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/reflection-eliminate]:0.0.1" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/import]:0.0.1" />
+    <action deploy-property="dynamic" execution="background" sync-flag="1" sync-timeout="5000" type="urn:aiot-spec-v3:com.mi.phones:action:[com.miui.mediaeditor/photo/ai-cloud-function-super-editor]:0.0.1" />
+</actions>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/effect_menu_icon_size" android:width="@dimen/effect_menu_icon_size" android:viewportWidth="28.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/on_surface" android:pathData="M14,3.25C19.937,3.25 24.75,8.063 24.75,14C24.75,19.937 19.937,24.75 14,24.75C8.063,24.75 3.25,19.937 3.25,14C3.25,8.063 8.063,3.25 14,3.25ZM7.167,8.185C5.832,9.751 5.026,11.781 5.026,14C5.026,18.956 9.043,22.974 14,22.974C16.219,22.974 18.248,22.167 19.814,20.833L7.167,8.185ZM14,5.026C11.902,5.026 9.974,5.747 8.446,6.953L21.046,19.553C22.252,18.025 22.974,16.098 22.974,14C22.974,9.044 18.956,5.026 14,5.026Z" android:fillType="evenOdd" />
+</vector>

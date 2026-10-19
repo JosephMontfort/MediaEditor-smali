@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/virtualization_result_view_size" android:layout_height="@dimen/virtualization_result_view_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.gallery.editor.ui.view.RoundImageView android:id="@id/icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/virtualization_result_icon_margin" android:scaleType="centerCrop" app:borderRadius="@dimen/corners_tiny" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/selector_view" android:background="@drawable/virtualization_result_item_selector_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

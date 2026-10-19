@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/clip_operation_item_width_land" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/img" android:layout_width="@dimen/clip_operation_land_sitem_width" android:layout_height="@dimen/clip_operation_land_sitem_width" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.miui.gallery.editor.ui.view.DownloadView android:id="@id/download" android:layout_width="@dimen/vlog_common_download_view_size" android:layout_height="@dimen/vlog_common_download_view_size" android:layout_marginBottom="13.0dip" android:layout_marginStart="21.0dip" app:layout_constraintBottom_toBottomOf="@id/img" app:layout_constraintStart_toStartOf="@id/img" style="@style/video_editor_module_download_icon_style" />
+</androidx.constraintlayout.widget.ConstraintLayout>

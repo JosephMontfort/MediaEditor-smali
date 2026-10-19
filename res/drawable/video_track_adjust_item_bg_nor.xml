@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/video_track_effect_item_padding" android:insetRight="@dimen/video_track_effect_item_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/video_track_adjust_item_bg" />
+        <corners android:radius="@dimen/corners_tiny" />
+    </shape>
+</inset>

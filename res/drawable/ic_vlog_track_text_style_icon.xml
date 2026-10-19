@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/vlog_track_float_edit_image_width" android:width="@dimen/vlog_track_float_edit_image_width" android:viewportWidth="60.0" android:viewportHeight="60.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M23.311,11.485C23.879,9.893 25.387,8.83 27.078,8.83H32.922C34.612,8.83 36.12,9.893 36.689,11.485L49.967,48.664C50.2,49.315 49.717,50 49.026,50H44.778C44.355,50 43.979,49.734 43.836,49.336L40.781,40.783H19.218L16.163,49.336C16.021,49.734 15.644,50 15.222,50H10.974C10.283,50 9.8,49.315 10.032,48.664L23.311,11.485ZM31.513,14.83L38.639,34.783H21.361L28.487,14.83H31.513Z" android:fillType="evenOdd" />
+</vector>

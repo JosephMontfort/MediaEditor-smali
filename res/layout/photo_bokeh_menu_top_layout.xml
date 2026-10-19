@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<micamx.compat.ui.miuix.widget.HyperProgressSeekBar android:id="@id/seek_bar" android:layout_width="@dimen/common_seekbar_length" android:layout_height="wrap_content" style="@style/editor_hyper_progress_seek_bar_default"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

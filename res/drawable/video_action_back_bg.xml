@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/video_action_back_height" android:width="@dimen/video_action_back_width" />
+    <solid android:color="@color/video_action_anchor_bg_color" />
+    <corners android:radius="@dimen/corners_tiny" />
+</shape>

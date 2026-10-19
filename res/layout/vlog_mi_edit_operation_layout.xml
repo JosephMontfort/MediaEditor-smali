@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/single_edit_operation_view" android:layout_width="fill_parent" android:layout_height="@dimen/vlog_menu_common_operation_height" android:paddingStart="@dimen/vlog_menu_audio_item_title_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:gravity="center" android:id="@id/play_layout_include" android:layout_width="@dimen/vlog_menu_common_operation_btn_bg_size" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/vlog_common_play_layout_margin_end" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/single_vlog_play_layout" />
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toStartOf="@id/play_layout_include" app:layout_constraintStart_toEndOf="@id/undo_redo_layout_include">
+        <com.miui.gallery.editor.ui.view.BubbleSeekBar android:id="@id/seek_bar" android:focusable="true" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/vlog_adjust_seekbar_talkback" android:layoutDirection="ltr" style="@style/bubble_seek_bar_vlog" />
+    </FrameLayout>
+    <com.miui.mediaeditor.video.ui.widget.VlogTimeView android:id="@id/time_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/undo_redo_layout_include" android:layout_width="wrap_content" android:layout_height="@dimen/vlog_undo_redo_icon_size" android:layout_marginStart="@dimen/vlog_undo_redo_icon_short_margin_end" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/vlog_undo_redo_layout" />
+</merge>

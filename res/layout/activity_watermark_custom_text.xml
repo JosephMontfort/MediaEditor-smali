@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/watermark_preference_style_padding" android:paddingVertical="4.0dip">
+        <EditText android:layout_gravity="center" android:id="@id/edit_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text" android:imeOptions="actionDone" android:paddingEnd="@dimen/watermark_count_view_width" android:importantForAutofill="no" android:fallbackLineSpacing="false" style="@style/Widget.EditText.Clearable.DayNight" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/watermark_preference_style_title_bar_height" android:layout_marginTop="16.0dip">
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/preference_watermark_greeting_list_title_color" android:id="@id/history_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pref_privacy_watermark_edit_history" android:layout_marginStart="@dimen/watermark_preference_style_greeting_padding_horizontal" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/preference_watermark_custom_text_clear_color" android:id="@id/button_clear_history" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wm_custom_text_clear_history_title" android:layout_marginEnd="@dimen/watermark_preference_style_greeting_padding_horizontal" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/history_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:overScrollMode="never" android:paddingStart="@dimen/watermark_preference_style_greeting_padding_horizontal" android:paddingEnd="@dimen/watermark_preference_style_padding" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

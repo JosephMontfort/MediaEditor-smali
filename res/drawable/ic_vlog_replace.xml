@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/editor_menu_common_item_icon_size" android:width="@dimen/editor_menu_common_item_icon_size" android:viewportWidth="28.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/video_text_color_selector" android:pathData="M4.205,4.2H5.005H23.005H23.805V5V9H22.205V5.8H5.805L5.805,12L8.195,12L4.195,16V12H4.205V5V4.2ZM22.205,22.2V16H19.804L23.804,12V14H23.805V23V23.8H23.005H5.005H4.205V23V19H5.805V22.2H22.205Z" android:fillAlpha="0.9" android:fillType="evenOdd" />
+</vector>

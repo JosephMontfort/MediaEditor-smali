@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ff1f1f1f" />
+    <corners android:topLeftRadius="@dimen/photo_editor_large_default_navigation_item_interval" android:topRightRadius="@dimen/photo_editor_large_default_navigation_item_interval" />
+</shape>

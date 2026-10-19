@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/vlog_track_float_edit_image_width" android:width="@dimen/vlog_track_float_edit_image_width" android:viewportWidth="23.0" android:viewportHeight="22.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M7.636,5.867L20.103,5.867A0.367,0.367 0,0 1,20.47 6.233L20.47,20.167A0.367,0.367 0,0 1,20.103 20.533L7.636,20.533A0.367,0.367 0,0 1,7.27 20.167L7.27,6.233A0.367,0.367 0,0 1,7.636 5.867z" />
+        <path android:fillColor="#00000000" android:pathData="M7.636,5.867L20.103,5.867A0.367,0.367 0,0 1,20.47 6.233L20.47,20.167A0.367,0.367 0,0 1,20.103 20.533L7.636,20.533A0.367,0.367 0,0 1,7.27 20.167L7.27,6.233A0.367,0.367 0,0 1,7.636 5.867z" android:strokeColor="#ffffffff" android:strokeWidth="4.4" android:strokeAlpha="0.9" android:fillAlpha="0.9" />
+    </group>
+    <path android:fillColor="#ffffffff" android:pathData="M5.067,14.667V3.667H14.601V5.866H16.801V1.833C16.801,1.631 16.636,1.467 16.434,1.467H3.234C3.031,1.467 2.867,1.631 2.867,1.833V16.5C2.867,16.702 3.031,16.867 3.234,16.867H7.266V14.667H5.067Z" android:strokeAlpha="0.9" android:fillAlpha="0.9" android:fillType="evenOdd" />
+</vector>

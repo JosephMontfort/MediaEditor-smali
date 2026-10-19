@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="bubble_seek_bar_slider_to_fill_gap_normal">@dimen/px_3</item>
+    <item type="dimen" name="vlog_adjust_highlight_progress_margin">@dimen/px_70</item>
+    <item type="dimen" name="vlog_adjust_text_margin">@dimen/px_82</item>
+</resources>

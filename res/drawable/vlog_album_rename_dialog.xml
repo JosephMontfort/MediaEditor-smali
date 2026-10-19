@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/vlog_album_rename_dialog_radius" />
+            <solid android:color="@color/vlog_album_picker_background_color" />
+        </shape>
+    </item>
+</selector>
