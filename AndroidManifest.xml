@@ -99,7 +99,6 @@
         <uses-native-library android:name="libneuron_runtime.so" android:required="false"/>
         <uses-library android:name="com.miui.rom" android:required="false"/>
         <uses-library android:name="com.miui.system" android:required="false"/>
-        <uses-library android:name="micloud-sdk"/>
         <uses-library android:name="miui-cameraopt" android:required="false"/>
         <property android:name="android.view.PROPERTY_MIUI_SMOOTH_CORNER_ENABLED" android:value="true"/>
         <meta-data android:name="required_permissions" android:value="@string/required_permissions"/>

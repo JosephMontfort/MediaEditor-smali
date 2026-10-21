@@ -452,7 +452,7 @@
 
     sget-object v10, Lcom/miui/mediaeditor/algo/base/State;->a:Lcom/miui/mediaeditor/algo/base/State;
 
-    if-ne v6, v10, :cond_3
+    if-ne v6, v10, :cond_2
 
     sget-object p0, Lr80/f;->a:Ljava/util/Set;
 
@@ -475,7 +475,7 @@
     :catchall_0
     move-exception p0
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     :cond_0
     move-object p0, v9
@@ -587,8 +587,9 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    if-nez p1, :cond_2
+    goto :goto_2
 
+    :goto_2
     :try_start_1
     invoke-virtual {v0}, Lko0/s;->getValue()Ljava/lang/Object;
 
@@ -613,7 +614,6 @@
 
     return-object p0
 
-    :cond_2
     :try_start_2
     const-string p1, "AiComposition process returned no anchors"
 
@@ -637,7 +637,7 @@
 
     throw p1
 
-    :cond_3
+    :cond_2
     invoke-virtual {p0}, Lcom/miui/mediaeditor/algo/base/BaseResult;->a()Lcom/miui/mediaeditor/algo/base/State;
 
     move-result-object p0
@@ -664,7 +664,7 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    :goto_2
+    :goto_3
     :try_start_3
     invoke-virtual {v0}, Lko0/s;->getValue()Ljava/lang/Object;
 
@@ -680,14 +680,14 @@
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
 
-    goto :goto_3
+    goto :goto_4
 
     :catch_1
     move-exception p1
 
     invoke-static {v2, v1, p1}, Laj/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
 
-    :goto_3
+    :goto_4
     throw p0
 .end method
 

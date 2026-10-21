@@ -7,6 +7,7 @@
 .method public static final a(Landroid/app/Activity;)V
     .locals 3
 
+    :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -57,13 +58,28 @@
     move-result-object v0
 
     invoke-virtual {v0, p0, v2}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
+    :goto_0
     return-void
+
+    :catchall_0
+    move-exception p0
+
+    const-string v0, "ResGuardResourcesHooker"
+
+    const-string v1, "skip hook resources on AOSP"
+
+    invoke-static {v0, v1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    goto :goto_0
 .end method
 
 .method public static final b(Landroid/app/Application;)V
     .locals 3
 
+    :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -114,6 +130,20 @@
     move-result-object v0
 
     invoke-virtual {v0, p0, v1}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
+    :goto_0
     return-void
+
+    :catchall_0
+    move-exception p0
+
+    const-string v0, "ResGuardResourcesHooker"
+
+    const-string v1, "skip hook application resources on AOSP"
+
+    invoke-static {v0, v1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    goto :goto_0
 .end method

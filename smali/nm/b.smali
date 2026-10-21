@@ -63,69 +63,78 @@
 .method public static b(I)Lnm/b;
     .locals 1
 
+    const v0, 0x263dae1
+
+    if-ne p0, v0, :cond_0
+
+    sget-object p0, Lnm/b$a;->b:Lnm/b$a;
+
+    return-object p0
+
+    :cond_0
     const/16 v0, -0x64
 
-    if-eq p0, v0, :cond_f
+    if-eq p0, v0, :cond_10
 
     const/16 v0, 0xa
 
-    if-eq p0, v0, :cond_e
+    if-eq p0, v0, :cond_f
 
     const/16 v0, 0x15
 
-    if-eq p0, v0, :cond_d
+    if-eq p0, v0, :cond_e
 
     const/16 v0, 0x191
 
-    if-eq p0, v0, :cond_c
+    if-eq p0, v0, :cond_d
 
     const/16 v0, 0x197
 
-    if-eq p0, v0, :cond_b
+    if-eq p0, v0, :cond_c
 
     const/16 v0, 0x199
 
-    if-eq p0, v0, :cond_a
+    if-eq p0, v0, :cond_b
 
     const/16 v0, 0x19b
 
-    if-eq p0, v0, :cond_9
+    if-eq p0, v0, :cond_a
 
     const/16 v0, 0x1b4
 
-    if-eq p0, v0, :cond_8
+    if-eq p0, v0, :cond_9
 
     const/16 v0, 0x1b7
 
-    if-eq p0, v0, :cond_7
+    if-eq p0, v0, :cond_8
 
     const/16 v0, 0x2713
 
-    if-eq p0, v0, :cond_6
+    if-eq p0, v0, :cond_7
 
     const/16 v0, 0x193
 
-    if-eq p0, v0, :cond_5
+    if-eq p0, v0, :cond_6
 
     const/16 v0, 0x194
 
-    if-eq p0, v0, :cond_4
+    if-eq p0, v0, :cond_5
 
     const/16 v0, 0x1a0
 
-    if-eq p0, v0, :cond_3
+    if-eq p0, v0, :cond_4
 
     const/16 v0, 0x1a1
 
-    if-eq p0, v0, :cond_2
+    if-eq p0, v0, :cond_3
 
     const/16 v0, 0x1b0
 
-    if-eq p0, v0, :cond_1
+    if-eq p0, v0, :cond_2
 
     const/16 v0, 0x1b1
 
-    if-eq p0, v0, :cond_0
+    if-eq p0, v0, :cond_1
 
     packed-switch p0, :pswitch_data_0
 
@@ -209,82 +218,82 @@
 
     return-object p0
 
-    :cond_0
+    :cond_1
     sget-object p0, Lnm/b$p;->b:Lnm/b$p;
 
     return-object p0
 
-    :cond_1
+    :cond_2
     sget-object p0, Lnm/b$q;->b:Lnm/b$q;
 
     return-object p0
 
-    :cond_2
+    :cond_3
     sget-object p0, Lnm/b$v;->b:Lnm/b$v;
 
     return-object p0
 
-    :cond_3
+    :cond_4
     sget-object p0, Lnm/b$j;->b:Lnm/b$j;
 
     return-object p0
 
-    :cond_4
+    :cond_5
     sget-object p0, Lnm/b$k;->b:Lnm/b$k;
 
     return-object p0
 
-    :cond_5
+    :cond_6
     sget-object p0, Lnm/b$f0;->b:Lnm/b$f0;
 
     return-object p0
 
-    :cond_6
+    :cond_7
     sget-object p0, Lnm/b$w;->b:Lnm/b$w;
 
     return-object p0
 
-    :cond_7
+    :cond_8
     sget-object p0, Lnm/b$z;->b:Lnm/b$z;
 
     return-object p0
 
-    :cond_8
+    :cond_9
     sget-object p0, Lnm/b$x;->b:Lnm/b$x;
 
     return-object p0
 
-    :cond_9
+    :cond_a
     sget-object p0, Lnm/b$i;->b:Lnm/b$i;
 
     return-object p0
 
-    :cond_a
+    :cond_b
     sget-object p0, Lnm/b$f;->b:Lnm/b$f;
 
     return-object p0
 
-    :cond_b
+    :cond_c
     sget-object p0, Lnm/b$e0;->b:Lnm/b$e0;
 
     return-object p0
 
-    :cond_c
+    :cond_d
     sget-object p0, Lnm/b$b0;->b:Lnm/b$b0;
 
     return-object p0
 
-    :cond_d
+    :cond_e
     sget-object p0, Lnm/b$h0;->b:Lnm/b$h0;
 
     return-object p0
 
-    :cond_e
+    :cond_f
     sget-object p0, Lnm/b$y;->b:Lnm/b$y;
 
     return-object p0
 
-    :cond_f
+    :cond_10
     sget-object p0, Lnm/b$s;->b:Lnm/b$s;
 
     return-object p0

@@ -310,51 +310,11 @@
 .end method
 
 .method public final e()Z
-    .locals 4
+    .locals 1
 
-    invoke-static {}, Lcom/miui/gallery/preference/BaseGalleryPreferences$a;->a()Z
+    const/4 v0, 0x1
 
-    move-result v0
-
-    const/4 v1, 0x0
-
-    const/4 v2, 0x0
-
-    sget-object v3, Lli/b;->h:Lli/b;
-
-    if-nez v0, :cond_0
-
-    const-string v0, "CTA not confirmed."
-
-    invoke-virtual {p0, v3, v0, v2}, Lli/f;->c(Lli/b;Ljava/lang/String;Ljava/lang/Object;)V
-
-    return v1
-
-    :cond_0
-    iget-boolean v0, p0, Lli/f;->f:Z
-
-    if-eqz v0, :cond_1
-
-    goto :goto_0
-
-    :cond_1
-    invoke-static {}, Lbs0/a;->b()Z
-
-    move-result v0
-
-    if-nez v0, :cond_2
-
-    const-string v0, "Network not connected."
-
-    invoke-virtual {p0, v3, v0, v2}, Lli/f;->c(Lli/b;Ljava/lang/String;Ljava/lang/Object;)V
-
-    return v1
-
-    :cond_2
-    :goto_0
-    const/4 p0, 0x1
-
-    return p0
+    return v0
 .end method
 
 .method public final f()[Ljava/lang/Object;

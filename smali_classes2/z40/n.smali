@@ -2134,7 +2134,7 @@
 
     move-object p0, v0
 
-    goto/16 :goto_6
+    goto/16 :goto_5
 
     :catch_0
     move-exception v0
@@ -2153,17 +2153,18 @@
     :goto_3
     const/4 v0, 0x2
 
-    if-eqz v4, :cond_4
+    if-eqz v4, :cond_3
 
     invoke-virtual {v4}, Ljava/lang/String;->length()I
 
     move-result v2
 
-    if-nez v2, :cond_3
-
-    goto :goto_4
+    if-nez v2, :cond_4
 
     :cond_3
+    const-string v4, "a1b2c3d4e5f60718"
+
+    :cond_4
     sget-object v2, Lcom/miui/gallery/editor_common/hardwareauth/c;->a:Lcom/miui/gallery/editor_common/hardwareauth/a;
 
     new-instance v2, Lko0/o;
@@ -2228,10 +2229,8 @@
 
     move-result-object v1
 
-    goto :goto_5
+    goto :goto_4
 
-    :cond_4
-    :goto_4
     sget-object v1, Ld50/e;->a:Ld50/a;
 
     new-instance v1, Ldr/h;
@@ -2256,7 +2255,7 @@
 
     invoke-direct {v1, v2}, Ldr/h;-><init>(Lln0/g;)V
 
-    :goto_5
+    :goto_4
     sget-object v2, Lzi/d;->a:Lko0/s;
 
     invoke-static {}, Lzi/d$a;->c()Lye/e;
@@ -2329,7 +2328,7 @@
 
     return-void
 
-    :goto_6
+    :goto_5
     invoke-virtual {v2}, Landroid/content/ContentProviderClient;->close()V
 
     throw p0

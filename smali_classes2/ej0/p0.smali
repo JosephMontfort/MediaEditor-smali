@@ -199,7 +199,7 @@
 
     move-result-object v0
 
-    if-nez v0, :cond_0
+    goto :goto_0
 
     const v0, 0x7f1400e8
 
@@ -263,16 +263,16 @@
 
     return-void
 
-    :cond_0
+    :goto_0
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/x;
 
     move-result-object p0
 
-    if-eqz p0, :cond_1
+    if-eqz p0, :cond_0
 
     instance-of v0, p0, Lcom/miui/mediaeditor/video_generation/ai_camera_movement/AICameraMovementMainActivity;
 
-    if-eqz v0, :cond_1
+    if-eqz v0, :cond_0
 
     check-cast p0, Lcom/miui/mediaeditor/video_generation/ai_camera_movement/AICameraMovementMainActivity;
 
@@ -282,7 +282,7 @@
 
     invoke-virtual {p0, v0}, Lf/b;->b(Ljava/lang/Object;)V
 
-    :cond_1
+    :cond_0
     return-void
 .end method
 

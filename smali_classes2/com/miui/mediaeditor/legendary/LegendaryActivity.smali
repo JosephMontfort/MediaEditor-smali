@@ -538,17 +538,13 @@
         }
     .end annotation
 
-    invoke-static {p0}, Lp90/e;->a(Landroid/content/Context;)Ljava/lang/String;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
+    if-eqz p1, :cond_0
 
     invoke-interface {p1}, Lzo0/a;->c()Ljava/lang/Object;
 
+    :cond_0
     return-void
 
-    :cond_0
     const v0, 0x36d65481
 
     const/16 v1, 0x14

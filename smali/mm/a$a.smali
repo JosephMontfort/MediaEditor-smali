@@ -1593,6 +1593,18 @@
 
     if-eqz v0, :cond_1b
 
+    move-object v0, v4
+
+    check-cast v0, Lwm/a$b;
+
+    iget-object v0, v0, Lwm/a$b;->a:Ljava/lang/Throwable;
+
+    const-string v2, "EdgeCloudDeblurProcessor"
+
+    const-string v3, "query network error"
+
+    invoke-static {v2, v3, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
     const-string v0, "query network error"
 
     const v2, 0x36d654fc
@@ -1974,6 +1986,18 @@
 
     if-eqz v3, :cond_27
 
+    move-object v3, v0
+
+    check-cast v3, Lwm/a$b;
+
+    iget-object v3, v3, Lwm/a$b;->a:Ljava/lang/Throwable;
+
+    const-string v4, "EdgeCloudDeblurProcessor"
+
+    const-string v7, "createTask network error"
+
+    invoke-static {v4, v7, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
     const-string v0, "createTask network error"
 
     const v3, 0x36d654fb
@@ -2210,6 +2234,18 @@
     instance-of v3, v0, Lwm/a$b;
 
     if-eqz v3, :cond_2d
+
+    move-object v3, v0
+
+    check-cast v3, Lwm/a$b;
+
+    iget-object v3, v3, Lwm/a$b;->a:Ljava/lang/Throwable;
+
+    const-string v4, "EdgeCloudDeblurProcessor"
+
+    const-string v7, "upload network error"
+
+    invoke-static {v4, v7, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     const-string v0, "upload network error"
 

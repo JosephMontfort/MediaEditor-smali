@@ -801,7 +801,7 @@
 
     move-result p0
 
-    const/16 v0, 0x438
+    const/16 v0, 0x0
 
     if-ge p0, v0, :cond_1
 

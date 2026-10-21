@@ -107,67 +107,9 @@
 .end method
 
 .method public static b()Z
-    .locals 3
+    .locals 1
 
-    invoke-static {}, Lcom/miui/gallery/preference/BaseGalleryPreferences$a;->a()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    sget-object v0, Lb40/b;->a:Lb40/b;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    sget-object v0, Lb40/b;->c:Lko0/s;
-
-    invoke-virtual {v0}, Lko0/s;->getValue()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, La40/h0;
-
-    invoke-virtual {v0}, Lio/n;->d()Lim/p0;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    const/4 v1, 0x1
-
-    if-eq v0, v1, :cond_2
-
-    const/4 v2, 0x2
-
-    if-eq v0, v2, :cond_1
-
-    const/4 v2, 0x3
-
-    if-eq v0, v2, :cond_1
-
-    const/4 v2, 0x4
-
-    if-ne v0, v2, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    new-instance v0, Lko0/m;
-
-    invoke-direct {v0}, Ljava/lang/RuntimeException;-><init>()V
-
-    throw v0
-
-    :cond_1
-    :goto_0
-    return v1
-
-    :cond_2
-    const/4 v0, 0x0
+    const/4 v0, 0x1
 
     return v0
 .end method

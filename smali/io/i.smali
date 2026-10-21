@@ -405,13 +405,93 @@
 
     sget-object p0, Lio/i;->j:Lio/h;
 
-    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
     invoke-static {v1}, Lio/h;->e(Lim/o0;)Ljava/lang/String;
 
-    move-result-object p0
+    move-result-object v0
 
-    return-object p0
+    if-eqz v0, :cond_2
+
+    new-instance v1, Ljava/io/File;
+
+    invoke-direct {v1, v0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v1}, Ljava/io/File;->isDirectory()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_2
+
+    return-object v0
+
+    :cond_2
+    const-string v1, "aigc_reflection_eliminate_qcom"
+
+    invoke-static {p0, v1}, Lap0/m;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_3
+
+    const-string v1, "/data/data/com.miui.mediaeditor/files/aigc/aigc_reflection_eliminate_qcom/6"
+
+    new-instance v2, Ljava/io/File;
+
+    invoke-direct {v2, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v2}, Ljava/io/File;->isDirectory()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_3
+
+    return-object v1
+
+    :cond_3
+    const-string v1, "aigc_remove_glare"
+
+    invoke-static {p0, v1}, Lap0/m;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_4
+
+    const-string v1, "/data/data/com.miui.mediaeditor/files/aigc/aigc_remove_glare/4"
+
+    new-instance v2, Ljava/io/File;
+
+    invoke-direct {v2, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v2}, Ljava/io/File;->isDirectory()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_4
+
+    return-object v1
+
+    :cond_4
+    :try_start_0
+    sget-object v1, Lq5/c;->a:Lcom/miui/mediaeditor/PhotoShopApp;
+
+    if-eqz v1, :cond_5
+
+    invoke-virtual {v1}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_5
+
+    iget-object v1, v1, Landroid/content/pm/ApplicationInfo;->nativeLibraryDir:Ljava/lang/String;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    if-eqz v1, :cond_5
+
+    return-object v1
+
+    :catchall_0
+    :cond_5
+    return-object v0
 .end method
 
 .method public static d(Lzo0/l;)V

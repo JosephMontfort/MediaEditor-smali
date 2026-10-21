@@ -1161,3 +1161,15 @@
     :cond_0
     return-void
 .end method
+
+.method public final onResume()V
+    .locals 1
+
+    invoke-super {p0}, Lmr/a;->onResume()V
+
+    invoke-static {p0}, Lp90/e;->showPortedToast(Landroid/content/Context;)V
+
+    invoke-static {p0}, Lp90/e;->initOpenCL(Landroid/content/Context;)V
+
+    return-void
+.end method

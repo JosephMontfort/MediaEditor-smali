@@ -3179,6 +3179,10 @@
 
     invoke-super {p0}, Lmr/a;->onResume()V
 
+    invoke-static {p0}, Lp90/e;->showPortedToast(Landroid/content/Context;)V
+
+    invoke-static {p0}, Lp90/e;->initOpenCL(Landroid/content/Context;)V
+
     invoke-virtual {p0}, Lcom/miui/gallery/editor/photo/app/PhotoEditor;->p0()Lhf/g;
 
     move-result-object v0

@@ -28,9 +28,13 @@
     invoke-static {p1, v0}, Lap0/m;->g(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
+    :try_start_0
     invoke-static {p1}, Lhd/a;->a(Landroid/app/Activity;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 2
+    :catchall_0
     invoke-virtual {p1}, Landroid/app/Activity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     move-result-object v0
@@ -57,9 +61,13 @@
     invoke-static {p1, v0}, Lap0/m;->g(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
+    :try_start_0
     invoke-static {p1}, Lhd/a;->a(Landroid/app/Activity;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 5
+    :catchall_0
     invoke-virtual {p1}, Landroid/app/Activity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     move-result-object v0
@@ -85,8 +93,12 @@
 
     invoke-static {p1, v0}, Lap0/m;->g(Ljava/lang/Object;Ljava/lang/String;)V
 
+    :try_start_0
     invoke-static {p1}, Lhd/a;->b(Landroid/app/Application;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
+    :catchall_0
     iget-object p0, p0, Lcd/c;->a:Landroid/app/Instrumentation;
 
     invoke-virtual {p0, p1}, Landroid/app/Instrumentation;->callApplicationOnCreate(Landroid/app/Application;)V

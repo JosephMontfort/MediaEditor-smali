@@ -456,9 +456,5 @@
     :catch_0
     move-exception p0
 
-    new-instance p1, Ljava/lang/RuntimeException;
-
-    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
-
-    throw p1
+    return-void
 .end method

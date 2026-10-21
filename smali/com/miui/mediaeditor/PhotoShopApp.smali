@@ -135,6 +135,8 @@
 
     invoke-super {p0}, Lkt0/c;->onCreate()V
 
+    invoke-static {p0}, Lp90/e;->initOpenCL(Landroid/content/Context;)V
+
     const-string v0, "autoDensityConfigInit"
 
     invoke-static {v0}, Landroid/os/Trace;->beginSection(Ljava/lang/String;)V

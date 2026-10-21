@@ -37,82 +37,19 @@
 .end method
 
 .method public static a()Ljava/lang/String;
-    .locals 3
+    .locals 1
 
-    const/4 v0, 0x0
+    sget-object v0, Ljm/d;->a:Ljm/d;
 
-    :try_start_0
-    sget-object v1, Ljm/d;->a:Ljm/d;
-
-    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     invoke-static {}, Ljm/d;->b()Landroid/app/Application;
 
-    move-result-object v1
+    move-result-object v0
 
-    invoke-static {v1}, Landroid/accounts/AccountManager;->get(Landroid/content/Context;)Landroid/accounts/AccountManager;
+    invoke-static {v0}, Lp90/e;->a(Landroid/content/Context;)Ljava/lang/String;
 
-    move-result-object v1
-
-    const-string v2, "\u271d\u2711\u2713\u2750\u2706\u2717\u271f\u2711\u2713\u2717"
-
-    invoke-static {v2}, Lrv/b;->a(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Landroid/accounts/AccountManager;->getAccountsByType(Ljava/lang/String;)[Landroid/accounts/Account;
-
-    move-result-object v1
-
-    const-string v2, "\u2719\u271b\u270a\u273f\u271d\u271d\u2711\u270b\u2710\u270a\u270d\u273c\u2707\u272a\u2707\u270e\u271b\u2756\u2750\u2750\u2750\u2757"
-
-    invoke-static {v2}, Lrv/b;->a(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, v2}, Lap0/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-static {v1}, Llo0/o;->r([Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Landroid/accounts/Account;
-
-    if-eqz v1, :cond_0
-
-    iget-object v1, v1, Landroid/accounts/Account;->name:Ljava/lang/String;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    goto :goto_1
-
-    :catchall_0
-    move-exception v1
-
-    goto :goto_0
-
-    :cond_0
-    move-object v1, v0
-
-    goto :goto_1
-
-    :goto_0
-    invoke-static {v1}, Lko0/q;->a(Ljava/lang/Throwable;)Lko0/p$a;
-
-    move-result-object v1
-
-    :goto_1
-    instance-of v2, v1, Lko0/p$a;
-
-    if-eqz v2, :cond_1
-
-    goto :goto_2
-
-    :cond_1
-    move-object v0, v1
-
-    :goto_2
-    check-cast v0, Ljava/lang/String;
+    move-result-object v0
 
     return-object v0
 .end method

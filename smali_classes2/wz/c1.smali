@@ -3489,7 +3489,7 @@
 .end method
 
 .method public final e1(Lzo0/a;)V
-    .locals 5
+    .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -3499,66 +3499,11 @@
         }
     .end annotation
 
-    const v0, 0x7f1400e8
+    if-eqz p1, :cond_0
 
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+    invoke-interface {p1}, Lzo0/a;->c()Ljava/lang/Object;
 
-    move-result-object v0
-
-    const v1, 0x7f1400e7
-
-    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    const v2, 0x7f1400e5
-
-    invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    new-instance v3, Lwz/o0;
-
-    invoke-direct {v3, p0, p1}, Lwz/o0;-><init>(Lwz/c1;Lzo0/a;)V
-
-    const p1, 0x7f14019b
-
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
-
-    move-result-object p1
-
-    new-instance v4, Lwd/c;
-
-    invoke-direct {v4}, Lwd/c;-><init>()V
-
-    iput-object v0, v4, Lwd/c;->r:Ljava/lang/String;
-
-    iput-object v1, v4, Lwd/c;->s:Ljava/lang/String;
-
-    iput-object p1, v4, Lwd/c;->x:Ljava/lang/String;
-
-    const/4 p1, 0x0
-
-    iput-object p1, v4, Lwd/c;->y:Landroid/content/DialogInterface$OnClickListener;
-
-    iput-object v2, v4, Lwd/c;->A:Ljava/lang/String;
-
-    iput-object v3, v4, Lwd/c;->B:Landroid/content/DialogInterface$OnClickListener;
-
-    const/4 p1, 0x1
-
-    invoke-virtual {v4, p1}, Landroidx/fragment/app/q;->E0(Z)V
-
-    iput-boolean p1, v4, Lwd/c;->C:Z
-
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
-
-    move-result-object p0
-
-    const-string p1, "main_alert_dialog"
-
-    invoke-virtual {v4, p0, p1}, Lnl/a;->J0(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;)V
-
+    :cond_0
     return-void
 .end method
 

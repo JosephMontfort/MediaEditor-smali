@@ -306,6 +306,10 @@
 
     move-result-object v15
 
+    const/4 v5, 0x0
+
+    invoke-static {v5}, Lp90/e;->initOpenCL(Landroid/content/Context;)V
+
     const-wide/16 v10, 0x0
 
     move-object v14, v13

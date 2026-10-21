@@ -1328,6 +1328,10 @@
     if-nez v0, :cond_0
 
     :try_start_0
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Lp90/e;->initOpenCL(Landroid/content/Context;)V
+
     iget-object v0, p0, Lcom/xiaomi/skytransfer/SkyTranFilter;->j:Lz40/d;
 
     invoke-virtual {v0}, Lio/n;->j()Ljava/lang/String;

@@ -189,17 +189,22 @@
     :cond_0
     instance-of v0, p1, Ld40/a$a;
 
-    if-eqz v0, :cond_1
+    if-eqz v0, :cond_2
 
     check-cast p1, Ld40/a$a;
 
-    iget p1, p1, Ld40/a$a;->a:I
+    iget-object v0, p1, Ld40/a$a;->b:Ljava/lang/String;
 
-    const v0, 0x7f1408da
+    if-nez v0, :cond_1
+
+    const v0, 0x7f140750
 
     invoke-static {v0}, Landroidx/lifecycle/g2;->b(I)Ljava/lang/String;
 
     move-result-object v0
+
+    :cond_1
+    iget p1, p1, Ld40/a$a;->a:I
 
     iget-object v2, p0, Lu30/t$a;->f:Lu30/u;
 
@@ -221,7 +226,7 @@
 
     invoke-virtual {p0, p1}, Lu30/u;->W(Lqr/a;)V
 
-    :cond_1
+    :cond_2
     :goto_0
     sget-object p0, Lko0/e0;->a:Lko0/e0;
 

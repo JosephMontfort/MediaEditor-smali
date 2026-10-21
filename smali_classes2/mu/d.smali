@@ -551,7 +551,7 @@
 
     const/4 v1, 0x0
 
-    if-eqz v0, :cond_16
+    if-eqz v0, :cond_15
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
 
@@ -561,7 +561,7 @@
 
     sparse-switch v2, :sswitch_data_0
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     :sswitch_0
     const-string v2, "pref_key_picture_quality"
@@ -572,18 +572,18 @@
 
     if-nez v0, :cond_0
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     :cond_0
     instance-of v0, p1, Lmiuix/preference/DropDownPreference;
 
-    if-eqz v0, :cond_16
+    if-eqz v0, :cond_15
 
     instance-of v0, p2, Ljava/lang/String;
 
     if-nez v0, :cond_1
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     :cond_1
     check-cast p1, Lmiuix/preference/DropDownPreference;
@@ -615,18 +615,18 @@
 
     if-nez p0, :cond_2
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     :cond_2
     instance-of p0, p1, Landroidx/preference/SwitchPreference;
 
-    if-eqz p0, :cond_16
+    if-eqz p0, :cond_15
 
     instance-of p0, p2, Ljava/lang/Boolean;
 
     if-nez p0, :cond_3
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     :cond_3
     check-cast p1, Landroidx/preference/SwitchPreference;
@@ -674,18 +674,18 @@
 
     if-nez v0, :cond_6
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     :cond_6
     instance-of v0, p1, Lmiuix/preference/DropDownPreference;
 
-    if-eqz v0, :cond_16
+    if-eqz v0, :cond_15
 
     instance-of v0, p2, Ljava/lang/String;
 
     if-nez v0, :cond_7
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     :cond_7
     check-cast p1, Lmiuix/preference/DropDownPreference;
@@ -717,18 +717,18 @@
 
     if-nez v0, :cond_8
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     :cond_8
     instance-of v0, p1, Lmiuix/preference/DropDownPreference;
 
-    if-eqz v0, :cond_16
+    if-eqz v0, :cond_15
 
     instance-of v0, p2, Ljava/lang/String;
 
     if-nez v0, :cond_9
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     :cond_9
     check-cast p1, Lmiuix/preference/DropDownPreference;
@@ -780,18 +780,18 @@
 
     if-nez v0, :cond_b
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     :cond_b
     instance-of v0, p1, Landroidx/preference/SwitchPreference;
 
-    if-eqz v0, :cond_16
+    if-eqz v0, :cond_15
 
     instance-of v0, p2, Ljava/lang/Boolean;
 
     if-nez v0, :cond_c
 
-    goto/16 :goto_2
+    goto/16 :goto_3
 
     :cond_c
     sget-object v0, Lq5/c;->a:Lcom/miui/mediaeditor/PhotoShopApp;
@@ -804,7 +804,7 @@
 
     move-result-object v0
 
-    if-nez v0, :cond_d
+    goto :goto_1
 
     check-cast p1, Landroidx/preference/SwitchPreference;
 
@@ -874,7 +874,7 @@
 
     return v1
 
-    :cond_d
+    :goto_1
     check-cast p1, Landroidx/preference/SwitchPreference;
 
     check-cast p2, Ljava/lang/Boolean;
@@ -914,22 +914,22 @@
 
     move-result p0
 
-    if-nez p0, :cond_e
+    if-nez p0, :cond_d
 
-    goto :goto_2
+    goto :goto_3
 
-    :cond_e
+    :cond_d
     instance-of p0, p1, Lmiuix/preference/DropDownPreference;
 
-    if-eqz p0, :cond_16
+    if-eqz p0, :cond_15
 
     instance-of p0, p2, Ljava/lang/String;
 
-    if-nez p0, :cond_f
+    if-nez p0, :cond_e
 
-    goto :goto_2
+    goto :goto_3
 
-    :cond_f
+    :cond_e
     check-cast p1, Lmiuix/preference/DropDownPreference;
 
     check-cast p2, Ljava/lang/String;
@@ -942,76 +942,74 @@
 
     const p1, -0x34e38dd1    # -1.0252847E7f
 
-    if-eq p0, p1, :cond_14
+    if-eq p0, p1, :cond_13
 
     const p1, 0x2eef76
 
-    if-eq p0, p1, :cond_12
+    if-eq p0, p1, :cond_11
 
     const p1, 0x6233516
 
-    if-eq p0, p1, :cond_10
+    if-eq p0, p1, :cond_f
 
-    goto :goto_1
+    goto :goto_2
 
-    :cond_10
+    :cond_f
     const-string p0, "light"
 
     invoke-virtual {p2, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
-    if-nez p0, :cond_11
+    if-nez p0, :cond_10
 
-    goto :goto_1
+    goto :goto_2
 
-    :cond_11
+    :cond_10
     invoke-static {v3}, Lz80/b;->b(I)V
 
     return v3
 
-    :cond_12
+    :cond_11
     const-string p0, "dark"
 
     invoke-virtual {p2, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
-    if-nez p0, :cond_13
+    if-nez p0, :cond_12
 
-    goto :goto_1
+    goto :goto_2
 
-    :cond_13
+    :cond_12
     const/4 p0, 0x2
 
     invoke-static {p0}, Lz80/b;->b(I)V
 
     return v3
 
-    :cond_14
+    :cond_13
     const-string p0, "system"
 
     invoke-virtual {p2, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
-    if-nez p0, :cond_15
+    if-nez p0, :cond_14
 
-    :goto_1
+    :goto_2
+    invoke-static {v1}, Lz80/b;->b(I)V
+
+    return v3
+
+    :cond_14
     invoke-static {v1}, Lz80/b;->b(I)V
 
     return v3
 
     :cond_15
-    invoke-static {v1}, Lz80/b;->b(I)V
-
-    return v3
-
-    :cond_16
-    :goto_2
+    :goto_3
     return v1
-
-    nop
 
     :sswitch_data_0
     .sparse-switch

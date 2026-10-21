@@ -1,0 +1,45 @@
+.class public final Lmiui/content/res/IconCustomizerStubImpl$$GeneratedMiuiImplManifest;
+.super Ljava/lang/Object;
+.source "IconCustomizerStubImpl$$GeneratedMiuiImplManifest.java"
+
+# interfaces
+.implements Lcom/miui/base/MiuiStubRegistry$ImplProviderManifest;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 14
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final collectImplProviders(Ljava/util/Map;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Lcom/miui/base/MiuiStubRegistry$ImplProvider<",
+            "*>;>;)V"
+        }
+    .end annotation
+
+    .line 18
+    .local p1, "outProviders":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Lcom/miui/base/MiuiStubRegistry$ImplProvider<*>;>;"
+    new-instance v0, Lmiui/content/res/IconCustomizerStubImpl$Provider;
+
+    invoke-direct {v0}, Lmiui/content/res/IconCustomizerStubImpl$Provider;-><init>()V
+
+    const-string v1, "miui.content.res.IconCustomizerStub"
+
+    invoke-interface {p1, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 19
+    return-void
+.end method
